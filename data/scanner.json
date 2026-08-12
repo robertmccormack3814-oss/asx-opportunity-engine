@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T08:43:01.342305+00:00",
+  "generated_at": "2026-08-12T20:25:47.902222+00:00",
   "stats": {
     "universe": 1984,
     "known_assets": 1984,
     "active_trades": 7,
     "signals_this_batch": 0,
     "exits_this_batch": 0,
-    "batch_processed": 226,
-    "batch_errors": 24,
-    "next_index": 266,
+    "batch_processed": 234,
+    "batch_errors": 16,
+    "next_index": 516,
     "macro_blackout_today": false
   },
   "signals": [],
@@ -330,46 +330,8 @@
       "zscore20": 2.2515641621891067,
       "microstructure_score": 87.0,
       "active": true,
-      "candidate": {
-        "symbol": "CBE",
-        "company": "COBRE LIMITED",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 87.0,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 23.6",
-          "relative volume 1.60x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 23.583876862191705
-        },
-        "execution_risk": {
-          "pass": true,
-          "reasons": [],
-          "average_dollar_volume_20d": 1161869.4769644798,
-          "atr_pct": 6.46103173799923,
-          "gap_pct": 0.0,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.3449999988079071,
-        "atr14": 0.022290559419075845,
-        "stop_loss": 0.3048769918535706,
-        "profit_target": 0.4453075161937484,
-        "risk_per_share": 0.04012300695433652,
-        "target_r": 2.5,
-        "units_per_100k": 12461.678173050279,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:55:55.341160+00:00"
-      },
-      "updated_at": "2026-08-12T07:55:55.341230+00:00"
+      "candidate": null,
+      "updated_at": "2026-08-12T20:25:45.646855+00:00"
     },
     {
       "symbol": "DXI",
@@ -4611,7 +4573,7 @@
       "microstructure_score": 52.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.417416+00:00"
+      "updated_at": "2026-08-12T20:25:43.723458+00:00"
     },
     {
       "symbol": "BBC",
@@ -4619,14 +4581,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.25999999046325684,
-      "adx14": 21.204635608446793,
-      "atr14": 0.0041189498006543,
-      "relative_volume": 3.020639607941694,
-      "zscore20": 0.8899751291260178,
-      "microstructure_score": 82.7,
+      "adx14": 20.98672303615848,
+      "atr14": 0.0038247391006075646,
+      "relative_volume": 0.0,
+      "zscore20": 0.8052155884738723,
+      "microstructure_score": 52.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.434525+00:00"
+      "updated_at": "2026-08-12T20:25:43.740626+00:00"
     },
     {
       "symbol": "BBL",
@@ -4641,7 +4603,7 @@
       "microstructure_score": 16.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.451391+00:00"
+      "updated_at": "2026-08-12T20:25:43.757804+00:00"
     },
     {
       "symbol": "BBN",
@@ -4653,10 +4615,10 @@
       "atr14": 0.06120424776382216,
       "relative_volume": 1.1876826240485323,
       "zscore20": -0.11442707238286252,
-      "microstructure_score": 60.5,
+      "microstructure_score": 60.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.468178+00:00"
+      "updated_at": "2026-08-12T20:25:43.774780+00:00"
     },
     {
       "symbol": "BBT",
@@ -4671,7 +4633,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.485003+00:00"
+      "updated_at": "2026-08-12T20:25:43.791694+00:00"
     },
     {
       "symbol": "BC8",
@@ -4686,7 +4648,7 @@
       "microstructure_score": 64.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.501683+00:00"
+      "updated_at": "2026-08-12T20:25:43.808839+00:00"
     },
     {
       "symbol": "BCA",
@@ -4701,7 +4663,7 @@
       "microstructure_score": 23.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.518420+00:00"
+      "updated_at": "2026-08-12T20:25:43.825794+00:00"
     },
     {
       "symbol": "BCC",
@@ -4716,7 +4678,7 @@
       "microstructure_score": 62.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.535264+00:00"
+      "updated_at": "2026-08-12T20:25:43.842840+00:00"
     },
     {
       "symbol": "BCI",
@@ -4731,7 +4693,7 @@
       "microstructure_score": 56.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.552053+00:00"
+      "updated_at": "2026-08-12T20:25:43.862785+00:00"
     },
     {
       "symbol": "BCK",
@@ -4746,7 +4708,7 @@
       "microstructure_score": 56.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.568865+00:00"
+      "updated_at": "2026-08-12T20:25:43.879897+00:00"
     },
     {
       "symbol": "BCM",
@@ -4761,7 +4723,7 @@
       "microstructure_score": 49.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.586299+00:00"
+      "updated_at": "2026-08-12T20:25:43.896926+00:00"
     },
     {
       "symbol": "BCN",
@@ -4776,7 +4738,7 @@
       "microstructure_score": 54.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.603220+00:00"
+      "updated_at": "2026-08-12T20:25:43.914316+00:00"
     },
     {
       "symbol": "BDM",
@@ -4791,7 +4753,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.620709+00:00"
+      "updated_at": "2026-08-12T20:25:43.931827+00:00"
     },
     {
       "symbol": "BDX",
@@ -4806,7 +4768,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.637861+00:00"
+      "updated_at": "2026-08-12T20:25:43.948877+00:00"
     },
     {
       "symbol": "BEL",
@@ -4814,14 +4776,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.009999999776482582,
-      "adx14": 33.06358230143766,
-      "atr14": 0.00025564209197899386,
-      "relative_volume": 3.903134607403205,
-      "zscore20": -1.5428161556519828,
-      "microstructure_score": 45.0,
+      "adx14": 33.74755591358027,
+      "atr14": 0.00023738194255192287,
+      "relative_volume": 0.0,
+      "zscore20": -1.4085904245475076,
+      "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.654988+00:00"
+      "updated_at": "2026-08-12T20:25:43.965992+00:00"
     },
     {
       "symbol": "BEN",
@@ -4836,7 +4798,7 @@
       "microstructure_score": 40.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.671622+00:00"
+      "updated_at": "2026-08-12T20:25:43.982797+00:00"
     },
     {
       "symbol": "BEO",
@@ -4844,14 +4806,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.07999999821186066,
-      "adx14": 28.918726668698366,
-      "atr14": 0.0015558530516191923,
-      "relative_volume": 0.15522131232967232,
-      "zscore20": 3.984190309323354,
+      "adx14": 31.04350136150617,
+      "atr14": 0.00144472069078925,
+      "relative_volume": 0.0,
+      "zscore20": 2.8735255887103053,
       "microstructure_score": 37.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.688667+00:00"
+      "updated_at": "2026-08-12T20:25:43.999787+00:00"
     },
     {
       "symbol": "BET",
@@ -4866,7 +4828,7 @@
       "microstructure_score": 95.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.705646+00:00"
+      "updated_at": "2026-08-12T20:25:44.016709+00:00"
     },
     {
       "symbol": "BEZ",
@@ -4874,14 +4836,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.0820000022649765,
-      "adx14": 17.088778959150268,
-      "atr14": 0.0051413227332581185,
-      "relative_volume": 1.9136962650523417,
-      "zscore20": -0.25249569276771466,
-      "microstructure_score": 65.8,
+      "adx14": 16.449769458005147,
+      "atr14": 0.004774085395168253,
+      "relative_volume": 0.0,
+      "zscore20": -0.22277762655232267,
+      "microstructure_score": 31.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.722593+00:00"
+      "updated_at": "2026-08-12T20:25:44.034614+00:00"
     },
     {
       "symbol": "BFG",
@@ -4896,7 +4858,7 @@
       "microstructure_score": 21.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.739404+00:00"
+      "updated_at": "2026-08-12T20:25:44.051616+00:00"
     },
     {
       "symbol": "BFL",
@@ -4911,7 +4873,7 @@
       "microstructure_score": 32.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.756209+00:00"
+      "updated_at": "2026-08-12T20:25:44.068683+00:00"
     },
     {
       "symbol": "BGA",
@@ -4926,7 +4888,7 @@
       "microstructure_score": 30.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.773581+00:00"
+      "updated_at": "2026-08-12T20:25:44.085848+00:00"
     },
     {
       "symbol": "BGD",
@@ -4941,22 +4903,22 @@
       "microstructure_score": 75.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.790600+00:00"
+      "updated_at": "2026-08-12T20:25:44.103140+00:00"
     },
     {
       "symbol": "BGE",
       "company": "BRIDGE SAAS LIMITED",
       "status": "ok",
-      "regime": "UNCLEAR",
+      "regime": "SQUEEZE",
       "price": 0.01899999938905239,
-      "adx14": 21.844544807405555,
-      "atr14": 0.0006199554640678806,
+      "adx14": 21.861664151007353,
+      "atr14": 0.0005756729309201749,
       "relative_volume": 0.0,
-      "zscore20": -0.5440330679142406,
+      "zscore20": -0.46625240412009816,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.807597+00:00"
+      "updated_at": "2026-08-12T20:25:44.121140+00:00"
     },
     {
       "symbol": "BGL",
@@ -4971,7 +4933,7 @@
       "microstructure_score": 57.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.824574+00:00"
+      "updated_at": "2026-08-12T20:25:44.138353+00:00"
     },
     {
       "symbol": "BGP",
@@ -4979,14 +4941,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 3.5399999618530273,
-      "adx14": 49.51325726049423,
-      "atr14": 0.012479217642230436,
+      "adx14": 52.73687161270789,
+      "atr14": 0.01158784495349969,
       "relative_volume": 0.0,
-      "zscore20": -1.3627702877384924,
+      "zscore20": -1.2247448713915887,
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.841926+00:00"
+      "updated_at": "2026-08-12T20:25:44.155773+00:00"
     },
     {
       "symbol": "BGT",
@@ -4994,14 +4956,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.02199999988079071,
-      "adx14": 37.934567076526186,
-      "atr14": 0.0009037256826226385,
+      "adx14": 38.71375132392296,
+      "atr14": 0.0008391738481495929,
       "relative_volume": 0.0,
-      "zscore20": 0.9520397711699594,
-      "microstructure_score": 40.9,
+      "zscore20": 0.8605970943637405,
+      "microstructure_score": 29.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.858915+00:00"
+      "updated_at": "2026-08-12T20:25:44.173447+00:00"
     },
     {
       "symbol": "BHD",
@@ -5009,14 +4971,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.23499999940395355,
-      "adx14": 28.56381836780557,
-      "atr14": 0.0029947876084441267,
+      "adx14": 26.895253063457403,
+      "atr14": 0.002780874207840975,
       "relative_volume": 0.0,
-      "zscore20": -0.17960520878699268,
+      "zscore20": -0.30151125018214664,
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.876174+00:00"
+      "updated_at": "2026-08-12T20:25:44.190591+00:00"
     },
     {
       "symbol": "BHL",
@@ -5037,7 +4999,7 @@
       "microstructure_score": 53.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.894842+00:00"
+      "updated_at": "2026-08-12T20:25:44.209355+00:00"
     },
     {
       "symbol": "BHP",
@@ -5047,12 +5009,12 @@
       "price": 63.45000076293945,
       "adx14": 12.313302784912395,
       "atr14": 1.2936503334187968,
-      "relative_volume": 0.6533437232693164,
+      "relative_volume": 0.6533736880153267,
       "zscore20": 1.4778938178751628,
       "microstructure_score": 52.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.911668+00:00"
+      "updated_at": "2026-08-12T20:25:44.226259+00:00"
     },
     {
       "symbol": "BIM",
@@ -5067,7 +5029,7 @@
       "microstructure_score": 45.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.929177+00:00"
+      "updated_at": "2026-08-12T20:25:44.243169+00:00"
     },
     {
       "symbol": "BIO",
@@ -5082,7 +5044,7 @@
       "microstructure_score": 26.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.946730+00:00"
+      "updated_at": "2026-08-12T20:25:44.260423+00:00"
     },
     {
       "symbol": "BIS",
@@ -5097,7 +5059,7 @@
       "microstructure_score": 44.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.964437+00:00"
+      "updated_at": "2026-08-12T20:25:44.277327+00:00"
     },
     {
       "symbol": "BIT",
@@ -5112,7 +5074,7 @@
       "microstructure_score": 39.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.981688+00:00"
+      "updated_at": "2026-08-12T20:25:44.294549+00:00"
     },
     {
       "symbol": "BKB",
@@ -5127,7 +5089,7 @@
       "microstructure_score": 75.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.999040+00:00"
+      "updated_at": "2026-08-12T20:25:44.311536+00:00"
     },
     {
       "symbol": "BKI",
@@ -5142,7 +5104,7 @@
       "microstructure_score": 30.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.016301+00:00"
+      "updated_at": "2026-08-12T20:25:44.328910+00:00"
     },
     {
       "symbol": "BKT",
@@ -5157,7 +5119,7 @@
       "microstructure_score": 57.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.033272+00:00"
+      "updated_at": "2026-08-12T20:25:44.346171+00:00"
     },
     {
       "symbol": "BKY",
@@ -5172,7 +5134,7 @@
       "microstructure_score": 49.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.050577+00:00"
+      "updated_at": "2026-08-12T20:25:44.363687+00:00"
     },
     {
       "symbol": "BLG",
@@ -5187,7 +5149,7 @@
       "microstructure_score": 47.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.067980+00:00"
+      "updated_at": "2026-08-12T20:25:44.380646+00:00"
     },
     {
       "symbol": "BLS",
@@ -5202,7 +5164,7 @@
       "microstructure_score": 74.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.085264+00:00"
+      "updated_at": "2026-08-12T20:25:44.398475+00:00"
     },
     {
       "symbol": "BLU",
@@ -5211,13 +5173,13 @@
       "regime": "RANGE",
       "price": 0.003000000026077032,
       "adx14": 19.471827057636233,
-      "atr14": 0.0005514437887800338,
+      "atr14": 0.0005871580803483471,
       "relative_volume": 0.008157835628313782,
       "zscore20": -1.7042248883645121,
-      "microstructure_score": 36.3,
+      "microstructure_score": 26.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.103076+00:00"
+      "updated_at": "2026-08-12T20:25:44.415458+00:00"
     },
     {
       "symbol": "BLX",
@@ -5232,7 +5194,7 @@
       "microstructure_score": 53.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.120846+00:00"
+      "updated_at": "2026-08-12T20:25:44.432684+00:00"
     },
     {
       "symbol": "BLZ",
@@ -5247,7 +5209,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.138778+00:00"
+      "updated_at": "2026-08-12T20:25:44.450184+00:00"
     },
     {
       "symbol": "BM1",
@@ -5262,7 +5224,7 @@
       "microstructure_score": 52.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.156376+00:00"
+      "updated_at": "2026-08-12T20:25:44.467622+00:00"
     },
     {
       "symbol": "BM8",
@@ -5277,7 +5239,7 @@
       "microstructure_score": 46.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.174355+00:00"
+      "updated_at": "2026-08-12T20:25:44.485137+00:00"
     },
     {
       "symbol": "BMC",
@@ -5289,16 +5251,16 @@
       "symbol": "BMH",
       "company": "BAUMART HOLDINGS LIMITED",
       "status": "ok",
-      "regime": "UNCLEAR",
+      "regime": "RANGE",
       "price": 0.009999999776482582,
-      "adx14": 20.756797290911802,
-      "atr14": 0.0007675607737977397,
+      "adx14": 19.941300527319562,
+      "atr14": 0.0007127350042407583,
       "relative_volume": 0.0,
-      "zscore20": -0.7126966450995876,
+      "zscore20": -0.6412427107668548,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.193867+00:00"
+      "updated_at": "2026-08-12T20:25:44.504362+00:00"
     },
     {
       "symbol": "BML",
@@ -5306,14 +5268,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.48500001430511475,
-      "adx14": 22.522865451036157,
-      "atr14": 0.024842726632872,
+      "adx14": 22.55032795110711,
+      "atr14": 0.024807012806964977,
       "relative_volume": 0.7522365361436737,
       "zscore20": 1.4167762292906692,
-      "microstructure_score": 53.4,
+      "microstructure_score": 52.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.212156+00:00"
+      "updated_at": "2026-08-12T20:25:44.521555+00:00"
     },
     {
       "symbol": "BMM",
@@ -5328,7 +5290,7 @@
       "microstructure_score": 57.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.229836+00:00"
+      "updated_at": "2026-08-12T20:25:44.538381+00:00"
     },
     {
       "symbol": "BMN",
@@ -5343,7 +5305,7 @@
       "microstructure_score": 63.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.247106+00:00"
+      "updated_at": "2026-08-12T20:25:44.555471+00:00"
     },
     {
       "symbol": "BMR",
@@ -5358,7 +5320,7 @@
       "microstructure_score": 74.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.264389+00:00"
+      "updated_at": "2026-08-12T20:25:44.572705+00:00"
     },
     {
       "symbol": "BMT",
@@ -5366,14 +5328,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.11500000208616257,
-      "adx14": 20.807060898593118,
-      "atr14": 0.005480986151881807,
-      "relative_volume": 0.3263719675268332,
-      "zscore20": -1.5058932936711298,
+      "adx14": 21.746724790121235,
+      "atr14": 0.005089487141033106,
+      "relative_volume": 0.0,
+      "zscore20": -1.4229358634139648,
       "microstructure_score": 29.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.281753+00:00"
+      "updated_at": "2026-08-12T20:25:44.589639+00:00"
     },
     {
       "symbol": "BNL",
@@ -5388,7 +5350,7 @@
       "microstructure_score": 47.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.299186+00:00"
+      "updated_at": "2026-08-12T20:25:44.606557+00:00"
     },
     {
       "symbol": "BNR",
@@ -5403,7 +5365,7 @@
       "microstructure_score": 77.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.317076+00:00"
+      "updated_at": "2026-08-12T20:25:44.623470+00:00"
     },
     {
       "symbol": "BNZ",
@@ -5418,7 +5380,7 @@
       "microstructure_score": 56.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.334313+00:00"
+      "updated_at": "2026-08-12T20:25:44.640505+00:00"
     },
     {
       "symbol": "BOA",
@@ -5433,7 +5395,7 @@
       "microstructure_score": 64.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.351425+00:00"
+      "updated_at": "2026-08-12T20:25:44.657509+00:00"
     },
     {
       "symbol": "BOC",
@@ -5445,10 +5407,10 @@
       "atr14": 0.015152072538905527,
       "relative_volume": 7.518208086462207,
       "zscore20": -2.5470268630982007,
-      "microstructure_score": 56.1,
+      "microstructure_score": 55.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.368430+00:00"
+      "updated_at": "2026-08-12T20:25:44.674311+00:00"
     },
     {
       "symbol": "BOE",
@@ -5463,7 +5425,7 @@
       "microstructure_score": 75.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.385396+00:00"
+      "updated_at": "2026-08-12T20:25:44.690911+00:00"
     },
     {
       "symbol": "BOL",
@@ -5478,7 +5440,7 @@
       "microstructure_score": 44.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.402488+00:00"
+      "updated_at": "2026-08-12T20:25:44.707729+00:00"
     },
     {
       "symbol": "BOQ",
@@ -5493,7 +5455,7 @@
       "microstructure_score": 57.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.420004+00:00"
+      "updated_at": "2026-08-12T20:25:44.724434+00:00"
     },
     {
       "symbol": "BOT",
@@ -5508,7 +5470,7 @@
       "microstructure_score": 37.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.436943+00:00"
+      "updated_at": "2026-08-12T20:25:44.741163+00:00"
     },
     {
       "symbol": "BOX",
@@ -5522,14 +5484,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.0020000000949949026,
-      "adx14": 22.745919135592274,
-      "atr14": 5.322860427728265e-05,
+      "adx14": 22.656251179182988,
+      "atr14": 4.94265611146196e-05,
       "relative_volume": 0.0,
-      "zscore20": 0.42008402520840316,
+      "zscore20": 0.3333333333333347,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.456044+00:00"
+      "updated_at": "2026-08-12T20:25:44.760013+00:00"
     },
     {
       "symbol": "BPG",
@@ -5543,14 +5505,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.003000000026077032,
-      "adx14": 18.779549360624944,
-      "atr14": 0.00026792352112840425,
-      "relative_volume": 0.9077556022832961,
+      "adx14": 17.99250208510834,
+      "atr14": 0.0002487861267620897,
+      "relative_volume": 0.0,
       "zscore20": 0.6859943405718834,
-      "microstructure_score": 57.3,
+      "microstructure_score": 49.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.475082+00:00"
+      "updated_at": "2026-08-12T20:25:44.778802+00:00"
     },
     {
       "symbol": "BPM",
@@ -5565,7 +5527,7 @@
       "microstructure_score": 72.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.492522+00:00"
+      "updated_at": "2026-08-12T20:25:44.795898+00:00"
     },
     {
       "symbol": "BPP",
@@ -5573,14 +5535,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.05917000025510788,
-      "adx14": 91.04396218178373,
-      "atr14": 0.0003032959435997334,
+      "adx14": 91.63162948643438,
+      "atr14": 0.0002816319476283239,
       "relative_volume": null,
-      "zscore20": 0.7337994357940867,
+      "zscore20": 0.6546537191155312,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.509775+00:00"
+      "updated_at": "2026-08-12T20:25:44.812858+00:00"
     },
     {
       "symbol": "BPT",
@@ -5595,7 +5557,7 @@
       "microstructure_score": 28.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.526807+00:00"
+      "updated_at": "2026-08-12T20:25:44.829562+00:00"
     },
     {
       "symbol": "BRE",
@@ -5610,7 +5572,7 @@
       "microstructure_score": 50.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.543865+00:00"
+      "updated_at": "2026-08-12T20:25:44.846356+00:00"
     },
     {
       "symbol": "BRG",
@@ -5625,7 +5587,7 @@
       "microstructure_score": 57.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.561525+00:00"
+      "updated_at": "2026-08-12T20:25:44.863310+00:00"
     },
     {
       "symbol": "BRI",
@@ -5640,7 +5602,7 @@
       "microstructure_score": 46.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.578856+00:00"
+      "updated_at": "2026-08-12T20:25:44.880151+00:00"
     },
     {
       "symbol": "BRK",
@@ -5655,7 +5617,7 @@
       "microstructure_score": 40.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.596215+00:00"
+      "updated_at": "2026-08-12T20:25:44.897042+00:00"
     },
     {
       "symbol": "BRL",
@@ -5670,7 +5632,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.613629+00:00"
+      "updated_at": "2026-08-12T20:25:44.914133+00:00"
     },
     {
       "symbol": "BRN",
@@ -5685,7 +5647,7 @@
       "microstructure_score": 32.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.630999+00:00"
+      "updated_at": "2026-08-12T20:25:44.931069+00:00"
     },
     {
       "symbol": "BRU",
@@ -5700,7 +5662,7 @@
       "microstructure_score": 61.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.648404+00:00"
+      "updated_at": "2026-08-12T20:25:44.947821+00:00"
     },
     {
       "symbol": "BRY",
@@ -5715,7 +5677,7 @@
       "microstructure_score": 29.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.666115+00:00"
+      "updated_at": "2026-08-12T20:25:44.965030+00:00"
     },
     {
       "symbol": "BSA",
@@ -5730,7 +5692,7 @@
       "microstructure_score": 40.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.683380+00:00"
+      "updated_at": "2026-08-12T20:25:44.982008+00:00"
     },
     {
       "symbol": "BSL",
@@ -5745,28 +5707,28 @@
       "microstructure_score": 67.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.700697+00:00"
+      "updated_at": "2026-08-12T20:25:44.998766+00:00"
     },
     {
       "symbol": "BSN",
       "company": "BASIN ENERGY LIMITED",
       "status": "ok",
       "regime": "UNCLEAR",
-      "price": 0.032999999821186066,
-      "adx14": 41.42040804983057,
-      "atr14": 0.0016406137767617165,
-      "relative_volume": 0.0,
-      "zscore20": 2.275415208329641,
+      "price": 0.029999999329447746,
+      "adx14": 39.405014706583984,
+      "atr14": 0.001737712827831474,
+      "relative_volume": 0.10454190072745594,
+      "zscore20": 1.4567572921029586,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.717772+00:00"
+      "updated_at": "2026-08-12T20:25:45.015497+00:00"
     },
     {
       "symbol": "BSR",
       "company": "BISON RESOURCES LIMITED",
       "status": "error",
-      "reason": "Only 83 raw daily bars"
+      "reason": "Only 84 raw daily bars"
     },
     {
       "symbol": "BST",
@@ -5787,7 +5749,7 @@
       "microstructure_score": 29.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.738580+00:00"
+      "updated_at": "2026-08-12T20:25:45.036079+00:00"
     },
     {
       "symbol": "BTC",
@@ -5795,14 +5757,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.05999999865889549,
-      "adx14": 38.20293846705012,
-      "atr14": 0.00047038103332778917,
-      "relative_volume": 0.0001460493646852636,
-      "zscore20": 1.1921660113574841,
+      "adx14": 39.06121475221532,
+      "atr14": 0.00043678238809008994,
+      "relative_volume": 0.0,
+      "zscore20": 1.0828657586200299,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.755913+00:00"
+      "updated_at": "2026-08-12T20:25:45.053001+00:00"
     },
     {
       "symbol": "BTE",
@@ -5817,7 +5779,7 @@
       "microstructure_score": 89.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.773249+00:00"
+      "updated_at": "2026-08-12T20:25:45.069945+00:00"
     },
     {
       "symbol": "BTG",
@@ -5838,7 +5800,7 @@
       "microstructure_score": 21.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.792349+00:00"
+      "updated_at": "2026-08-12T20:25:45.088481+00:00"
     },
     {
       "symbol": "BTL",
@@ -5853,7 +5815,7 @@
       "microstructure_score": 40.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.809428+00:00"
+      "updated_at": "2026-08-12T20:25:45.105378+00:00"
     },
     {
       "symbol": "BTM",
@@ -5868,7 +5830,7 @@
       "microstructure_score": 32.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.826580+00:00"
+      "updated_at": "2026-08-12T20:25:45.122232+00:00"
     },
     {
       "symbol": "BTN",
@@ -5876,14 +5838,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.010999999940395355,
-      "adx14": 23.86090200183623,
-      "atr14": 0.0009585631757366214,
-      "relative_volume": 3.7384441583070407,
-      "zscore20": -1.9813354300162251,
-      "microstructure_score": 65.0,
+      "adx14": 25.71914121078689,
+      "atr14": 0.0008900943774697199,
+      "relative_volume": 0.0,
+      "zscore20": -1.7410005648291982,
+      "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.843788+00:00"
+      "updated_at": "2026-08-12T20:25:45.138923+00:00"
     },
     {
       "symbol": "BTR",
@@ -5898,7 +5860,7 @@
       "microstructure_score": 58.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.860851+00:00"
+      "updated_at": "2026-08-12T20:25:45.155864+00:00"
     },
     {
       "symbol": "BUB",
@@ -5913,7 +5875,7 @@
       "microstructure_score": 63.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.877727+00:00"
+      "updated_at": "2026-08-12T20:25:45.172608+00:00"
     },
     {
       "symbol": "BUR",
@@ -5921,14 +5883,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.02500000037252903,
-      "adx14": 12.501619529054423,
-      "atr14": 0.00039935483882691644,
+      "adx14": 12.220408454916074,
+      "atr14": 0.00037082949319642243,
       "relative_volume": 0.0,
-      "zscore20": 1.1375002461708015,
+      "zscore20": 1.0326764566934827,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.894906+00:00"
+      "updated_at": "2026-08-12T20:25:45.189389+00:00"
     },
     {
       "symbol": "BUS",
@@ -5943,7 +5905,7 @@
       "microstructure_score": 26.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.912011+00:00"
+      "updated_at": "2026-08-12T20:25:45.206241+00:00"
     },
     {
       "symbol": "BUX",
@@ -5958,7 +5920,7 @@
       "microstructure_score": 54.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.929032+00:00"
+      "updated_at": "2026-08-12T20:25:45.222991+00:00"
     },
     {
       "symbol": "BUY",
@@ -5973,7 +5935,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.946460+00:00"
+      "updated_at": "2026-08-12T20:25:45.240020+00:00"
     },
     {
       "symbol": "BVR",
@@ -5988,7 +5950,7 @@
       "microstructure_score": 64.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.963890+00:00"
+      "updated_at": "2026-08-12T20:25:45.256810+00:00"
     },
     {
       "symbol": "BVS",
@@ -6040,10 +6002,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:55:54.981216+00:00",
+        "timestamp": "2026-08-12T20:25:45.273788+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:55:54.981274+00:00"
+      "updated_at": "2026-08-12T20:25:45.273842+00:00"
     },
     {
       "symbol": "BWF",
@@ -6058,7 +6020,7 @@
       "microstructure_score": 32.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:54.998207+00:00"
+      "updated_at": "2026-08-12T20:25:45.290723+00:00"
     },
     {
       "symbol": "BWN",
@@ -6073,7 +6035,7 @@
       "microstructure_score": 62.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.014995+00:00"
+      "updated_at": "2026-08-12T20:25:45.308376+00:00"
     },
     {
       "symbol": "BWP",
@@ -6088,7 +6050,7 @@
       "microstructure_score": 36.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.031927+00:00"
+      "updated_at": "2026-08-12T20:25:45.326265+00:00"
     },
     {
       "symbol": "BXB",
@@ -6098,12 +6060,12 @@
       "price": 19.889999389648438,
       "adx14": 21.083405546427755,
       "atr14": 0.4038993271096102,
-      "relative_volume": 1.3734623438782527,
+      "relative_volume": 1.3735720105195042,
       "zscore20": 0.5231117890977144,
       "microstructure_score": 55.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.049181+00:00"
+      "updated_at": "2026-08-12T20:25:45.343424+00:00"
     },
     {
       "symbol": "C1X",
@@ -6118,7 +6080,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.066539+00:00"
+      "updated_at": "2026-08-12T20:25:45.360512+00:00"
     },
     {
       "symbol": "C29",
@@ -6133,7 +6095,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.083753+00:00"
+      "updated_at": "2026-08-12T20:25:45.377640+00:00"
     },
     {
       "symbol": "C79",
@@ -6148,7 +6110,7 @@
       "microstructure_score": 82.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.101266+00:00"
+      "updated_at": "2026-08-12T20:25:45.394491+00:00"
     },
     {
       "symbol": "C7A",
@@ -6156,14 +6118,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.003000000026077032,
-      "adx14": 19.492134944436646,
-      "atr14": 9.810075677317252e-05,
-      "relative_volume": 0.9040037784947264,
-      "zscore20": -0.42008402520839294,
-      "microstructure_score": 48.1,
+      "adx14": 19.432241909463972,
+      "atr14": 9.109355986080305e-05,
+      "relative_volume": 0.0,
+      "zscore20": -0.3333333333333231,
+      "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.118902+00:00"
+      "updated_at": "2026-08-12T20:25:45.412258+00:00"
     },
     {
       "symbol": "CAA",
@@ -6178,7 +6140,7 @@
       "microstructure_score": 60.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.135771+00:00"
+      "updated_at": "2026-08-12T20:25:45.429380+00:00"
     },
     {
       "symbol": "CAE",
@@ -6193,7 +6155,7 @@
       "microstructure_score": 65.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.152914+00:00"
+      "updated_at": "2026-08-12T20:25:45.447293+00:00"
     },
     {
       "symbol": "CAF",
@@ -6208,7 +6170,7 @@
       "microstructure_score": 32.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.170221+00:00"
+      "updated_at": "2026-08-12T20:25:45.465052+00:00"
     },
     {
       "symbol": "CAM",
@@ -6223,22 +6185,22 @@
       "microstructure_score": 37.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.187890+00:00"
+      "updated_at": "2026-08-12T20:25:45.483264+00:00"
     },
     {
       "symbol": "CAN",
       "company": "CANN GROUP LIMITED",
       "status": "ok",
-      "regime": "TREND",
-      "price": 0.003000000026077032,
+      "regime": "UNCLEAR",
+      "price": 0.0035000001080334187,
       "adx14": 30.761262940465713,
-      "atr14": 0.0007653692445337432,
+      "atr14": 0.0007296549529654298,
       "relative_volume": 0.01567054826305729,
-      "zscore20": -0.6749263711444811,
+      "zscore20": 0.31448545101561043,
       "microstructure_score": 31.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.205199+00:00"
+      "updated_at": "2026-08-12T20:25:45.501289+00:00"
     },
     {
       "symbol": "CAQ",
@@ -6253,7 +6215,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.222497+00:00"
+      "updated_at": "2026-08-12T20:25:45.519871+00:00"
     },
     {
       "symbol": "CAR",
@@ -6263,12 +6225,12 @@
       "price": 29.0,
       "adx14": 19.84808744807125,
       "atr14": 1.060582092579876,
-      "relative_volume": 1.6791326076693078,
+      "relative_volume": 1.7805091608393144,
       "zscore20": 1.7116196880753674,
-      "microstructure_score": 65.0,
+      "microstructure_score": 66.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.239450+00:00"
+      "updated_at": "2026-08-12T20:25:45.537752+00:00"
     },
     {
       "symbol": "CAT",
@@ -6283,7 +6245,7 @@
       "microstructure_score": 60.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.256562+00:00"
+      "updated_at": "2026-08-12T20:25:45.555703+00:00"
     },
     {
       "symbol": "CAV",
@@ -6298,7 +6260,7 @@
       "microstructure_score": 95.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.273411+00:00"
+      "updated_at": "2026-08-12T20:25:45.573588+00:00"
     },
     {
       "symbol": "CAY",
@@ -6313,7 +6275,7 @@
       "microstructure_score": 15.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.290185+00:00"
+      "updated_at": "2026-08-12T20:25:45.592116+00:00"
     },
     {
       "symbol": "CAZ",
@@ -6328,7 +6290,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.307216+00:00"
+      "updated_at": "2026-08-12T20:25:45.610554+00:00"
     },
     {
       "symbol": "CBA",
@@ -6343,7 +6305,7 @@
       "microstructure_score": 38.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.324070+00:00"
+      "updated_at": "2026-08-12T20:25:45.628642+00:00"
     },
     {
       "symbol": "CBL",
@@ -6358,7 +6320,7 @@
       "microstructure_score": 45.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.358264+00:00"
+      "updated_at": "2026-08-12T20:25:45.664875+00:00"
     },
     {
       "symbol": "CBO",
@@ -6373,7 +6335,7 @@
       "microstructure_score": 43.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.375156+00:00"
+      "updated_at": "2026-08-12T20:25:45.682609+00:00"
     },
     {
       "symbol": "CBY",
@@ -6388,7 +6350,7 @@
       "microstructure_score": 87.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.392132+00:00"
+      "updated_at": "2026-08-12T20:25:45.700387+00:00"
     },
     {
       "symbol": "CC2",
@@ -6409,7 +6371,7 @@
       "microstructure_score": 77.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.410802+00:00"
+      "updated_at": "2026-08-12T20:25:45.720492+00:00"
     },
     {
       "symbol": "CC9",
@@ -6424,7 +6386,7 @@
       "microstructure_score": 48.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.427598+00:00"
+      "updated_at": "2026-08-12T20:25:45.738333+00:00"
     },
     {
       "symbol": "CCA",
@@ -6439,7 +6401,7 @@
       "microstructure_score": 31.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.444480+00:00"
+      "updated_at": "2026-08-12T20:25:45.756163+00:00"
     },
     {
       "symbol": "CCE",
@@ -6454,7 +6416,7 @@
       "microstructure_score": 15.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.461513+00:00"
+      "updated_at": "2026-08-12T20:25:45.774229+00:00"
     },
     {
       "symbol": "CCG",
@@ -6462,14 +6424,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.08299999684095383,
-      "adx14": 30.339993284100437,
-      "atr14": 0.0020819205358346745,
+      "adx14": 30.53683067361196,
+      "atr14": 0.00204620617774332,
       "relative_volume": 0.07316147340102085,
       "zscore20": -0.5135533355930577,
       "microstructure_score": 46.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.478563+00:00"
+      "updated_at": "2026-08-12T20:25:45.792610+00:00"
     },
     {
       "symbol": "CCL",
@@ -6484,7 +6446,7 @@
       "microstructure_score": 59.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.495454+00:00"
+      "updated_at": "2026-08-12T20:25:45.810909+00:00"
     },
     {
       "symbol": "CCM",
@@ -6499,7 +6461,7 @@
       "microstructure_score": 37.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.512458+00:00"
+      "updated_at": "2026-08-12T20:25:45.829476+00:00"
     },
     {
       "symbol": "CCO",
@@ -6514,7 +6476,7 @@
       "microstructure_score": 33.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.529499+00:00"
+      "updated_at": "2026-08-12T20:25:45.847568+00:00"
     },
     {
       "symbol": "CCP",
@@ -6529,7 +6491,7 @@
       "microstructure_score": 24.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.546947+00:00"
+      "updated_at": "2026-08-12T20:25:45.865900+00:00"
     },
     {
       "symbol": "CCR",
@@ -6544,7 +6506,7 @@
       "microstructure_score": 24.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.564170+00:00"
+      "updated_at": "2026-08-12T20:25:45.884155+00:00"
     },
     {
       "symbol": "CCV",
@@ -6559,7 +6521,7 @@
       "microstructure_score": 29.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.581456+00:00"
+      "updated_at": "2026-08-12T20:25:45.902786+00:00"
     },
     {
       "symbol": "CCX",
@@ -6574,7 +6536,7 @@
       "microstructure_score": 48.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.598803+00:00"
+      "updated_at": "2026-08-12T20:25:45.920882+00:00"
     },
     {
       "symbol": "CD1",
@@ -6589,7 +6551,7 @@
       "microstructure_score": 34.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.616057+00:00"
+      "updated_at": "2026-08-12T20:25:45.939236+00:00"
     },
     {
       "symbol": "CD2",
@@ -6604,7 +6566,7 @@
       "microstructure_score": 25.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.632866+00:00"
+      "updated_at": "2026-08-12T20:25:45.957943+00:00"
     },
     {
       "symbol": "CD3",
@@ -6619,7 +6581,7 @@
       "microstructure_score": 55.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.649672+00:00"
+      "updated_at": "2026-08-12T20:25:45.976597+00:00"
     },
     {
       "symbol": "CDA",
@@ -6634,7 +6596,7 @@
       "microstructure_score": 67.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.666461+00:00"
+      "updated_at": "2026-08-12T20:25:45.995355+00:00"
     },
     {
       "symbol": "CDE",
@@ -6649,7 +6611,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.683524+00:00"
+      "updated_at": "2026-08-12T20:25:46.013522+00:00"
     },
     {
       "symbol": "CDM",
@@ -6664,7 +6626,7 @@
       "microstructure_score": 48.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.702707+00:00"
+      "updated_at": "2026-08-12T20:25:46.032037+00:00"
     },
     {
       "symbol": "CDO",
@@ -6679,7 +6641,7 @@
       "microstructure_score": 58.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.720505+00:00"
+      "updated_at": "2026-08-12T20:25:46.051265+00:00"
     },
     {
       "symbol": "CDP",
@@ -6694,7 +6656,7 @@
       "microstructure_score": 87.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.737409+00:00"
+      "updated_at": "2026-08-12T20:25:46.069580+00:00"
     },
     {
       "symbol": "CDR",
@@ -6709,7 +6671,7 @@
       "microstructure_score": 46.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.754421+00:00"
+      "updated_at": "2026-08-12T20:25:46.087592+00:00"
     },
     {
       "symbol": "CDT",
@@ -6724,7 +6686,7 @@
       "microstructure_score": 35.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.771383+00:00"
+      "updated_at": "2026-08-12T20:25:46.106449+00:00"
     },
     {
       "symbol": "CEH",
@@ -6739,7 +6701,7 @@
       "microstructure_score": 91.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.788335+00:00"
+      "updated_at": "2026-08-12T20:25:46.125314+00:00"
     },
     {
       "symbol": "CEL",
@@ -6754,7 +6716,7 @@
       "microstructure_score": 84.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.805477+00:00"
+      "updated_at": "2026-08-12T20:25:46.143929+00:00"
     },
     {
       "symbol": "CEN",
@@ -6769,7 +6731,7 @@
       "microstructure_score": 31.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.822813+00:00"
+      "updated_at": "2026-08-12T20:25:46.163137+00:00"
     },
     {
       "symbol": "CF1",
@@ -6777,52 +6739,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.02199999988079071,
-      "adx14": 16.892527370017824,
-      "atr14": 0.0008971369154206746,
-      "relative_volume": 2.2386858591824845,
-      "zscore20": -2.1465180057380513,
-      "microstructure_score": 45.0,
+      "adx14": 18.64946587079861,
+      "atr14": 0.0008330557071763407,
+      "relative_volume": 0.0,
+      "zscore20": -1.8451372953156098,
+      "microstructure_score": 25.0,
       "active": false,
-      "candidate": {
-        "symbol": "CF1",
-        "company": "COMPLII FINTECH SOLUTIONS LTD",
-        "direction": "LONG",
-        "strategy": "MEAN_REVERSION",
-        "regime": "RANGE",
-        "signal_score": 79.0,
-        "microstructure_score": 45.0,
-        "reasons": [
-          "z-score -2.15",
-          "RSI5 6.9",
-          "low ADX"
-        ],
-        "regime_details": {
-          "adx": 16.892527370017824
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$14,710"
-          ],
-          "average_dollar_volume_20d": 14710.040977088362,
-          "atr_pct": 4.077895092190474,
-          "gap_pct": 0.0,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.02199999988079071,
-        "atr14": 0.0008971369154206746,
-        "stop_loss": 0.020833721890743832,
-        "profit_target": 0.023866044664865714,
-        "risk_per_share": 0.001166277990046877,
-        "target_r": 1.6,
-        "units_per_100k": 428714.25532081176,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-11",
-        "timestamp": "2026-08-12T07:55:55.839887+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-12T07:55:55.839942+00:00"
+      "candidate": null,
+      "updated_at": "2026-08-12T20:25:46.181461+00:00"
     },
     {
       "symbol": "CFP",
@@ -6843,7 +6767,7 @@
       "microstructure_score": 18.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.858432+00:00"
+      "updated_at": "2026-08-12T20:25:46.201101+00:00"
     },
     {
       "symbol": "CGF",
@@ -6858,7 +6782,7 @@
       "microstructure_score": 44.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.875226+00:00"
+      "updated_at": "2026-08-12T20:25:46.218947+00:00"
     },
     {
       "symbol": "CGO",
@@ -6873,7 +6797,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.892580+00:00"
+      "updated_at": "2026-08-12T20:25:46.237902+00:00"
     },
     {
       "symbol": "CGR",
@@ -6888,7 +6812,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.909582+00:00"
+      "updated_at": "2026-08-12T20:25:46.257394+00:00"
     },
     {
       "symbol": "CGS",
@@ -6903,7 +6827,7 @@
       "microstructure_score": 95.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.926547+00:00"
+      "updated_at": "2026-08-12T20:25:46.276368+00:00"
     },
     {
       "symbol": "CHC",
@@ -6918,13 +6842,13 @@
       "microstructure_score": 44.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.943443+00:00"
+      "updated_at": "2026-08-12T20:25:46.295061+00:00"
     },
     {
       "symbol": "CHI",
       "company": "CHANNEL INFRASTRUCTURE NZ LIMITED",
       "status": "error",
-      "reason": "Only 152 raw daily bars"
+      "reason": "Only 153 raw daily bars"
     },
     {
       "symbol": "CHL",
@@ -6939,7 +6863,7 @@
       "microstructure_score": 36.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.962370+00:00"
+      "updated_at": "2026-08-12T20:25:46.316554+00:00"
     },
     {
       "symbol": "CHM",
@@ -6954,7 +6878,7 @@
       "microstructure_score": 35.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.979331+00:00"
+      "updated_at": "2026-08-12T20:25:46.335888+00:00"
     },
     {
       "symbol": "CHN",
@@ -6969,7 +6893,7 @@
       "microstructure_score": 50.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:55.996056+00:00"
+      "updated_at": "2026-08-12T20:25:46.355032+00:00"
     },
     {
       "symbol": "CHR",
@@ -6977,14 +6901,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.08399999886751175,
-      "adx14": 13.647662547274487,
-      "atr14": 0.0023523057602650183,
+      "adx14": 13.722620319273451,
+      "atr14": 0.0021842839202460885,
       "relative_volume": 0.0,
-      "zscore20": 0.16046815327273134,
-      "microstructure_score": 49.1,
+      "zscore20": 0.17586272617145662,
+      "microstructure_score": 52.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.013371+00:00"
+      "updated_at": "2026-08-12T20:25:46.374005+00:00"
     },
     {
       "symbol": "CHW",
@@ -6992,14 +6916,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.7350000143051147,
-      "adx14": 43.21493934919375,
-      "atr14": 0.035695704067962436,
-      "relative_volume": 0.7967470014720346,
-      "zscore20": -1.8229695500552952,
-      "microstructure_score": 31.0,
+      "adx14": 44.6013203795969,
+      "atr14": 0.03314601092025084,
+      "relative_volume": 0.0,
+      "zscore20": -1.6191122022678672,
+      "microstructure_score": 35.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.030361+00:00"
+      "updated_at": "2026-08-12T20:25:46.392586+00:00"
     },
     {
       "symbol": "CIA",
@@ -7014,7 +6938,7 @@
       "microstructure_score": 26.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.047361+00:00"
+      "updated_at": "2026-08-12T20:25:46.411564+00:00"
     },
     {
       "symbol": "CIN",
@@ -7029,7 +6953,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.064159+00:00"
+      "updated_at": "2026-08-12T20:25:46.430271+00:00"
     },
     {
       "symbol": "CIP",
@@ -7044,7 +6968,7 @@
       "microstructure_score": 52.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.080892+00:00"
+      "updated_at": "2026-08-12T20:25:46.448858+00:00"
     },
     {
       "symbol": "CIW",
@@ -7052,14 +6976,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.3149999976158142,
-      "adx14": 36.708303287968285,
-      "atr14": 0.0015977757886404583,
+      "adx14": 36.94853687122189,
+      "atr14": 0.0014836489465947114,
       "relative_volume": 0.0,
-      "zscore20": 0.7806754358789748,
+      "zscore20": 0.700140042014151,
       "microstructure_score": 41.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.099038+00:00"
+      "updated_at": "2026-08-12T20:25:46.467282+00:00"
     },
     {
       "symbol": "CKA",
@@ -7074,7 +6998,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.116109+00:00"
+      "updated_at": "2026-08-12T20:25:46.486112+00:00"
     },
     {
       "symbol": "CKF",
@@ -7089,7 +7013,7 @@
       "microstructure_score": 39.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.133076+00:00"
+      "updated_at": "2026-08-12T20:25:46.504479+00:00"
     },
     {
       "symbol": "CL8",
@@ -7104,22 +7028,22 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.150004+00:00"
+      "updated_at": "2026-08-12T20:25:46.522682+00:00"
     },
     {
       "symbol": "CLA",
       "company": "CELSIUS RESOURCES LIMITED.",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.004999999888241291,
+      "price": 0.005499999970197678,
       "adx14": 24.87637983247636,
       "atr14": 0.0011168421574890585,
       "relative_volume": 0.9378758034384391,
-      "zscore20": -0.5592328474941421,
-      "microstructure_score": 38.0,
+      "zscore20": 0.03132654699793117,
+      "microstructure_score": 48.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.167084+00:00"
+      "updated_at": "2026-08-12T20:25:46.540674+00:00"
     },
     {
       "symbol": "CLG",
@@ -7134,7 +7058,7 @@
       "microstructure_score": 91.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.184252+00:00"
+      "updated_at": "2026-08-12T20:25:46.559057+00:00"
     },
     {
       "symbol": "CLU",
@@ -7149,7 +7073,7 @@
       "microstructure_score": 85.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.201275+00:00"
+      "updated_at": "2026-08-12T20:25:46.577125+00:00"
     },
     {
       "symbol": "CLV",
@@ -7164,7 +7088,7 @@
       "microstructure_score": 68.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.218101+00:00"
+      "updated_at": "2026-08-12T20:25:46.594762+00:00"
     },
     {
       "symbol": "CLW",
@@ -7174,12 +7098,12 @@
       "price": 3.7899999618530273,
       "adx14": 14.601293522553426,
       "atr14": 0.06823637745488556,
-      "relative_volume": 0.9156805011709491,
+      "relative_volume": 1.2569477228742196,
       "zscore20": 0.36915219257010495,
-      "microstructure_score": 42.9,
+      "microstructure_score": 48.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.235106+00:00"
+      "updated_at": "2026-08-12T20:25:46.612761+00:00"
     },
     {
       "symbol": "CLX",
@@ -7194,7 +7118,7 @@
       "microstructure_score": 53.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.252276+00:00"
+      "updated_at": "2026-08-12T20:25:46.630653+00:00"
     },
     {
       "symbol": "CLZ",
@@ -7206,7 +7130,7 @@
       "symbol": "CMA",
       "company": "CARMA LIMITED",
       "status": "error",
-      "reason": "Only 193 raw daily bars"
+      "reason": "Only 194 raw daily bars"
     },
     {
       "symbol": "CMB",
@@ -7221,7 +7145,7 @@
       "microstructure_score": 50.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.287553+00:00"
+      "updated_at": "2026-08-12T20:25:46.667536+00:00"
     },
     {
       "symbol": "CMD",
@@ -7229,14 +7153,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.023000000044703484,
-      "adx14": 18.49619183941,
-      "atr14": 0.0014295426171557686,
+      "adx14": 18.378164998799075,
+      "atr14": 0.0013938282590644142,
       "relative_volume": 4.143850775665947,
       "zscore20": -1.475070400977261,
       "microstructure_score": 65.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.304627+00:00"
+      "updated_at": "2026-08-12T20:25:46.685973+00:00"
     },
     {
       "symbol": "CMG",
@@ -7251,7 +7175,7 @@
       "microstructure_score": 20.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.321807+00:00"
+      "updated_at": "2026-08-12T20:25:46.704056+00:00"
     },
     {
       "symbol": "CML",
@@ -7266,7 +7190,7 @@
       "microstructure_score": 90.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.338566+00:00"
+      "updated_at": "2026-08-12T20:25:46.721783+00:00"
     },
     {
       "symbol": "CMM",
@@ -7281,7 +7205,7 @@
       "microstructure_score": 61.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.355205+00:00"
+      "updated_at": "2026-08-12T20:25:46.739429+00:00"
     },
     {
       "symbol": "CMO",
@@ -7296,7 +7220,7 @@
       "microstructure_score": 35.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.372265+00:00"
+      "updated_at": "2026-08-12T20:25:46.757247+00:00"
     },
     {
       "symbol": "CMP",
@@ -7304,14 +7228,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.22499999403953552,
-      "adx14": 10.012829548722705,
-      "atr14": 0.008085844886542053,
-      "relative_volume": 0.0,
+      "adx14": 9.656818463040404,
+      "atr14": 0.007508284537503336,
+      "relative_volume": 0.005936071406595554,
       "zscore20": -0.4008923429024512,
-      "microstructure_score": 40.7,
+      "microstructure_score": 48.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.389237+00:00"
+      "updated_at": "2026-08-12T20:25:46.774944+00:00"
     },
     {
       "symbol": "CMW",
@@ -7326,7 +7250,7 @@
       "microstructure_score": 38.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.406309+00:00"
+      "updated_at": "2026-08-12T20:25:46.793141+00:00"
     },
     {
       "symbol": "CMX",
@@ -7341,7 +7265,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.423472+00:00"
+      "updated_at": "2026-08-12T20:25:46.811176+00:00"
     },
     {
       "symbol": "CNB",
@@ -7356,7 +7280,7 @@
       "microstructure_score": 53.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.440615+00:00"
+      "updated_at": "2026-08-12T20:25:46.828926+00:00"
     },
     {
       "symbol": "CND",
@@ -7371,7 +7295,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.457514+00:00"
+      "updated_at": "2026-08-12T20:25:46.846639+00:00"
     },
     {
       "symbol": "CNI",
@@ -7386,7 +7310,7 @@
       "microstructure_score": 35.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.474332+00:00"
+      "updated_at": "2026-08-12T20:25:46.864485+00:00"
     },
     {
       "symbol": "CNJ",
@@ -7401,7 +7325,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.491206+00:00"
+      "updated_at": "2026-08-12T20:25:46.882083+00:00"
     },
     {
       "symbol": "CNQ",
@@ -7454,10 +7378,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:55:56.508394+00:00",
+        "timestamp": "2026-08-12T20:25:46.900023+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:55:56.508452+00:00"
+      "updated_at": "2026-08-12T20:25:46.900082+00:00"
     },
     {
       "symbol": "CNU",
@@ -7467,12 +7391,12 @@
       "price": 7.960000038146973,
       "adx14": 9.0309234209595,
       "atr14": 0.16687150549477356,
-      "relative_volume": 1.0892562143935436,
+      "relative_volume": 1.1057468275817008,
       "zscore20": -0.21361908584820097,
-      "microstructure_score": 48.8,
+      "microstructure_score": 49.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.525834+00:00"
+      "updated_at": "2026-08-12T20:25:46.918366+00:00"
     },
     {
       "symbol": "COB",
@@ -7487,7 +7411,7 @@
       "microstructure_score": 67.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.542790+00:00"
+      "updated_at": "2026-08-12T20:25:46.935974+00:00"
     },
     {
       "symbol": "COD",
@@ -7502,7 +7426,7 @@
       "microstructure_score": 16.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.559884+00:00"
+      "updated_at": "2026-08-12T20:25:46.953893+00:00"
     },
     {
       "symbol": "COF",
@@ -7517,7 +7441,7 @@
       "microstructure_score": 26.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.576900+00:00"
+      "updated_at": "2026-08-12T20:25:46.971591+00:00"
     },
     {
       "symbol": "COG",
@@ -7532,7 +7456,7 @@
       "microstructure_score": 70.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.594145+00:00"
+      "updated_at": "2026-08-12T20:25:46.989244+00:00"
     },
     {
       "symbol": "COH",
@@ -7547,7 +7471,7 @@
       "microstructure_score": 57.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.611037+00:00"
+      "updated_at": "2026-08-12T20:25:47.006909+00:00"
     },
     {
       "symbol": "COI",
@@ -7562,7 +7486,7 @@
       "microstructure_score": 34.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.628195+00:00"
+      "updated_at": "2026-08-12T20:25:47.024785+00:00"
     },
     {
       "symbol": "COL",
@@ -7577,7 +7501,7 @@
       "microstructure_score": 30.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.645332+00:00"
+      "updated_at": "2026-08-12T20:25:47.042655+00:00"
     },
     {
       "symbol": "COS",
@@ -7628,10 +7552,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:55:56.663127+00:00",
+        "timestamp": "2026-08-12T20:25:47.060888+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:55:56.663189+00:00"
+      "updated_at": "2026-08-12T20:25:47.060949+00:00"
     },
     {
       "symbol": "COV",
@@ -7646,7 +7570,7 @@
       "microstructure_score": 52.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.680289+00:00"
+      "updated_at": "2026-08-12T20:25:47.078807+00:00"
     },
     {
       "symbol": "COY",
@@ -7661,7 +7585,7 @@
       "microstructure_score": 80.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.697032+00:00"
+      "updated_at": "2026-08-12T20:25:47.096587+00:00"
     },
     {
       "symbol": "CP8",
@@ -7676,7 +7600,7 @@
       "microstructure_score": 85.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.714735+00:00"
+      "updated_at": "2026-08-12T20:25:47.115120+00:00"
     },
     {
       "symbol": "CPM",
@@ -7691,7 +7615,7 @@
       "microstructure_score": 58.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.732229+00:00"
+      "updated_at": "2026-08-12T20:25:47.133245+00:00"
     },
     {
       "symbol": "CPN",
@@ -7706,7 +7630,7 @@
       "microstructure_score": 49.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.749230+00:00"
+      "updated_at": "2026-08-12T20:25:47.151178+00:00"
     },
     {
       "symbol": "CPO",
@@ -7721,7 +7645,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.766554+00:00"
+      "updated_at": "2026-08-12T20:25:47.169278+00:00"
     },
     {
       "symbol": "CPU",
@@ -7731,12 +7655,12 @@
       "price": 40.61000061035156,
       "adx14": 37.475528793842564,
       "atr14": 0.8983128486954624,
-      "relative_volume": 5.12277068248911,
+      "relative_volume": 5.15018808509578,
       "zscore20": -0.3055339629271024,
-      "microstructure_score": 61.5,
+      "microstructure_score": 61.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.783602+00:00"
+      "updated_at": "2026-08-12T20:25:47.187923+00:00"
     },
     {
       "symbol": "CPV",
@@ -7751,7 +7675,7 @@
       "microstructure_score": 53.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.800933+00:00"
+      "updated_at": "2026-08-12T20:25:47.206431+00:00"
     },
     {
       "symbol": "CQE",
@@ -7766,7 +7690,7 @@
       "microstructure_score": 50.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.817864+00:00"
+      "updated_at": "2026-08-12T20:25:47.224372+00:00"
     },
     {
       "symbol": "CQR",
@@ -7781,7 +7705,7 @@
       "microstructure_score": 45.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.834657+00:00"
+      "updated_at": "2026-08-12T20:25:47.242348+00:00"
     },
     {
       "symbol": "CQT",
@@ -7796,7 +7720,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.851879+00:00"
+      "updated_at": "2026-08-12T20:25:47.260431+00:00"
     },
     {
       "symbol": "CR1",
@@ -7811,7 +7735,7 @@
       "microstructure_score": 63.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.869480+00:00"
+      "updated_at": "2026-08-12T20:25:47.278500+00:00"
     },
     {
       "symbol": "CR3",
@@ -7826,7 +7750,7 @@
       "microstructure_score": 65.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.886713+00:00"
+      "updated_at": "2026-08-12T20:25:47.296289+00:00"
     },
     {
       "symbol": "CRB",
@@ -7834,14 +7758,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.00800000037997961,
-      "adx14": 33.190745026976806,
-      "atr14": 8.516784227589633e-05,
-      "relative_volume": 4.147360638540832,
-      "zscore20": -0.49999999999993056,
-      "microstructure_score": 70.0,
+      "adx14": 33.568357946499894,
+      "atr14": 7.908442497047517e-05,
+      "relative_volume": 0.0,
+      "zscore20": -0.4200840252083302,
+      "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.904320+00:00"
+      "updated_at": "2026-08-12T20:25:47.314241+00:00"
     },
     {
       "symbol": "CRD",
@@ -7856,7 +7780,7 @@
       "microstructure_score": 17.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.921819+00:00"
+      "updated_at": "2026-08-12T20:25:47.332559+00:00"
     },
     {
       "symbol": "CRG",
@@ -7877,7 +7801,7 @@
       "microstructure_score": 75.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.940802+00:00"
+      "updated_at": "2026-08-12T20:25:47.352272+00:00"
     },
     {
       "symbol": "CRN",
@@ -7892,7 +7816,7 @@
       "microstructure_score": 30.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.958143+00:00"
+      "updated_at": "2026-08-12T20:25:47.370556+00:00"
     },
     {
       "symbol": "CRR",
@@ -7907,7 +7831,7 @@
       "microstructure_score": 59.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.975307+00:00"
+      "updated_at": "2026-08-12T20:25:47.389151+00:00"
     },
     {
       "symbol": "CRS",
@@ -7922,7 +7846,7 @@
       "microstructure_score": 47.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:56.992695+00:00"
+      "updated_at": "2026-08-12T20:25:47.407824+00:00"
     },
     {
       "symbol": "CSC",
@@ -7932,12 +7856,12 @@
       "price": 15.989999771118164,
       "adx14": 19.681865002498988,
       "atr14": 0.570264990455881,
-      "relative_volume": 0.8192213098228636,
+      "relative_volume": 0.8350762950684472,
       "zscore20": 1.8819527388291102,
-      "microstructure_score": 61.6,
+      "microstructure_score": 61.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.010721+00:00"
+      "updated_at": "2026-08-12T20:25:47.426312+00:00"
     },
     {
       "symbol": "CSL",
@@ -7952,7 +7876,7 @@
       "microstructure_score": 65.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.028202+00:00"
+      "updated_at": "2026-08-12T20:25:47.444756+00:00"
     },
     {
       "symbol": "CST",
@@ -7967,7 +7891,7 @@
       "microstructure_score": 70.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.045892+00:00"
+      "updated_at": "2026-08-12T20:25:47.462673+00:00"
     },
     {
       "symbol": "CSX",
@@ -7982,7 +7906,7 @@
       "microstructure_score": 28.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.064117+00:00"
+      "updated_at": "2026-08-12T20:25:47.480394+00:00"
     },
     {
       "symbol": "CT1",
@@ -7990,14 +7914,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.0024999999441206455,
-      "adx14": 34.70515014140318,
-      "atr14": 0.00021528719224662906,
-      "relative_volume": 0.47667547131970894,
+      "adx14": 35.55162099684713,
+      "atr14": 0.00019990953565758414,
+      "relative_volume": 0.0,
       "zscore20": -0.29488406902916553,
-      "microstructure_score": 29.3,
+      "microstructure_score": 39.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.083261+00:00"
+      "updated_at": "2026-08-12T20:25:47.498008+00:00"
     },
     {
       "symbol": "CTA",
@@ -8017,14 +7941,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 16.06999969482422,
-      "adx14": 13.325454285544332,
-      "atr14": 6.129873266831846e-09,
+      "adx14": 13.32545428306669,
+      "atr14": 5.6920251763438574e-09,
       "relative_volume": null,
       "zscore20": 0.0,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.104648+00:00"
+      "updated_at": "2026-08-12T20:25:47.519056+00:00"
     },
     {
       "symbol": "CTE",
@@ -8039,7 +7963,7 @@
       "microstructure_score": 75.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.121874+00:00"
+      "updated_at": "2026-08-12T20:25:47.536876+00:00"
     },
     {
       "symbol": "CTM",
@@ -8054,7 +7978,7 @@
       "microstructure_score": 37.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.138882+00:00"
+      "updated_at": "2026-08-12T20:25:47.554638+00:00"
     },
     {
       "symbol": "CTN",
@@ -8069,7 +7993,7 @@
       "microstructure_score": 31.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.156284+00:00"
+      "updated_at": "2026-08-12T20:25:47.572726+00:00"
     },
     {
       "symbol": "CTO",
@@ -8084,7 +8008,7 @@
       "microstructure_score": 50.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.173203+00:00"
+      "updated_at": "2026-08-12T20:25:47.590461+00:00"
     },
     {
       "symbol": "CTP",
@@ -8099,22 +8023,22 @@
       "microstructure_score": 32.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.190014+00:00"
+      "updated_at": "2026-08-12T20:25:47.608255+00:00"
     },
     {
       "symbol": "CTQ",
       "company": "CARETEQ LIMITED",
       "status": "ok",
-      "regime": "RANGE",
+      "regime": "UNCLEAR",
       "price": 0.013000000268220901,
-      "adx14": 18.757155568753806,
-      "atr14": 0.0005439305176303405,
-      "relative_volume": 2.478107810272301,
-      "zscore20": 2.222649531566061,
-      "microstructure_score": 81.6,
+      "adx14": 20.27856962403947,
+      "atr14": 0.0005050783377996019,
+      "relative_volume": 0.1376753300082367,
+      "zscore20": 1.8921996671650476,
+      "microstructure_score": 41.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:57.207376+00:00"
+      "updated_at": "2026-08-12T20:25:47.626074+00:00"
     },
     {
       "symbol": "CTS",
@@ -8135,7 +8059,7 @@
       "microstructure_score": 60.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.780094+00:00"
+      "updated_at": "2026-08-12T20:25:47.645768+00:00"
     },
     {
       "symbol": "CU6",
@@ -8150,7 +8074,7 @@
       "microstructure_score": 54.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.797060+00:00"
+      "updated_at": "2026-08-12T20:25:47.663419+00:00"
     },
     {
       "symbol": "CUE",
@@ -8165,7 +8089,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.814185+00:00"
+      "updated_at": "2026-08-12T20:25:47.681329+00:00"
     },
     {
       "symbol": "CUF",
@@ -8180,7 +8104,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.831583+00:00"
+      "updated_at": "2026-08-12T20:25:47.698989+00:00"
     },
     {
       "symbol": "CUL",
@@ -8188,14 +8112,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.006000000052154064,
-      "adx14": 40.65415708741581,
-      "atr14": 0.0003412879975141808,
-      "relative_volume": 2.304663194086118,
+      "adx14": 39.98863331770481,
+      "atr14": 0.00031691028340602505,
+      "relative_volume": 0.0,
       "zscore20": -0.1428571428571431,
-      "microstructure_score": 64.8,
+      "microstructure_score": 30.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.848797+00:00"
+      "updated_at": "2026-08-12T20:25:47.716650+00:00"
     },
     {
       "symbol": "CUP",
@@ -8235,7 +8159,7 @@
           ],
           "average_dollar_volume_20d": 158129.61029313802,
           "atr_pct": 2.4367031532180685,
-          "gap_pct": 1.0970373723655724,
+          "gap_pct": 1.0548463356974014,
           "estimated_spread_pct": null
         },
         "entry_price": 1.2699999809265137,
@@ -8248,10 +8172,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:58:49.867247+00:00",
+        "timestamp": "2026-08-12T20:25:47.734530+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:58:49.867306+00:00"
+      "updated_at": "2026-08-12T20:25:47.734592+00:00"
     },
     {
       "symbol": "CUV",
@@ -8266,22 +8190,22 @@
       "microstructure_score": 39.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.884377+00:00"
+      "updated_at": "2026-08-12T20:25:47.757087+00:00"
     },
     {
       "symbol": "CVB",
       "company": "CURVEBEAM AI LIMITED",
       "status": "ok",
       "regime": "SQUEEZE",
-      "price": 0.017999999225139618,
-      "adx14": 49.298064325060494,
-      "atr14": 0.0008233902377878911,
+      "price": 0.01850000023841858,
+      "adx14": 48.59099985646777,
+      "atr14": 0.0008591045958792454,
       "relative_volume": 4.210675947882404,
-      "zscore20": 0.18569486111627412,
-      "microstructure_score": 69.1,
+      "zscore20": 1.0379774692867365,
+      "microstructure_score": 89.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.901676+00:00"
+      "updated_at": "2026-08-12T20:25:47.774929+00:00"
     },
     {
       "symbol": "CVC",
@@ -8296,7 +8220,7 @@
       "microstructure_score": 78.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.918855+00:00"
+      "updated_at": "2026-08-12T20:25:47.792648+00:00"
     },
     {
       "symbol": "CVL",
@@ -8346,10 +8270,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:58:49.936992+00:00",
+        "timestamp": "2026-08-12T20:25:47.810687+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:58:49.937053+00:00"
+      "updated_at": "2026-08-12T20:25:47.810746+00:00"
     },
     {
       "symbol": "CVN",
@@ -8358,13 +8282,13 @@
       "regime": "SQUEEZE",
       "price": 0.10000000149011612,
       "adx14": 16.427249132660283,
-      "atr14": 0.005024527142457002,
+      "atr14": 0.005060241500548356,
       "relative_volume": 0.9454340245390854,
       "zscore20": 0.44329122224906653,
-      "microstructure_score": 41.0,
+      "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.954412+00:00"
+      "updated_at": "2026-08-12T20:25:47.828712+00:00"
     },
     {
       "symbol": "CVR",
@@ -8379,7 +8303,7 @@
       "microstructure_score": 43.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.971653+00:00"
+      "updated_at": "2026-08-12T20:25:47.846613+00:00"
     },
     {
       "symbol": "CVV",
@@ -8394,7 +8318,7 @@
       "microstructure_score": 85.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:49.988528+00:00"
+      "updated_at": "2026-08-12T20:25:47.865115+00:00"
     },
     {
       "symbol": "CVW",
@@ -8402,14 +8326,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.6499999761581421,
-      "adx14": 65.41323211953919,
-      "atr14": 0.0030809443261652736,
+      "adx14": 65.97746551937983,
+      "atr14": 0.0028608768742963255,
       "relative_volume": 0.0,
-      "zscore20": 0.7961173386381217,
+      "zscore20": 0.7145446228952662,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.006015+00:00"
+      "updated_at": "2026-08-12T20:25:47.883132+00:00"
     },
     {
       "symbol": "CWP",
@@ -8424,7 +8348,7 @@
       "microstructure_score": 56.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.023160+00:00"
+      "updated_at": "2026-08-12T20:25:47.901375+00:00"
     },
     {
       "symbol": "CWY",
