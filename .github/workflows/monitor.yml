@@ -5,6 +5,8 @@ on:
   schedule:
     - cron: "0,30 10-15 * * 1-5"
       timezone: "Australia/Sydney"
+    - cron: "0 16 * * 1-5"
+      timezone: "Australia/Sydney"
 
 permissions:
   contents: write
