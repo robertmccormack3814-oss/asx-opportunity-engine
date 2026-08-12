@@ -83,8 +83,90 @@
       "entry_date": "2026-08-12",
       "peak_price": 0.3449999988079071,
       "trailing_stop": 0.3048769918535706
+    },
+    "DXI": {
+      "symbol": "DXI",
+      "company": "DEXUS INDUSTRIA REIT.",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 89.5,
+      "microstructure_score": 47.4,
+      "reasons": [
+        "z-score -3.14",
+        "RSI5 20.1",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 13.932482451982292
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1896503.1167483688,
+        "atr_pct": 2.274877035431448,
+        "gap_pct": 0.0,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 2.3499999046325684,
+      "atr14": 0.05345960816314723,
+      "stop_loss": 2.280502414020477,
+      "profit_target": 2.461195889611915,
+      "risk_per_share": 0.0694974906120914,
+      "target_r": 1.6,
+      "units_per_100k": 7194.504371255793,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-12",
+      "timestamp": "2026-08-12T07:58:51.102906+00:00",
+      "entry_date": "2026-08-12",
+      "peak_price": 2.3499999046325684,
+      "trailing_stop": 2.280502414020477
+    },
+    "FPR": {
+      "symbol": "FPR",
+      "company": "FLEETPARTNERS GROUP LIMITED",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 100,
+      "microstructure_score": 85.8,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 35.6",
+        "relative volume 2.91x",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 35.56587758055166
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1921997.3437203765,
+        "atr_pct": 3.372417029698337,
+        "gap_pct": 4.651170813917926,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 4.099999904632568,
+      "atr14": 0.13826909500144433,
+      "stop_loss": 3.8511155336299687,
+      "profit_target": 4.7222108321390674,
+      "risk_per_share": 0.2488843710025998,
+      "target_r": 2.5,
+      "units_per_100k": 2008.9650386073342,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-12",
+      "timestamp": "2026-08-12T07:58:53.339513+00:00",
+      "entry_date": "2026-08-12",
+      "peak_price": 4.099999904632568,
+      "trailing_stop": 3.8511155336299687
     }
   },
   "closed_trades": [],
-  "updated_at": "2026-08-12T07:55:57.207651+00:00"
+  "updated_at": "2026-08-12T07:58:53.818667+00:00"
 }
