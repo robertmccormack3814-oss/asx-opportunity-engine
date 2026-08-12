@@ -1,41 +1,18 @@
-# ASX Regime-Aware Opportunity Engine v1
+# ASX Regime-Aware Opportunity Engine
 
-Routes each ASX primary listed equity into TREND, RANGE, SQUEEZE or UNCLEAR.
+A systematic ASX scanner that classifies market regime and routes securities to trend/breakout, mean-reversion, or squeeze/expansion logic. It combines price structure, volume/price behaviour, statistical deviation, execution-risk screening, and ATR-based trade planning.
 
-Modules:
-- Trend/Breakout
-- Mean Reversion
-- Volatility Squeeze/Expansion
-- OHLCV microstructure/order-flow proxies
+## Monitoring architecture
 
-Execution-risk gates:
-- 20-day average dollar volume
-- ATR%
-- latest gap%
-- optional bid/ask spread estimate
-- configurable macro blackout dates
+The engine now has two layers:
 
-Every accepted alert includes:
-- ticker/company
-- direction
-- regime and strategy
-- signal score
-- entry
-- ATR-derived stop
-- dynamic target in R
-- position sizing (units per A$100k, plus actual units if account equity is configured)
+- **Broad universe scanner** — rotates through the ASX universe in batches to discover new opportunities.
+- **Fast opportunity monitor** — checks ACTIVE trades and securities with a provisional setup score of 60+ every 30 minutes during the core ASX session.
 
-Active trades are tracked for:
-- hard stop
-- profit target
-- ATR trailing stop on trend trades
-- time exit
+The 60-point fast-monitor threshold is only a watchlist threshold. It does **not** lower the trading rules: an entry still needs to satisfy the original strategy conditions, the configured minimum signal score of 72, and the execution-risk screen.
 
-Important: v1 uses free/public OHLCV data. Its microstructure layer uses volume/price proxies, not true Level 2 order-book flow.
+The fast monitor uses the same stop-loss, profit-target, trend trailing-stop, time-exit and email/webhook alert logic as the broad scanner.
 
-GitHub secrets:
-- SMTP_USERNAME
-- SMTP_APP_PASSWORD
-- optional ALERT_WEBHOOK_URL
+## Important
 
-Set Settings > Pages > Source = GitHub Actions.
+This is a research and decision-support system, not a guarantee of trading performance. Backtesting and paper trading should be used before automated live execution.
