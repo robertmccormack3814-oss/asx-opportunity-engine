@@ -102,7 +102,7 @@ def main():
 
             # Keep the public dashboard synchronized with the fast monitor.
             old=scanner_assets.get(sym,{})
-            scanner_assets[sym]={**old,"symbol":sym,"company":item["company"],"status":"ok","regime":rg,"price":float(r.Close),"adx14":float(r.ADX14),"atr14":float(r.ATR14),"relative_volume":float(r.RELVOL20) if pd.notna(r.RELVOL20) else None,"zscore20":float(r.ZS20),"microstructure_score":round(ms,1),"near_signal_score":round(adjusted,1),"active":sym in active,"candidate":cand if cand is not None else old.get("candidate"),"updated_at":stamp}
+            scanner_assets[sym]={**old,"symbol":sym,"company":item["company"],"status":"ok","regime":rg,"price":float(r.Close),"adx14":float(r.ADX14),"atr14":float(r.ATR14),"relative_volume":float(r.RELVOL20) if pd.notna(r.RELVOL20) else None,"zscore20":float(r.ZS20),"microstructure_score":round(ms,1),"near_signal_score":round(adjusted,1),"active":sym in active,"candidate":cand,"updated_at":stamp}
         except Exception as e:print(f"Monitor {sym}: {type(e).__name__}: {e}")
 
     state["active_trades"]=active;state["closed_trades"]=closed[-500:];state["updated_at"]=now_iso();save_json(DATA/"state.json",state)
