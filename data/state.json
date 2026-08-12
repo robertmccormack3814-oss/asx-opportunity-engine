@@ -1,1 +1,48 @@
-{"active_trades":{},"closed_trades":[]}
+{
+  "active_trades": {
+    "AVH": {
+      "symbol": "AVH",
+      "company": "AVITA MEDICAL INC.",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 100,
+      "microstructure_score": 89.3,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 23.7",
+        "relative volume 1.92x",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 23.650969938170324
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1128691.389079237,
+        "atr_pct": 5.179528858711218,
+        "gap_pct": 7.042246426743715,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 2.2799999713897705,
+      "atr14": 0.11809325649674068,
+      "stop_loss": 2.067432109695637,
+      "profit_target": 2.8114196256251036,
+      "risk_per_share": 0.21256786169413325,
+      "target_r": 2.5,
+      "units_per_100k": 2352.19000659402,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-12",
+      "timestamp": "2026-08-12T07:40:50.183621+00:00",
+      "entry_date": "2026-08-12",
+      "peak_price": 2.2799999713897705,
+      "trailing_stop": 2.067432109695637
+    }
+  },
+  "closed_trades": [],
+  "updated_at": "2026-08-12T07:40:50.394135+00:00"
+}
