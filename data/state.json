@@ -41,8 +41,50 @@
       "entry_date": "2026-08-12",
       "peak_price": 2.2799999713897705,
       "trailing_stop": 2.067432109695637
+    },
+    "CBE": {
+      "symbol": "CBE",
+      "company": "COBRE LIMITED",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 100,
+      "microstructure_score": 87.0,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 23.6",
+        "relative volume 1.60x",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 23.583876862191705
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1161869.4769644798,
+        "atr_pct": 6.46103173799923,
+        "gap_pct": 0.0,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 0.3449999988079071,
+      "atr14": 0.022290559419075845,
+      "stop_loss": 0.3048769918535706,
+      "profit_target": 0.4453075161937484,
+      "risk_per_share": 0.04012300695433652,
+      "target_r": 2.5,
+      "units_per_100k": 12461.678173050279,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-12",
+      "timestamp": "2026-08-12T07:55:55.341160+00:00",
+      "entry_date": "2026-08-12",
+      "peak_price": 0.3449999988079071,
+      "trailing_stop": 0.3048769918535706
     }
   },
   "closed_trades": [],
-  "updated_at": "2026-08-12T07:40:50.394135+00:00"
+  "updated_at": "2026-08-12T07:55:57.207651+00:00"
 }
