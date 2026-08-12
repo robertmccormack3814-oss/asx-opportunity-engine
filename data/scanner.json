@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-12T08:08:40.978429+00:00",
+  "generated_at": "2026-08-12T08:43:01.342305+00:00",
   "stats": {
     "universe": 1984,
     "known_assets": 1984,
     "active_trades": 7,
     "signals_this_batch": 0,
     "exits_this_batch": 0,
-    "batch_processed": 212,
-    "batch_errors": 38,
-    "next_index": 16,
+    "batch_processed": 226,
+    "batch_errors": 24,
+    "next_index": 266,
     "macro_blackout_today": false
   },
   "signals": [],
@@ -53,7 +53,7 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T07:40:50.183621+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 2.2799999713897705,
+      "peak_price": 2.299999952316284,
       "trailing_stop": 2.067432109695637
     },
     {
@@ -315,46 +315,8 @@
       "zscore20": 2.7541971420243443,
       "microstructure_score": 89.3,
       "active": true,
-      "candidate": {
-        "symbol": "AVH",
-        "company": "AVITA MEDICAL INC.",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 89.3,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 23.7",
-          "relative volume 1.92x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 23.650969938170324
-        },
-        "execution_risk": {
-          "pass": true,
-          "reasons": [],
-          "average_dollar_volume_20d": 1128691.389079237,
-          "atr_pct": 5.179528858711218,
-          "gap_pct": 7.042246426743715,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 2.2799999713897705,
-        "atr14": 0.11809325649674068,
-        "stop_loss": 2.067432109695637,
-        "profit_target": 2.8114196256251036,
-        "risk_per_share": 0.21256786169413325,
-        "target_r": 2.5,
-        "units_per_100k": 2352.19000659402,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:40:50.183621+00:00"
-      },
-      "updated_at": "2026-08-12T07:40:50.183715+00:00"
+      "candidate": null,
+      "updated_at": "2026-08-12T08:43:01.036904+00:00"
     },
     {
       "symbol": "CBE",
@@ -893,7 +855,7 @@
       "microstructure_score": 52.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.606033+00:00"
+      "updated_at": "2026-08-12T08:42:58.293037+00:00"
     },
     {
       "symbol": "5GG",
@@ -908,7 +870,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.623893+00:00"
+      "updated_at": "2026-08-12T08:42:58.306446+00:00"
     },
     {
       "symbol": "5GN",
@@ -923,13 +885,13 @@
       "microstructure_score": 35.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.641593+00:00"
+      "updated_at": "2026-08-12T08:42:58.320116+00:00"
     },
     {
       "symbol": "6KA",
       "company": "6K ADDITIVE, INC.",
       "status": "error",
-      "reason": "Only 173 bars"
+      "reason": "Only 173 raw daily bars"
     },
     {
       "symbol": "88E",
@@ -944,7 +906,7 @@
       "microstructure_score": 36.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.660754+00:00"
+      "updated_at": "2026-08-12T08:42:58.334697+00:00"
     },
     {
       "symbol": "8CO",
@@ -959,13 +921,13 @@
       "microstructure_score": 44.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.678146+00:00"
+      "updated_at": "2026-08-12T08:42:58.348269+00:00"
     },
     {
       "symbol": "8EP",
       "company": "E-PLUS LTD",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "8IH",
@@ -980,7 +942,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.697607+00:00"
+      "updated_at": "2026-08-12T08:42:58.362954+00:00"
     },
     {
       "symbol": "A11",
@@ -995,7 +957,7 @@
       "microstructure_score": 21.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.715185+00:00"
+      "updated_at": "2026-08-12T08:42:58.376307+00:00"
     },
     {
       "symbol": "A1M",
@@ -1010,7 +972,7 @@
       "microstructure_score": 41.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.732258+00:00"
+      "updated_at": "2026-08-12T08:42:58.389404+00:00"
     },
     {
       "symbol": "A1N",
@@ -1025,13 +987,13 @@
       "microstructure_score": 69.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.749658+00:00"
+      "updated_at": "2026-08-12T08:42:58.402596+00:00"
     },
     {
       "symbol": "A2H",
       "company": "ANTI-AGING HOUSE HOLD LIMITED",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "A2M",
@@ -1046,7 +1008,7 @@
       "microstructure_score": 53.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.768822+00:00"
+      "updated_at": "2026-08-12T08:42:58.417261+00:00"
     },
     {
       "symbol": "A3D",
@@ -1061,7 +1023,7 @@
       "microstructure_score": 65.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.786031+00:00"
+      "updated_at": "2026-08-12T08:42:58.430462+00:00"
     },
     {
       "symbol": "A4N",
@@ -1076,19 +1038,19 @@
       "microstructure_score": 52.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.803148+00:00"
+      "updated_at": "2026-08-12T08:42:58.444464+00:00"
     },
     {
       "symbol": "A50",
       "company": "FTSE CHINA A50 INDEX",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "A88",
       "company": "ADVANCETC LIMITED",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "A8G",
@@ -1103,7 +1065,7 @@
       "microstructure_score": 69.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.823511+00:00"
+      "updated_at": "2026-08-12T08:42:58.460078+00:00"
     },
     {
       "symbol": "AA2",
@@ -1118,7 +1080,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.840216+00:00"
+      "updated_at": "2026-08-12T08:42:58.473237+00:00"
     },
     {
       "symbol": "AAA",
@@ -1133,7 +1095,7 @@
       "microstructure_score": 62.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.857249+00:00"
+      "updated_at": "2026-08-12T08:42:58.486643+00:00"
     },
     {
       "symbol": "AAC",
@@ -1148,7 +1110,7 @@
       "microstructure_score": 54.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.874668+00:00"
+      "updated_at": "2026-08-12T08:42:58.499880+00:00"
     },
     {
       "symbol": "AAI",
@@ -1163,7 +1125,7 @@
       "microstructure_score": 95.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.891863+00:00"
+      "updated_at": "2026-08-12T08:42:58.512800+00:00"
     },
     {
       "symbol": "AAJ",
@@ -1215,10 +1177,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:40:46.909425+00:00",
+        "timestamp": "2026-08-12T08:42:58.526211+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:40:46.909482+00:00"
+      "updated_at": "2026-08-12T08:42:58.526256+00:00"
     },
     {
       "symbol": "AAL",
@@ -1233,7 +1195,7 @@
       "microstructure_score": 46.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.926747+00:00"
+      "updated_at": "2026-08-12T08:42:58.539709+00:00"
     },
     {
       "symbol": "AAM",
@@ -1248,22 +1210,22 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.944071+00:00"
+      "updated_at": "2026-08-12T08:42:58.552898+00:00"
     },
     {
       "symbol": "AAP",
       "company": "AUSTRALIAN AGRICULTURAL PROJECTS LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.0729999989271164,
-      "adx14": 32.03550441162072,
-      "atr14": 0.0007050973834907482,
-      "relative_volume": 0.0,
-      "zscore20": 1.543686791642684,
+      "price": 0.07199999690055847,
+      "adx14": 32.014104010544,
+      "atr14": 0.0007261620008526893,
+      "relative_volume": 0.2891141472014103,
+      "zscore20": 1.04232209756487,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.961584+00:00"
+      "updated_at": "2026-08-12T08:42:58.565838+00:00"
     },
     {
       "symbol": "AAR",
@@ -1278,13 +1240,13 @@
       "microstructure_score": 45.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.978786+00:00"
+      "updated_at": "2026-08-12T08:42:58.578946+00:00"
     },
     {
       "symbol": "AAT",
       "company": "AUSTRALIAN ADVENTURE TOURISM GROUP LIMITED",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "AAU",
@@ -1299,7 +1261,7 @@
       "microstructure_score": 38.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:46.997602+00:00"
+      "updated_at": "2026-08-12T08:42:58.593554+00:00"
     },
     {
       "symbol": "ABB",
@@ -1314,7 +1276,7 @@
       "microstructure_score": 37.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.014690+00:00"
+      "updated_at": "2026-08-12T08:42:58.606728+00:00"
     },
     {
       "symbol": "ABE",
@@ -1322,14 +1284,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.013000000268220901,
-      "adx14": 29.894474696979657,
-      "atr14": 0.0014470875531773938,
-      "relative_volume": 0.007682108582155953,
-      "zscore20": -0.4385986623382189,
+      "adx14": 27.844815023665543,
+      "atr14": 0.0013437241565218657,
+      "relative_volume": 0.0,
+      "zscore20": -0.46457531299207605,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.031854+00:00"
+      "updated_at": "2026-08-12T08:42:58.620086+00:00"
     },
     {
       "symbol": "ABG",
@@ -1344,22 +1306,22 @@
       "microstructure_score": 27.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.049405+00:00"
+      "updated_at": "2026-08-12T08:42:58.633434+00:00"
     },
     {
       "symbol": "ABR",
       "company": "ALBRIGHT METALS LTD",
       "status": "ok",
       "regime": "RANGE",
-      "price": 0.0024999999441206455,
-      "adx14": 16.26559483956009,
-      "atr14": 0.00025860044254153467,
-      "relative_volume": 3.209670850757025,
-      "zscore20": -1.3627702877377135,
-      "microstructure_score": 78.1,
+      "price": 0.003000000026077032,
+      "adx14": 15.838341243195988,
+      "atr14": 0.0002758432739283098,
+      "relative_volume": 0.8287624089583235,
+      "zscore20": 0.7337993857049232,
+      "microstructure_score": 47.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.066666+00:00"
+      "updated_at": "2026-08-12T08:42:58.646971+00:00"
     },
     {
       "symbol": "ABV",
@@ -1374,7 +1336,7 @@
       "microstructure_score": 55.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.083957+00:00"
+      "updated_at": "2026-08-12T08:42:58.660261+00:00"
     },
     {
       "symbol": "ABX",
@@ -1389,7 +1351,7 @@
       "microstructure_score": 39.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.101047+00:00"
+      "updated_at": "2026-08-12T08:42:58.673264+00:00"
     },
     {
       "symbol": "ABY",
@@ -1404,13 +1366,13 @@
       "microstructure_score": 91.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.118251+00:00"
+      "updated_at": "2026-08-12T08:42:58.686605+00:00"
     },
     {
       "symbol": "AC1",
       "company": "AIR CHANGE INTERNATIONAL LIMITED.",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "ACE",
@@ -1425,7 +1387,7 @@
       "microstructure_score": 43.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.137287+00:00"
+      "updated_at": "2026-08-12T08:42:58.700868+00:00"
     },
     {
       "symbol": "ACF",
@@ -1433,14 +1395,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.9800000190734863,
-      "adx14": 14.127012666934768,
-      "atr14": 0.033537781577816304,
+      "adx14": 14.001415101881381,
+      "atr14": 0.033180639061271416,
       "relative_volume": 0.7697655887460929,
       "zscore20": 2.3470997174426977,
-      "microstructure_score": 52.3,
+      "microstructure_score": 54.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.154353+00:00"
+      "updated_at": "2026-08-12T08:42:58.713978+00:00"
     },
     {
       "symbol": "ACL",
@@ -1455,7 +1417,7 @@
       "microstructure_score": 34.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.171778+00:00"
+      "updated_at": "2026-08-12T08:42:58.727559+00:00"
     },
     {
       "symbol": "ACM",
@@ -1470,7 +1432,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.189368+00:00"
+      "updated_at": "2026-08-12T08:42:58.740878+00:00"
     },
     {
       "symbol": "ACP",
@@ -1478,14 +1440,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.027000000700354576,
-      "adx14": 31.297171255475583,
-      "atr14": 0.0002454943014812042,
+      "adx14": 32.24814239836716,
+      "atr14": 0.0002279589942325468,
       "relative_volume": 0.0,
-      "zscore20": 0.9625200432329809,
+      "zscore20": 1.069044967649696,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.206759+00:00"
+      "updated_at": "2026-08-12T08:42:58.754304+00:00"
     },
     {
       "symbol": "ACQ",
@@ -1500,7 +1462,7 @@
       "microstructure_score": 73.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.224645+00:00"
+      "updated_at": "2026-08-12T08:42:58.767422+00:00"
     },
     {
       "symbol": "ACR",
@@ -1550,10 +1512,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:40:47.242204+00:00",
+        "timestamp": "2026-08-12T08:42:58.781125+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:40:47.242262+00:00"
+      "updated_at": "2026-08-12T08:42:58.781170+00:00"
     },
     {
       "symbol": "ACS",
@@ -1606,16 +1568,16 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:40:47.259836+00:00",
+        "timestamp": "2026-08-12T08:42:58.795543+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:40:47.259895+00:00"
+      "updated_at": "2026-08-12T08:42:58.795587+00:00"
     },
     {
       "symbol": "ACT",
       "company": "ACTCELERATE INTERNATIONAL GROUP LTD",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "ACU",
@@ -1630,7 +1592,7 @@
       "microstructure_score": 65.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.278744+00:00"
+      "updated_at": "2026-08-12T08:42:58.810181+00:00"
     },
     {
       "symbol": "ACW",
@@ -1645,7 +1607,7 @@
       "microstructure_score": 57.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.296152+00:00"
+      "updated_at": "2026-08-12T08:42:58.823626+00:00"
     },
     {
       "symbol": "AD1",
@@ -1653,14 +1615,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.029999999329447746,
-      "adx14": 53.454616988017975,
-      "atr14": 0.001082432288952973,
+      "adx14": 54.35610010906385,
+      "atr14": 0.0010051156968849035,
       "relative_volume": 0.0,
-      "zscore20": 1.4750702668588285,
+      "zscore20": 1.3333332279365107,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.313471+00:00"
+      "updated_at": "2026-08-12T08:42:58.836909+00:00"
     },
     {
       "symbol": "AD8",
@@ -1670,12 +1632,12 @@
       "price": 2.069999933242798,
       "adx14": 14.3151384218771,
       "atr14": 0.11013732504553109,
-      "relative_volume": 0.4896498653454654,
+      "relative_volume": 0.48499684917560826,
       "zscore20": 1.8377470919717331,
       "microstructure_score": 55.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.330669+00:00"
+      "updated_at": "2026-08-12T08:42:58.850113+00:00"
     },
     {
       "symbol": "ADC",
@@ -1683,52 +1645,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.04100000113248825,
-      "adx14": 12.824464076418478,
-      "atr14": 0.001030174240252535,
-      "relative_volume": 0.05642304392328784,
-      "zscore20": -2.0130823687068156,
-      "microstructure_score": 25.0,
+      "adx14": 13.02639424459884,
+      "atr14": 0.0009565903659487825,
+      "relative_volume": 0.0,
+      "zscore20": -1.7822271507869483,
+      "microstructure_score": 25.8,
       "active": false,
-      "candidate": {
-        "symbol": "ADC",
-        "company": "ACDC METALS LTD",
-        "direction": "LONG",
-        "strategy": "MEAN_REVERSION",
-        "regime": "RANGE",
-        "signal_score": 75.0,
-        "microstructure_score": 25.0,
-        "reasons": [
-          "z-score -2.01",
-          "RSI5 8.6",
-          "low ADX"
-        ],
-        "regime_details": {
-          "adx": 12.824464076418478
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$3,812"
-          ],
-          "average_dollar_volume_20d": 3812.420479939319,
-          "atr_pct": 2.5126200287741667,
-          "gap_pct": 4.651163395125502,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.04100000113248825,
-        "atr14": 0.001030174240252535,
-        "stop_loss": 0.039660774620159954,
-        "profit_target": 0.043142763552213526,
-        "risk_per_share": 0.0013392265123282955,
-        "target_r": 1.6,
-        "units_per_100k": 373349.836937391,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-11",
-        "timestamp": "2026-08-12T07:40:47.348302+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-12T07:40:47.348363+00:00"
+      "candidate": null,
+      "updated_at": "2026-08-12T08:42:58.863336+00:00"
     },
     {
       "symbol": "ADD",
@@ -1743,7 +1667,7 @@
       "microstructure_score": 58.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.366000+00:00"
+      "updated_at": "2026-08-12T08:42:58.876769+00:00"
     },
     {
       "symbol": "ADH",
@@ -1758,7 +1682,7 @@
       "microstructure_score": 49.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.383212+00:00"
+      "updated_at": "2026-08-12T08:42:58.889740+00:00"
     },
     {
       "symbol": "ADN",
@@ -1773,7 +1697,7 @@
       "microstructure_score": 61.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.400223+00:00"
+      "updated_at": "2026-08-12T08:42:58.902986+00:00"
     },
     {
       "symbol": "ADO",
@@ -1788,7 +1712,7 @@
       "microstructure_score": 19.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.417469+00:00"
+      "updated_at": "2026-08-12T08:42:58.916099+00:00"
     },
     {
       "symbol": "ADR",
@@ -1803,7 +1727,7 @@
       "microstructure_score": 26.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.434883+00:00"
+      "updated_at": "2026-08-12T08:42:58.929526+00:00"
     },
     {
       "symbol": "ADS",
@@ -1818,7 +1742,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.452455+00:00"
+      "updated_at": "2026-08-12T08:42:58.942589+00:00"
     },
     {
       "symbol": "ADX",
@@ -1833,7 +1757,7 @@
       "microstructure_score": 22.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.470004+00:00"
+      "updated_at": "2026-08-12T08:42:58.956134+00:00"
     },
     {
       "symbol": "ADY",
@@ -1848,7 +1772,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.488251+00:00"
+      "updated_at": "2026-08-12T08:42:58.969270+00:00"
     },
     {
       "symbol": "AEE",
@@ -1863,7 +1787,7 @@
       "microstructure_score": 35.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.505567+00:00"
+      "updated_at": "2026-08-12T08:42:58.982600+00:00"
     },
     {
       "symbol": "AEF",
@@ -1878,7 +1802,7 @@
       "microstructure_score": 36.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.522970+00:00"
+      "updated_at": "2026-08-12T08:42:58.996104+00:00"
     },
     {
       "symbol": "AEG",
@@ -1893,7 +1817,7 @@
       "microstructure_score": 35.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.540532+00:00"
+      "updated_at": "2026-08-12T08:42:59.009724+00:00"
     },
     {
       "symbol": "AEI",
@@ -1901,14 +1825,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.03999999910593033,
-      "adx14": 54.20291129250667,
-      "atr14": 0.0015865935771705074,
-      "relative_volume": 12.423502284682069,
-      "zscore20": 2.5734250516895334,
-      "microstructure_score": 85.0,
+      "adx14": 53.41169929392398,
+      "atr14": 0.0014732654645154713,
+      "relative_volume": 0.0,
+      "zscore20": 2.1436331503632253,
+      "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.558192+00:00"
+      "updated_at": "2026-08-12T08:42:59.023371+00:00"
     },
     {
       "symbol": "AEL",
@@ -1923,13 +1847,13 @@
       "microstructure_score": 23.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.575562+00:00"
+      "updated_at": "2026-08-12T08:42:59.037449+00:00"
     },
     {
       "symbol": "AEM",
       "company": "ADVANCED ENGINEERED MATERIALS LTD",
       "status": "error",
-      "reason": "Only 159 bars"
+      "reason": "Only 159 raw daily bars"
     },
     {
       "symbol": "AER",
@@ -1979,10 +1903,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:40:47.595126+00:00",
+        "timestamp": "2026-08-12T08:42:59.052352+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:40:47.595186+00:00"
+      "updated_at": "2026-08-12T08:42:59.052395+00:00"
     },
     {
       "symbol": "AEU",
@@ -1997,7 +1921,7 @@
       "microstructure_score": 46.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.612832+00:00"
+      "updated_at": "2026-08-12T08:42:59.065982+00:00"
     },
     {
       "symbol": "AEV",
@@ -2012,7 +1936,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.630137+00:00"
+      "updated_at": "2026-08-12T08:42:59.079268+00:00"
     },
     {
       "symbol": "AFA",
@@ -2020,14 +1944,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.07000000029802322,
-      "adx14": 27.783901492263155,
-      "atr14": 0.0003997861091842211,
-      "relative_volume": 0.08561305332948099,
-      "zscore20": 0.3617405613274344,
-      "microstructure_score": 50.0,
+      "adx14": 25.992915175752533,
+      "atr14": 0.0003712299585282053,
+      "relative_volume": 0.0,
+      "zscore20": 0.2948840317145903,
+      "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.647656+00:00"
+      "updated_at": "2026-08-12T08:42:59.092598+00:00"
     },
     {
       "symbol": "AFG",
@@ -2042,7 +1966,7 @@
       "microstructure_score": 61.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.664938+00:00"
+      "updated_at": "2026-08-12T08:42:59.105886+00:00"
     },
     {
       "symbol": "AFI",
@@ -2057,7 +1981,7 @@
       "microstructure_score": 50.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.682661+00:00"
+      "updated_at": "2026-08-12T08:42:59.118961+00:00"
     },
     {
       "symbol": "AFL",
@@ -2072,7 +1996,7 @@
       "microstructure_score": 64.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.700690+00:00"
+      "updated_at": "2026-08-12T08:42:59.132600+00:00"
     },
     {
       "symbol": "AFP",
@@ -2087,7 +2011,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.718623+00:00"
+      "updated_at": "2026-08-12T08:42:59.146064+00:00"
     },
     {
       "symbol": "AGC",
@@ -2102,7 +2026,7 @@
       "microstructure_score": 37.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.736398+00:00"
+      "updated_at": "2026-08-12T08:42:59.159239+00:00"
     },
     {
       "symbol": "AGD",
@@ -2117,7 +2041,7 @@
       "microstructure_score": 27.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.754337+00:00"
+      "updated_at": "2026-08-12T08:42:59.172634+00:00"
     },
     {
       "symbol": "AGE",
@@ -2132,7 +2056,7 @@
       "microstructure_score": 37.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.772288+00:00"
+      "updated_at": "2026-08-12T08:42:59.185740+00:00"
     },
     {
       "symbol": "AGI",
@@ -2147,7 +2071,7 @@
       "microstructure_score": 36.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.790013+00:00"
+      "updated_at": "2026-08-12T08:42:59.199041+00:00"
     },
     {
       "symbol": "AGL",
@@ -2162,7 +2086,7 @@
       "microstructure_score": 86.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.807494+00:00"
+      "updated_at": "2026-08-12T08:42:59.212140+00:00"
     },
     {
       "symbol": "AGN",
@@ -2177,7 +2101,7 @@
       "microstructure_score": 55.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.825197+00:00"
+      "updated_at": "2026-08-12T08:42:59.225671+00:00"
     },
     {
       "symbol": "AGR",
@@ -2192,7 +2116,7 @@
       "microstructure_score": 32.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.842779+00:00"
+      "updated_at": "2026-08-12T08:42:59.238989+00:00"
     },
     {
       "symbol": "AGY",
@@ -2207,7 +2131,7 @@
       "microstructure_score": 73.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.860522+00:00"
+      "updated_at": "2026-08-12T08:42:59.252320+00:00"
     },
     {
       "symbol": "AHC",
@@ -2222,7 +2146,7 @@
       "microstructure_score": 54.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.878284+00:00"
+      "updated_at": "2026-08-12T08:42:59.265554+00:00"
     },
     {
       "symbol": "AHE",
@@ -2237,7 +2161,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.896048+00:00"
+      "updated_at": "2026-08-12T08:42:59.279159+00:00"
     },
     {
       "symbol": "AHF",
@@ -2252,7 +2176,7 @@
       "microstructure_score": 37.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.913677+00:00"
+      "updated_at": "2026-08-12T08:42:59.292655+00:00"
     },
     {
       "symbol": "AHK",
@@ -2267,7 +2191,7 @@
       "microstructure_score": 39.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.930950+00:00"
+      "updated_at": "2026-08-12T08:42:59.305852+00:00"
     },
     {
       "symbol": "AHL",
@@ -2282,7 +2206,7 @@
       "microstructure_score": 29.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.949370+00:00"
+      "updated_at": "2026-08-12T08:42:59.319032+00:00"
     },
     {
       "symbol": "AHN",
@@ -2297,7 +2221,7 @@
       "microstructure_score": 41.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.966789+00:00"
+      "updated_at": "2026-08-12T08:42:59.332628+00:00"
     },
     {
       "symbol": "AI1",
@@ -2312,7 +2236,7 @@
       "microstructure_score": 55.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:47.983970+00:00"
+      "updated_at": "2026-08-12T08:42:59.345917+00:00"
     },
     {
       "symbol": "AIA",
@@ -2327,19 +2251,19 @@
       "microstructure_score": 42.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.000912+00:00"
+      "updated_at": "2026-08-12T08:42:59.359341+00:00"
     },
     {
       "symbol": "AIC",
       "company": "AUSTRALIAN SECURITIES & INVESTMENT COMMISSION",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "AIH",
       "company": "ADVANCED INNERGY HOLDINGS LIMITED",
       "status": "error",
-      "reason": "Only 197 bars"
+      "reason": "Only 197 raw daily bars"
     },
     {
       "symbol": "AII",
@@ -2354,7 +2278,7 @@
       "microstructure_score": 63.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.022161+00:00"
+      "updated_at": "2026-08-12T08:42:59.375210+00:00"
     },
     {
       "symbol": "AIM",
@@ -2369,7 +2293,7 @@
       "microstructure_score": 53.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.040179+00:00"
+      "updated_at": "2026-08-12T08:42:59.388645+00:00"
     },
     {
       "symbol": "AIQ",
@@ -2377,14 +2301,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 1.3700000047683716,
-      "adx14": 45.522000035714434,
-      "atr14": 0.01766865386456538,
+      "adx14": 45.31551551463434,
+      "atr14": 0.016406607159953568,
       "relative_volume": 0.0,
-      "zscore20": -0.9780601677803136,
+      "zscore20": -0.8867963503478574,
       "microstructure_score": 50.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.057917+00:00"
+      "updated_at": "2026-08-12T08:42:59.401948+00:00"
     },
     {
       "symbol": "AIS",
@@ -2399,7 +2323,7 @@
       "microstructure_score": 57.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.076142+00:00"
+      "updated_at": "2026-08-12T08:42:59.415111+00:00"
     },
     {
       "symbol": "AIV",
@@ -2414,13 +2338,13 @@
       "microstructure_score": 61.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.094180+00:00"
+      "updated_at": "2026-08-12T08:42:59.428365+00:00"
     },
     {
       "symbol": "AIX",
       "company": "AI PRIVATE OPPORTUNITIES TRUST",
       "status": "error",
-      "reason": "Only 23 bars"
+      "reason": "Only 23 raw daily bars"
     },
     {
       "symbol": "AIZ",
@@ -2435,7 +2359,7 @@
       "microstructure_score": 53.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.113754+00:00"
+      "updated_at": "2026-08-12T08:42:59.443239+00:00"
     },
     {
       "symbol": "AJL",
@@ -2450,22 +2374,22 @@
       "microstructure_score": 44.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.131128+00:00"
+      "updated_at": "2026-08-12T08:42:59.456856+00:00"
     },
     {
       "symbol": "AJX",
       "company": "ALEXIUM INTERNATIONAL GROUP LIMITED",
       "status": "ok",
-      "regime": "UNCLEAR",
+      "regime": "SQUEEZE",
       "price": 0.007000000216066837,
-      "adx14": 33.617996259915465,
-      "atr14": 0.00023773829029176738,
-      "relative_volume": 3.393556633515821,
-      "zscore20": 0.22941573387056308,
-      "microstructure_score": 70.0,
+      "adx14": 34.060366954446785,
+      "atr14": 0.00022075698384235544,
+      "relative_volume": 0.0,
+      "zscore20": 0.13018891098082355,
+      "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.148632+00:00"
+      "updated_at": "2026-08-12T08:42:59.470601+00:00"
     },
     {
       "symbol": "AKA",
@@ -2480,7 +2404,7 @@
       "microstructure_score": 60.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.167059+00:00"
+      "updated_at": "2026-08-12T08:42:59.484071+00:00"
     },
     {
       "symbol": "AKG",
@@ -2488,14 +2412,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.06499999761581421,
-      "adx14": 33.26890436437233,
-      "atr14": 0.0012183436311108682,
-      "relative_volume": 12.250875025736052,
-      "zscore20": -3.1069163841435654,
-      "microstructure_score": 65.0,
+      "adx14": 35.03021738185899,
+      "atr14": 0.0011313190860315204,
+      "relative_volume": 0.0,
+      "zscore20": -2.439750921014795,
+      "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.185105+00:00"
+      "updated_at": "2026-08-12T08:42:59.497461+00:00"
     },
     {
       "symbol": "AKM",
@@ -2510,7 +2434,7 @@
       "microstructure_score": 69.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.202525+00:00"
+      "updated_at": "2026-08-12T08:42:59.510848+00:00"
     },
     {
       "symbol": "AKN",
@@ -2525,7 +2449,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.219948+00:00"
+      "updated_at": "2026-08-12T08:42:59.524114+00:00"
     },
     {
       "symbol": "AKO",
@@ -2540,13 +2464,13 @@
       "microstructure_score": 28.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.237689+00:00"
+      "updated_at": "2026-08-12T08:42:59.537790+00:00"
     },
     {
       "symbol": "AL1",
       "company": "ALCOA INC (AA) (NYSE)",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "AL3",
@@ -2561,7 +2485,7 @@
       "microstructure_score": 41.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.256946+00:00"
+      "updated_at": "2026-08-12T08:42:59.552195+00:00"
     },
     {
       "symbol": "ALA",
@@ -2576,7 +2500,7 @@
       "microstructure_score": 55.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.274270+00:00"
+      "updated_at": "2026-08-12T08:42:59.565520+00:00"
     },
     {
       "symbol": "ALB",
@@ -2591,7 +2515,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.291422+00:00"
+      "updated_at": "2026-08-12T08:42:59.578675+00:00"
     },
     {
       "symbol": "ALC",
@@ -2606,7 +2530,7 @@
       "microstructure_score": 37.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.308878+00:00"
+      "updated_at": "2026-08-12T08:42:59.592027+00:00"
     },
     {
       "symbol": "ALD",
@@ -2621,7 +2545,7 @@
       "microstructure_score": 48.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.326380+00:00"
+      "updated_at": "2026-08-12T08:42:59.605411+00:00"
     },
     {
       "symbol": "ALI",
@@ -2636,7 +2560,7 @@
       "microstructure_score": 55.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.344029+00:00"
+      "updated_at": "2026-08-12T08:42:59.618976+00:00"
     },
     {
       "symbol": "ALK",
@@ -2651,7 +2575,7 @@
       "microstructure_score": 58.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.361679+00:00"
+      "updated_at": "2026-08-12T08:42:59.632309+00:00"
     },
     {
       "symbol": "ALL",
@@ -2666,7 +2590,7 @@
       "microstructure_score": 47.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.378985+00:00"
+      "updated_at": "2026-08-12T08:42:59.645904+00:00"
     },
     {
       "symbol": "ALM",
@@ -2681,7 +2605,7 @@
       "microstructure_score": 46.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.396603+00:00"
+      "updated_at": "2026-08-12T08:42:59.659672+00:00"
     },
     {
       "symbol": "ALQ",
@@ -2696,7 +2620,7 @@
       "microstructure_score": 58.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.414077+00:00"
+      "updated_at": "2026-08-12T08:42:59.672921+00:00"
     },
     {
       "symbol": "ALR",
@@ -2711,13 +2635,13 @@
       "microstructure_score": 74.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.431415+00:00"
+      "updated_at": "2026-08-12T08:42:59.686246+00:00"
     },
     {
       "symbol": "ALU",
       "company": "ALURION RESOURCES LIMITED",
       "status": "error",
-      "reason": "Only 9 bars"
+      "reason": "Only 9 raw daily bars"
     },
     {
       "symbol": "ALV",
@@ -2732,7 +2656,7 @@
       "microstructure_score": 75.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.451174+00:00"
+      "updated_at": "2026-08-12T08:42:59.701093+00:00"
     },
     {
       "symbol": "ALX",
@@ -2747,7 +2671,7 @@
       "microstructure_score": 30.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.468413+00:00"
+      "updated_at": "2026-08-12T08:42:59.714595+00:00"
     },
     {
       "symbol": "ALY",
@@ -2762,7 +2686,7 @@
       "microstructure_score": 38.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.485948+00:00"
+      "updated_at": "2026-08-12T08:42:59.728177+00:00"
     },
     {
       "symbol": "AM3",
@@ -2770,14 +2694,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.004000000189989805,
-      "adx14": 22.62136588119174,
-      "atr14": 0.00021259185503926661,
-      "relative_volume": 0.3590225865184099,
+      "adx14": 23.747770000281612,
+      "atr14": 0.00019740672253646185,
+      "relative_volume": 0.0,
       "zscore20": -0.22941573387122027,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.503525+00:00"
+      "updated_at": "2026-08-12T08:42:59.741541+00:00"
     },
     {
       "symbol": "AM5",
@@ -2792,7 +2716,7 @@
       "microstructure_score": 64.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.520671+00:00"
+      "updated_at": "2026-08-12T08:42:59.754873+00:00"
     },
     {
       "symbol": "AM7",
@@ -2800,14 +2724,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.041999999433755875,
-      "adx14": 29.828405672608216,
-      "atr14": 0.000877041032614642,
+      "adx14": 28.522920620159145,
+      "atr14": 0.000814395244570739,
       "relative_volume": 0.0,
-      "zscore20": 0.6418751442685144,
+      "zscore20": 0.565465897638657,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.537899+00:00"
+      "updated_at": "2026-08-12T08:42:59.768326+00:00"
     },
     {
       "symbol": "AMA",
@@ -2822,7 +2746,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.555003+00:00"
+      "updated_at": "2026-08-12T08:42:59.782027+00:00"
     },
     {
       "symbol": "AMC",
@@ -2837,7 +2761,7 @@
       "microstructure_score": 35.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.571942+00:00"
+      "updated_at": "2026-08-12T08:42:59.795572+00:00"
     },
     {
       "symbol": "AMD",
@@ -2852,7 +2776,7 @@
       "microstructure_score": 55.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.588918+00:00"
+      "updated_at": "2026-08-12T08:42:59.808953+00:00"
     },
     {
       "symbol": "AMH",
@@ -2867,7 +2791,7 @@
       "microstructure_score": 58.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.605904+00:00"
+      "updated_at": "2026-08-12T08:42:59.822306+00:00"
     },
     {
       "symbol": "AMI",
@@ -2882,13 +2806,13 @@
       "microstructure_score": 76.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.622895+00:00"
+      "updated_at": "2026-08-12T08:42:59.835616+00:00"
     },
     {
       "symbol": "AMK",
       "company": "ALMASAR MINERALS LIMITED",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "AMN",
@@ -2903,7 +2827,7 @@
       "microstructure_score": 35.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.642118+00:00"
+      "updated_at": "2026-08-12T08:42:59.850082+00:00"
     },
     {
       "symbol": "AMO",
@@ -2911,14 +2835,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.08699999749660492,
-      "adx14": 12.508485095712437,
-      "atr14": 0.0007107956386868332,
+      "adx14": 12.274523983357284,
+      "atr14": 0.0006600245216377737,
       "relative_volume": 0.0,
-      "zscore20": 0.7337993857176501,
+      "zscore20": 0.6546536707198526,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.659839+00:00"
+      "updated_at": "2026-08-12T08:42:59.863699+00:00"
     },
     {
       "symbol": "AMP",
@@ -2928,12 +2852,12 @@
       "price": 2.359999895095825,
       "adx14": 58.58721812713633,
       "atr14": 0.07369424638562028,
-      "relative_volume": 0.3896777828203819,
+      "relative_volume": 0.38902160277134823,
       "zscore20": 1.4842802171056195,
       "microstructure_score": 52.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.677050+00:00"
+      "updated_at": "2026-08-12T08:42:59.876958+00:00"
     },
     {
       "symbol": "AMS",
@@ -2948,7 +2872,7 @@
       "microstructure_score": 49.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.694954+00:00"
+      "updated_at": "2026-08-12T08:42:59.890516+00:00"
     },
     {
       "symbol": "AMU",
@@ -2963,7 +2887,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.712411+00:00"
+      "updated_at": "2026-08-12T08:42:59.904227+00:00"
     },
     {
       "symbol": "AMX",
@@ -2971,20 +2895,20 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.3050000071525574,
-      "adx14": 21.086339396751598,
-      "atr14": 0.009878382589187613,
-      "relative_volume": 7.641681368543367,
-      "zscore20": 2.6261880861985,
-      "microstructure_score": 95.0,
+      "adx14": 20.036035516174728,
+      "atr14": 0.009172783832817069,
+      "relative_volume": 0.0,
+      "zscore20": 2.1602470834128344,
+      "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.729526+00:00"
+      "updated_at": "2026-08-12T08:42:59.917626+00:00"
     },
     {
       "symbol": "AMY",
       "company": "AMP LIMITED - WARRANTS OVER BASKET",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "AN1",
@@ -2999,7 +2923,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.748536+00:00"
+      "updated_at": "2026-08-12T08:42:59.932916+00:00"
     },
     {
       "symbol": "ANG",
@@ -3014,7 +2938,7 @@
       "microstructure_score": 91.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.765759+00:00"
+      "updated_at": "2026-08-12T08:42:59.946389+00:00"
     },
     {
       "symbol": "ANN",
@@ -3029,7 +2953,7 @@
       "microstructure_score": 52.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.783139+00:00"
+      "updated_at": "2026-08-12T08:42:59.959860+00:00"
     },
     {
       "symbol": "ANO",
@@ -3037,14 +2961,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.7149999737739563,
-      "adx14": 26.076379507403903,
-      "atr14": 0.009094723319985412,
-      "relative_volume": 0.08274421593830333,
-      "zscore20": -3.7090984279297783,
-      "microstructure_score": 38.6,
+      "adx14": 29.212244655100136,
+      "atr14": 0.00844510022570074,
+      "relative_volume": 0.0,
+      "zscore20": -2.752250095879744,
+      "microstructure_score": 38.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.800506+00:00"
+      "updated_at": "2026-08-12T08:42:59.973187+00:00"
     },
     {
       "symbol": "ANR",
@@ -3094,10 +3018,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-11",
-        "timestamp": "2026-08-12T07:40:48.818010+00:00",
+        "timestamp": "2026-08-12T08:42:59.986828+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:40:48.818068+00:00"
+      "updated_at": "2026-08-12T08:42:59.986872+00:00"
     },
     {
       "symbol": "ANX",
@@ -3112,7 +3036,7 @@
       "microstructure_score": 73.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.835381+00:00"
+      "updated_at": "2026-08-12T08:43:00.000520+00:00"
     },
     {
       "symbol": "ANZ",
@@ -3127,7 +3051,7 @@
       "microstructure_score": 35.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.852893+00:00"
+      "updated_at": "2026-08-12T08:43:00.013914+00:00"
     },
     {
       "symbol": "AOA",
@@ -3135,14 +3059,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.0020000000949949026,
-      "adx14": 43.47242196631405,
-      "atr14": 8.875726732945453e-05,
-      "relative_volume": 0.0037919435486953898,
-      "zscore20": 0.9847319604022384,
+      "adx14": 41.044899573878936,
+      "atr14": 8.241746252020778e-05,
+      "relative_volume": 0.0,
+      "zscore20": 0.8962581888524734,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.870295+00:00"
+      "updated_at": "2026-08-12T08:43:00.027352+00:00"
     },
     {
       "symbol": "AOK",
@@ -3150,14 +3074,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.0020000000949949026,
-      "adx14": 27.367760331143515,
-      "atr14": 0.0005290706130736191,
-      "relative_volume": 4.557638910763014,
-      "zscore20": -1.285714149952946,
-      "microstructure_score": 55.0,
+      "adx14": 26.98425067158793,
+      "atr14": 0.000491279854996932,
+      "relative_volume": 2.4635855657817817e-05,
+      "zscore20": -1.1703281550062135,
+      "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.888101+00:00"
+      "updated_at": "2026-08-12T08:43:00.040884+00:00"
     },
     {
       "symbol": "AON",
@@ -3172,7 +3096,7 @@
       "microstructure_score": 55.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.905417+00:00"
+      "updated_at": "2026-08-12T08:43:00.054041+00:00"
     },
     {
       "symbol": "AOV",
@@ -3187,7 +3111,7 @@
       "microstructure_score": 73.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.923043+00:00"
+      "updated_at": "2026-08-12T08:43:00.067385+00:00"
     },
     {
       "symbol": "APA",
@@ -3202,7 +3126,7 @@
       "microstructure_score": 48.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.940622+00:00"
+      "updated_at": "2026-08-12T08:43:00.080979+00:00"
     },
     {
       "symbol": "APC",
@@ -3210,14 +3134,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.00800000037997961,
-      "adx14": 58.31728475098619,
-      "atr14": 0.0003483471770796045,
-      "relative_volume": 0.0010056086969965547,
-      "zscore20": 3.2927235334876205e-07,
+      "adx14": 55.630339002425345,
+      "atr14": 0.00032346523585963276,
+      "relative_volume": 0.0,
+      "zscore20": 0.07474382038283353,
       "microstructure_score": 31.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.958106+00:00"
+      "updated_at": "2026-08-12T08:43:00.094265+00:00"
     },
     {
       "symbol": "APE",
@@ -3232,7 +3156,7 @@
       "microstructure_score": 57.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.975811+00:00"
+      "updated_at": "2026-08-12T08:43:00.107627+00:00"
     },
     {
       "symbol": "APL",
@@ -3240,29 +3164,29 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.2750000059604645,
-      "adx14": 25.227312337313784,
-      "atr14": 0.002080987037174041,
+      "adx14": 25.832151853018996,
+      "atr14": 0.0019323451059473239,
       "relative_volume": 0.0,
-      "zscore20": 1.6035651757612417,
+      "zscore20": 1.432076179466942,
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:48.993437+00:00"
+      "updated_at": "2026-08-12T08:43:00.121161+00:00"
     },
     {
       "symbol": "APW",
       "company": "AIMS PROPERTY SECURITIES FUND",
       "status": "ok",
-      "regime": "RANGE",
+      "regime": "SQUEEZE",
       "price": 3.9200000762939453,
-      "adx14": 16.750893120892368,
-      "atr14": 0.025875171698843118,
+      "adx14": 15.764887999785934,
+      "atr14": 0.024026945148925755,
       "relative_volume": 0.0,
-      "zscore20": -0.5373770366544481,
+      "zscore20": -0.6467104783684328,
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.010845+00:00"
+      "updated_at": "2026-08-12T08:43:00.134936+00:00"
     },
     {
       "symbol": "APX",
@@ -3277,7 +3201,7 @@
       "microstructure_score": 71.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.028156+00:00"
+      "updated_at": "2026-08-12T08:43:00.148239+00:00"
     },
     {
       "symbol": "APZ",
@@ -3292,7 +3216,7 @@
       "microstructure_score": 47.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.045732+00:00"
+      "updated_at": "2026-08-12T08:43:00.161253+00:00"
     },
     {
       "symbol": "AQC",
@@ -3300,14 +3224,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.006500000134110451,
-      "adx14": 18.454313513227568,
-      "atr14": 6.616685278647586e-11,
+      "adx14": 18.45431343328875,
+      "atr14": 6.14406490160133e-11,
       "relative_volume": null,
       "zscore20": 0.0,
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.063184+00:00"
+      "updated_at": "2026-08-12T08:43:00.174385+00:00"
     },
     {
       "symbol": "AQD",
@@ -3322,7 +3246,7 @@
       "microstructure_score": 66.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.080729+00:00"
+      "updated_at": "2026-08-12T08:43:00.187724+00:00"
     },
     {
       "symbol": "AQN",
@@ -3337,7 +3261,7 @@
       "microstructure_score": 95.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.098578+00:00"
+      "updated_at": "2026-08-12T08:43:00.200861+00:00"
     },
     {
       "symbol": "AQX",
@@ -3352,7 +3276,7 @@
       "microstructure_score": 46.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.116292+00:00"
+      "updated_at": "2026-08-12T08:43:00.213937+00:00"
     },
     {
       "symbol": "AQZ",
@@ -3367,7 +3291,7 @@
       "microstructure_score": 65.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.133663+00:00"
+      "updated_at": "2026-08-12T08:43:00.227448+00:00"
     },
     {
       "symbol": "AR1",
@@ -3382,13 +3306,13 @@
       "microstructure_score": 81.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.150874+00:00"
+      "updated_at": "2026-08-12T08:43:00.240929+00:00"
     },
     {
       "symbol": "AR2",
       "company": "ARRIS HOLDINGS BERHAD",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "AR3",
@@ -3403,7 +3327,7 @@
       "microstructure_score": 64.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.169583+00:00"
+      "updated_at": "2026-08-12T08:43:00.255717+00:00"
     },
     {
       "symbol": "AR9",
@@ -3418,7 +3342,7 @@
       "microstructure_score": 43.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.187129+00:00"
+      "updated_at": "2026-08-12T08:43:00.269310+00:00"
     },
     {
       "symbol": "ARA",
@@ -3433,7 +3357,7 @@
       "microstructure_score": 38.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.204219+00:00"
+      "updated_at": "2026-08-12T08:43:00.282739+00:00"
     },
     {
       "symbol": "ARB",
@@ -3448,7 +3372,7 @@
       "microstructure_score": 45.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.221572+00:00"
+      "updated_at": "2026-08-12T08:43:00.296108+00:00"
     },
     {
       "symbol": "ARC",
@@ -3456,14 +3380,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.06499999761581421,
-      "adx14": 32.262216327289586,
-      "atr14": 0.0009459718407243432,
-      "relative_volume": 1.8935717971416532,
-      "zscore20": -2.331262020599435,
-      "microstructure_score": 63.2,
+      "adx14": 34.64145192022743,
+      "atr14": 0.0008784024235297473,
+      "relative_volume": 0.0,
+      "zscore20": -2.0095193303193386,
+      "microstructure_score": 35.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.239347+00:00"
+      "updated_at": "2026-08-12T08:43:00.309596+00:00"
     },
     {
       "symbol": "ARD",
@@ -3478,13 +3402,13 @@
       "microstructure_score": 35.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.256810+00:00"
+      "updated_at": "2026-08-12T08:43:00.323142+00:00"
     },
     {
       "symbol": "ARE",
       "company": "AVENTINE RESOURCES LTD",
       "status": "error",
-      "reason": "Only 0 bars"
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "ARF",
@@ -3499,7 +3423,7 @@
       "microstructure_score": 62.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.276067+00:00"
+      "updated_at": "2026-08-12T08:43:00.337900+00:00"
     },
     {
       "symbol": "ARG",
@@ -3514,7 +3438,7 @@
       "microstructure_score": 64.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.293503+00:00"
+      "updated_at": "2026-08-12T08:43:00.351280+00:00"
     },
     {
       "symbol": "ARI",
@@ -3529,7 +3453,7 @@
       "microstructure_score": 45.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.311197+00:00"
+      "updated_at": "2026-08-12T08:43:00.364687+00:00"
     },
     {
       "symbol": "ARL",
@@ -3544,7 +3468,7 @@
       "microstructure_score": 53.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.328349+00:00"
+      "updated_at": "2026-08-12T08:43:00.377922+00:00"
     },
     {
       "symbol": "ARN",
@@ -3559,7 +3483,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.345791+00:00"
+      "updated_at": "2026-08-12T08:43:00.391288+00:00"
     },
     {
       "symbol": "ARO",
@@ -3574,7 +3498,7 @@
       "microstructure_score": 32.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.363599+00:00"
+      "updated_at": "2026-08-12T08:43:00.404650+00:00"
     },
     {
       "symbol": "ARR",
@@ -3589,7 +3513,7 @@
       "microstructure_score": 39.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.381226+00:00"
+      "updated_at": "2026-08-12T08:43:00.418100+00:00"
     },
     {
       "symbol": "ART",
@@ -3604,7 +3528,7 @@
       "microstructure_score": 37.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.399267+00:00"
+      "updated_at": "2026-08-12T08:43:00.431605+00:00"
     },
     {
       "symbol": "ARU",
@@ -3619,7 +3543,7 @@
       "microstructure_score": 61.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.416961+00:00"
+      "updated_at": "2026-08-12T08:43:00.444809+00:00"
     },
     {
       "symbol": "ARV",
@@ -3634,7 +3558,7 @@
       "microstructure_score": 94.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.434177+00:00"
+      "updated_at": "2026-08-12T08:43:00.457990+00:00"
     },
     {
       "symbol": "ARX",
@@ -3649,7 +3573,7 @@
       "microstructure_score": 46.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.452075+00:00"
+      "updated_at": "2026-08-12T08:43:00.471473+00:00"
     },
     {
       "symbol": "AS1",
@@ -3664,7 +3588,7 @@
       "microstructure_score": 55.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.469715+00:00"
+      "updated_at": "2026-08-12T08:43:00.485055+00:00"
     },
     {
       "symbol": "AS2",
@@ -3679,7 +3603,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.487692+00:00"
+      "updated_at": "2026-08-12T08:43:00.498580+00:00"
     },
     {
       "symbol": "ASB",
@@ -3694,7 +3618,7 @@
       "microstructure_score": 71.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.505379+00:00"
+      "updated_at": "2026-08-12T08:43:00.512162+00:00"
     },
     {
       "symbol": "ASG",
@@ -3709,7 +3633,7 @@
       "microstructure_score": 21.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.522922+00:00"
+      "updated_at": "2026-08-12T08:43:00.525515+00:00"
     },
     {
       "symbol": "ASH",
@@ -3724,7 +3648,7 @@
       "microstructure_score": 72.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.540374+00:00"
+      "updated_at": "2026-08-12T08:43:00.539041+00:00"
     },
     {
       "symbol": "ASL",
@@ -3739,7 +3663,7 @@
       "microstructure_score": 74.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.557898+00:00"
+      "updated_at": "2026-08-12T08:43:00.552402+00:00"
     },
     {
       "symbol": "ASM",
@@ -3754,7 +3678,7 @@
       "microstructure_score": 71.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.574807+00:00"
+      "updated_at": "2026-08-12T08:43:00.565752+00:00"
     },
     {
       "symbol": "ASN",
@@ -3769,7 +3693,7 @@
       "microstructure_score": 49.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.591929+00:00"
+      "updated_at": "2026-08-12T08:43:00.579276+00:00"
     },
     {
       "symbol": "ASP",
@@ -3784,7 +3708,7 @@
       "microstructure_score": 45.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.609401+00:00"
+      "updated_at": "2026-08-12T08:43:00.592550+00:00"
     },
     {
       "symbol": "ASQ",
@@ -3799,7 +3723,7 @@
       "microstructure_score": 75.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.627126+00:00"
+      "updated_at": "2026-08-12T08:43:00.606102+00:00"
     },
     {
       "symbol": "ASV",
@@ -3807,14 +3731,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.04399999976158142,
-      "adx14": 27.325379554154978,
-      "atr14": 0.001192718127711731,
-      "relative_volume": 0.13554411030138835,
-      "zscore20": -2.176429333523446,
+      "adx14": 25.386439880560676,
+      "atr14": 0.0011075239757323216,
+      "relative_volume": 0.0,
+      "zscore20": -1.9163743498173014,
       "microstructure_score": 26.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.644911+00:00"
+      "updated_at": "2026-08-12T08:43:00.619886+00:00"
     },
     {
       "symbol": "ASX",
@@ -3829,7 +3753,7 @@
       "microstructure_score": 57.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.662503+00:00"
+      "updated_at": "2026-08-12T08:43:00.633371+00:00"
     },
     {
       "symbol": "AT1",
@@ -3844,7 +3768,7 @@
       "microstructure_score": 40.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.679616+00:00"
+      "updated_at": "2026-08-12T08:43:00.646864+00:00"
     },
     {
       "symbol": "AT4",
@@ -3859,7 +3783,7 @@
       "microstructure_score": 71.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.697249+00:00"
+      "updated_at": "2026-08-12T08:43:00.660224+00:00"
     },
     {
       "symbol": "ATA",
@@ -3874,7 +3798,7 @@
       "microstructure_score": 46.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.715033+00:00"
+      "updated_at": "2026-08-12T08:43:00.673608+00:00"
     },
     {
       "symbol": "ATC",
@@ -3889,7 +3813,7 @@
       "microstructure_score": 46.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.732798+00:00"
+      "updated_at": "2026-08-12T08:43:00.686976+00:00"
     },
     {
       "symbol": "ATG",
@@ -3904,7 +3828,7 @@
       "microstructure_score": 36.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.750533+00:00"
+      "updated_at": "2026-08-12T08:43:00.700504+00:00"
     },
     {
       "symbol": "ATH",
@@ -3919,7 +3843,7 @@
       "microstructure_score": 84.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.767972+00:00"
+      "updated_at": "2026-08-12T08:43:00.713913+00:00"
     },
     {
       "symbol": "ATM",
@@ -3934,7 +3858,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.785238+00:00"
+      "updated_at": "2026-08-12T08:43:00.727618+00:00"
     },
     {
       "symbol": "ATP",
@@ -3949,7 +3873,7 @@
       "microstructure_score": 30.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.802562+00:00"
+      "updated_at": "2026-08-12T08:43:00.741187+00:00"
     },
     {
       "symbol": "ATR",
@@ -3964,7 +3888,7 @@
       "microstructure_score": 42.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.819554+00:00"
+      "updated_at": "2026-08-12T08:43:00.754435+00:00"
     },
     {
       "symbol": "ATS",
@@ -3979,7 +3903,7 @@
       "microstructure_score": 80.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.836518+00:00"
+      "updated_at": "2026-08-12T08:43:00.767813+00:00"
     },
     {
       "symbol": "ATT",
@@ -3994,7 +3918,7 @@
       "microstructure_score": 55.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.853891+00:00"
+      "updated_at": "2026-08-12T08:43:00.781485+00:00"
     },
     {
       "symbol": "ATV",
@@ -4009,7 +3933,7 @@
       "microstructure_score": 44.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.871227+00:00"
+      "updated_at": "2026-08-12T08:43:00.795006+00:00"
     },
     {
       "symbol": "ATX",
@@ -4024,7 +3948,7 @@
       "microstructure_score": 43.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.888255+00:00"
+      "updated_at": "2026-08-12T08:43:00.808635+00:00"
     },
     {
       "symbol": "AU1",
@@ -4039,22 +3963,22 @@
       "microstructure_score": 81.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.905644+00:00"
+      "updated_at": "2026-08-12T08:43:00.822622+00:00"
     },
     {
       "symbol": "AUA",
       "company": "AUDEARA LIMITED",
       "status": "ok",
-      "regime": "SQUEEZE",
+      "regime": "RANGE",
       "price": 0.03400000184774399,
-      "adx14": 16.6611949151678,
-      "atr14": 0.0014167570171491684,
-      "relative_volume": 2.3482279604758522,
-      "zscore20": 1.4963783182974721,
-      "microstructure_score": 75.0,
+      "adx14": 17.106702236324058,
+      "atr14": 0.0013155600873527994,
+      "relative_volume": 0.0,
+      "zscore20": 1.3371742817991232,
+      "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.923217+00:00"
+      "updated_at": "2026-08-12T08:43:00.836263+00:00"
     },
     {
       "symbol": "AUB",
@@ -4069,7 +3993,7 @@
       "microstructure_score": 45.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.940242+00:00"
+      "updated_at": "2026-08-12T08:43:00.849645+00:00"
     },
     {
       "symbol": "AUC",
@@ -4084,7 +4008,7 @@
       "microstructure_score": 80.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.957221+00:00"
+      "updated_at": "2026-08-12T08:43:00.862844+00:00"
     },
     {
       "symbol": "AUE",
@@ -4099,7 +4023,7 @@
       "microstructure_score": 58.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.974306+00:00"
+      "updated_at": "2026-08-12T08:43:00.876034+00:00"
     },
     {
       "symbol": "AUG",
@@ -4114,7 +4038,7 @@
       "microstructure_score": 45.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:49.991352+00:00"
+      "updated_at": "2026-08-12T08:43:00.889222+00:00"
     },
     {
       "symbol": "AUI",
@@ -4129,7 +4053,7 @@
       "microstructure_score": 40.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.008316+00:00"
+      "updated_at": "2026-08-12T08:43:00.902513+00:00"
     },
     {
       "symbol": "AUQ",
@@ -4144,7 +4068,7 @@
       "microstructure_score": 52.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.025829+00:00"
+      "updated_at": "2026-08-12T08:43:00.915665+00:00"
     },
     {
       "symbol": "AUR",
@@ -4159,7 +4083,7 @@
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.043036+00:00"
+      "updated_at": "2026-08-12T08:43:00.929054+00:00"
     },
     {
       "symbol": "AUV",
@@ -4174,7 +4098,7 @@
       "microstructure_score": 42.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.060431+00:00"
+      "updated_at": "2026-08-12T08:43:00.942450+00:00"
     },
     {
       "symbol": "AUZ",
@@ -4184,7 +4108,7 @@
       "price": 0.03799999877810478,
       "adx14": 29.743728123007656,
       "atr14": 0.00294477385630726,
-      "relative_volume": 6.9968930919853225,
+      "relative_volume": 6.9022138840806555,
       "zscore20": 3.8822026132962786,
       "microstructure_score": 95.0,
       "active": false,
@@ -4200,7 +4124,7 @@
           "20-day upside breakout",
           "EMA alignment",
           "ADX 29.7",
-          "relative volume 7.00x",
+          "relative volume 6.90x",
           "strong close"
         ],
         "regime_details": {
@@ -4210,10 +4134,10 @@
         "execution_risk": {
           "pass": false,
           "reasons": [
-            "20d dollar volume A$503,891",
+            "20d dollar volume A$499,258",
             "gap 14.8%"
           ],
-          "average_dollar_volume_20d": 503891.4281278183,
+          "average_dollar_volume_20d": 499258.27827679785,
           "atr_pct": 7.7494051342022905,
           "gap_pct": 14.814809960184228,
           "estimated_spread_pct": null
@@ -4228,10 +4152,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:40:50.078075+00:00",
+        "timestamp": "2026-08-12T08:43:00.956266+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:40:50.078136+00:00"
+      "updated_at": "2026-08-12T08:43:00.956310+00:00"
     },
     {
       "symbol": "AV1",
@@ -4239,14 +4163,14 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.0689999982714653,
-      "adx14": 16.45649918411132,
-      "atr14": 0.0032812296729160485,
+      "adx14": 15.595464589836904,
+      "atr14": 0.0030468561248506165,
       "relative_volume": 0.0,
-      "zscore20": -1.2361595995154495,
-      "microstructure_score": 26.7,
+      "zscore20": -1.1160761339057423,
+      "microstructure_score": 26.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.095466+00:00"
+      "updated_at": "2026-08-12T08:43:00.969466+00:00"
     },
     {
       "symbol": "AVA",
@@ -4261,7 +4185,7 @@
       "microstructure_score": 55.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.113057+00:00"
+      "updated_at": "2026-08-12T08:43:00.982944+00:00"
     },
     {
       "symbol": "AVD",
@@ -4269,14 +4193,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.09700000286102295,
-      "adx14": 10.413498046388774,
-      "atr14": 0.0020432775881594097,
-      "relative_volume": 0.03343627753757464,
-      "zscore20": 0.6917033676305726,
-      "microstructure_score": 28.0,
+      "adx14": 10.291085399641702,
+      "atr14": 0.0018973291890051662,
+      "relative_volume": 0.21443527427672904,
+      "zscore20": 0.6489238745403118,
+      "microstructure_score": 28.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.130888+00:00"
+      "updated_at": "2026-08-12T08:43:00.996424+00:00"
     },
     {
       "symbol": "AVE",
@@ -4291,22 +4215,22 @@
       "microstructure_score": 36.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.148568+00:00"
+      "updated_at": "2026-08-12T08:43:01.009739+00:00"
     },
     {
       "symbol": "AVG",
       "company": "AUSTRALIAN VINTAGE LTD",
       "status": "ok",
       "regime": "SQUEEZE",
-      "price": 0.06700000166893005,
-      "adx14": 10.982004772837147,
-      "atr14": 0.0033586767830511752,
-      "relative_volume": 0.0013441054423837442,
-      "zscore20": 0.8252688759811837,
-      "microstructure_score": 44.5,
+      "price": 0.06800000369548798,
+      "adx14": 11.161761352835676,
+      "atr14": 0.0031902000147302286,
+      "relative_volume": 0.0004916445679168245,
+      "zscore20": 1.3901171531097867,
+      "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.166167+00:00"
+      "updated_at": "2026-08-12T08:43:01.023151+00:00"
     },
     {
       "symbol": "AVL",
@@ -4321,7 +4245,7 @@
       "microstructure_score": 51.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.201064+00:00"
+      "updated_at": "2026-08-12T08:43:01.050008+00:00"
     },
     {
       "symbol": "AVM",
@@ -4336,7 +4260,7 @@
       "microstructure_score": 77.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.218643+00:00"
+      "updated_at": "2026-08-12T08:43:01.063573+00:00"
     },
     {
       "symbol": "AVR",
@@ -4351,7 +4275,7 @@
       "microstructure_score": 54.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.236337+00:00"
+      "updated_at": "2026-08-12T08:43:01.077092+00:00"
     },
     {
       "symbol": "AVW",
@@ -4359,14 +4283,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.00800000037997961,
-      "adx14": 21.155898031271644,
-      "atr14": 0.00047820795914030675,
-      "relative_volume": 0.29552338225328895,
+      "adx14": 22.879761074417146,
+      "atr14": 0.000444050247773142,
+      "relative_volume": 0.0,
       "zscore20": 0.7633702640320867,
-      "microstructure_score": 38.1,
+      "microstructure_score": 40.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.253934+00:00"
+      "updated_at": "2026-08-12T08:43:01.090376+00:00"
     },
     {
       "symbol": "AW1",
@@ -4381,7 +4305,7 @@
       "microstructure_score": 83.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.271505+00:00"
+      "updated_at": "2026-08-12T08:43:01.103726+00:00"
     },
     {
       "symbol": "AWJ",
@@ -4396,7 +4320,7 @@
       "microstructure_score": 61.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.288876+00:00"
+      "updated_at": "2026-08-12T08:43:01.117017+00:00"
     },
     {
       "symbol": "AX1",
@@ -4411,7 +4335,7 @@
       "microstructure_score": 38.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.306379+00:00"
+      "updated_at": "2026-08-12T08:43:01.130634+00:00"
     },
     {
       "symbol": "AX8",
@@ -4419,14 +4343,14 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.005499999970197678,
-      "adx14": 40.7523707635131,
-      "atr14": 0.00021668625186705765,
+      "adx14": 42.932892244969345,
+      "atr14": 0.0002012086624479821,
       "relative_volume": 0.0,
-      "zscore20": 1.5689290811060066,
+      "zscore20": 2.3804761428492847,
       "microstructure_score": 40.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.323954+00:00"
+      "updated_at": "2026-08-12T08:43:01.144400+00:00"
     },
     {
       "symbol": "AXE",
@@ -4441,7 +4365,7 @@
       "microstructure_score": 35.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.341442+00:00"
+      "updated_at": "2026-08-12T08:43:01.158115+00:00"
     },
     {
       "symbol": "AXI",
@@ -4449,14 +4373,14 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.009999999776482582,
-      "adx14": 51.40679869869705,
-      "atr14": 0.00032546680823152837,
+      "adx14": 52.20464454952901,
+      "atr14": 0.0003022191790721335,
       "relative_volume": 0.0,
-      "zscore20": -2.2179809691873054,
+      "zscore20": -1.8898223650449208,
       "microstructure_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.359224+00:00"
+      "updated_at": "2026-08-12T08:43:01.171460+00:00"
     },
     {
       "symbol": "AXL",
@@ -4471,7 +4395,7 @@
       "microstructure_score": 56.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.376482+00:00"
+      "updated_at": "2026-08-12T08:43:01.184748+00:00"
     },
     {
       "symbol": "AXN",
@@ -4486,7 +4410,7 @@
       "microstructure_score": 58.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:40:50.393811+00:00"
+      "updated_at": "2026-08-12T08:43:01.197930+00:00"
     },
     {
       "symbol": "AXP",
@@ -4525,7 +4449,7 @@
       "microstructure_score": 46.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.243997+00:00"
+      "updated_at": "2026-08-12T08:43:01.217290+00:00"
     },
     {
       "symbol": "AYM",
@@ -4540,7 +4464,7 @@
       "microstructure_score": 40.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.261087+00:00"
+      "updated_at": "2026-08-12T08:43:01.230819+00:00"
     },
     {
       "symbol": "AYT",
@@ -4555,7 +4479,7 @@
       "microstructure_score": 44.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.277843+00:00"
+      "updated_at": "2026-08-12T08:43:01.244140+00:00"
     },
     {
       "symbol": "AZ9",
@@ -4570,7 +4494,7 @@
       "microstructure_score": 57.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.294656+00:00"
+      "updated_at": "2026-08-12T08:43:01.257422+00:00"
     },
     {
       "symbol": "AZI",
@@ -4578,14 +4502,14 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.028999999165534973,
-      "adx14": 25.94573823157843,
-      "atr14": 0.0012485413289664998,
-      "relative_volume": 5.5277382062758464,
-      "zscore20": 2.2936582641808365,
-      "microstructure_score": 67.3,
+      "adx14": 27.89342225733553,
+      "atr14": 0.0011593598054688928,
+      "relative_volume": 0.0,
+      "zscore20": 1.9888208376598508,
+      "microstructure_score": 47.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.311796+00:00"
+      "updated_at": "2026-08-12T08:43:01.270663+00:00"
     },
     {
       "symbol": "AZJ",
@@ -4600,7 +4524,7 @@
       "microstructure_score": 35.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.328859+00:00"
+      "updated_at": "2026-08-12T08:43:01.284542+00:00"
     },
     {
       "symbol": "AZY",
@@ -4615,7 +4539,7 @@
       "microstructure_score": 70.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.345621+00:00"
+      "updated_at": "2026-08-12T08:43:01.298128+00:00"
     },
     {
       "symbol": "B4P",
@@ -4630,7 +4554,7 @@
       "microstructure_score": 87.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.362334+00:00"
+      "updated_at": "2026-08-12T08:43:01.311788+00:00"
     },
     {
       "symbol": "BA1",
@@ -4642,7 +4566,7 @@
       "symbol": "BAK",
       "company": "BARKLY RARE EARTHS LIMITED",
       "status": "error",
-      "reason": "Only 135 raw daily bars"
+      "reason": "Only 136 raw daily bars"
     },
     {
       "symbol": "BAP",
@@ -4657,7 +4581,7 @@
       "microstructure_score": 68.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.382817+00:00"
+      "updated_at": "2026-08-12T08:43:01.327892+00:00"
     },
     {
       "symbol": "BAS",
@@ -4672,7 +4596,7 @@
       "microstructure_score": 39.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:55:53.399839+00:00"
+      "updated_at": "2026-08-12T08:43:01.341367+00:00"
     },
     {
       "symbol": "BB1",
