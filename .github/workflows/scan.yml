@@ -1,0 +1,48 @@
+name: Scan ASX opportunity engine
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 10-17 * * 1-5"
+      timezone: "Australia/Sydney"
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: asx-opportunity-engine
+  cancel-in-progress: true
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Refresh ASX universe
+        run: python scripts/build_universe.py
+      - name: Scan next ASX batch
+        env:
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_APP_PASSWORD: ${{ secrets.SMTP_APP_PASSWORD }}
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+        run: python scripts/scan.py
+      - name: Commit state
+        run: |
+          git config user.name "ASX Opportunity Bot"
+          git config user.email "actions@github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Refresh ASX opportunity engine"
+          git pull --rebase
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
