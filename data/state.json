@@ -163,8 +163,8 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T07:58:53.339513+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 4.130000114440918,
-      "trailing_stop": 3.8511155336299687
+      "peak_price": 4.150000095367432,
+      "trailing_stop": 3.859678914177574
     },
     "JHX": {
       "symbol": "JHX",
@@ -284,10 +284,51 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T08:04:51.381585+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 2.190000057220459,
+      "peak_price": 2.200000047683716,
       "trailing_stop": 1.998991221195962
+    },
+    "BVS": {
+      "symbol": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 82.0,
+      "microstructure_score": 60.0,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 42.0",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 41.98125588405241
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 3647328.3798335553,
+        "atr_pct": 4.077359563964187,
+        "gap_pct": 1.2738840928875783,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.3299999237060547,
+      "atr14": 0.13577607036922895,
+      "stop_loss": 3.0856029970414425,
+      "profit_target": 3.940992240367585,
+      "risk_per_share": 0.24439692666461213,
+      "target_r": 2.5,
+      "units_per_100k": 2045.8522405486467,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-13",
+      "timestamp": "2026-08-13T00:28:14.452963+00:00",
+      "entry_date": "2026-08-13",
+      "peak_price": 3.3299999237060547,
+      "trailing_stop": 3.0856029970414425
     }
   },
   "closed_trades": [],
-  "updated_at": "2026-08-13T00:03:27.122596+00:00"
+  "updated_at": "2026-08-13T00:28:15.239661+00:00"
 }

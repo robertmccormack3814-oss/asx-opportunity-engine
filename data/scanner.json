@@ -1,19 +1,58 @@
 {
-  "generated_at": "2026-08-13T00:03:27.124119+00:00",
+  "generated_at": "2026-08-13T00:28:15.240988+00:00",
   "stats": {
     "universe": 1984,
     "known_assets": 1984,
-    "active_trades": 7,
-    "signals_this_batch": 0,
+    "active_trades": 8,
+    "signals_this_batch": 1,
     "exits_this_batch": 0,
     "batch_processed": 235,
     "batch_errors": 15,
     "next_index": 766,
     "macro_blackout_today": false,
-    "near_signals": 46,
-    "fast_monitor_watched": 55
+    "near_signals": 26,
+    "fast_monitor_watched": 53
   },
-  "signals": [],
+  "signals": [
+    {
+      "symbol": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 82.0,
+      "microstructure_score": 60.0,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 42.0",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 41.98125588405241
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 3647328.3798335553,
+        "atr_pct": 4.077359563964187,
+        "gap_pct": 1.2738840928875783,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.3299999237060547,
+      "atr14": 0.13577607036922895,
+      "stop_loss": 3.0856029970414425,
+      "profit_target": 3.940992240367585,
+      "risk_per_share": 0.24439692666461213,
+      "target_r": 2.5,
+      "units_per_100k": 2045.8522405486467,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-13",
+      "timestamp": "2026-08-13T00:28:14.452963+00:00"
+    }
+  ],
   "exits": [],
   "active_trades": [
     {
@@ -57,6 +96,47 @@
       "entry_date": "2026-08-12",
       "peak_price": 2.299999952316284,
       "trailing_stop": 2.067432109695637
+    },
+    {
+      "symbol": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 82.0,
+      "microstructure_score": 60.0,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 42.0",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 41.98125588405241
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 3647328.3798335553,
+        "atr_pct": 4.077359563964187,
+        "gap_pct": 1.2738840928875783,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.3299999237060547,
+      "atr14": 0.13577607036922895,
+      "stop_loss": 3.0856029970414425,
+      "profit_target": 3.940992240367585,
+      "risk_per_share": 0.24439692666461213,
+      "target_r": 2.5,
+      "units_per_100k": 2045.8522405486467,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-13",
+      "timestamp": "2026-08-13T00:28:14.452963+00:00",
+      "entry_date": "2026-08-13",
+      "peak_price": 3.3299999237060547,
+      "trailing_stop": 3.0856029970414425
     },
     {
       "symbol": "CBE",
@@ -179,8 +259,8 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T07:58:53.339513+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 4.130000114440918,
-      "trailing_stop": 3.8511155336299687
+      "peak_price": 4.150000095367432,
+      "trailing_stop": 3.859678914177574
     },
     {
       "symbol": "JHX",
@@ -300,7 +380,7 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T08:04:51.381585+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 2.190000057220459,
+      "peak_price": 2.200000047683716,
       "trailing_stop": 1.998991221195962
     }
   ],
@@ -310,112 +390,448 @@
       "company": "AVITA MEDICAL INC.",
       "status": "ok",
       "regime": "TREND",
-      "price": 2.2799999713897705,
-      "adx14": 23.650969938170324,
-      "atr14": 0.11809325649674068,
-      "relative_volume": 1.9161530076820423,
-      "zscore20": 2.754197142024353,
-      "microstructure_score": 89.3,
+      "price": 2.259999990463257,
+      "adx14": 26.751966794394406,
+      "atr14": 0.11465801912145905,
+      "relative_volume": 0.179020313136359,
+      "zscore20": 2.1965376641424545,
+      "microstructure_score": 65.0,
       "active": true,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.188562+00:00",
-      "near_signal_score": 100
+      "candidate": {
+        "symbol": "AVH",
+        "company": "AVITA MEDICAL INC.",
+        "direction": "LONG",
+        "strategy": "TREND_BREAKOUT",
+        "regime": "TREND",
+        "signal_score": 100,
+        "microstructure_score": 89.3,
+        "reasons": [
+          "20-day upside breakout",
+          "EMA alignment",
+          "ADX 23.7",
+          "relative volume 1.92x",
+          "strong close"
+        ],
+        "regime_details": {
+          "direction": "UP",
+          "adx": 23.650969938170324
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 1128691.389079237,
+          "atr_pct": 5.179528858711218,
+          "gap_pct": 7.042246426743715,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 2.2799999713897705,
+        "atr14": 0.11809325649674068,
+        "stop_loss": 2.067432109695637,
+        "profit_target": 2.8114196256251036,
+        "risk_per_share": 0.21256786169413325,
+        "target_r": 2.5,
+        "units_per_100k": 2352.19000659402,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-12",
+        "timestamp": "2026-08-12T07:40:50.183621+00:00",
+        "entry_date": "2026-08-12",
+        "peak_price": 2.299999952316284,
+        "trailing_stop": 2.067432109695637
+      },
+      "updated_at": "2026-08-13T00:28:14.436005+00:00",
+      "near_signal_score": 53.0
+    },
+    {
+      "symbol": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "status": "ok",
+      "regime": "TREND",
+      "price": 3.3299999237060547,
+      "adx14": 41.98125588405241,
+      "atr14": 0.13577607036922895,
+      "relative_volume": 0.24200783751207325,
+      "zscore20": 2.8388034984210697,
+      "microstructure_score": 60.0,
+      "active": true,
+      "candidate": {
+        "symbol": "BVS",
+        "company": "BRAVURA SOLUTIONS LIMITED.",
+        "direction": "LONG",
+        "strategy": "TREND_BREAKOUT",
+        "regime": "TREND",
+        "signal_score": 82.0,
+        "microstructure_score": 60.0,
+        "reasons": [
+          "20-day upside breakout",
+          "EMA alignment",
+          "ADX 42.0",
+          "strong close"
+        ],
+        "regime_details": {
+          "direction": "UP",
+          "adx": 41.98125588405241
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 3647328.3798335553,
+          "atr_pct": 4.077359563964187,
+          "gap_pct": 1.2738840928875783,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 3.3299999237060547,
+        "atr14": 0.13577607036922895,
+        "stop_loss": 3.0856029970414425,
+        "profit_target": 3.940992240367585,
+        "risk_per_share": 0.24439692666461213,
+        "target_r": 2.5,
+        "units_per_100k": 2045.8522405486467,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-13",
+        "timestamp": "2026-08-13T00:28:14.452963+00:00",
+        "entry_date": "2026-08-13",
+        "peak_price": 3.3299999237060547,
+        "trailing_stop": 3.0856029970414425
+      },
+      "updated_at": "2026-08-13T00:28:14.453141+00:00",
+      "near_signal_score": 82.0
     },
     {
       "symbol": "CBE",
       "company": "COBRE LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.3449999988079071,
-      "adx14": 23.583876862191705,
-      "atr14": 0.022290559419075845,
-      "relative_volume": 1.5979633267529312,
-      "zscore20": 2.2515641621891054,
-      "microstructure_score": 87.0,
+      "price": 0.33500000834465027,
+      "adx14": 24.70989589999776,
+      "atr14": 0.02176980415306223,
+      "relative_volume": 0.3520069374707026,
+      "zscore20": 1.6712583079764347,
+      "microstructure_score": 51.6,
       "active": true,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.226752+00:00",
-      "near_signal_score": 100
+      "candidate": {
+        "symbol": "CBE",
+        "company": "COBRE LIMITED",
+        "direction": "LONG",
+        "strategy": "TREND_BREAKOUT",
+        "regime": "TREND",
+        "signal_score": 100,
+        "microstructure_score": 87.0,
+        "reasons": [
+          "20-day upside breakout",
+          "EMA alignment",
+          "ADX 23.6",
+          "relative volume 1.60x",
+          "strong close"
+        ],
+        "regime_details": {
+          "direction": "UP",
+          "adx": 23.583876862191705
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 1161869.4769644798,
+          "atr_pct": 6.46103173799923,
+          "gap_pct": 0.0,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 0.3449999988079071,
+        "atr14": 0.022290559419075845,
+        "stop_loss": 0.3048769918535706,
+        "profit_target": 0.4453075161937484,
+        "risk_per_share": 0.04012300695433652,
+        "target_r": 2.5,
+        "units_per_100k": 12461.678173050279,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-12",
+        "timestamp": "2026-08-12T07:55:55.341160+00:00",
+        "entry_date": "2026-08-12",
+        "peak_price": 0.3449999988079071,
+        "trailing_stop": 0.3048769918535706
+      },
+      "updated_at": "2026-08-13T00:28:14.470209+00:00",
+      "near_signal_score": 40.3
     },
     {
       "symbol": "DXI",
       "company": "DEXUS INDUSTRIA REIT.",
       "status": "ok",
       "regime": "RANGE",
-      "price": 2.3499999046325684,
-      "adx14": 13.932482451982303,
-      "atr14": 0.05345960816314724,
-      "relative_volume": 2.3171003278583493,
-      "zscore20": -3.13604185492777,
-      "microstructure_score": 47.4,
-      "near_signal_score": 89.5,
+      "price": 2.369999885559082,
+      "adx14": 14.223503745125509,
+      "atr14": 0.05249822188518004,
+      "relative_volume": 0.4960946027562945,
+      "zscore20": -2.1143519026452537,
+      "microstructure_score": 36.1,
+      "near_signal_score": 72.2,
       "active": true,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.518515+00:00"
+      "candidate": {
+        "symbol": "DXI",
+        "company": "DEXUS INDUSTRIA REIT.",
+        "direction": "LONG",
+        "strategy": "MEAN_REVERSION",
+        "regime": "RANGE",
+        "signal_score": 89.5,
+        "microstructure_score": 47.4,
+        "reasons": [
+          "z-score -3.14",
+          "RSI5 20.1",
+          "low ADX",
+          "selling pressure moderating"
+        ],
+        "regime_details": {
+          "adx": 13.932482451982292
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 1896503.1167483688,
+          "atr_pct": 2.274877035431448,
+          "gap_pct": 0.0,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 2.3499999046325684,
+        "atr14": 0.05345960816314723,
+        "stop_loss": 2.280502414020477,
+        "profit_target": 2.461195889611915,
+        "risk_per_share": 0.0694974906120914,
+        "target_r": 1.6,
+        "units_per_100k": 7194.504371255793,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-12",
+        "timestamp": "2026-08-12T07:58:51.102906+00:00",
+        "entry_date": "2026-08-12",
+        "peak_price": 2.3499999046325684,
+        "trailing_stop": 2.280502414020477
+      },
+      "updated_at": "2026-08-13T00:28:14.726696+00:00"
     },
     {
       "symbol": "FPR",
       "company": "FLEETPARTNERS GROUP LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 4.099999904632568,
-      "adx14": 35.56587758055165,
-      "atr14": 0.13826909500144433,
-      "relative_volume": 2.9131415428706067,
-      "zscore20": 2.295394019483656,
-      "microstructure_score": 85.8,
-      "near_signal_score": 100,
+      "price": 4.130000114440918,
+      "adx14": 38.5401169042309,
+      "atr14": 0.13196417326811713,
+      "relative_volume": 0.3042859244672303,
+      "zscore20": 1.9932630560939455,
+      "microstructure_score": 54.1,
+      "near_signal_score": 40.8,
       "active": true,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.732921+00:00"
+      "candidate": {
+        "symbol": "FPR",
+        "company": "FLEETPARTNERS GROUP LIMITED",
+        "direction": "LONG",
+        "strategy": "TREND_BREAKOUT",
+        "regime": "TREND",
+        "signal_score": 100,
+        "microstructure_score": 85.8,
+        "reasons": [
+          "20-day upside breakout",
+          "EMA alignment",
+          "ADX 35.6",
+          "relative volume 2.91x",
+          "strong close"
+        ],
+        "regime_details": {
+          "direction": "UP",
+          "adx": 35.56587758055166
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 1921997.3437203765,
+          "atr_pct": 3.372417029698337,
+          "gap_pct": 4.651170813917926,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 4.099999904632568,
+        "atr14": 0.13826909500144433,
+        "stop_loss": 3.8511155336299687,
+        "profit_target": 4.7222108321390674,
+        "risk_per_share": 0.2488843710025998,
+        "target_r": 2.5,
+        "units_per_100k": 2008.9650386073342,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-12",
+        "timestamp": "2026-08-12T07:58:53.339513+00:00",
+        "entry_date": "2026-08-12",
+        "peak_price": 4.150000095367432,
+        "trailing_stop": 3.859678914177574
+      },
+      "updated_at": "2026-08-13T00:28:14.915040+00:00"
     },
     {
       "symbol": "JHX",
       "company": "JAMES HARDIE INDUSTRIES PLC",
       "status": "ok",
       "regime": "TREND",
-      "price": 43.849998474121094,
-      "adx14": 27.623997599391462,
-      "atr14": 1.163252307019544,
-      "relative_volume": 1.0609164345403899,
-      "zscore20": 1.9323131311970299,
-      "microstructure_score": 65.4,
+      "price": 43.42499923706055,
+      "adx14": 29.487245428535584,
+      "atr14": 1.1151627039302574,
+      "relative_volume": 0.016322096991328656,
+      "zscore20": 1.5561009690877181,
+      "microstructure_score": 51.8,
       "active": true,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.868409+00:00",
-      "near_signal_score": 83.1
+      "candidate": {
+        "symbol": "JHX",
+        "company": "JAMES HARDIE INDUSTRIES PLC",
+        "direction": "LONG",
+        "strategy": "TREND_BREAKOUT",
+        "regime": "TREND",
+        "signal_score": 83.1,
+        "microstructure_score": 65.4,
+        "reasons": [
+          "20-day upside breakout",
+          "EMA alignment",
+          "ADX 27.6",
+          "strong close"
+        ],
+        "regime_details": {
+          "direction": "UP",
+          "adx": 27.623997599391437
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 70032979.69371776,
+          "atr_pct": 2.6527989680685145,
+          "gap_pct": 1.4130197735110706,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 43.849998474121094,
+        "atr14": 1.1632523070195437,
+        "stop_loss": 41.75614432148591,
+        "profit_target": 49.08463385570904,
+        "risk_per_share": 2.0938541526351786,
+        "target_r": 2.5,
+        "units_per_100k": 238.79409144650066,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-12",
+        "timestamp": "2026-08-12T08:00:30.795711+00:00",
+        "entry_date": "2026-08-12",
+        "peak_price": 44.119998931884766,
+        "trailing_stop": 41.75614432148591
+      },
+      "updated_at": "2026-08-13T00:28:15.035085+00:00",
+      "near_signal_score": 40.4
     },
     {
       "symbol": "NWH",
       "company": "NRW HOLDINGS LIMITED",
       "status": "ok",
-      "regime": "SQUEEZE",
-      "price": 7.400000095367432,
-      "adx14": 8.672436237939307,
-      "atr14": 0.2545378462607421,
-      "relative_volume": 2.6230558988642123,
-      "zscore20": 1.8631035481253193,
-      "microstructure_score": 86.3,
+      "regime": "RANGE",
+      "price": 7.465000152587891,
+      "adx14": 8.773079684443301,
+      "atr14": 0.24207085179255014,
+      "relative_volume": 0.020053455419081476,
+      "zscore20": 1.92364443337884,
+      "microstructure_score": 65.0,
       "active": true,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.966255+00:00",
-      "near_signal_score": 92.3
+      "candidate": {
+        "symbol": "NWH",
+        "company": "NRW HOLDINGS LIMITED",
+        "direction": "LONG",
+        "strategy": "SQUEEZE_EXPANSION",
+        "regime": "SQUEEZE",
+        "signal_score": 92.3,
+        "microstructure_score": 86.3,
+        "reasons": [
+          "BB width pct 10",
+          "relative volume 2.62x",
+          "upside compression break"
+        ],
+        "regime_details": {
+          "bb_width_percentile": 10.0
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 7520092.356550073,
+          "atr_pct": 3.439700580816054,
+          "gap_pct": 0.8196713302251579,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 7.400000095367432,
+        "atr14": 0.2545378462607421,
+        "stop_loss": 6.992739541350244,
+        "profit_target": 8.621781757418994,
+        "risk_per_share": 0.4072605540171874,
+        "target_r": 3.0,
+        "units_per_100k": 1227.7152674572524,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-12",
+        "timestamp": "2026-08-12T08:04:48.737669+00:00",
+        "entry_date": "2026-08-12",
+        "peak_price": 7.400000095367432,
+        "trailing_stop": 6.992739541350244
+      },
+      "updated_at": "2026-08-13T00:28:15.119613+00:00",
+      "near_signal_score": 43.0
     },
     {
       "symbol": "PYC",
       "company": "PYC THERAPEUTICS LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 2.190000057220459,
-      "adx14": 43.60171386704786,
-      "atr14": 0.10611602001360944,
-      "relative_volume": 0.7311513902579199,
-      "zscore20": 1.7409425175415387,
-      "microstructure_score": 69.6,
+      "price": 2.200000047683716,
+      "adx14": 44.910668748636084,
+      "atr14": 0.10067915939762095,
+      "relative_volume": 0.16284898454409144,
+      "zscore20": 1.5711807881334008,
+      "microstructure_score": 65.0,
       "active": true,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:27.005530+00:00",
-      "near_signal_score": 83.9
+      "candidate": {
+        "symbol": "PYC",
+        "company": "PYC THERAPEUTICS LIMITED",
+        "direction": "LONG",
+        "strategy": "TREND_BREAKOUT",
+        "regime": "TREND",
+        "signal_score": 83.8,
+        "microstructure_score": 69.1,
+        "reasons": [
+          "20-day upside breakout",
+          "EMA alignment",
+          "ADX 43.6",
+          "strong close"
+        ],
+        "regime_details": {
+          "direction": "UP",
+          "adx": 43.601713867047835
+        },
+        "execution_risk": {
+          "pass": true,
+          "reasons": [],
+          "average_dollar_volume_20d": 3125066.119441104,
+          "atr_pct": 4.845480239315224,
+          "gap_pct": 0.4672892510771409,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 2.190000057220459,
+        "atr14": 0.10611602001360944,
+        "stop_loss": 1.998991221195962,
+        "profit_target": 2.6675221472817015,
+        "risk_per_share": 0.191008836024497,
+        "target_r": 2.5,
+        "units_per_100k": 2617.679948250534,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-12",
+        "timestamp": "2026-08-12T08:04:51.381585+00:00",
+        "entry_date": "2026-08-12",
+        "peak_price": 2.200000047683716,
+        "trailing_stop": 1.998991221195962
+      },
+      "updated_at": "2026-08-13T00:28:15.153961+00:00",
+      "near_signal_score": 83.0
     },
     {
       "symbol": "10X",
@@ -920,56 +1336,16 @@
       "company": "ARUMA RESOURCES LIMITED",
       "status": "ok",
       "regime": "RANGE",
-      "price": 0.006000000052154064,
-      "adx14": 14.124326590637661,
-      "atr14": 0.0006289388360964278,
-      "relative_volume": 8.285786758891792,
-      "zscore20": -2.3655924602476515,
-      "microstructure_score": 45.0,
+      "price": 0.007000000216066837,
+      "adx14": 15.346006314729502,
+      "atr14": 0.0006554432166547382,
+      "relative_volume": 0.14993988730973135,
+      "zscore20": -0.8283248139580417,
+      "microstructure_score": 25.0,
       "active": false,
-      "candidate": {
-        "symbol": "AAJ",
-        "company": "ARUMA RESOURCES LIMITED",
-        "direction": "LONG",
-        "strategy": "MEAN_REVERSION",
-        "regime": "RANGE",
-        "signal_score": 89.0,
-        "microstructure_score": 45.0,
-        "reasons": [
-          "z-score -2.37",
-          "RSI5 5.0",
-          "low ADX",
-          "selling pressure moderating"
-        ],
-        "regime_details": {
-          "adx": 14.124326590637661
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$18,232",
-            "gap 14.3%"
-          ],
-          "average_dollar_volume_20d": 18231.786784323725,
-          "atr_pct": 10.482313843824585,
-          "gap_pct": 14.285716186372543,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.006000000052154064,
-        "atr14": 0.0006289388360964278,
-        "stop_loss": 0.0051823795652287084,
-        "profit_target": 0.007308192831234634,
-        "risk_per_share": 0.0008176204869253562,
-        "target_r": 1.6,
-        "units_per_100k": 611530.6648934875,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.071724+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.071894+00:00",
-      "near_signal_score": 89.0
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:14.349885+00:00",
+      "near_signal_score": 15.0
     },
     {
       "symbol": "AAL",
@@ -1301,10 +1677,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.091308+00:00",
+        "timestamp": "2026-08-13T00:28:14.367225+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:26.091475+00:00",
+      "updated_at": "2026-08-13T00:28:14.367369+00:00",
       "near_signal_score": 79.0
     },
     {
@@ -1313,56 +1689,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.20000000298023224,
-      "adx14": 84.08202815093989,
-      "atr14": 0.015270670384003263,
-      "relative_volume": 16.22559034484824,
-      "zscore20": 3.916567903487243,
-      "microstructure_score": 91.0,
+      "adx14": 84.74972100070137,
+      "atr14": 0.015251336827720634,
+      "relative_volume": 1.411866478733993,
+      "zscore20": 2.8280432137459908,
+      "microstructure_score": 63.2,
       "active": false,
-      "candidate": {
-        "symbol": "ACS",
-        "company": "ACCENT RESOURCES NL",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 91.0,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 84.1",
-          "relative volume 16.23x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 84.08202815093989
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$15,051"
-          ],
-          "average_dollar_volume_20d": 15050.935224365816,
-          "atr_pct": 7.635335078226273,
-          "gap_pct": 0.0,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.20000000298023224,
-        "atr14": 0.015270670384003263,
-        "stop_loss": 0.17251279628902635,
-        "profit_target": 0.26871801970824694,
-        "risk_per_share": 0.027487206691205874,
-        "target_r": 2.5,
-        "units_per_100k": 18190.280504565333,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.110639+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.110822+00:00",
-      "near_signal_score": 100
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:14.384502+00:00",
+      "near_signal_score": 62.6
     },
     {
       "symbol": "ACT",
@@ -1694,10 +2029,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.130045+00:00",
+        "timestamp": "2026-08-13T00:28:14.401844+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:26.130483+00:00",
+      "updated_at": "2026-08-13T00:28:14.402211+00:00",
       "near_signal_score": 92.0
     },
     {
@@ -3861,57 +4196,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.03799999877810478,
-      "adx14": 29.743728123007656,
-      "atr14": 0.00294477385630726,
-      "relative_volume": 6.9968930919853225,
-      "zscore20": 3.8822026132962804,
-      "microstructure_score": 95.0,
+      "adx14": 33.0503471280492,
+      "atr14": 0.0028058615827537357,
+      "relative_volume": 0.9198840943236263,
+      "zscore20": 2.8178778305496013,
+      "microstructure_score": 53.4,
       "active": false,
-      "candidate": {
-        "symbol": "AUZ",
-        "company": "AUSTRALIAN MINES LIMITED",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 95.0,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 29.7",
-          "relative volume 7.00x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 29.743728123007656
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$503,891",
-            "gap 14.8%"
-          ],
-          "average_dollar_volume_20d": 503891.4281278183,
-          "atr_pct": 7.7494051342022905,
-          "gap_pct": 14.814809960184228,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.03799999877810478,
-        "atr14": 0.00294477385630726,
-        "stop_loss": 0.03269940583675171,
-        "profit_target": 0.051251481131487454,
-        "risk_per_share": 0.005300592941353068,
-        "target_r": 2.5,
-        "units_per_100k": 94329.06950828152,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.168222+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.168400+00:00",
-      "near_signal_score": 100
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:14.419018+00:00",
+      "near_signal_score": 40.7
     },
     {
       "symbol": "AV1",
@@ -5747,62 +6040,6 @@
       "updated_at": "2026-08-12T20:25:45.256810+00:00"
     },
     {
-      "symbol": "BVS",
-      "company": "BRAVURA SOLUTIONS LIMITED.",
-      "status": "ok",
-      "regime": "TREND",
-      "price": 3.140000104904175,
-      "adx14": 39.591777536627355,
-      "atr14": 0.12775884427942016,
-      "relative_volume": 3.7227796496007834,
-      "zscore20": 2.865205690948947,
-      "microstructure_score": 80.9,
-      "active": false,
-      "candidate": {
-        "symbol": "BVS",
-        "company": "BRAVURA SOLUTIONS LIMITED.",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 96.2,
-        "microstructure_score": 80.9,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 39.6",
-          "relative volume 3.72x"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 39.591777536627355
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "gap 14.7%"
-          ],
-          "average_dollar_volume_20d": 3849106.9442905546,
-          "atr_pct": 4.0687528665964505,
-          "gap_pct": 14.695343779086635,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 3.140000104904175,
-        "atr14": 0.12775884427942016,
-        "stop_loss": 2.9100341852012184,
-        "profit_target": 3.7149149041615654,
-        "risk_per_share": 0.2299659197029563,
-        "target_r": 2.5,
-        "units_per_100k": 2174.2352112253975,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.207485+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.207681+00:00",
-      "near_signal_score": 96.2
-    },
-    {
       "symbol": "BWF",
       "company": "BLACKWALL LIMITED",
       "status": "ok",
@@ -7127,12 +7364,12 @@
       "company": "CLEAN TEQ WATER LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.6800000071525574,
-      "adx14": 24.2955217764635,
-      "atr14": 0.03601820116781974,
-      "relative_volume": 1.402288649369083,
-      "zscore20": 3.301814471679772,
-      "microstructure_score": 83.0,
+      "price": 0.7400000095367432,
+      "adx14": 26.813521188968625,
+      "atr14": 0.03773118696898874,
+      "relative_volume": 0.3203000771055982,
+      "zscore20": 3.096337082962947,
+      "microstructure_score": 65.0,
       "active": false,
       "candidate": {
         "symbol": "CNQ",
@@ -7140,44 +7377,43 @@
         "direction": "LONG",
         "strategy": "TREND_BREAKOUT",
         "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 83.0,
+        "signal_score": 83.0,
+        "microstructure_score": 65.0,
         "reasons": [
           "20-day upside breakout",
           "EMA alignment",
-          "ADX 24.3",
-          "relative volume 1.40x",
+          "ADX 26.8",
           "strong close"
         ],
         "regime_details": {
           "direction": "UP",
-          "adx": 24.2955217764635
+          "adx": 26.813521188968625
         },
         "execution_risk": {
           "pass": false,
           "reasons": [
-            "20d dollar volume A$50,434"
+            "20d dollar volume A$48,239"
           ],
-          "average_dollar_volume_20d": 50433.61390576661,
-          "atr_pct": 5.296794233671101,
-          "gap_pct": 2.499997516473229,
+          "average_dollar_volume_20d": 48239.371485310796,
+          "atr_pct": 5.09880898415249,
+          "gap_pct": 2.9411736347271455,
           "estimated_spread_pct": null
         },
-        "entry_price": 0.6800000071525574,
-        "atr14": 0.03601820116781974,
-        "stop_loss": 0.6151672450504818,
-        "profit_target": 0.8420819124077462,
-        "risk_per_share": 0.06483276210207553,
+        "entry_price": 0.7400000095367432,
+        "atr14": 0.03773118696898874,
+        "stop_loss": 0.6720838729925634,
+        "profit_target": 0.9097903508971925,
+        "risk_per_share": 0.06791613654417974,
         "target_r": 2.5,
-        "units_per_100k": 7712.150212153204,
+        "units_per_100k": 7362.020654321935,
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.246026+00:00",
+        "signal_date": "2026-08-13",
+        "timestamp": "2026-08-13T00:28:14.487100+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:26.246227+00:00",
-      "near_signal_score": 100
+      "updated_at": "2026-08-13T00:28:14.487265+00:00",
+      "near_signal_score": 83.0
     },
     {
       "symbol": "CNU",
@@ -7303,56 +7539,17 @@
       "symbol": "COS",
       "company": "COSOL LIMITED",
       "status": "ok",
-      "regime": "SQUEEZE",
-      "price": 0.23000000417232513,
-      "adx14": 21.498892111529525,
-      "atr14": 0.006772363538690872,
-      "relative_volume": 5.110504289081871,
-      "zscore20": 2.7880655761646183,
-      "microstructure_score": 95.0,
+      "regime": "UNCLEAR",
+      "price": 0.23499999940395355,
+      "adx14": 23.230288379072395,
+      "atr14": 0.006645765802472126,
+      "relative_volume": 0.009399481415866003,
+      "zscore20": 2.619693945519404,
+      "microstructure_score": 55.0,
       "active": false,
-      "candidate": {
-        "symbol": "COS",
-        "company": "COSOL LIMITED",
-        "direction": "LONG",
-        "strategy": "SQUEEZE_EXPANSION",
-        "regime": "SQUEEZE",
-        "signal_score": 100,
-        "microstructure_score": 95.0,
-        "reasons": [
-          "BB width pct 16",
-          "relative volume 5.11x",
-          "upside compression break",
-          "strong close"
-        ],
-        "regime_details": {
-          "bb_width_percentile": 15.833333333333332
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$18,626"
-          ],
-          "average_dollar_volume_20d": 18626.17433176413,
-          "atr_pct": 2.944505832972398,
-          "gap_pct": 4.651158277636491,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.23000000417232513,
-        "atr14": 0.006772363538690872,
-        "stop_loss": 0.21916422251041973,
-        "profit_target": 0.2625073491580413,
-        "risk_per_share": 0.010835781661905396,
-        "target_r": 3.0,
-        "units_per_100k": 46143.417761712124,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.265317+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.265726+00:00",
-      "near_signal_score": 100
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:14.503898+00:00",
+      "near_signal_score": 1.0
     },
     {
       "symbol": "COV",
@@ -7923,57 +8120,16 @@
       "company": "COUNT LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 1.2699999809265137,
-      "adx14": 32.58841234841157,
-      "atr14": 0.03094612958110523,
-      "relative_volume": 2.8965985700706467,
-      "zscore20": 2.9133103143678674,
-      "microstructure_score": 95.0,
+      "price": 1.2599999904632568,
+      "adx14": 35.739697197777176,
+      "atr14": 0.030164261820062977,
+      "relative_volume": 0.06271908245603022,
+      "zscore20": 2.237661713258714,
+      "microstructure_score": 55.0,
       "active": false,
-      "candidate": {
-        "symbol": "CUP",
-        "company": "COUNT LIMITED",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 95.0,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 32.6",
-          "relative volume 2.90x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 32.58841234841157
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$158,130"
-          ],
-          "average_dollar_volume_20d": 158129.61029313802,
-          "atr_pct": 2.4367031532180685,
-          "gap_pct": 1.0548463356974014,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 1.2699999809265137,
-        "atr14": 0.03094612958110523,
-        "stop_loss": 1.2142969476805243,
-        "profit_target": 1.4092575640414873,
-        "risk_per_share": 0.055703033245989415,
-        "target_r": 2.5,
-        "units_per_100k": 8976.171868270741,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.285095+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.285307+00:00",
-      "near_signal_score": 100
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:14.520664+00:00",
+      "near_signal_score": 41.0
     },
     {
       "symbol": "CUV",
@@ -8024,55 +8180,17 @@
       "symbol": "CVL",
       "company": "CIVMEC LIMITED",
       "status": "ok",
-      "regime": "SQUEEZE",
-      "price": 1.8650000095367432,
-      "adx14": 18.686358798349776,
-      "atr14": 0.055444476256116544,
-      "relative_volume": 0.5127797233955792,
-      "zscore20": 2.2747054891599614,
-      "microstructure_score": 65.3,
+      "regime": "RANGE",
+      "price": 1.875,
+      "adx14": 19.457788276284234,
+      "atr14": 0.05219844155662657,
+      "relative_volume": 0.006673049515392133,
+      "zscore20": 2.0707730786121856,
+      "microstructure_score": 65.0,
       "active": false,
-      "candidate": {
-        "symbol": "CVL",
-        "company": "CIVMEC LIMITED",
-        "direction": "LONG",
-        "strategy": "SQUEEZE_EXPANSION",
-        "regime": "SQUEEZE",
-        "signal_score": 78.1,
-        "microstructure_score": 65.3,
-        "reasons": [
-          "BB width pct 14",
-          "upside compression break",
-          "strong close"
-        ],
-        "regime_details": {
-          "bb_width_percentile": 14.166666666666666
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$767,380"
-          ],
-          "average_dollar_volume_20d": 767379.5591643393,
-          "atr_pct": 2.97289415402677,
-          "gap_pct": 0.5464475534834423,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 1.8650000095367432,
-        "atr14": 0.055444476256116544,
-        "stop_loss": 1.7762888475269567,
-        "profit_target": 2.1311334955661025,
-        "risk_per_share": 0.08871116200978647,
-        "target_r": 3.0,
-        "units_per_100k": 5636.269311237754,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.304698+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.305104+00:00",
-      "near_signal_score": 78.1
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:14.537665+00:00",
+      "near_signal_score": 43.0
     },
     {
       "symbol": "CVN",
@@ -8422,10 +8540,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.324054+00:00",
+        "timestamp": "2026-08-13T00:28:14.554755+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:26.324482+00:00"
+      "updated_at": "2026-08-13T00:28:14.555121+00:00"
     },
     {
       "symbol": "CZR",
@@ -8441,7 +8559,7 @@
       "near_signal_score": 63.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.343733+00:00"
+      "updated_at": "2026-08-13T00:28:14.572389+00:00"
     },
     {
       "symbol": "D3E",
@@ -8505,7 +8623,7 @@
       "near_signal_score": 61.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.362675+00:00"
+      "updated_at": "2026-08-13T00:28:14.589601+00:00"
     },
     {
       "symbol": "DBF",
@@ -8601,23 +8719,23 @@
       "near_signal_score": 61.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.381957+00:00"
+      "updated_at": "2026-08-13T00:28:14.607142+00:00"
     },
     {
       "symbol": "DEM",
       "company": "DE.MEM LIMITED",
       "status": "ok",
-      "regime": "SQUEEZE",
-      "price": 0.10499999672174454,
-      "adx14": 30.37477608744178,
-      "atr14": 0.003549268595790952,
-      "relative_volume": 1.9793204422208026,
-      "zscore20": 2.591349166420647,
-      "microstructure_score": 83.4,
-      "near_signal_score": 81.7,
+      "regime": "UNCLEAR",
+      "price": 0.10999999940395355,
+      "adx14": 32.27228672807105,
+      "atr14": 0.003652892459106528,
+      "relative_volume": 0.9773513706463857,
+      "zscore20": 3.0522780988517852,
+      "microstructure_score": 74.5,
+      "near_signal_score": 4.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.401538+00:00"
+      "updated_at": "2026-08-13T00:28:14.623743+00:00"
     },
     {
       "symbol": "DES",
@@ -8729,7 +8847,7 @@
       "near_signal_score": 65.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.421074+00:00"
+      "updated_at": "2026-08-13T00:28:14.641183+00:00"
     },
     {
       "symbol": "DKM",
@@ -8799,7 +8917,7 @@
       "near_signal_score": 84.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.440809+00:00"
+      "updated_at": "2026-08-13T00:28:14.658387+00:00"
     },
     {
       "symbol": "DMP",
@@ -8866,16 +8984,16 @@
       "company": "DOWNER EDI LIMITED",
       "status": "ok",
       "regime": "SQUEEZE",
-      "price": 7.679999828338623,
-      "adx14": 12.037338591160033,
-      "atr14": 0.15301797833024305,
-      "relative_volume": 1.7174411988590625,
-      "zscore20": -2.470130186754132,
-      "microstructure_score": 52.0,
-      "near_signal_score": 60.4,
+      "price": 7.704999923706055,
+      "adx14": 12.777170708122155,
+      "atr14": 0.15244526422997667,
+      "relative_volume": 0.04700331878327471,
+      "zscore20": -1.8389134562082667,
+      "microstructure_score": 32.2,
+      "near_signal_score": 31.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.460670+00:00"
+      "updated_at": "2026-08-13T00:28:14.675605+00:00"
     },
     {
       "symbol": "DPM",
@@ -8883,15 +9001,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 63.20000076293945,
-      "adx14": 22.056758800950064,
-      "atr14": 2.3310350630169707,
-      "relative_volume": 1.6548447173705139,
-      "zscore20": 2.056286818753192,
-      "microstructure_score": 81.4,
-      "near_signal_score": 76.3,
+      "adx14": 24.01251488563212,
+      "atr14": 2.1645325585157584,
+      "relative_volume": 0.2826352637580813,
+      "zscore20": 1.792052643899224,
+      "microstructure_score": 55.0,
+      "near_signal_score": 41.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.479513+00:00"
+      "updated_at": "2026-08-13T00:28:14.692361+00:00"
     },
     {
       "symbol": "DRE",
@@ -9015,17 +9133,57 @@
       "symbol": "DTR",
       "company": "DATELINE RESOURCES LIMITED",
       "status": "ok",
-      "regime": "SQUEEZE",
+      "regime": "RANGE",
       "price": 0.0860000029206276,
-      "adx14": 10.993309286549213,
-      "atr14": 0.011570348883050998,
-      "relative_volume": 12.149741615218318,
-      "zscore20": -3.575009539515298,
-      "microstructure_score": 59.9,
-      "near_signal_score": 77.0,
+      "adx14": 14.396434482104425,
+      "atr14": 0.011172467156316424,
+      "relative_volume": 0.6982917908888535,
+      "zscore20": -2.754728689646002,
+      "microstructure_score": 25.6,
+      "near_signal_score": 85.1,
       "active": false,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.499047+00:00"
+      "candidate": {
+        "symbol": "DTR",
+        "company": "DATELINE RESOURCES LIMITED",
+        "direction": "LONG",
+        "strategy": "MEAN_REVERSION",
+        "regime": "RANGE",
+        "signal_score": 85.1,
+        "microstructure_score": 25.6,
+        "reasons": [
+          "z-score -2.75",
+          "RSI5 2.1",
+          "low ADX",
+          "not closing on low"
+        ],
+        "regime_details": {
+          "adx": 14.396434482104425
+        },
+        "execution_risk": {
+          "pass": false,
+          "reasons": [
+            "20d dollar volume A$867,647",
+            "ATR% 13.0"
+          ],
+          "average_dollar_volume_20d": 867646.7075894896,
+          "atr_pct": 12.991240438244967,
+          "gap_pct": 1.1627843511822444,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 0.0860000029206276,
+        "atr14": 0.011172467156316424,
+        "stop_loss": 0.07147579561741624,
+        "profit_target": 0.10923873460576576,
+        "risk_per_share": 0.014524207303211351,
+        "target_r": 1.6,
+        "units_per_100k": 34425.28666534857,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-13",
+        "timestamp": "2026-08-13T00:28:14.709549+00:00",
+        "rejected": true
+      },
+      "updated_at": "2026-08-13T00:28:14.709702+00:00"
     },
     {
       "symbol": "DTZ",
@@ -9555,7 +9713,7 @@
       "near_signal_score": 77.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.538418+00:00"
+      "updated_at": "2026-08-13T00:28:14.743987+00:00"
     },
     {
       "symbol": "EGH",
@@ -9825,15 +9983,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.04500000178813934,
-      "adx14": 30.440826529842006,
-      "atr14": 0.0024352663277991916,
-      "relative_volume": 1.4174029414044758,
-      "zscore20": -1.4509514618470276,
-      "microstructure_score": 59.1,
-      "near_signal_score": 61.8,
+      "adx14": 29.51753624110976,
+      "atr14": 0.0023327471830469366,
+      "relative_volume": 0.06931041517577076,
+      "zscore20": -1.3142566614411806,
+      "microstructure_score": 34.3,
+      "near_signal_score": 31.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.558116+00:00"
+      "updated_at": "2026-08-13T00:28:14.761096+00:00"
     },
     {
       "symbol": "EME",
@@ -10016,16 +10174,16 @@
       "company": "ENCOUNTER RESOURCES LIMITED",
       "status": "ok",
       "regime": "SQUEEZE",
-      "price": 0.22499999403953552,
-      "adx14": 8.726382868020913,
-      "atr14": 0.012406464528361182,
-      "relative_volume": 1.473322247445346,
-      "zscore20": -0.7187875115978396,
-      "microstructure_score": 64.0,
-      "near_signal_score": 77.8,
+      "price": 0.23000000417232513,
+      "adx14": 9.176136827631705,
+      "atr14": 0.011877432071534641,
+      "relative_volume": 0.12152567476678518,
+      "zscore20": -0.08920445454073846,
+      "microstructure_score": 46.0,
+      "near_signal_score": 49.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.578162+00:00"
+      "updated_at": "2026-08-13T00:28:14.778249+00:00"
     },
     {
       "symbol": "ENT",
@@ -10111,7 +10269,7 @@
       "near_signal_score": 65.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.597914+00:00"
+      "updated_at": "2026-08-13T00:28:14.795383+00:00"
     },
     {
       "symbol": "EPN",
@@ -10236,55 +10394,16 @@
       "company": "EROAD LIMITED",
       "status": "ok",
       "regime": "RANGE",
-      "price": 0.7549999952316284,
-      "adx14": 19.69125004338452,
-      "atr14": 0.03375157582525374,
-      "relative_volume": 1.1000599014182122,
-      "zscore20": -2.319830621133885,
-      "microstructure_score": 28.2,
-      "near_signal_score": 85.6,
+      "price": 0.7900000214576721,
+      "adx14": 19.57445606383574,
+      "atr14": 0.0338407508538816,
+      "relative_volume": 0.5295264110219972,
+      "zscore20": -1.2097413101145762,
+      "microstructure_score": 39.5,
+      "near_signal_score": 37.9,
       "active": false,
-      "candidate": {
-        "symbol": "ERD",
-        "company": "EROAD LIMITED",
-        "direction": "LONG",
-        "strategy": "MEAN_REVERSION",
-        "regime": "RANGE",
-        "signal_score": 85.6,
-        "microstructure_score": 28.2,
-        "reasons": [
-          "z-score -2.32",
-          "RSI5 12.4",
-          "low ADX",
-          "selling pressure moderating"
-        ],
-        "regime_details": {
-          "adx": 19.69125004338452
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$40,641"
-          ],
-          "average_dollar_volume_20d": 40640.94305502474,
-          "atr_pct": 4.470407422307202,
-          "gap_pct": 0.30581010769374917,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.7549999952316284,
-        "atr14": 0.03375157582525374,
-        "stop_loss": 0.7111229466587986,
-        "profit_target": 0.8252032729481562,
-        "risk_per_share": 0.04387704857282986,
-        "target_r": 1.6,
-        "units_per_100k": 11395.479328334239,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.617307+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.617477+00:00"
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:14.812045+00:00"
     },
     {
       "symbol": "ERE",
@@ -10348,7 +10467,7 @@
       "near_signal_score": 81.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.637397+00:00"
+      "updated_at": "2026-08-13T00:28:14.829313+00:00"
     },
     {
       "symbol": "ESR",
@@ -10490,15 +10609,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.4000000059604645,
-      "adx14": 14.34928241648613,
-      "atr14": 0.013243985355610745,
-      "relative_volume": 2.1008836460603164,
-      "zscore20": -2.0284400727144143,
-      "microstructure_score": 60.3,
-      "near_signal_score": 62.1,
+      "adx14": 14.608474119388372,
+      "atr14": 0.013012271434728323,
+      "relative_volume": 0.26929310993083705,
+      "zscore20": -1.7723152870609271,
+      "microstructure_score": 31.4,
+      "near_signal_score": 31.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.656575+00:00"
+      "updated_at": "2026-08-13T00:28:14.846574+00:00"
     },
     {
       "symbol": "EVR",
@@ -10554,15 +10673,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.06199999898672104,
-      "adx14": 22.317507803557703,
-      "atr14": 0.0034342712180992674,
-      "relative_volume": 1.4187744093412,
-      "zscore20": 0.8540672310147465,
-      "microstructure_score": 60.3,
-      "near_signal_score": 62.1,
+      "adx14": 22.24744770647331,
+      "atr14": 0.003188966131092177,
+      "relative_volume": 0.15672306596875493,
+      "zscore20": 0.7752913328647123,
+      "microstructure_score": 42.9,
+      "near_signal_score": 38.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.675508+00:00"
+      "updated_at": "2026-08-13T00:28:14.863261+00:00"
     },
     {
       "symbol": "EXL",
@@ -10658,7 +10777,7 @@
       "near_signal_score": 79.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.694735+00:00"
+      "updated_at": "2026-08-13T00:28:14.880557+00:00"
     },
     {
       "symbol": "EZZ",
@@ -11070,7 +11189,7 @@
       "near_signal_score": 61.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.713822+00:00"
+      "updated_at": "2026-08-13T00:28:14.898020+00:00"
     },
     {
       "symbol": "FIN",
@@ -11374,7 +11493,7 @@
       "near_signal_score": 63.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.752143+00:00"
+      "updated_at": "2026-08-13T00:28:14.932309+00:00"
     },
     {
       "symbol": "FRE",
@@ -11550,7 +11669,7 @@
       "near_signal_score": 76.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.771420+00:00"
+      "updated_at": "2026-08-13T00:28:14.949574+00:00"
     },
     {
       "symbol": "FWD",
@@ -11678,7 +11797,7 @@
       "near_signal_score": 62.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.790999+00:00"
+      "updated_at": "2026-08-13T00:28:14.966758+00:00"
     },
     {
       "symbol": "GA8",
@@ -11749,16 +11868,54 @@
       "company": "GLOBE METALS & MINING LIMITED",
       "status": "ok",
       "regime": "SQUEEZE",
-      "price": 0.06700000166893005,
-      "adx14": 15.068902407261163,
-      "atr14": 0.002029473434293252,
-      "relative_volume": 2.693102703592106,
-      "zscore20": 0.1911542414751798,
+      "price": 0.07199999690055847,
+      "adx14": 15.139591078664596,
+      "atr14": 0.002241653562674335,
+      "relative_volume": 2.4403603653511903,
+      "zscore20": 1.397069944737053,
       "microstructure_score": 79.0,
-      "near_signal_score": 80.8,
+      "near_signal_score": 90.8,
       "active": false,
-      "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.810494+00:00"
+      "candidate": {
+        "symbol": "GBE",
+        "company": "GLOBE METALS & MINING LIMITED",
+        "direction": "LONG",
+        "strategy": "SQUEEZE_EXPANSION",
+        "regime": "SQUEEZE",
+        "signal_score": 90.8,
+        "microstructure_score": 79.0,
+        "reasons": [
+          "BB width pct 19",
+          "relative volume 2.44x",
+          "upside compression break"
+        ],
+        "regime_details": {
+          "bb_width_percentile": 19.166666666666668
+        },
+        "execution_risk": {
+          "pass": false,
+          "reasons": [
+            "20d dollar volume A$2,765"
+          ],
+          "average_dollar_volume_20d": 2764.717893738486,
+          "atr_pct": 3.1134078599619324,
+          "gap_pct": 7.4626792643007756,
+          "estimated_spread_pct": null
+        },
+        "entry_price": 0.07199999690055847,
+        "atr14": 0.002241653562674335,
+        "stop_loss": 0.06841335120027954,
+        "profit_target": 0.08275993400139528,
+        "risk_per_share": 0.0035866457002789367,
+        "target_r": 3.0,
+        "units_per_100k": 139406.01937936456,
+        "actual_units": null,
+        "risk_per_trade_pct": 0.5,
+        "signal_date": "2026-08-13",
+        "timestamp": "2026-08-13T00:28:14.983819+00:00",
+        "rejected": true
+      },
+      "updated_at": "2026-08-13T00:28:14.984198+00:00"
     },
     {
       "symbol": "GBL",
@@ -12152,56 +12309,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.7699999809265137,
-      "adx14": 36.0938628546254,
-      "atr14": 0.04411353887504047,
-      "relative_volume": 2.716015304763549,
-      "zscore20": 3.3889501646948843,
-      "microstructure_score": 93.8,
+      "adx14": 39.19672414184548,
+      "atr14": 0.04346257368582642,
+      "relative_volume": 0.2810306747188817,
+      "zscore20": 2.6011682689136424,
+      "microstructure_score": 46.5,
       "active": false,
-      "candidate": {
-        "symbol": "GL1",
-        "company": "GLOBAL LITHIUM RESOURCES LIMITED",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 93.8,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 36.1",
-          "relative volume 2.72x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 36.0938628546254
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$574,290"
-          ],
-          "average_dollar_volume_20d": 574290.2351350442,
-          "atr_pct": 5.729031164644994,
-          "gap_pct": 0.7936500427734305,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.7699999809265137,
-        "atr14": 0.04411353887504047,
-        "stop_loss": 0.6905956109514408,
-        "profit_target": 0.9685109058641957,
-        "risk_per_share": 0.07940436997507284,
-        "target_r": 2.5,
-        "units_per_100k": 6296.882654656959,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.829581+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.829763+00:00",
-      "near_signal_score": 100
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:15.000836+00:00",
+      "near_signal_score": 39.3
     },
     {
       "symbol": "GLB",
@@ -15029,10 +15145,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.849314+00:00",
+        "timestamp": "2026-08-13T00:28:15.017850+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:26.849478+00:00",
+      "updated_at": "2026-08-13T00:28:15.017994+00:00",
       "near_signal_score": 75.0
     },
     {
@@ -15544,57 +15660,16 @@
       "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.7300000190734863,
-      "adx14": 44.61479911579346,
-      "atr14": 0.021041993220438024,
-      "relative_volume": 1.4239448837098792,
-      "zscore20": 1.166809000660226,
-      "microstructure_score": 83.5,
+      "price": 0.7200000286102295,
+      "adx14": 44.91968198485095,
+      "atr14": 0.020253278737782224,
+      "relative_volume": 0.025861414474504914,
+      "zscore20": 0.9778653929260939,
+      "microstructure_score": 45.0,
       "active": false,
-      "candidate": {
-        "symbol": "KME",
-        "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 83.5,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 44.6",
-          "relative volume 1.42x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 44.61479911579346
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$129,110"
-          ],
-          "average_dollar_volume_20d": 129110.38421798497,
-          "atr_pct": 2.8824647494043156,
-          "gap_pct": 0.0,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.7300000190734863,
-        "atr14": 0.021041993220438024,
-        "stop_loss": 0.6921244312766979,
-        "profit_target": 0.8246889885654575,
-        "risk_per_share": 0.03787558779678844,
-        "target_r": 2.5,
-        "units_per_100k": 13201.11525879464,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.888093+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.888344+00:00",
-      "near_signal_score": 100
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:15.051931+00:00",
+      "near_signal_score": 39.0
     },
     {
       "symbol": "KNB",
@@ -15757,12 +15832,12 @@
       "company": "KING RIVER RESOURCES LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.08799999952316284,
-      "adx14": 38.27488963041785,
-      "atr14": 0.004980133182284509,
-      "relative_volume": 3.3176708973368165,
-      "zscore20": 3.1382988777618595,
-      "microstructure_score": 93.2,
+      "price": 0.09200000017881393,
+      "adx14": 40.97605453855745,
+      "atr14": 0.004981552432279116,
+      "relative_volume": 0.5402151836351855,
+      "zscore20": 2.70245236953091,
+      "microstructure_score": 60.8,
       "active": false,
       "candidate": {
         "symbol": "KRR",
@@ -15770,44 +15845,43 @@
         "direction": "LONG",
         "strategy": "TREND_BREAKOUT",
         "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 93.2,
+        "signal_score": 82.2,
+        "microstructure_score": 60.8,
         "reasons": [
           "20-day upside breakout",
           "EMA alignment",
-          "ADX 38.3",
-          "relative volume 3.32x",
+          "ADX 41.0",
           "strong close"
         ],
         "regime_details": {
           "direction": "UP",
-          "adx": 38.27488963041785
+          "adx": 40.97605453855745
         },
         "execution_risk": {
           "pass": false,
           "reasons": [
-            "20d dollar volume A$130,907"
+            "20d dollar volume A$131,767"
           ],
-          "average_dollar_volume_20d": 130906.6842246862,
-          "atr_pct": 5.659242283261226,
-          "gap_pct": 0.0,
+          "average_dollar_volume_20d": 131767.13515274096,
+          "atr_pct": 5.414730894126982,
+          "gap_pct": 1.1363659454278752,
           "estimated_spread_pct": null
         },
-        "entry_price": 0.08799999952316284,
-        "atr14": 0.004980133182284509,
-        "stop_loss": 0.07903575979505073,
-        "profit_target": 0.11041059884344313,
-        "risk_per_share": 0.008964239728112116,
+        "entry_price": 0.09200000017881393,
+        "atr14": 0.004981552432279116,
+        "stop_loss": 0.08303320580071152,
+        "profit_target": 0.11441698612406996,
+        "risk_per_share": 0.008966794378102409,
         "target_r": 2.5,
-        "units_per_100k": 55777.178563396235,
+        "units_per_100k": 55761.287581327604,
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.907297+00:00",
+        "signal_date": "2026-08-13",
+        "timestamp": "2026-08-13T00:28:15.068808+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:26.907475+00:00",
-      "near_signal_score": 100
+      "updated_at": "2026-08-13T00:28:15.068974+00:00",
+      "near_signal_score": 82.2
     },
     {
       "symbol": "KSC",
@@ -18133,73 +18207,32 @@
       "company": "MOUNT RIDLEY MINES LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.03099999949336052,
-      "adx14": 22.376247845646144,
-      "atr14": 0.0023545145479190776,
-      "relative_volume": 6.697025393897437,
-      "zscore20": 2.6311735646852554,
-      "microstructure_score": 85.0,
+      "price": 0.032999999821186066,
+      "adx14": 24.964316445287174,
+      "atr14": 0.002400620819809391,
+      "relative_volume": 0.30465054884139986,
+      "zscore20": 2.6939932325787237,
+      "microstructure_score": 45.0,
       "active": false,
-      "candidate": {
-        "symbol": "MRD",
-        "company": "MOUNT RIDLEY MINES LIMITED",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 97.0,
-        "microstructure_score": 85.0,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 22.4",
-          "relative volume 6.70x"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 22.376247845646144
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$78,704",
-            "gap 20.0%"
-          ],
-          "average_dollar_volume_20d": 78703.68398186556,
-          "atr_pct": 7.595208343223876,
-          "gap_pct": 19.999995529651706,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.03099999949336052,
-        "atr14": 0.0023545145479190776,
-        "stop_loss": 0.02676187330710618,
-        "profit_target": 0.04159531495899637,
-        "risk_per_share": 0.00423812618625434,
-        "target_r": 2.5,
-        "units_per_100k": 117976.6665800719,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.927098+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.927307+00:00",
-      "near_signal_score": 97.0
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:15.085740+00:00",
+      "near_signal_score": 39.0
     },
     {
       "symbol": "MRE",
       "company": "METRICS REAL ESTATE MULTI-STRATEGY FUND",
       "status": "ok",
       "regime": "RANGE",
-      "price": 1.8250000476837158,
-      "adx14": 16.022211196578635,
-      "atr14": 0.038888103521707934,
-      "relative_volume": 2.7665665100554193,
-      "zscore20": -1.9861344760935347,
-      "microstructure_score": 55.2,
+      "price": 1.840000033378601,
+      "adx14": 17.060318528450285,
+      "atr14": 0.0371818093912206,
+      "relative_volume": 4.798485872057971e-05,
+      "zscore20": -1.3864043416321268,
+      "microstructure_score": 25.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-13T00:03:26.946466+00:00",
-      "near_signal_score": 66.0
+      "updated_at": "2026-08-13T00:28:15.102677+00:00",
+      "near_signal_score": 25.1
     },
     {
       "symbol": "MRQ",
@@ -19928,54 +19961,16 @@
       "company": "OD6 METALS LIMITED",
       "status": "ok",
       "regime": "SQUEEZE",
-      "price": 0.12999999523162842,
-      "adx14": 13.350416936636703,
-      "atr14": 0.009772951821394187,
-      "relative_volume": 4.769916706499741,
-      "zscore20": 2.278453053789882,
-      "microstructure_score": 81.7,
+      "price": 0.13699999451637268,
+      "adx14": 14.850563609702977,
+      "atr14": 0.009574883783062049,
+      "relative_volume": 0.273468210455899,
+      "zscore20": 2.400508883362545,
+      "microstructure_score": 65.0,
       "active": false,
-      "candidate": {
-        "symbol": "OD6",
-        "company": "OD6 METALS LIMITED",
-        "direction": "LONG",
-        "strategy": "SQUEEZE_EXPANSION",
-        "regime": "SQUEEZE",
-        "signal_score": 91.3,
-        "microstructure_score": 81.7,
-        "reasons": [
-          "BB width pct 10",
-          "relative volume 4.77x",
-          "upside compression break"
-        ],
-        "regime_details": {
-          "bb_width_percentile": 10.0
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$84,665"
-          ],
-          "average_dollar_volume_20d": 84664.88551860004,
-          "atr_pct": 7.51765552297226,
-          "gap_pct": 3.9999961853027344,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.12999999523162842,
-        "atr14": 0.009772951821394187,
-        "stop_loss": 0.11436327231739772,
-        "profit_target": 0.17691016397432052,
-        "risk_per_share": 0.0156367229142307,
-        "target_r": 3.0,
-        "units_per_100k": 31976.00947094605,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:26.985763+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:26.986195+00:00",
-      "near_signal_score": 91.3
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:15.136825+00:00",
+      "near_signal_score": 53.0
     },
     {
       "symbol": "ODA",
@@ -24897,10 +24892,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:27.025298+00:00",
+        "timestamp": "2026-08-13T00:28:15.171000+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:27.025487+00:00",
+      "updated_at": "2026-08-13T00:28:15.171153+00:00",
       "near_signal_score": 100
     },
     {
@@ -25235,56 +25230,16 @@
       "company": "SRJ TECHNOLOGIES GROUP PLC",
       "status": "ok",
       "regime": "RANGE",
-      "price": 0.007000000216066837,
-      "adx14": 17.605350027475186,
-      "atr14": 0.0012882461594593381,
-      "relative_volume": 1.864165421530374,
-      "zscore20": -2.2983135202749914,
-      "microstructure_score": 44.5,
+      "price": 0.00800000037997961,
+      "adx14": 18.88717936453116,
+      "atr14": 0.0012676571597774406,
+      "relative_volume": 0.13654145681002175,
+      "zscore20": -1.3889323673288856,
+      "microstructure_score": 25.0,
       "active": false,
-      "candidate": {
-        "symbol": "SRJ",
-        "company": "SRJ TECHNOLOGIES GROUP PLC",
-        "direction": "LONG",
-        "strategy": "MEAN_REVERSION",
-        "regime": "RANGE",
-        "signal_score": 88.9,
-        "microstructure_score": 44.5,
-        "reasons": [
-          "z-score -2.30",
-          "RSI5 17.9",
-          "low ADX",
-          "selling pressure moderating"
-        ],
-        "regime_details": {
-          "adx": 17.605350027475186
-        },
-        "execution_risk": {
-          "pass": false,
-          "reasons": [
-            "20d dollar volume A$89,118",
-            "ATR% 18.4"
-          ],
-          "average_dollar_volume_20d": 89118.08291806895,
-          "atr_pct": 18.40351599564919,
-          "gap_pct": 0.0,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 0.007000000216066837,
-        "atr14": 0.0012882461594593381,
-        "stop_loss": 0.005325280208769698,
-        "profit_target": 0.00967955222774226,
-        "risk_per_share": 0.0016747200072971397,
-        "target_r": 1.6,
-        "units_per_100k": 298557.3694834869,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:27.044655+00:00",
-        "rejected": true
-      },
-      "updated_at": "2026-08-13T00:03:27.044819+00:00",
-      "near_signal_score": 88.9
+      "candidate": null,
+      "updated_at": "2026-08-13T00:28:15.187820+00:00",
+      "near_signal_score": 25.0
     },
     {
       "symbol": "SRK",
@@ -28177,10 +28132,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:27.064182+00:00",
+        "timestamp": "2026-08-13T00:28:15.204869+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:27.064347+00:00",
+      "updated_at": "2026-08-13T00:28:15.205028+00:00",
       "near_signal_score": 85.9
     },
     {
@@ -29092,10 +29047,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:27.102480+00:00",
+        "timestamp": "2026-08-13T00:28:15.221990+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:27.102659+00:00",
+      "updated_at": "2026-08-13T00:28:15.222142+00:00",
       "near_signal_score": 84.5
     },
     {
@@ -29309,10 +29264,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-13T00:03:27.122053+00:00",
+        "timestamp": "2026-08-13T00:28:15.239206+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-13T00:03:27.122526+00:00",
+      "updated_at": "2026-08-13T00:28:15.239597+00:00",
       "near_signal_score": 100
     },
     {
