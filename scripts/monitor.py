@@ -100,7 +100,10 @@ def main():
             row={"symbol":sym,"company":item["company"],"regime":rg,"price":float(r.Close),"near_signal_score":round(adjusted,1),"active":sym in active,"updated_at":stamp}
             rows.append(row)
 
-            # Keep the public dashboard synchronized with the fast monitor.
+            # Active positions keep their original trade plan visible while live market fields refresh.
+            if sym in active:
+                cand=active[sym]
+
             old=scanner_assets.get(sym,{})
             scanner_assets[sym]={**old,"symbol":sym,"company":item["company"],"status":"ok","regime":rg,"price":float(r.Close),"adx14":float(r.ADX14),"atr14":float(r.ATR14),"relative_volume":float(r.RELVOL20) if pd.notna(r.RELVOL20) else None,"zscore20":float(r.ZS20),"microstructure_score":round(ms,1),"near_signal_score":round(adjusted,1),"active":sym in active,"candidate":cand,"updated_at":stamp}
         except Exception as e:print(f"Monitor {sym}: {type(e).__name__}: {e}")
