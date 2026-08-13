@@ -1,7 +1,48 @@
 {
-  "generated_at": "2026-08-13T00:28:15.240242+00:00",
-  "watched": 53,
+  "generated_at": "2026-08-13T05:50:09.458057+00:00",
+  "watched": 34,
   "signals": [
+    {
+      "symbol": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 100,
+      "microstructure_score": 92.5,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 42.2",
+        "relative volume 4.04x",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 42.227697538973445
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 4762707.104265666,
+        "atr_pct": 4.207664656039986,
+        "gap_pct": 1.2738840928875783,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.490000009536743,
+      "atr14": 0.1468474968970697,
+      "stop_loss": 3.2256745151220176,
+      "profit_target": 4.150813745573557,
+      "risk_per_share": 0.26432549441472547,
+      "target_r": 2.5,
+      "units_per_100k": 1891.607168302511,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-13",
+      "timestamp": "2026-08-13T05:50:08.955159+00:00"
+    }
+  ],
+  "exits": [
     {
       "symbol": "BVS",
       "company": "BRAVURA SOLUTIONS LIMITED.",
@@ -38,37 +79,34 @@
       "actual_units": null,
       "risk_per_trade_pct": 0.5,
       "signal_date": "2026-08-13",
-      "timestamp": "2026-08-13T00:28:14.452963+00:00"
+      "timestamp": "2026-08-13T00:28:14.452963+00:00",
+      "entry_date": "2026-08-13",
+      "peak_price": 3.5350000858306885,
+      "trailing_stop": 3.2119355926571354,
+      "exit_date": "2026-08-13",
+      "exit_price": 3.2119355926571354,
+      "exit_reason": "ATR_TRAILING_STOP",
+      "pnl_pct": -3.5454754881051764
     }
   ],
-  "exits": [],
   "assets": [
-    {
-      "symbol": "AAJ",
-      "company": "ARUMA RESOURCES LIMITED",
-      "regime": "RANGE",
-      "price": 0.007000000216066837,
-      "near_signal_score": 15.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.349885+00:00"
-    },
     {
       "symbol": "ACR",
       "company": "ACRUX LIMITED",
       "regime": "RANGE",
       "price": 0.008999999612569809,
-      "near_signal_score": 79.0,
+      "near_signal_score": 77.9,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.367369+00:00"
+      "updated_at": "2026-08-13T05:50:08.885287+00:00"
     },
     {
       "symbol": "ACS",
       "company": "ACCENT RESOURCES NL",
       "regime": "TREND",
-      "price": 0.20000000298023224,
-      "near_signal_score": 62.6,
+      "price": 0.5249999761581421,
+      "near_signal_score": 100,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.384502+00:00"
+      "updated_at": "2026-08-13T05:50:08.902719+00:00"
     },
     {
       "symbol": "AER",
@@ -77,106 +115,70 @@
       "price": 0.05900000035762787,
       "near_signal_score": 92.0,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.402211+00:00"
-    },
-    {
-      "symbol": "AUZ",
-      "company": "AUSTRALIAN MINES LIMITED",
-      "regime": "TREND",
-      "price": 0.03799999877810478,
-      "near_signal_score": 40.7,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.419018+00:00"
+      "updated_at": "2026-08-13T05:50:08.920466+00:00"
     },
     {
       "symbol": "AVH",
       "company": "AVITA MEDICAL INC.",
       "regime": "TREND",
-      "price": 2.259999990463257,
-      "near_signal_score": 53.0,
+      "price": 2.25,
+      "near_signal_score": 42.5,
       "active": true,
-      "updated_at": "2026-08-13T00:28:14.436005+00:00"
+      "updated_at": "2026-08-13T05:50:08.937830+00:00"
     },
     {
       "symbol": "BVS",
       "company": "BRAVURA SOLUTIONS LIMITED.",
       "regime": "TREND",
-      "price": 3.3299999237060547,
-      "near_signal_score": 82.0,
+      "price": 3.490000009536743,
+      "near_signal_score": 100,
       "active": true,
-      "updated_at": "2026-08-13T00:28:14.453141+00:00"
+      "updated_at": "2026-08-13T05:50:08.955335+00:00"
     },
     {
       "symbol": "CBE",
       "company": "COBRE LIMITED",
       "regime": "TREND",
-      "price": 0.33500000834465027,
-      "near_signal_score": 40.3,
+      "price": 0.32199999690055847,
+      "near_signal_score": 41.1,
       "active": true,
-      "updated_at": "2026-08-13T00:28:14.470209+00:00"
+      "updated_at": "2026-08-13T05:50:08.972760+00:00"
     },
     {
       "symbol": "CNQ",
       "company": "CLEAN TEQ WATER LIMITED",
       "regime": "TREND",
-      "price": 0.7400000095367432,
-      "near_signal_score": 83.0,
+      "price": 0.7049999833106995,
+      "near_signal_score": 95.2,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.487265+00:00"
-    },
-    {
-      "symbol": "COS",
-      "company": "COSOL LIMITED",
-      "regime": "UNCLEAR",
-      "price": 0.23499999940395355,
-      "near_signal_score": 1.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.503898+00:00"
-    },
-    {
-      "symbol": "CUP",
-      "company": "COUNT LIMITED",
-      "regime": "TREND",
-      "price": 1.2599999904632568,
-      "near_signal_score": 41.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.520664+00:00"
-    },
-    {
-      "symbol": "CVL",
-      "company": "CIVMEC LIMITED",
-      "regime": "RANGE",
-      "price": 1.875,
-      "near_signal_score": 43.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.537665+00:00"
+      "updated_at": "2026-08-13T05:50:08.989950+00:00"
     },
     {
       "symbol": "CZN",
       "company": "CORAZON MINING LIMITED",
       "regime": "SQUEEZE",
-      "price": 0.09399999678134918,
-      "near_signal_score": 76.4,
+      "price": 0.09200000017881393,
+      "near_signal_score": 32.6,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.555121+00:00"
+      "updated_at": "2026-08-13T05:50:09.008046+00:00"
     },
     {
       "symbol": "CZR",
       "company": "CZR RESOURCES LTD",
       "regime": "SQUEEZE",
-      "price": 0.2199999988079071,
-      "near_signal_score": 63.5,
+      "price": 0.20999999344348907,
+      "near_signal_score": 32.3,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.572389+00:00"
+      "updated_at": "2026-08-13T05:50:09.025331+00:00"
     },
     {
       "symbol": "DAL",
       "company": "DALAROO METALS LTD",
       "regime": "SQUEEZE",
-      "price": 0.07199999690055847,
-      "near_signal_score": 61.7,
+      "price": 0.07400000095367432,
+      "near_signal_score": 50.6,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.589601+00:00"
+      "updated_at": "2026-08-13T05:50:09.042771+00:00"
     },
     {
       "symbol": "DEL",
@@ -185,70 +187,43 @@
       "price": 0.09300000220537186,
       "near_signal_score": 61.6,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.607142+00:00"
-    },
-    {
-      "symbol": "DEM",
-      "company": "DE.MEM LIMITED",
-      "regime": "UNCLEAR",
-      "price": 0.10999999940395355,
-      "near_signal_score": 4.9,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.623743+00:00"
+      "updated_at": "2026-08-13T05:50:09.060429+00:00"
     },
     {
       "symbol": "DJW",
       "company": "DJERRIWARRH INVESTMENTS LIMITED",
       "regime": "SQUEEZE",
-      "price": 2.940000057220459,
-      "near_signal_score": 65.6,
+      "price": 2.9700000286102295,
+      "near_signal_score": 65.3,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.641183+00:00"
+      "updated_at": "2026-08-13T05:50:09.077819+00:00"
     },
     {
       "symbol": "DME",
       "company": "DOME GOLD MINES LIMITED",
       "regime": "SQUEEZE",
       "price": 0.05299999937415123,
-      "near_signal_score": 84.0,
+      "near_signal_score": 36.0,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.658387+00:00"
-    },
-    {
-      "symbol": "DOW",
-      "company": "DOWNER EDI LIMITED",
-      "regime": "SQUEEZE",
-      "price": 7.704999923706055,
-      "near_signal_score": 31.4,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.675605+00:00"
-    },
-    {
-      "symbol": "DPM",
-      "company": "DPM METALS INC.",
-      "regime": "TREND",
-      "price": 63.20000076293945,
-      "near_signal_score": 41.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.692361+00:00"
+      "updated_at": "2026-08-13T05:50:09.095304+00:00"
     },
     {
       "symbol": "DTR",
       "company": "DATELINE RESOURCES LIMITED",
       "regime": "RANGE",
-      "price": 0.0860000029206276,
-      "near_signal_score": 85.1,
+      "price": 0.09000000357627869,
+      "near_signal_score": 100,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.709702+00:00"
+      "updated_at": "2026-08-13T05:50:09.112524+00:00"
     },
     {
       "symbol": "DXI",
       "company": "DEXUS INDUSTRIA REIT.",
       "regime": "RANGE",
-      "price": 2.369999885559082,
-      "near_signal_score": 72.2,
+      "price": 2.3499999046325684,
+      "near_signal_score": 100,
       "active": true,
-      "updated_at": "2026-08-13T00:28:14.726696+00:00"
+      "updated_at": "2026-08-13T05:50:09.129750+00:00"
     },
     {
       "symbol": "EGG",
@@ -257,268 +232,169 @@
       "price": 0.28999999165534973,
       "near_signal_score": 77.4,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.743987+00:00"
-    },
-    {
-      "symbol": "EMD",
-      "company": "EMYRIA LIMITED",
-      "regime": "SQUEEZE",
-      "price": 0.04500000178813934,
-      "near_signal_score": 31.9,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.761096+00:00"
-    },
-    {
-      "symbol": "ENR",
-      "company": "ENCOUNTER RESOURCES LIMITED",
-      "regime": "SQUEEZE",
-      "price": 0.23000000417232513,
-      "near_signal_score": 49.2,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.778249+00:00"
+      "updated_at": "2026-08-13T05:50:09.147286+00:00"
     },
     {
       "symbol": "EPM",
       "company": "ECLIPSE METALS LIMITED.",
       "regime": "SQUEEZE",
       "price": 0.014000000432133675,
-      "near_signal_score": 65.4,
+      "near_signal_score": 32.6,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.795383+00:00"
-    },
-    {
-      "symbol": "ERD",
-      "company": "EROAD LIMITED",
-      "regime": "RANGE",
-      "price": 0.7900000214576721,
-      "near_signal_score": 37.9,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.812045+00:00"
+      "updated_at": "2026-08-13T05:50:09.165041+00:00"
     },
     {
       "symbol": "ESK",
       "company": "ETHERSTACK PLC",
       "regime": "SQUEEZE",
-      "price": 0.5400000214576721,
-      "near_signal_score": 81.1,
+      "price": 0.5450000166893005,
+      "near_signal_score": 52.7,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.829313+00:00"
-    },
-    {
-      "symbol": "EVO",
-      "company": "EMBARK EARLY EDUCATION LIMITED",
-      "regime": "SQUEEZE",
-      "price": 0.4000000059604645,
-      "near_signal_score": 31.3,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.846574+00:00"
-    },
-    {
-      "symbol": "EWC",
-      "company": "ENERGY WORLD CORPORATION LTD",
-      "regime": "TREND",
-      "price": 0.06199999898672104,
-      "near_signal_score": 38.6,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:14.863261+00:00"
+      "updated_at": "2026-08-13T05:50:09.182425+00:00"
     },
     {
       "symbol": "EZL",
       "company": "EUROZ HARTLEYS GROUP LIMITED",
       "regime": "SQUEEZE",
       "price": 1.3200000524520874,
-      "near_signal_score": 79.7,
+      "near_signal_score": 33.6,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.880557+00:00"
+      "updated_at": "2026-08-13T05:50:09.199722+00:00"
     },
     {
       "symbol": "FID",
       "company": "FIDUCIAN GROUP LIMITED",
       "regime": "SQUEEZE",
-      "price": 8.5,
-      "near_signal_score": 61.5,
+      "price": 8.510000228881836,
+      "near_signal_score": 78.0,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.898020+00:00"
+      "updated_at": "2026-08-13T05:50:09.217027+00:00"
     },
     {
       "symbol": "FPR",
       "company": "FLEETPARTNERS GROUP LIMITED",
       "regime": "TREND",
-      "price": 4.130000114440918,
-      "near_signal_score": 40.8,
+      "price": 4.15500020980835,
+      "near_signal_score": 84.4,
       "active": true,
-      "updated_at": "2026-08-13T00:28:14.915040+00:00"
+      "updated_at": "2026-08-13T05:50:09.234335+00:00"
     },
     {
       "symbol": "FRB",
       "company": "FIREBIRD METALS LIMITED",
       "regime": "SQUEEZE",
-      "price": 0.16500000655651093,
-      "near_signal_score": 63.0,
+      "price": 0.19699999690055847,
+      "near_signal_score": 100,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.932309+00:00"
+      "updated_at": "2026-08-13T05:50:09.252022+00:00"
     },
     {
       "symbol": "FUN",
       "company": "FORTUNA METALS LTD",
       "regime": "SQUEEZE",
-      "price": 0.09300000220537186,
-      "near_signal_score": 76.3,
+      "price": 0.09200000017881393,
+      "near_signal_score": 30.0,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.949574+00:00"
+      "updated_at": "2026-08-13T05:50:09.269497+00:00"
     },
     {
       "symbol": "G88",
       "company": "GOLDEN MILE RESOURCES LTD",
       "regime": "SQUEEZE",
       "price": 0.007000000216066837,
-      "near_signal_score": 62.0,
+      "near_signal_score": 35.8,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.966758+00:00"
+      "updated_at": "2026-08-13T05:50:09.286833+00:00"
     },
     {
       "symbol": "GBE",
       "company": "GLOBE METALS & MINING LIMITED",
-      "regime": "SQUEEZE",
-      "price": 0.07199999690055847,
-      "near_signal_score": 90.8,
+      "regime": "RANGE",
+      "price": 0.07500000298023224,
+      "near_signal_score": 48.2,
       "active": false,
-      "updated_at": "2026-08-13T00:28:14.984198+00:00"
-    },
-    {
-      "symbol": "GL1",
-      "company": "GLOBAL LITHIUM RESOURCES LIMITED",
-      "regime": "TREND",
-      "price": 0.7699999809265137,
-      "near_signal_score": 39.3,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:15.000836+00:00"
+      "updated_at": "2026-08-13T05:50:09.303735+00:00"
     },
     {
       "symbol": "JAT",
       "company": "JATCORP LIMITED",
-      "regime": "RANGE",
-      "price": 0.10999999940395355,
-      "near_signal_score": 75.0,
+      "regime": "UNCLEAR",
+      "price": 0.14000000059604645,
+      "near_signal_score": -3.2,
       "active": false,
-      "updated_at": "2026-08-13T00:28:15.017994+00:00"
+      "updated_at": "2026-08-13T05:50:09.320415+00:00"
     },
     {
       "symbol": "JHX",
       "company": "JAMES HARDIE INDUSTRIES PLC",
       "regime": "TREND",
-      "price": 43.42499923706055,
-      "near_signal_score": 40.4,
+      "price": 43.540000915527344,
+      "near_signal_score": 40.9,
       "active": true,
-      "updated_at": "2026-08-13T00:28:15.035085+00:00"
-    },
-    {
-      "symbol": "KME",
-      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
-      "regime": "TREND",
-      "price": 0.7200000286102295,
-      "near_signal_score": 39.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:15.051931+00:00"
+      "updated_at": "2026-08-13T05:50:09.337678+00:00"
     },
     {
       "symbol": "KRR",
       "company": "KING RIVER RESOURCES LIMITED",
       "regime": "TREND",
-      "price": 0.09200000017881393,
-      "near_signal_score": 82.2,
+      "price": 0.09300000220537186,
+      "near_signal_score": 96.0,
       "active": false,
-      "updated_at": "2026-08-13T00:28:15.068974+00:00"
-    },
-    {
-      "symbol": "MRD",
-      "company": "MOUNT RIDLEY MINES LIMITED",
-      "regime": "TREND",
-      "price": 0.032999999821186066,
-      "near_signal_score": 39.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:15.085740+00:00"
-    },
-    {
-      "symbol": "MRE",
-      "company": "METRICS REAL ESTATE MULTI-STRATEGY FUND",
-      "regime": "RANGE",
-      "price": 1.840000033378601,
-      "near_signal_score": 25.1,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:15.102677+00:00"
+      "updated_at": "2026-08-13T05:50:09.354646+00:00"
     },
     {
       "symbol": "NWH",
       "company": "NRW HOLDINGS LIMITED",
-      "regime": "RANGE",
-      "price": 7.465000152587891,
-      "near_signal_score": 43.0,
-      "active": true,
-      "updated_at": "2026-08-13T00:28:15.119613+00:00"
-    },
-    {
-      "symbol": "OD6",
-      "company": "OD6 METALS LIMITED",
       "regime": "SQUEEZE",
-      "price": 0.13699999451637268,
-      "near_signal_score": 53.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:15.136825+00:00"
+      "price": 7.34499979019165,
+      "near_signal_score": 34.3,
+      "active": true,
+      "updated_at": "2026-08-13T05:50:09.372370+00:00"
     },
     {
       "symbol": "PYC",
       "company": "PYC THERAPEUTICS LIMITED",
       "regime": "TREND",
-      "price": 2.200000047683716,
-      "near_signal_score": 83.0,
+      "price": 2.1500000953674316,
+      "near_signal_score": 42.4,
       "active": true,
-      "updated_at": "2026-08-13T00:28:15.153961+00:00"
+      "updated_at": "2026-08-13T05:50:09.389642+00:00"
     },
     {
       "symbol": "SNX",
       "company": "SIERRA NEVADA GOLD INC.",
       "regime": "TREND",
-      "price": 0.09399999678134918,
-      "near_signal_score": 100,
+      "price": 0.09300000220537186,
+      "near_signal_score": 62.9,
       "active": false,
-      "updated_at": "2026-08-13T00:28:15.171153+00:00"
-    },
-    {
-      "symbol": "SRJ",
-      "company": "SRJ TECHNOLOGIES GROUP PLC",
-      "regime": "RANGE",
-      "price": 0.00800000037997961,
-      "near_signal_score": 25.0,
-      "active": false,
-      "updated_at": "2026-08-13T00:28:15.187820+00:00"
+      "updated_at": "2026-08-13T05:50:09.406564+00:00"
     },
     {
       "symbol": "VTM",
       "company": "VICTORY METALS LIMITED",
       "regime": "TREND",
-      "price": 1.7000000476837158,
-      "near_signal_score": 85.9,
+      "price": 1.75,
+      "near_signal_score": 85.6,
       "active": false,
-      "updated_at": "2026-08-13T00:28:15.205028+00:00"
+      "updated_at": "2026-08-13T05:50:09.423691+00:00"
     },
     {
       "symbol": "WTL",
       "company": "WT FINANCIAL GROUP LIMITED",
       "regime": "TREND",
       "price": 0.18000000715255737,
-      "near_signal_score": 84.5,
+      "near_signal_score": 52.4,
       "active": false,
-      "updated_at": "2026-08-13T00:28:15.222142+00:00"
+      "updated_at": "2026-08-13T05:50:09.440544+00:00"
     },
     {
       "symbol": "XPD",
       "company": "XPEDRA RESOURCES LIMITED",
-      "regime": "SQUEEZE",
+      "regime": "RANGE",
       "price": 0.02199999988079071,
-      "near_signal_score": 100,
+      "near_signal_score": 31.6,
       "active": false,
-      "updated_at": "2026-08-13T00:28:15.239597+00:00"
+      "updated_at": "2026-08-13T05:50:09.457281+00:00"
     }
   ]
 }
