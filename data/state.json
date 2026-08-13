@@ -328,6 +328,47 @@
       "entry_date": "2026-08-13",
       "peak_price": 3.5199999809265137,
       "trailing_stop": 3.255674486511788
+    },
+    "HDN": {
+      "symbol": "HDN",
+      "company": "HOMECO DAILY NEEDS REIT",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 100,
+      "microstructure_score": 62.3,
+      "reasons": [
+        "z-score -3.29",
+        "RSI5 8.2",
+        "low ADX",
+        "not closing on low",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 13.104861817864316
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 4197455.35555079,
+        "atr_pct": 2.6420226152542545,
+        "gap_pct": 3.529408464794692,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 1.2050000429153442,
+      "atr14": 0.03183637364764687,
+      "stop_loss": 1.1636127571734034,
+      "profit_target": 1.2712197001024497,
+      "risk_per_share": 0.04138728574194093,
+      "target_r": 1.6,
+      "units_per_100k": 12081.004855394793,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-13",
+      "timestamp": "2026-08-13T09:50:56.456245+00:00",
+      "entry_date": "2026-08-13",
+      "peak_price": 1.2050000429153442,
+      "trailing_stop": 1.1636127571734034
     }
   },
   "closed_trades": [
@@ -423,5 +464,5 @@
       "pnl_pct": -7.573796380871977
     }
   ],
-  "updated_at": "2026-08-13T09:48:06.316424+00:00"
+  "updated_at": "2026-08-13T09:50:58.978311+00:00"
 }
