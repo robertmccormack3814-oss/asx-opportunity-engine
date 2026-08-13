@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-08-12T20:25:47.902222+00:00",
+  "generated_at": "2026-08-13T00:02:06.815975+00:00",
   "stats": {
     "universe": 1984,
     "known_assets": 1984,
     "active_trades": 7,
     "signals_this_batch": 0,
     "exits_this_batch": 0,
-    "batch_processed": 234,
-    "batch_errors": 16,
-    "next_index": 516,
-    "macro_blackout_today": false
+    "batch_processed": 235,
+    "batch_errors": 15,
+    "next_index": 766,
+    "macro_blackout_today": false,
+    "near_signals": 24
   },
   "signals": [],
   "exits": [],
@@ -177,7 +178,7 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T07:58:53.339513+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 4.099999904632568,
+      "peak_price": 4.130000114440918,
       "trailing_stop": 3.8511155336299687
     },
     {
@@ -339,50 +340,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 2.3499999046325684,
-      "adx14": 13.932482451982292,
-      "atr14": 0.05345960816314723,
+      "adx14": 13.932482451982303,
+      "atr14": 0.05345960816314724,
       "relative_volume": 2.3171003278583493,
-      "zscore20": -3.136041854927942,
+      "zscore20": -3.13604185492777,
       "microstructure_score": 47.4,
+      "near_signal_score": 89.5,
       "active": true,
-      "candidate": {
-        "symbol": "DXI",
-        "company": "DEXUS INDUSTRIA REIT.",
-        "direction": "LONG",
-        "strategy": "MEAN_REVERSION",
-        "regime": "RANGE",
-        "signal_score": 89.5,
-        "microstructure_score": 47.4,
-        "reasons": [
-          "z-score -3.14",
-          "RSI5 20.1",
-          "low ADX",
-          "selling pressure moderating"
-        ],
-        "regime_details": {
-          "adx": 13.932482451982292
-        },
-        "execution_risk": {
-          "pass": true,
-          "reasons": [],
-          "average_dollar_volume_20d": 1896503.1167483688,
-          "atr_pct": 2.274877035431448,
-          "gap_pct": 0.0,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 2.3499999046325684,
-        "atr14": 0.05345960816314723,
-        "stop_loss": 2.280502414020477,
-        "profit_target": 2.461195889611915,
-        "risk_per_share": 0.0694974906120914,
-        "target_r": 1.6,
-        "units_per_100k": 7194.504371255793,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:58:51.102906+00:00"
-      },
-      "updated_at": "2026-08-12T07:58:51.102976+00:00"
+      "candidate": null,
+      "updated_at": "2026-08-13T00:02:03.901131+00:00"
     },
     {
       "symbol": "FPR",
@@ -390,52 +356,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 4.099999904632568,
-      "adx14": 35.56587758055166,
+      "adx14": 35.56587758055165,
       "atr14": 0.13826909500144433,
       "relative_volume": 2.9131415428706067,
-      "zscore20": 2.295394019483657,
+      "zscore20": 2.295394019483656,
       "microstructure_score": 85.8,
+      "near_signal_score": 100,
       "active": true,
-      "candidate": {
-        "symbol": "FPR",
-        "company": "FLEETPARTNERS GROUP LIMITED",
-        "direction": "LONG",
-        "strategy": "TREND_BREAKOUT",
-        "regime": "TREND",
-        "signal_score": 100,
-        "microstructure_score": 85.8,
-        "reasons": [
-          "20-day upside breakout",
-          "EMA alignment",
-          "ADX 35.6",
-          "relative volume 2.91x",
-          "strong close"
-        ],
-        "regime_details": {
-          "direction": "UP",
-          "adx": 35.56587758055166
-        },
-        "execution_risk": {
-          "pass": true,
-          "reasons": [],
-          "average_dollar_volume_20d": 1921997.3437203765,
-          "atr_pct": 3.372417029698337,
-          "gap_pct": 4.651170813917926,
-          "estimated_spread_pct": null
-        },
-        "entry_price": 4.099999904632568,
-        "atr14": 0.13826909500144433,
-        "stop_loss": 3.8511155336299687,
-        "profit_target": 4.7222108321390674,
-        "risk_per_share": 0.2488843710025998,
-        "target_r": 2.5,
-        "units_per_100k": 2008.9650386073342,
-        "actual_units": null,
-        "risk_per_trade_pct": 0.5,
-        "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:58:53.339513+00:00"
-      },
-      "updated_at": "2026-08-12T07:58:53.339579+00:00"
+      "candidate": null,
+      "updated_at": "2026-08-13T00:02:06.109796+00:00"
     },
     {
       "symbol": "JHX",
@@ -8356,14 +8285,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 2.369999885559082,
-      "adx14": 7.408341456376509,
+      "adx14": 7.408341456376516,
       "atr14": 0.053231117132504446,
-      "relative_volume": 0.5663815159303109,
-      "zscore20": 0.3927425296752029,
-      "microstructure_score": 48.0,
+      "relative_volume": 0.5866633542249409,
+      "zscore20": 0.3927425296752044,
+      "microstructure_score": 48.4,
+      "near_signal_score": 49.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.040248+00:00"
+      "updated_at": "2026-08-13T00:02:02.870798+00:00"
     },
     {
       "symbol": "CXL",
@@ -8371,14 +8301,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.3499999940395355,
-      "adx14": 14.772928642648079,
+      "adx14": 14.77292864264808,
       "atr14": 0.02835671821067773,
       "relative_volume": 0.7340205182689832,
       "zscore20": 0.8479837749296871,
       "microstructure_score": 42.5,
+      "near_signal_score": 33.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.057629+00:00"
+      "updated_at": "2026-08-13T00:02:02.888042+00:00"
     },
     {
       "symbol": "CXO",
@@ -8387,13 +8318,14 @@
       "regime": "RANGE",
       "price": 0.36000001430511475,
       "adx14": 18.652625512614797,
-      "atr14": 0.023790994618700913,
+      "atr14": 0.02375528079279389,
       "relative_volume": 2.3101674349460293,
-      "zscore20": 2.844318508804222,
+      "zscore20": 2.8443185088042235,
       "microstructure_score": 90.3,
+      "near_signal_score": 48.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.075096+00:00"
+      "updated_at": "2026-08-13T00:02:02.904584+00:00"
     },
     {
       "symbol": "CXU",
@@ -8401,14 +8333,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.09200000017881393,
-      "adx14": 30.151457140535687,
+      "adx14": 30.151457140535676,
       "atr14": 0.014798302828022003,
       "relative_volume": 0.24780982416188668,
       "zscore20": -1.1619964480509795,
       "microstructure_score": 26.4,
+      "near_signal_score": -4.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.092202+00:00"
+      "updated_at": "2026-08-13T00:02:02.920877+00:00"
     },
     {
       "symbol": "CXZ",
@@ -8416,14 +8349,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.02199999988079071,
-      "adx14": 24.648307110736557,
+      "adx14": 24.648307110736564,
       "atr14": 0.0004901161363434247,
       "relative_volume": 0.146328471354845,
-      "zscore20": 0.08620826899971568,
+      "zscore20": 0.08620826899971529,
       "microstructure_score": 38.8,
+      "near_signal_score": -2.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.109260+00:00"
+      "updated_at": "2026-08-13T00:02:02.937432+00:00"
     },
     {
       "symbol": "CY5",
@@ -8436,9 +8370,10 @@
       "relative_volume": 1.037584056054091,
       "zscore20": 2.219819975266986,
       "microstructure_score": 67.5,
+      "near_signal_score": 3.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.126358+00:00"
+      "updated_at": "2026-08-13T00:02:02.953831+00:00"
     },
     {
       "symbol": "CYB",
@@ -8446,14 +8381,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.041999999433755875,
-      "adx14": 28.348007049610644,
-      "atr14": 0.002215316981411057,
-      "relative_volume": 0.0,
-      "zscore20": -0.48155493638146313,
-      "microstructure_score": 25.0,
+      "adx14": 27.280384007289523,
+      "atr14": 0.002057080054167409,
+      "relative_volume": 3.1855757131707625,
+      "zscore20": -0.4976726587613941,
+      "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.143516+00:00"
+      "updated_at": "2026-08-13T00:02:02.970208+00:00"
     },
     {
       "symbol": "CYC",
@@ -8466,9 +8402,10 @@
       "relative_volume": 0.00867463504183885,
       "zscore20": -1.2168546212528157,
       "microstructure_score": 25.0,
+      "near_signal_score": 30.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.161009+00:00"
+      "updated_at": "2026-08-13T00:02:02.988226+00:00"
     },
     {
       "symbol": "CYG",
@@ -8479,11 +8416,12 @@
       "adx14": 17.15223724797445,
       "atr14": 0.009558006013430745,
       "relative_volume": 0.014257725359352874,
-      "zscore20": -1.0116797066599623,
+      "zscore20": -1.0116797066599648,
       "microstructure_score": 41.3,
+      "near_signal_score": 28.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.178209+00:00"
+      "updated_at": "2026-08-13T00:02:03.004967+00:00"
     },
     {
       "symbol": "CYL",
@@ -8493,12 +8431,13 @@
       "price": 6.5,
       "adx14": 11.983218515318647,
       "atr14": 0.3258860661700248,
-      "relative_volume": 1.1090592712952616,
-      "zscore20": 1.57274979815521,
-      "microstructure_score": 55.9,
+      "relative_volume": 1.2338508845048373,
+      "zscore20": 1.572749798155209,
+      "microstructure_score": 58.0,
+      "near_signal_score": 31.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.195636+00:00"
+      "updated_at": "2026-08-13T00:02:03.021510+00:00"
     },
     {
       "symbol": "CYM",
@@ -8506,14 +8445,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.49000000953674316,
-      "adx14": 34.44062845365944,
+      "adx14": 34.440628453659464,
       "atr14": 0.024441892805790347,
       "relative_volume": 0.6837220667995035,
-      "zscore20": 1.725960674302135,
+      "zscore20": 1.7259606743021332,
       "microstructure_score": 67.7,
+      "near_signal_score": 53.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.212375+00:00"
+      "updated_at": "2026-08-13T00:02:03.038247+00:00"
     },
     {
       "symbol": "CYP",
@@ -8524,11 +8464,12 @@
       "adx14": 67.96707317679868,
       "atr14": 0.002597331681325805,
       "relative_volume": 0.5839458493990096,
-      "zscore20": -0.5388159059596813,
+      "zscore20": -0.5388159059548571,
       "microstructure_score": 40.9,
+      "near_signal_score": 33.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.229449+00:00"
+      "updated_at": "2026-08-13T00:02:03.055376+00:00"
     },
     {
       "symbol": "CYQ",
@@ -8536,14 +8477,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.004000000189989805,
-      "adx14": 30.399783262307057,
-      "atr14": 0.00013398789140581807,
+      "adx14": 30.695297972555796,
+      "atr14": 0.00012441732773397392,
       "relative_volume": 0.0,
-      "zscore20": -1.3987571141863784,
+      "zscore20": -1.2572370332500669,
       "microstructure_score": 25.0,
+      "near_signal_score": -5.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.246605+00:00"
+      "updated_at": "2026-08-13T00:02:03.072025+00:00"
     },
     {
       "symbol": "CYV",
@@ -8551,14 +8493,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.010999999940395355,
-      "adx14": 81.80200875178706,
-      "atr14": 0.0020966523059385103,
+      "adx14": 81.80200875178704,
+      "atr14": 0.002096652305938508,
       "relative_volume": 0.4806133598967654,
       "zscore20": -1.5811388295410405,
       "microstructure_score": 31.0,
+      "near_signal_score": 16.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.263423+00:00"
+      "updated_at": "2026-08-13T00:02:03.088739+00:00"
     },
     {
       "symbol": "CZN",
@@ -8571,6 +8514,7 @@
       "relative_volume": 0.9641543049958928,
       "zscore20": 2.4090043572660313,
       "microstructure_score": 57.1,
+      "near_signal_score": 76.4,
       "active": false,
       "candidate": {
         "symbol": "CZN",
@@ -8608,10 +8552,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:58:50.280613+00:00",
+        "timestamp": "2026-08-13T00:02:03.105752+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:58:50.280669+00:00"
+      "updated_at": "2026-08-13T00:02:03.106168+00:00"
     },
     {
       "symbol": "CZR",
@@ -8622,11 +8566,12 @@
       "adx14": 19.41088043725827,
       "atr14": 0.011001093490476227,
       "relative_volume": 1.717149420987529,
-      "zscore20": 0.16012786319089575,
+      "zscore20": 0.16012786319090358,
       "microstructure_score": 67.3,
+      "near_signal_score": 63.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.297815+00:00"
+      "updated_at": "2026-08-13T00:02:03.123214+00:00"
     },
     {
       "symbol": "D3E",
@@ -8637,11 +8582,12 @@
       "adx14": 11.096697964745603,
       "atr14": 0.024738267619360262,
       "relative_volume": 0.6872318223472322,
-      "zscore20": -0.2378900678327192,
+      "zscore20": -0.23789006783272215,
       "microstructure_score": 40.8,
+      "near_signal_score": 28.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.314609+00:00"
+      "updated_at": "2026-08-13T00:02:03.139749+00:00"
     },
     {
       "symbol": "DAF",
@@ -8649,14 +8595,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.009999999776482582,
-      "adx14": 48.16653114607021,
-      "atr14": 0.00021740348573838703,
+      "adx14": 47.362294296927885,
+      "atr14": 0.00020187466532850225,
       "relative_volume": 0.0,
       "zscore20": -0.4200840252084024,
       "microstructure_score": 25.0,
+      "near_signal_score": 15.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.331474+00:00"
+      "updated_at": "2026-08-13T00:02:03.156244+00:00"
     },
     {
       "symbol": "DAI",
@@ -8664,14 +8611,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.3400000035762787,
-      "adx14": 21.31538456691932,
+      "adx14": 21.31538456691933,
       "atr14": 0.03210302872716307,
       "relative_volume": 0.904548065840044,
       "zscore20": -1.4383985007670352,
       "microstructure_score": 35.8,
+      "near_signal_score": -2.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.349011+00:00"
+      "updated_at": "2026-08-13T00:02:03.172910+00:00"
     },
     {
       "symbol": "DAL",
@@ -8679,14 +8627,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.07199999690055847,
-      "adx14": 21.16495743129602,
+      "adx14": 21.164957431296024,
       "atr14": 0.0032979572575501555,
       "relative_volume": 1.7885111026448794,
       "zscore20": 0.5447503410727018,
       "microstructure_score": 58.6,
+      "near_signal_score": 61.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.366700+00:00"
+      "updated_at": "2026-08-13T00:02:03.189800+00:00"
     },
     {
       "symbol": "DBF",
@@ -8694,14 +8643,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.44999998807907104,
-      "adx14": 10.364101368712623,
+      "adx14": 10.36410136871263,
       "atr14": 0.011698793033592659,
       "relative_volume": 0.22135881186663123,
-      "zscore20": -0.9313808050281714,
+      "zscore20": -0.9313808050281404,
       "microstructure_score": 22.4,
+      "near_signal_score": 24.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.384124+00:00"
+      "updated_at": "2026-08-13T00:02:03.206409+00:00"
     },
     {
       "symbol": "DBO",
@@ -8709,14 +8659,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.01600000075995922,
-      "adx14": 33.317017480382965,
-      "atr14": 0.0007752554894167988,
-      "relative_volume": 0.30726083521871916,
-      "zscore20": 1.182727371390096,
-      "microstructure_score": 55.0,
+      "adx14": 34.8702181744974,
+      "atr14": 0.0007198800973155989,
+      "relative_volume": 0.015852494190219404,
+      "zscore20": 1.0690450067633765,
+      "microstructure_score": 52.1,
+      "near_signal_score": 0.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.401556+00:00"
+      "updated_at": "2026-08-13T00:02:03.222870+00:00"
     },
     {
       "symbol": "DCC",
@@ -8725,13 +8676,14 @@
       "regime": "SQUEEZE",
       "price": 0.02800000086426735,
       "adx14": 28.740577057974004,
-      "atr14": 0.0014998807982214582,
+      "atr14": 0.0014998807982214578,
       "relative_volume": 0.32665062401350825,
       "zscore20": 1.2339053944808822,
       "microstructure_score": 51.2,
+      "near_signal_score": 50.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.418871+00:00"
+      "updated_at": "2026-08-13T00:02:03.239748+00:00"
     },
     {
       "symbol": "DDR",
@@ -8739,14 +8691,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 12.75,
-      "adx14": 38.8494406041422,
+      "adx14": 38.84944060414221,
       "atr14": 0.32893921431111506,
       "relative_volume": 0.7858436191501966,
-      "zscore20": 0.5263868186754947,
+      "zscore20": 0.5263868186754975,
       "microstructure_score": 48.1,
+      "near_signal_score": 39.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.435674+00:00"
+      "updated_at": "2026-08-13T00:02:03.256307+00:00"
     },
     {
       "symbol": "DDT",
@@ -8754,14 +8707,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.003000000026077032,
-      "adx14": 10.897547299512008,
-      "atr14": 4.9424460361799605e-05,
+      "adx14": 10.897547299512073,
+      "atr14": 4.942446036179958e-05,
       "relative_volume": 0.0,
       "zscore20": -0.22941573387056607,
       "microstructure_score": 40.0,
+      "near_signal_score": 28.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.452525+00:00"
+      "updated_at": "2026-08-13T00:02:03.273009+00:00"
     },
     {
       "symbol": "DEL",
@@ -8772,11 +8726,12 @@
       "adx14": 15.383046284670627,
       "atr14": 0.002728624954294042,
       "relative_volume": 3.019951561430473,
-      "zscore20": -0.9045321096640799,
+      "zscore20": -0.9045321096641035,
       "microstructure_score": 57.8,
+      "near_signal_score": 61.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.469481+00:00"
+      "updated_at": "2026-08-13T00:02:03.290140+00:00"
     },
     {
       "symbol": "DEM",
@@ -8784,14 +8739,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.10499999672174454,
-      "adx14": 30.374776087441788,
+      "adx14": 30.37477608744178,
       "atr14": 0.003549268595790952,
       "relative_volume": 1.9793204422208026,
-      "zscore20": 2.591349166420639,
+      "zscore20": 2.591349166420647,
       "microstructure_score": 83.4,
+      "near_signal_score": 81.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.486451+00:00"
+      "updated_at": "2026-08-13T00:02:03.307512+00:00"
     },
     {
       "symbol": "DES",
@@ -8799,14 +8755,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.13500000536441803,
-      "adx14": 20.420245339551375,
+      "adx14": 20.420245339551382,
       "atr14": 0.003552546099386426,
       "relative_volume": 0.13286006771133027,
-      "zscore20": 1.8625332749120624,
+      "zscore20": 1.8625332749120511,
       "microstructure_score": 45.0,
+      "near_signal_score": -1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.503131+00:00"
+      "updated_at": "2026-08-13T00:02:03.324108+00:00"
     },
     {
       "symbol": "DEV",
@@ -8814,14 +8771,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.23999999463558197,
-      "adx14": 11.751419227410256,
-      "atr14": 0.018065924534769486,
+      "adx14": 11.751419227410265,
+      "atr14": 0.01810163942504517,
       "relative_volume": 1.3005136898293728,
-      "zscore20": -1.0140508146622935,
-      "microstructure_score": 63.2,
+      "zscore20": -1.0140508146622944,
+      "microstructure_score": 62.3,
+      "near_signal_score": 42.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.520251+00:00"
+      "updated_at": "2026-08-13T00:02:03.340920+00:00"
     },
     {
       "symbol": "DGH",
@@ -8829,14 +8787,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.8500000238418579,
-      "adx14": 57.4478764235442,
-      "atr14": 0.0027180350003702075,
+      "adx14": 58.45506171821961,
+      "atr14": 0.002523889643200907,
       "relative_volume": 0.0,
-      "zscore20": 0.9622510604303091,
+      "zscore20": 0.9999999999996787,
       "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.537846+00:00"
+      "updated_at": "2026-08-13T00:02:03.357511+00:00"
     },
     {
       "symbol": "DGL",
@@ -8844,14 +8803,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.3499999940395355,
-      "adx14": 29.99975221490134,
+      "adx14": 29.99975221490655,
       "atr14": 0.015405581987933107,
       "relative_volume": 0.3726575089304831,
-      "zscore20": 1.5175233380412374,
+      "zscore20": 1.5175233380412259,
       "microstructure_score": 45.0,
+      "near_signal_score": -1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.554458+00:00"
+      "updated_at": "2026-08-13T00:02:03.374111+00:00"
     },
     {
       "symbol": "DGR",
@@ -8859,14 +8819,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.035999998450279236,
-      "adx14": 11.879181423368578,
-      "atr14": 0.0014362030517686133,
-      "relative_volume": 0.43349407265951534,
-      "zscore20": 1.327856042826451,
-      "microstructure_score": 37.5,
+      "adx14": 12.094532430045746,
+      "atr14": 0.0013336171194994265,
+      "relative_volume": 0.0,
+      "zscore20": 1.2235885667752477,
+      "microstructure_score": 25.0,
+      "near_signal_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.571268+00:00"
+      "updated_at": "2026-08-13T00:02:03.390771+00:00"
     },
     {
       "symbol": "DGT",
@@ -8879,9 +8840,10 @@
       "relative_volume": 0.8284879222259595,
       "zscore20": 0.9107626171579666,
       "microstructure_score": 54.7,
+      "near_signal_score": 0.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.588370+00:00"
+      "updated_at": "2026-08-13T00:02:03.407215+00:00"
     },
     {
       "symbol": "DJW",
@@ -8889,14 +8851,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 2.940000057220459,
-      "adx14": 28.029059588547003,
+      "adx14": 28.029059588547028,
       "atr14": 0.03800466116478706,
       "relative_volume": 1.724616357130049,
       "zscore20": -0.0488531968745716,
       "microstructure_score": 77.8,
+      "near_signal_score": 65.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.605260+00:00"
+      "updated_at": "2026-08-13T00:02:03.424220+00:00"
     },
     {
       "symbol": "DKM",
@@ -8904,14 +8867,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.10499999672174454,
-      "adx14": 27.421160139913972,
-      "atr14": 0.0023634898359353464,
-      "relative_volume": 0.782316517439791,
-      "zscore20": 0.27435125379562214,
-      "microstructure_score": 60.6,
+      "adx14": 25.597073678171814,
+      "atr14": 0.002194669133368536,
+      "relative_volume": 0.0,
+      "zscore20": 0.3223288230400502,
+      "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.622107+00:00"
+      "updated_at": "2026-08-13T00:02:03.440913+00:00"
     },
     {
       "symbol": "DLI",
@@ -8919,14 +8883,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.18000000715255737,
-      "adx14": 16.583163739796152,
+      "adx14": 16.583163739796156,
       "atr14": 0.011039640078438141,
       "relative_volume": 1.0968195590325855,
-      "zscore20": 2.2360687771794194,
+      "zscore20": 2.236068777179457,
       "microstructure_score": 60.9,
+      "near_signal_score": 37.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.639415+00:00"
+      "updated_at": "2026-08-13T00:02:03.458040+00:00"
     },
     {
       "symbol": "DLY",
@@ -8938,16 +8903,17 @@
       "symbol": "DM1",
       "company": "DESERT METALS LIMITED",
       "status": "ok",
-      "regime": "UNCLEAR",
+      "regime": "RANGE",
       "price": 0.00800000037997961,
-      "adx14": 21.25947515809642,
-      "atr14": 0.00029308140751788185,
+      "adx14": 19.79652252762707,
+      "atr14": 0.00027214702126660456,
       "relative_volume": 0.0,
-      "zscore20": 0.4355167844095865,
+      "zscore20": 0.8004992065222205,
       "microstructure_score": 48.1,
+      "near_signal_score": 29.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.658235+00:00"
+      "updated_at": "2026-08-13T00:02:03.476461+00:00"
     },
     {
       "symbol": "DME",
@@ -8960,9 +8926,10 @@
       "relative_volume": 3.7050611932687407,
       "zscore20": 2.2158564951578636,
       "microstructure_score": 95.0,
+      "near_signal_score": 84.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.675431+00:00"
+      "updated_at": "2026-08-13T00:02:03.493480+00:00"
     },
     {
       "symbol": "DMP",
@@ -8970,35 +8937,27 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 19.360000610351562,
-      "adx14": 23.627820061688144,
+      "adx14": 23.627820061688148,
       "atr14": 0.8144088808308624,
       "relative_volume": 0.476860120480933,
-      "zscore20": 0.7966156892957242,
+      "zscore20": 0.7966156892957257,
       "microstructure_score": 42.2,
+      "near_signal_score": -1.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.693063+00:00"
+      "updated_at": "2026-08-13T00:02:03.509896+00:00"
     },
     {
       "symbol": "DN1",
       "company": "DOMINION INCOME TRUST 1",
-      "status": "ok",
-      "regime": "SQUEEZE",
-      "price": 99.98999786376953,
-      "adx14": 25.484829242794344,
-      "atr14": 0.6105044415767359,
-      "relative_volume": 0.6455846765924286,
-      "zscore20": 0.9616833630799971,
-      "microstructure_score": 48.7,
-      "active": false,
-      "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.710092+00:00"
+      "status": "error",
+      "reason": "Only 0 raw daily bars"
     },
     {
       "symbol": "DNK",
       "company": "DANAKALI LIMITED",
       "status": "error",
-      "reason": "Only 93 raw daily bars"
+      "reason": "Only 92 raw daily bars"
     },
     {
       "symbol": "DNL",
@@ -9009,11 +8968,12 @@
       "adx14": 14.358540155240851,
       "atr14": 0.09111183743414857,
       "relative_volume": 1.3351998405201182,
-      "zscore20": 1.6464334075417917,
+      "zscore20": 1.6464334075418074,
       "microstructure_score": 64.1,
+      "near_signal_score": 42.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.729036+00:00"
+      "updated_at": "2026-08-13T00:02:03.529805+00:00"
     },
     {
       "symbol": "DOC",
@@ -9021,14 +8981,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.10499999672174454,
-      "adx14": 10.519736615245172,
+      "adx14": 10.519736615245176,
       "atr14": 0.0039464205423716675,
       "relative_volume": 4.187070289643066,
-      "zscore20": -1.3112204239088803,
+      "zscore20": -1.311220423908886,
       "microstructure_score": 45.0,
+      "near_signal_score": 29.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.746554+00:00"
+      "updated_at": "2026-08-13T00:02:03.546474+00:00"
     },
     {
       "symbol": "DOW",
@@ -9036,14 +8997,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 7.679999828338623,
-      "adx14": 12.037338591160015,
+      "adx14": 12.037338591160033,
       "atr14": 0.15301797833024305,
       "relative_volume": 1.7174411988590625,
-      "zscore20": -2.470130186753967,
+      "zscore20": -2.470130186754132,
       "microstructure_score": 52.0,
+      "near_signal_score": 60.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.763966+00:00"
+      "updated_at": "2026-08-13T00:02:03.563465+00:00"
     },
     {
       "symbol": "DPM",
@@ -9056,9 +9018,10 @@
       "relative_volume": 1.6548447173705139,
       "zscore20": 2.056286818753192,
       "microstructure_score": 81.4,
+      "near_signal_score": 76.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.780408+00:00"
+      "updated_at": "2026-08-13T00:02:03.579622+00:00"
     },
     {
       "symbol": "DRE",
@@ -9066,14 +9029,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.014999999664723873,
-      "adx14": 27.848989926537445,
-      "atr14": 0.0014871932371460887,
+      "adx14": 28.399453930166253,
+      "atr14": 0.0015229075287144021,
       "relative_volume": 2.6186906546726636,
-      "zscore20": 1.5403625314587008,
-      "microstructure_score": 91.4,
+      "zscore20": 1.5403625314587295,
+      "microstructure_score": 84.7,
+      "near_signal_score": 6.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.797158+00:00"
+      "updated_at": "2026-08-13T00:02:03.596865+00:00"
     },
     {
       "symbol": "DRO",
@@ -9081,14 +9045,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 2.0399999618530273,
-      "adx14": 25.809995450469703,
+      "adx14": 25.809995450469707,
       "atr14": 0.15615185785074584,
       "relative_volume": 0.908457320246368,
-      "zscore20": -0.11850067196254299,
+      "zscore20": -0.11850067196252335,
       "microstructure_score": 40.4,
+      "near_signal_score": 18.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.813714+00:00"
+      "updated_at": "2026-08-13T00:02:03.613746+00:00"
     },
     {
       "symbol": "DRR",
@@ -9099,11 +9064,12 @@
       "adx14": 17.359235531368377,
       "atr14": 0.1086106501558475,
       "relative_volume": 0.6913613960479394,
-      "zscore20": 0.6591817894094134,
+      "zscore20": 0.6591817894093936,
       "microstructure_score": 40.3,
+      "near_signal_score": 33.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.830574+00:00"
+      "updated_at": "2026-08-13T00:02:03.630598+00:00"
     },
     {
       "symbol": "DRX",
@@ -9111,14 +9077,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.013000000268220901,
-      "adx14": 16.90429675353086,
+      "adx14": 16.904296753530865,
       "atr14": 0.0008295684594182538,
       "relative_volume": 0.3259562464855258,
-      "zscore20": 0.22941573387057204,
+      "zscore20": 0.22941573387057387,
       "microstructure_score": 27.2,
+      "near_signal_score": 25.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.847351+00:00"
+      "updated_at": "2026-08-13T00:02:03.647118+00:00"
     },
     {
       "symbol": "DSK",
@@ -9126,14 +9093,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.6800000071525574,
-      "adx14": 27.437038767341534,
+      "adx14": 27.43703876734154,
       "atr14": 0.020843372097552347,
       "relative_volume": 1.0098166825477788,
-      "zscore20": -0.6709216144663158,
+      "zscore20": -0.6709216144663123,
       "microstructure_score": 34.0,
+      "near_signal_score": 16.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.864235+00:00"
+      "updated_at": "2026-08-13T00:02:03.663654+00:00"
     },
     {
       "symbol": "DSM",
@@ -9150,11 +9118,12 @@
       "adx14": 14.614849784005894,
       "atr14": 0.2998061922522885,
       "relative_volume": 0.9248249967074282,
-      "zscore20": 0.8419294382672691,
+      "zscore20": 0.8419294382672619,
       "microstructure_score": 51.5,
+      "near_signal_score": 30.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.882698+00:00"
+      "updated_at": "2026-08-13T00:02:03.682111+00:00"
     },
     {
       "symbol": "DTM",
@@ -9162,14 +9131,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.010999999940395355,
-      "adx14": 48.95725142305014,
-      "atr14": 0.0005277189794186622,
+      "adx14": 48.95725142305018,
+      "atr14": 0.0005277189794186629,
       "relative_volume": 0.03585850991742741,
       "zscore20": -1.094797497385807,
       "microstructure_score": 26.8,
+      "near_signal_score": 15.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.899361+00:00"
+      "updated_at": "2026-08-13T00:02:03.698654+00:00"
     },
     {
       "symbol": "DTR",
@@ -9177,14 +9147,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.0860000029206276,
-      "adx14": 10.993309286549195,
+      "adx14": 10.993309286549213,
       "atr14": 0.011570348883050998,
       "relative_volume": 12.149741615218318,
       "zscore20": -3.575009539515298,
       "microstructure_score": 59.9,
+      "near_signal_score": 77.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.916204+00:00"
+      "updated_at": "2026-08-13T00:02:03.715906+00:00"
     },
     {
       "symbol": "DTZ",
@@ -9192,14 +9163,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.02500000037252903,
-      "adx14": 20.808013287258348,
+      "adx14": 20.808013287258355,
       "atr14": 0.0026644952415059635,
       "relative_volume": 0.0630100046504729,
       "zscore20": -0.5852304206704864,
       "microstructure_score": 36.3,
+      "near_signal_score": -2.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.932792+00:00"
+      "updated_at": "2026-08-13T00:02:03.732338+00:00"
     },
     {
       "symbol": "DUB",
@@ -9207,14 +9179,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.008999999612569809,
-      "adx14": 10.964001466603722,
-      "atr14": 0.0009885528914408458,
+      "adx14": 10.964001466603715,
+      "atr14": 0.0009885528914408456,
       "relative_volume": 0.38951293514199475,
-      "zscore20": 0.31448510770520066,
+      "zscore20": 0.3144851077052073,
       "microstructure_score": 40.2,
+      "near_signal_score": 28.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.949546+00:00"
+      "updated_at": "2026-08-13T00:02:03.748849+00:00"
     },
     {
       "symbol": "DUG",
@@ -9222,14 +9195,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 1.8450000286102295,
-      "adx14": 29.323333898326755,
+      "adx14": 29.323333898326773,
       "atr14": 0.0777452634232155,
       "relative_volume": 1.5364032645846493,
-      "zscore20": -2.213149178583452,
+      "zscore20": -2.2131491785833215,
       "microstructure_score": 39.3,
+      "near_signal_score": -2.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.966316+00:00"
+      "updated_at": "2026-08-13T00:02:03.765210+00:00"
     },
     {
       "symbol": "DUN",
@@ -9237,14 +9211,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.05000000074505806,
-      "adx14": 14.46218832826405,
-      "atr14": 0.001029570547072827,
-      "relative_volume": 0.11289569942648985,
-      "zscore20": 0.8727303289723273,
+      "adx14": 14.097645622492315,
+      "atr14": 0.0009560297937104823,
+      "relative_volume": 0.0,
+      "zscore20": 0.792405930109265,
       "microstructure_score": 25.0,
+      "near_signal_score": 30.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:50.983260+00:00"
+      "updated_at": "2026-08-13T00:02:03.782193+00:00"
     },
     {
       "symbol": "DUR",
@@ -9255,11 +9230,12 @@
       "adx14": 24.41557400368693,
       "atr14": 0.10462455697642553,
       "relative_volume": 0.5595888435789622,
-      "zscore20": -0.3176570882180615,
+      "zscore20": -0.3176570882180619,
       "microstructure_score": 35.0,
+      "near_signal_score": 32.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.000144+00:00"
+      "updated_at": "2026-08-13T00:02:03.799255+00:00"
     },
     {
       "symbol": "DVL",
@@ -9267,14 +9243,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.023000000044703484,
-      "adx14": 22.554232771024793,
+      "adx14": 22.5542327710248,
       "atr14": 0.002414664164101763,
       "relative_volume": 1.9261672937419758,
       "zscore20": -1.6770510774880394,
       "microstructure_score": 43.5,
+      "near_signal_score": 38.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.016988+00:00"
+      "updated_at": "2026-08-13T00:02:03.815819+00:00"
     },
     {
       "symbol": "DVP",
@@ -9284,12 +9261,13 @@
       "price": 5.110000133514404,
       "adx14": 18.31828946714475,
       "atr14": 0.3165943136601382,
-      "relative_volume": 0.5504051534201978,
+      "relative_volume": 0.5568477878017183,
       "zscore20": -0.3980800430222664,
-      "microstructure_score": 57.3,
+      "microstructure_score": 57.4,
+      "near_signal_score": 41.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.033906+00:00"
+      "updated_at": "2026-08-13T00:02:03.832455+00:00"
     },
     {
       "symbol": "DWG",
@@ -9297,14 +9275,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.1599999964237213,
-      "adx14": 24.902314546519648,
-      "atr14": 0.005920805018119996,
+      "adx14": 24.90231454651971,
+      "atr14": 0.005920805018119998,
       "relative_volume": 0.1597205826690801,
-      "zscore20": 1.033570363785089,
+      "zscore20": 1.0335703637847125,
       "microstructure_score": 55.0,
+      "near_signal_score": 41.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.050562+00:00"
+      "updated_at": "2026-08-13T00:02:03.849104+00:00"
     },
     {
       "symbol": "DWY",
@@ -9319,13 +9298,14 @@
       "regime": "UNCLEAR",
       "price": 0.28999999165534973,
       "adx14": 37.63124296282098,
-      "atr14": 0.016586065246232212,
+      "atr14": 0.016586065246232216,
       "relative_volume": 0.565991410862931,
       "zscore20": 1.4944461071430366,
       "microstructure_score": 63.7,
+      "near_signal_score": 2.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.069068+00:00"
+      "updated_at": "2026-08-13T00:02:03.867299+00:00"
     },
     {
       "symbol": "DXC",
@@ -9334,13 +9314,14 @@
       "regime": "SQUEEZE",
       "price": 2.7200000286102295,
       "adx14": 19.12643853550216,
-      "atr14": 0.04686326957915772,
+      "atr14": 0.04686326957915771,
       "relative_volume": 0.8425862599414013,
-      "zscore20": 1.8502188675873397,
+      "zscore20": 1.8502188675873312,
       "microstructure_score": 43.9,
+      "near_signal_score": 33.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.085962+00:00"
+      "updated_at": "2026-08-13T00:02:03.884269+00:00"
     },
     {
       "symbol": "DXN",
@@ -9348,14 +9329,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.18000000715255737,
-      "adx14": 23.338606507363576,
+      "adx14": 23.33860650736356,
       "atr14": 0.022735621433335212,
       "relative_volume": 0.6288445997041645,
       "zscore20": 1.4806146912711078,
       "microstructure_score": 54.8,
+      "near_signal_score": 51.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.119818+00:00"
+      "updated_at": "2026-08-13T00:02:03.917780+00:00"
     },
     {
       "symbol": "DXS",
@@ -9363,14 +9345,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 6.019999980926514,
-      "adx14": 23.560691078195408,
-      "atr14": 0.10816594650619316,
-      "relative_volume": 1.0705297801817428,
-      "zscore20": 0.7782230246030397,
-      "microstructure_score": 53.4,
+      "adx14": 23.560691078195443,
+      "atr14": 0.10816594650619318,
+      "relative_volume": 1.099223504418745,
+      "zscore20": 0.778223024603039,
+      "microstructure_score": 53.9,
+      "near_signal_score": 0.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.136514+00:00"
+      "updated_at": "2026-08-13T00:02:03.934347+00:00"
     },
     {
       "symbol": "DYL",
@@ -9380,12 +9363,13 @@
       "price": 1.524999976158142,
       "adx14": 13.374749323602366,
       "atr14": 0.07714101206404952,
-      "relative_volume": 0.8915023609143069,
-      "zscore20": 2.2910997573778342,
-      "microstructure_score": 65.8,
+      "relative_volume": 0.8957360366783869,
+      "zscore20": 2.2910997573778253,
+      "microstructure_score": 65.9,
+      "near_signal_score": 43.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.153224+00:00"
+      "updated_at": "2026-08-13T00:02:03.951922+00:00"
     },
     {
       "symbol": "DYM",
@@ -9393,14 +9377,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.4000000059604645,
-      "adx14": 30.774180339513016,
-      "atr14": 0.010622325696646453,
+      "adx14": 31.002007760146107,
+      "atr14": 0.009863588146885992,
       "relative_volume": 0.0,
-      "zscore20": -1.3656332753418932,
+      "zscore20": -1.2273042862245178,
       "microstructure_score": 28.5,
+      "near_signal_score": 15.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.170392+00:00"
+      "updated_at": "2026-08-13T00:02:03.968493+00:00"
     },
     {
       "symbol": "E25",
@@ -9409,13 +9394,14 @@
       "regime": "UNCLEAR",
       "price": 0.2750000059604645,
       "adx14": 31.481490376283723,
-      "atr14": 0.014716974691832762,
+      "atr14": 0.014752688517739788,
       "relative_volume": 0.4008799490305557,
-      "zscore20": 1.0770844163736584,
+      "zscore20": 1.0770844163736317,
       "microstructure_score": 45.0,
+      "near_signal_score": -1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.187092+00:00"
+      "updated_at": "2026-08-13T00:02:03.985016+00:00"
     },
     {
       "symbol": "E79",
@@ -9423,14 +9409,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.027000000700354576,
-      "adx14": 12.160503291475163,
-      "atr14": 0.001331405197522658,
+      "adx14": 12.160503291475164,
+      "atr14": 0.0013314051975226585,
       "relative_volume": 0.12815804789697713,
       "zscore20": 1.4439897447622405,
       "microstructure_score": 55.0,
+      "near_signal_score": 31.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.203983+00:00"
+      "updated_at": "2026-08-13T00:02:04.001458+00:00"
     },
     {
       "symbol": "EAX",
@@ -9438,14 +9425,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.3700000047683716,
-      "adx14": 17.856635202301035,
-      "atr14": 0.004595022798623059,
+      "adx14": 17.355705999365103,
+      "atr14": 0.004266806884435698,
       "relative_volume": 0.0,
-      "zscore20": 1.239546793455897,
+      "zscore20": 1.1795357925248715,
       "microstructure_score": 55.0,
+      "near_signal_score": 31.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.220831+00:00"
+      "updated_at": "2026-08-13T00:02:04.017956+00:00"
     },
     {
       "symbol": "EBO",
@@ -9456,11 +9444,12 @@
       "adx14": 27.50888099910004,
       "atr14": 0.4857670334449063,
       "relative_volume": 1.1562330718169556,
-      "zscore20": -0.8260074348065407,
+      "zscore20": -0.8260074348062337,
       "microstructure_score": 45.8,
+      "near_signal_score": 34.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.237700+00:00"
+      "updated_at": "2026-08-13T00:02:04.034963+00:00"
     },
     {
       "symbol": "EBR",
@@ -9468,14 +9457,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.28999999165534973,
-      "adx14": 39.98984693623019,
-      "atr14": 0.02609237274564893,
+      "adx14": 39.98984693623018,
+      "atr14": 0.026092372745648924,
       "relative_volume": 0.8279970821396543,
-      "zscore20": -0.2851046117400647,
+      "zscore20": -0.2851046117400615,
       "microstructure_score": 57.3,
+      "near_signal_score": 21.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.254402+00:00"
+      "updated_at": "2026-08-13T00:02:04.051515+00:00"
     },
     {
       "symbol": "ECH",
@@ -9486,11 +9476,12 @@
       "adx14": 15.646689527359282,
       "atr14": 0.010041039214322147,
       "relative_volume": 1.972665533699269,
-      "zscore20": -0.48881340328251627,
+      "zscore20": -0.4888134032825203,
       "microstructure_score": 94.5,
+      "near_signal_score": 48.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.271504+00:00"
+      "updated_at": "2026-08-13T00:02:04.068038+00:00"
     },
     {
       "symbol": "ECL",
@@ -9498,14 +9489,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.9399999976158142,
-      "adx14": 28.738479160456414,
-      "atr14": 0.004407330985246945,
-      "relative_volume": 0.006817085945164026,
-      "zscore20": 0.3015113445877799,
+      "adx14": 28.700220191720977,
+      "atr14": 0.004092521629157878,
+      "relative_volume": 0.0,
+      "zscore20": 0.19245008974028,
       "microstructure_score": 39.1,
+      "near_signal_score": 32.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.288592+00:00"
+      "updated_at": "2026-08-13T00:02:04.085028+00:00"
     },
     {
       "symbol": "ECP",
@@ -9514,13 +9506,14 @@
       "regime": "RANGE",
       "price": 0.7599999904632568,
       "adx14": 18.23719114253181,
-      "atr14": 0.017252062987782826,
+      "atr14": 0.017252062987782823,
       "relative_volume": 4.131225285970711,
-      "zscore20": 0.919462108769177,
+      "zscore20": 0.919462108767867,
       "microstructure_score": 58.5,
+      "near_signal_score": 31.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.305301+00:00"
+      "updated_at": "2026-08-13T00:02:04.101783+00:00"
     },
     {
       "symbol": "ECS",
@@ -9528,14 +9521,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.004999999888241291,
-      "adx14": 40.482757841202044,
-      "atr14": 0.000367578534785634,
+      "adx14": 38.684390102302785,
+      "atr14": 0.0004032928263539473,
       "relative_volume": 0.9382919320747486,
       "zscore20": -1.5827680307534702,
-      "microstructure_score": 45.8,
+      "microstructure_score": 35.8,
+      "near_signal_score": -2.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.322174+00:00"
+      "updated_at": "2026-08-13T00:02:04.118272+00:00"
     },
     {
       "symbol": "ECT",
@@ -9543,14 +9537,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.125,
-      "adx14": 17.742445293505764,
-      "atr14": 0.0070506045760898054,
+      "adx14": 17.74244529350576,
+      "atr14": 0.007050604576089805,
       "relative_volume": 0.2643921358557908,
       "zscore20": -0.009873069139107626,
       "microstructure_score": 19.4,
+      "near_signal_score": 23.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.338782+00:00"
+      "updated_at": "2026-08-13T00:02:04.134838+00:00"
     },
     {
       "symbol": "EDE",
@@ -9558,14 +9553,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.09000000357627869,
-      "adx14": 26.369380216164114,
+      "adx14": 26.369380216164117,
       "atr14": 0.01044889591916075,
       "relative_volume": 0.5310383342727955,
       "zscore20": -1.1497871852624142,
       "microstructure_score": 29.4,
+      "near_signal_score": -4.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.356007+00:00"
+      "updated_at": "2026-08-13T00:02:04.151520+00:00"
     },
     {
       "symbol": "EDU",
@@ -9578,9 +9574,10 @@
       "relative_volume": 0.39240105496923006,
       "zscore20": 1.2166227442687751,
       "microstructure_score": 42.8,
+      "near_signal_score": 38.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.372820+00:00"
+      "updated_at": "2026-08-13T00:02:04.168298+00:00"
     },
     {
       "symbol": "EDV",
@@ -9588,14 +9585,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 3.619999885559082,
-      "adx14": 21.71210084885677,
+      "adx14": 21.712100848856767,
       "atr14": 0.10061432123807472,
-      "relative_volume": 0.5387068062844192,
-      "zscore20": 1.648135495523129,
-      "microstructure_score": 59.2,
+      "relative_volume": 0.5920097841370201,
+      "zscore20": 1.6481354955263192,
+      "microstructure_score": 60.4,
+      "near_signal_score": 2.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.389494+00:00"
+      "updated_at": "2026-08-13T00:02:04.184804+00:00"
     },
     {
       "symbol": "EE1",
@@ -9603,14 +9601,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.004999999888241291,
-      "adx14": 35.81278842675017,
-      "atr14": 1.6743584189427542e-06,
+      "adx14": 35.82188223296662,
+      "atr14": 1.5547613890182717e-06,
       "relative_volume": null,
       "zscore20": 0.0,
       "microstructure_score": 40.0,
+      "near_signal_score": 18.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.406187+00:00"
+      "updated_at": "2026-08-13T00:02:04.201351+00:00"
     },
     {
       "symbol": "EF2",
@@ -9627,11 +9626,12 @@
       "adx14": 17.504946709680937,
       "atr14": 0.0006790820055635126,
       "relative_volume": 0.10515012571507076,
-      "zscore20": -2.009517715346941,
+      "zscore20": -2.0095177153472736,
       "microstructure_score": 29.7,
+      "near_signal_score": 30.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.424715+00:00"
+      "updated_at": "2026-08-13T00:02:04.220033+00:00"
     },
     {
       "symbol": "EFR",
@@ -9639,14 +9639,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.006000000052154064,
-      "adx14": 48.42911100678147,
-      "atr14": 0.00028450390614496784,
-      "relative_volume": 3.6001440057602303,
+      "adx14": 46.074838730910216,
+      "atr14": 0.0002641821985631844,
+      "relative_volume": 0.0,
       "zscore20": 0.7961173483980868,
-      "microstructure_score": 55.0,
+      "microstructure_score": 25.0,
+      "near_signal_score": -5.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.441552+00:00"
+      "updated_at": "2026-08-13T00:02:04.236664+00:00"
     },
     {
       "symbol": "EG1",
@@ -9654,14 +9655,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.02500000037252903,
-      "adx14": 11.279069664518644,
-      "atr14": 0.0017266570580961955,
+      "adx14": 11.279069664518648,
+      "atr14": 0.0017266570580961953,
       "relative_volume": 0.6519166046322278,
       "zscore20": -0.25209884212345485,
-      "microstructure_score": 60.3,
+      "microstructure_score": 53.7,
+      "near_signal_score": 35.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.458330+00:00"
+      "updated_at": "2026-08-13T00:02:04.253567+00:00"
     },
     {
       "symbol": "EGA",
@@ -9675,14 +9677,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.28999999165534973,
-      "adx14": 21.27224020342895,
+      "adx14": 21.27224020342898,
       "atr14": 0.018235455140139235,
       "relative_volume": 1.6023063104566326,
       "zscore20": 0.5373846305062473,
       "microstructure_score": 62.1,
+      "near_signal_score": 77.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.476934+00:00"
+      "updated_at": "2026-08-13T00:02:04.272522+00:00"
     },
     {
       "symbol": "EGH",
@@ -9690,14 +9693,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.7049999833106995,
-      "adx14": 20.679391909340204,
+      "adx14": 20.679391909340215,
       "atr14": 0.0316208015543704,
       "relative_volume": 0.0004347050004499765,
-      "zscore20": 0.31510135270835143,
+      "zscore20": 0.31510135270834894,
       "microstructure_score": 45.3,
+      "near_signal_score": -0.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.493576+00:00"
+      "updated_at": "2026-08-13T00:02:04.289066+00:00"
     },
     {
       "symbol": "EGL",
@@ -9710,9 +9714,10 @@
       "relative_volume": 3.743772952844975,
       "zscore20": -0.8040483721559969,
       "microstructure_score": 53.3,
+      "near_signal_score": 40.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.510276+00:00"
+      "updated_at": "2026-08-13T00:02:04.305628+00:00"
     },
     {
       "symbol": "EGR",
@@ -9725,24 +9730,26 @@
       "relative_volume": 0.6432439042794287,
       "zscore20": -1.522160206284571,
       "microstructure_score": 46.6,
+      "near_signal_score": 29.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.527185+00:00"
+      "updated_at": "2026-08-13T00:02:04.322201+00:00"
     },
     {
       "symbol": "EGY",
       "company": "ENERGY TECHNOLOGIES LIMITED",
       "status": "ok",
-      "regime": "UNCLEAR",
+      "regime": "RANGE",
       "price": 0.019999999552965164,
-      "adx14": 20.301018649459923,
-      "atr14": 0.0002943201846794101,
-      "relative_volume": 0.06481757840047966,
-      "zscore20": 0.0675737378399483,
+      "adx14": 19.578870979936216,
+      "atr14": 0.0002732973143451665,
+      "relative_volume": 0.0,
+      "zscore20": -0.08481889296799536,
       "microstructure_score": 40.0,
+      "near_signal_score": 28.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.544279+00:00"
+      "updated_at": "2026-08-13T00:02:04.338836+00:00"
     },
     {
       "symbol": "EHL",
@@ -9750,14 +9757,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 1.034999966621399,
-      "adx14": 23.472126060302,
+      "adx14": 23.47212606030199,
       "atr14": 0.03437851368649467,
       "relative_volume": 0.7000753047994379,
       "zscore20": 1.3582079290567586,
       "microstructure_score": 52.6,
+      "near_signal_score": 0.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.560886+00:00"
+      "updated_at": "2026-08-13T00:02:04.355313+00:00"
     },
     {
       "symbol": "EIQ",
@@ -9765,14 +9773,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 1.659999966621399,
-      "adx14": 21.533972333730464,
+      "adx14": 21.533972333730457,
       "atr14": 0.11069054021879614,
       "relative_volume": 1.7423869656222848,
       "zscore20": 1.9148630962659912,
       "microstructure_score": 81.0,
+      "near_signal_score": 6.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.577556+00:00"
+      "updated_at": "2026-08-13T00:02:04.371858+00:00"
     },
     {
       "symbol": "EL8",
@@ -9780,14 +9789,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.25999999046325684,
-      "adx14": 15.736604725185991,
+      "adx14": 15.736604725185993,
       "atr14": 0.014068562243411726,
       "relative_volume": 0.7293752517651603,
       "zscore20": 1.6077847425872251,
       "microstructure_score": 33.8,
+      "near_signal_score": 36.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.594240+00:00"
+      "updated_at": "2026-08-13T00:02:04.388363+00:00"
     },
     {
       "symbol": "ELD",
@@ -9795,14 +9805,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 5.659999847412109,
-      "adx14": 11.822315250748346,
+      "adx14": 11.822315250748359,
       "atr14": 0.12713023701635234,
       "relative_volume": 0.8329747465643624,
-      "zscore20": 1.0076530067865304,
+      "zscore20": 1.0076530067867078,
       "microstructure_score": 50.0,
+      "near_signal_score": 50.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.611195+00:00"
+      "updated_at": "2026-08-13T00:02:04.405268+00:00"
     },
     {
       "symbol": "ELK",
@@ -9816,29 +9827,31 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 6.880000114440918,
-      "adx14": 18.30292677262947,
+      "adx14": 18.302926772629476,
       "atr14": 0.4691480589686199,
-      "relative_volume": 0.698926950855494,
+      "relative_volume": 0.7390093302377276,
       "zscore20": 0.6650306709191691,
-      "microstructure_score": 49.4,
+      "microstructure_score": 50.2,
+      "near_signal_score": 30.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.629653+00:00"
+      "updated_at": "2026-08-13T00:02:04.423545+00:00"
     },
     {
       "symbol": "ELT",
       "company": "ELEMENTOS LIMITED",
       "status": "ok",
       "regime": "UNCLEAR",
-      "price": 0.37700000405311584,
+      "price": 0.3774999976158142,
       "adx14": 20.35043779207934,
       "atr14": 0.019170165581899132,
       "relative_volume": 0.5717183245447369,
-      "zscore20": 1.264177751099969,
-      "microstructure_score": 26.7,
+      "zscore20": 1.2801953910839738,
+      "microstructure_score": 28.7,
+      "near_signal_score": -4.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.646753+00:00"
+      "updated_at": "2026-08-13T00:02:04.440294+00:00"
     },
     {
       "symbol": "ELV",
@@ -9846,14 +9859,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 8.720000267028809,
-      "adx14": 26.173714486488034,
+      "adx14": 26.17371448648805,
       "atr14": 0.5334555766574836,
       "relative_volume": 0.7670423997109458,
       "zscore20": 1.5715544021687402,
       "microstructure_score": 55.4,
+      "near_signal_score": 51.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.663897+00:00"
+      "updated_at": "2026-08-13T00:02:04.457267+00:00"
     },
     {
       "symbol": "EM2",
@@ -9861,14 +9875,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.006000000052154064,
-      "adx14": 16.20784811776241,
-      "atr14": 0.0002547339980702185,
-      "relative_volume": 0.0,
-      "zscore20": 0.22941573386414618,
-      "microstructure_score": 40.0,
+      "adx14": 16.931857212703637,
+      "atr14": 0.0002365387124937744,
+      "relative_volume": 0.6143206297746331,
+      "zscore20": 0.2294157338640415,
+      "microstructure_score": 42.3,
+      "near_signal_score": 33.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.680891+00:00"
+      "updated_at": "2026-08-13T00:02:04.474455+00:00"
     },
     {
       "symbol": "EM3",
@@ -9876,14 +9891,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.12999999523162842,
-      "adx14": 19.11393378711348,
-      "atr14": 0.011132851736205304,
-      "relative_volume": 0.1707288762855327,
-      "zscore20": -0.7863577310131901,
-      "microstructure_score": 30.0,
+      "adx14": 17.828049676244824,
+      "atr14": 0.010337648040762069,
+      "relative_volume": 0.0,
+      "zscore20": -0.7276074108400649,
+      "microstructure_score": 40.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.697963+00:00"
+      "updated_at": "2026-08-13T00:02:04.491432+00:00"
     },
     {
       "symbol": "EMA",
@@ -9892,28 +9908,30 @@
       "regime": "SQUEEZE",
       "price": 0.03999999910593033,
       "adx14": 17.724410515165538,
-      "atr14": 0.001077102875198997,
+      "atr14": 0.0010771028751989976,
       "relative_volume": 0.2364154960622913,
-      "zscore20": -0.5592328608676622,
+      "zscore20": -0.5592328609448655,
       "microstructure_score": 35.8,
+      "near_signal_score": 32.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.715007+00:00"
+      "updated_at": "2026-08-13T00:02:04.508466+00:00"
     },
     {
       "symbol": "EMB",
       "company": "EMBELTON LIMITED",
       "status": "ok",
-      "regime": "UNCLEAR",
+      "regime": "TREND",
       "price": 8.5,
-      "adx14": 21.11310349955103,
-      "atr14": 0.03560591407122974,
-      "relative_volume": 4.658385093167701,
-      "zscore20": 3.999997138969427,
-      "microstructure_score": 85.0,
+      "adx14": 25.37426353485438,
+      "atr14": 0.03306263449471333,
+      "relative_volume": 0.0,
+      "zscore20": 2.886750367092991,
+      "microstructure_score": 55.0,
+      "near_signal_score": 41.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.732186+00:00"
+      "updated_at": "2026-08-13T00:02:04.525276+00:00"
     },
     {
       "symbol": "EMC",
@@ -9924,11 +9942,12 @@
       "adx14": 26.081388063295545,
       "atr14": 0.007310431251491299,
       "relative_volume": 1.768689927362337,
-      "zscore20": -1.3927390011480494,
+      "zscore20": -1.3927390011480465,
       "microstructure_score": 43.5,
+      "near_signal_score": -1.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.749227+00:00"
+      "updated_at": "2026-08-13T00:02:04.541852+00:00"
     },
     {
       "symbol": "EMD",
@@ -9939,11 +9958,12 @@
       "adx14": 30.440826529842006,
       "atr14": 0.0024352663277991916,
       "relative_volume": 1.4174029414044758,
-      "zscore20": -1.4509514618471022,
+      "zscore20": -1.4509514618470276,
       "microstructure_score": 59.1,
+      "near_signal_score": 61.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.767085+00:00"
+      "updated_at": "2026-08-13T00:02:04.558848+00:00"
     },
     {
       "symbol": "EME",
@@ -9951,14 +9971,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.08399999886751175,
-      "adx14": 49.71592312496145,
-      "atr14": 0.0006537590216676679,
+      "adx14": 49.833835643422134,
+      "atr14": 0.0006070619486914058,
       "relative_volume": 0.0,
-      "zscore20": 0.559717050120992,
+      "zscore20": 0.4822427950140872,
       "microstructure_score": 40.0,
+      "near_signal_score": -2.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.784416+00:00"
+      "updated_at": "2026-08-13T00:02:04.575453+00:00"
     },
     {
       "symbol": "EMH",
@@ -9971,9 +9992,10 @@
       "relative_volume": 0.9145703144155265,
       "zscore20": 0.6818321722172052,
       "microstructure_score": 63.3,
+      "near_signal_score": 42.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.801599+00:00"
+      "updated_at": "2026-08-13T00:02:04.592072+00:00"
     },
     {
       "symbol": "EML",
@@ -9981,14 +10003,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.33000001311302185,
-      "adx14": 16.231530328075856,
+      "adx14": 16.231530328075863,
       "atr14": 0.01590327105256628,
       "relative_volume": 0.7928367919137799,
-      "zscore20": 1.0834745886355879,
+      "zscore20": 1.0834745886356314,
       "microstructure_score": 44.6,
+      "near_signal_score": 33.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.818550+00:00"
+      "updated_at": "2026-08-13T00:02:04.609187+00:00"
     },
     {
       "symbol": "EMN",
@@ -9997,13 +10020,14 @@
       "regime": "UNCLEAR",
       "price": 0.08900000154972076,
       "adx14": 20.913783517673117,
-      "atr14": 0.0036087314911283927,
+      "atr14": 0.003608731491128393,
       "relative_volume": 1.4145083986880829,
-      "zscore20": 0.9314335310640014,
+      "zscore20": 0.9314335310640052,
       "microstructure_score": 79.2,
+      "near_signal_score": 5.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.835403+00:00"
+      "updated_at": "2026-08-13T00:02:04.625719+00:00"
     },
     {
       "symbol": "EMP",
@@ -10014,11 +10038,12 @@
       "adx14": 21.180999212146816,
       "atr14": 0.004524937512714631,
       "relative_volume": 1.228600362303701,
-      "zscore20": -0.07344172098504095,
+      "zscore20": -0.07344172098504069,
       "microstructure_score": 42.4,
+      "near_signal_score": 33.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.852614+00:00"
+      "updated_at": "2026-08-13T00:02:04.642674+00:00"
     },
     {
       "symbol": "EMR",
@@ -10026,14 +10051,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 6.559999942779541,
-      "adx14": 17.617223471224385,
+      "adx14": 17.617223471224392,
       "atr14": 0.28450121603762174,
-      "relative_volume": 0.5368463319674457,
+      "relative_volume": 0.5616976219201376,
       "zscore20": 1.9290710692103994,
-      "microstructure_score": 51.9,
+      "microstructure_score": 52.4,
+      "near_signal_score": 40.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.870336+00:00"
+      "updated_at": "2026-08-13T00:02:04.659223+00:00"
     },
     {
       "symbol": "EMT",
@@ -10046,9 +10072,10 @@
       "relative_volume": 0.2178117355114507,
       "zscore20": 0.6965252899511499,
       "microstructure_score": 52.1,
+      "near_signal_score": 50.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.888034+00:00"
+      "updated_at": "2026-08-13T00:02:04.676429+00:00"
     },
     {
       "symbol": "EMU",
@@ -10056,14 +10083,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.02500000037252903,
-      "adx14": 31.650797109298107,
-      "atr14": 0.0012625013302936723,
-      "relative_volume": 2.780581618125573,
-      "zscore20": 2.2501541839194337,
-      "microstructure_score": 84.6,
+      "adx14": 29.701112247273866,
+      "atr14": 0.0011723226638441241,
+      "relative_volume": 0.0,
+      "zscore20": 1.9164132015109998,
+      "microstructure_score": 45.1,
+      "near_signal_score": -1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.905418+00:00"
+      "updated_at": "2026-08-13T00:02:04.693005+00:00"
     },
     {
       "symbol": "EMV",
@@ -10071,14 +10099,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 1.7649999856948853,
-      "adx14": 15.318296718632942,
+      "adx14": 15.318296718632945,
       "atr14": 0.07540076252088901,
       "relative_volume": 0.981333076633055,
-      "zscore20": 2.3372459841850812,
+      "zscore20": 2.3372459841850777,
       "microstructure_score": 72.3,
+      "near_signal_score": 44.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.922613+00:00"
+      "updated_at": "2026-08-13T00:02:04.709590+00:00"
     },
     {
       "symbol": "ENL",
@@ -10086,14 +10115,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.004000000189989805,
-      "adx14": 25.230195226052405,
-      "atr14": 0.0005366703456153982,
+      "adx14": 25.230195226052416,
+      "atr14": 0.0005366703456153983,
       "relative_volume": 2.6741687402617673,
       "zscore20": -1.3834402770207346,
       "microstructure_score": 68.1,
+      "near_signal_score": 43.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.939971+00:00"
+      "updated_at": "2026-08-13T00:02:04.726174+00:00"
     },
     {
       "symbol": "ENP",
@@ -10106,9 +10136,10 @@
       "relative_volume": 1.3840179716978,
       "zscore20": 0.2257314657273645,
       "microstructure_score": 58.2,
+      "near_signal_score": 36.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.957347+00:00"
+      "updated_at": "2026-08-13T00:02:04.743286+00:00"
     },
     {
       "symbol": "ENR",
@@ -10116,14 +10147,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.22499999403953552,
-      "adx14": 8.726382868020908,
+      "adx14": 8.726382868020913,
       "atr14": 0.012406464528361182,
       "relative_volume": 1.473322247445346,
-      "zscore20": -0.7187875115984925,
+      "zscore20": -0.7187875115978396,
       "microstructure_score": 64.0,
+      "near_signal_score": 77.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.974934+00:00"
+      "updated_at": "2026-08-13T00:02:04.760270+00:00"
     },
     {
       "symbol": "ENT",
@@ -10136,24 +10168,26 @@
       "relative_volume": 1.5793429836091035,
       "zscore20": 1.0000000465661543,
       "microstructure_score": 63.5,
+      "near_signal_score": 32.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:51.992411+00:00"
+      "updated_at": "2026-08-13T00:02:04.776931+00:00"
     },
     {
       "symbol": "ENV",
       "company": "ENOVA MINING LIMITED",
       "status": "ok",
-      "regime": "TREND",
-      "price": 0.0020000000949949026,
+      "regime": "UNCLEAR",
+      "price": 0.0024999999441206455,
       "adx14": 28.671151829092764,
       "atr14": 0.00038970813784810045,
       "relative_volume": 0.2676282262383595,
-      "zscore20": -0.6546536707083377,
-      "microstructure_score": 34.2,
+      "zscore20": 1.3627702877391483,
+      "microstructure_score": 35.9,
+      "near_signal_score": -2.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.009368+00:00"
+      "updated_at": "2026-08-13T00:02:04.793679+00:00"
     },
     {
       "symbol": "EOL",
@@ -10164,11 +10198,12 @@
       "adx14": 38.790831801786894,
       "atr14": 0.6584692485101451,
       "relative_volume": 2.068457333401352,
-      "zscore20": 1.0326138122774757,
+      "zscore20": 1.0326138122774715,
       "microstructure_score": 68.1,
+      "near_signal_score": 3.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.026837+00:00"
+      "updated_at": "2026-08-13T00:02:04.810083+00:00"
     },
     {
       "symbol": "EOS",
@@ -10181,9 +10216,10 @@
       "relative_volume": 0.9335660994181666,
       "zscore20": 2.43097804748245,
       "microstructure_score": 71.0,
+      "near_signal_score": 4.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.043966+00:00"
+      "updated_at": "2026-08-13T00:02:04.826629+00:00"
     },
     {
       "symbol": "EPI",
@@ -10202,9 +10238,10 @@
       "relative_volume": 2.5198058652947406,
       "zscore20": 0.4160583157803439,
       "microstructure_score": 77.2,
+      "near_signal_score": 65.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.062891+00:00"
+      "updated_at": "2026-08-13T00:02:04.845592+00:00"
     },
     {
       "symbol": "EPN",
@@ -10217,9 +10254,10 @@
       "relative_volume": 1.1873025821037129,
       "zscore20": -1.1470786693528252,
       "microstructure_score": 57.3,
+      "near_signal_score": 1.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.079924+00:00"
+      "updated_at": "2026-08-13T00:02:04.862182+00:00"
     },
     {
       "symbol": "EPX",
@@ -10232,9 +10270,10 @@
       "relative_volume": 0.9639696854227529,
       "zscore20": 0.811906653499291,
       "microstructure_score": 54.3,
+      "near_signal_score": 0.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.097226+00:00"
+      "updated_at": "2026-08-13T00:02:04.878734+00:00"
     },
     {
       "symbol": "EPY",
@@ -10242,14 +10281,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.11500000208616257,
-      "adx14": 11.643051782569982,
-      "atr14": 0.005040052071778943,
+      "adx14": 11.643051782569986,
+      "atr14": 0.005040052071778941,
       "relative_volume": 0.9570417210804867,
-      "zscore20": -1.538967190177598,
+      "zscore20": -1.5389671901775166,
       "microstructure_score": 43.5,
+      "near_signal_score": 28.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.114367+00:00"
+      "updated_at": "2026-08-13T00:02:04.895362+00:00"
     },
     {
       "symbol": "EQR",
@@ -10262,9 +10302,10 @@
       "relative_volume": 0.6841067515306866,
       "zscore20": 1.423228726065015,
       "microstructure_score": 51.7,
+      "near_signal_score": 40.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.131284+00:00"
+      "updated_at": "2026-08-13T00:02:04.912072+00:00"
     },
     {
       "symbol": "EQT",
@@ -10272,14 +10313,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 17.790000915527344,
-      "adx14": 12.890530469152603,
+      "adx14": 12.8905304691526,
       "atr14": 0.6100903407957672,
-      "relative_volume": 1.0891187345796742,
-      "zscore20": 0.3936117632123708,
-      "microstructure_score": 45.8,
+      "relative_volume": 1.693872672477824,
+      "zscore20": 0.39361176321234753,
+      "microstructure_score": 56.3,
+      "near_signal_score": 41.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.148489+00:00"
+      "updated_at": "2026-08-13T00:02:04.928891+00:00"
     },
     {
       "symbol": "EQU",
@@ -10293,14 +10335,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.15000000596046448,
-      "adx14": 22.855998205757306,
+      "adx14": 22.85599820575734,
       "atr14": 0.006397128209419384,
       "relative_volume": 2.674118559760662,
       "zscore20": -0.22298728314281951,
       "microstructure_score": 95.0,
+      "near_signal_score": 59.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.167490+00:00"
+      "updated_at": "2026-08-13T00:02:04.947433+00:00"
     },
     {
       "symbol": "ERA",
@@ -10311,11 +10354,12 @@
       "adx14": 38.15481504463754,
       "atr14": 0.00012522792328024932,
       "relative_volume": 0.0,
-      "zscore20": -0.22941573387085323,
+      "zscore20": -0.2294157338708009,
       "microstructure_score": 40.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.184846+00:00"
+      "updated_at": "2026-08-13T00:02:04.964481+00:00"
     },
     {
       "symbol": "ERD",
@@ -10323,11 +10367,12 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.7549999952316284,
-      "adx14": 19.691250043384514,
+      "adx14": 19.69125004338452,
       "atr14": 0.03375157582525374,
       "relative_volume": 1.1000599014182122,
-      "zscore20": -2.319830621133701,
+      "zscore20": -2.319830621133885,
       "microstructure_score": 28.2,
+      "near_signal_score": 85.6,
       "active": false,
       "candidate": {
         "symbol": "ERD",
@@ -10344,7 +10389,7 @@
           "selling pressure moderating"
         ],
         "regime_details": {
-          "adx": 19.691250043384514
+          "adx": 19.69125004338452
         },
         "execution_risk": {
           "pass": false,
@@ -10366,10 +10411,10 @@
         "actual_units": null,
         "risk_per_trade_pct": 0.5,
         "signal_date": "2026-08-12",
-        "timestamp": "2026-08-12T07:58:52.202377+00:00",
+        "timestamp": "2026-08-13T00:02:04.981119+00:00",
         "rejected": true
       },
-      "updated_at": "2026-08-12T07:58:52.202434+00:00"
+      "updated_at": "2026-08-13T00:02:04.981310+00:00"
     },
     {
       "symbol": "ERE",
@@ -10377,14 +10422,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.012000000104308128,
-      "adx14": 23.76599055910793,
-      "atr14": 0.0007633110156074125,
+      "adx14": 23.76599055910791,
+      "atr14": 0.0007633110156074126,
       "relative_volume": 0.04176788430579098,
-      "zscore20": -3.000000582078709,
+      "zscore20": -3.0000005820787212,
       "microstructure_score": 39.5,
+      "near_signal_score": 32.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.219275+00:00"
+      "updated_at": "2026-08-13T00:02:04.998216+00:00"
     },
     {
       "symbol": "ERG",
@@ -10392,14 +10438,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.014000000432133675,
-      "adx14": 33.47520142515853,
-      "atr14": 0.0004971521202896736,
-      "relative_volume": 4.348415820254841,
-      "zscore20": -1.6115589493427527,
-      "microstructure_score": 64.3,
+      "adx14": 33.203385545526274,
+      "atr14": 0.0004616412545546969,
+      "relative_volume": 0.0,
+      "zscore20": -1.4968598209480821,
+      "microstructure_score": 44.3,
+      "near_signal_score": -1.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.236054+00:00"
+      "updated_at": "2026-08-13T00:02:05.014888+00:00"
     },
     {
       "symbol": "ERL",
@@ -10407,14 +10454,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.007000000216066837,
-      "adx14": 20.637165610398288,
-      "atr14": 0.00042653827649514857,
-      "relative_volume": 0.8118404046702501,
+      "adx14": 19.5379657121969,
+      "atr14": 0.0003960712567454951,
+      "relative_volume": 0.0,
       "zscore20": 1.3627702877384034,
-      "microstructure_score": 58.2,
+      "microstructure_score": 42.1,
+      "near_signal_score": 33.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.253029+00:00"
+      "updated_at": "2026-08-13T00:02:05.032031+00:00"
     },
     {
       "symbol": "ESK",
@@ -10427,9 +10475,10 @@
       "relative_volume": 1.8867219465585665,
       "zscore20": 1.6882869441673334,
       "microstructure_score": 80.7,
+      "near_signal_score": 81.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.269938+00:00"
+      "updated_at": "2026-08-13T00:02:05.049059+00:00"
     },
     {
       "symbol": "ESR",
@@ -10440,11 +10489,12 @@
       "adx14": 16.935828097411086,
       "atr14": 0.0019101913893445422,
       "relative_volume": 0.1978482761625576,
-      "zscore20": 0.016809721696481986,
+      "zscore20": 0.016809721696482025,
       "microstructure_score": 20.7,
+      "near_signal_score": 24.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.286436+00:00"
+      "updated_at": "2026-08-13T00:02:05.065729+00:00"
     },
     {
       "symbol": "ETM",
@@ -10455,11 +10505,12 @@
       "adx14": 16.58771447399024,
       "atr14": 0.0033111593531529593,
       "relative_volume": 0.27555273452866524,
-      "zscore20": 0.3576116319126193,
+      "zscore20": 0.3576116319126303,
       "microstructure_score": 28.3,
+      "near_signal_score": 25.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.303053+00:00"
+      "updated_at": "2026-08-13T00:02:05.082226+00:00"
     },
     {
       "symbol": "ETP",
@@ -10478,9 +10529,10 @@
       "relative_volume": 0.30479912823450167,
       "zscore20": 1.1363682510257345,
       "microstructure_score": 39.7,
+      "near_signal_score": -2.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.321417+00:00"
+      "updated_at": "2026-08-13T00:02:05.100539+00:00"
     },
     {
       "symbol": "EV1",
@@ -10488,14 +10540,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.00800000037997961,
-      "adx14": 12.384314209147904,
+      "adx14": 12.384314209147911,
       "atr14": 0.0007145078006343769,
       "relative_volume": 0.12268795019622258,
-      "zscore20": -1.1299145862710935,
+      "zscore20": -1.129914586271098,
       "microstructure_score": 15.0,
+      "near_signal_score": 38.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.337984+00:00"
+      "updated_at": "2026-08-13T00:02:05.117090+00:00"
     },
     {
       "symbol": "EV8",
@@ -10508,9 +10561,10 @@
       "relative_volume": 3.7158270586526414,
       "zscore20": -1.6144158202106098,
       "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.355206+00:00"
+      "updated_at": "2026-08-13T00:02:05.133200+00:00"
     },
     {
       "symbol": "EVE",
@@ -10523,9 +10577,10 @@
       "relative_volume": 0.27079168507301393,
       "zscore20": -0.6081636405599918,
       "microstructure_score": 25.0,
+      "near_signal_score": 15.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.372486+00:00"
+      "updated_at": "2026-08-13T00:02:05.149793+00:00"
     },
     {
       "symbol": "EVG",
@@ -10533,14 +10588,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.02500000037252903,
-      "adx14": 15.29469703902804,
+      "adx14": 15.294697039028048,
       "atr14": 0.0026773846657259944,
       "relative_volume": 0.1322081956374043,
-      "zscore20": 0.1789000428812447,
+      "zscore20": 0.17890004288124442,
       "microstructure_score": 29.8,
+      "near_signal_score": 26.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.389872+00:00"
+      "updated_at": "2026-08-13T00:02:05.166475+00:00"
     },
     {
       "symbol": "EVN",
@@ -10548,14 +10604,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 13.84000015258789,
-      "adx14": 17.683974644354425,
+      "adx14": 17.683974644354418,
       "atr14": 0.5061898696802776,
-      "relative_volume": 0.6154742118026904,
+      "relative_volume": 0.6169281336511961,
       "zscore20": 1.828897092228663,
-      "microstructure_score": 56.7,
+      "microstructure_score": 56.8,
+      "near_signal_score": 41.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.407265+00:00"
+      "updated_at": "2026-08-13T00:02:05.182990+00:00"
     },
     {
       "symbol": "EVO",
@@ -10566,11 +10623,12 @@
       "adx14": 14.34928241648613,
       "atr14": 0.013243985355610745,
       "relative_volume": 2.1008836460603164,
-      "zscore20": -2.0284400727144556,
+      "zscore20": -2.0284400727144143,
       "microstructure_score": 60.3,
+      "near_signal_score": 62.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.424460+00:00"
+      "updated_at": "2026-08-13T00:02:05.199971+00:00"
     },
     {
       "symbol": "EVR",
@@ -10583,9 +10641,10 @@
       "relative_volume": 0.9023859069648942,
       "zscore20": 0.7337993857055483,
       "microstructure_score": 51.4,
+      "near_signal_score": 0.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.441243+00:00"
+      "updated_at": "2026-08-13T00:02:05.216561+00:00"
     },
     {
       "symbol": "EVT",
@@ -10593,14 +10652,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 14.119999885559082,
-      "adx14": 35.48379780104845,
+      "adx14": 35.483797801048446,
       "atr14": 0.49211938736642324,
       "relative_volume": 0.7653196593374487,
-      "zscore20": 1.2244057463712164,
+      "zscore20": 1.2244057463712157,
       "microstructure_score": 58.2,
+      "near_signal_score": 1.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.457775+00:00"
+      "updated_at": "2026-08-13T00:02:05.233049+00:00"
     },
     {
       "symbol": "EVZ",
@@ -10608,14 +10668,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.6000000238418579,
-      "adx14": 13.737884643861745,
+      "adx14": 13.737884643861749,
       "atr14": 0.038996385561330955,
       "relative_volume": 1.271398348336829,
       "zscore20": 0.9621242370225345,
       "microstructure_score": 75.4,
+      "near_signal_score": 45.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.474493+00:00"
+      "updated_at": "2026-08-13T00:02:05.249642+00:00"
     },
     {
       "symbol": "EWC",
@@ -10623,29 +10684,31 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.06199999898672104,
-      "adx14": 22.317507803557678,
-      "atr14": 0.003434271218099267,
+      "adx14": 22.317507803557703,
+      "atr14": 0.0034342712180992674,
       "relative_volume": 1.4187744093412,
       "zscore20": 0.8540672310147465,
       "microstructure_score": 60.3,
+      "near_signal_score": 62.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.491095+00:00"
+      "updated_at": "2026-08-13T00:02:05.266276+00:00"
     },
     {
       "symbol": "EXL",
       "company": "ELIXINOL WELLNESS LIMITED",
       "status": "ok",
       "regime": "RANGE",
-      "price": 0.006000000052154064,
-      "adx14": 17.055977432797928,
-      "atr14": 0.0004263558622117307,
+      "price": 0.006500000134110451,
+      "adx14": 17.05597743279793,
+      "atr14": 0.000462070153780044,
       "relative_volume": 0.675010127639527,
-      "zscore20": -0.7337993857043226,
-      "microstructure_score": 41.9,
+      "zscore20": 0.26537244621672695,
+      "microstructure_score": 43.5,
+      "near_signal_score": 28.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.507598+00:00"
+      "updated_at": "2026-08-13T00:02:05.282905+00:00"
     },
     {
       "symbol": "EXP",
@@ -10653,14 +10716,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.09099999815225601,
-      "adx14": 24.754953723754294,
+      "adx14": 24.754953723754284,
       "atr14": 0.0039977756488431765,
       "relative_volume": 0.19026050952556267,
       "zscore20": -3.465641804682739,
       "microstructure_score": 25.0,
+      "near_signal_score": 30.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.524575+00:00"
+      "updated_at": "2026-08-13T00:02:05.300189+00:00"
     },
     {
       "symbol": "EXR",
@@ -10668,14 +10732,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.04399999976158142,
-      "adx14": 40.25550189291694,
+      "adx14": 40.25550189291693,
       "atr14": 0.008443727008121538,
       "relative_volume": 2.3648797524135965,
       "zscore20": -1.4671371299537461,
       "microstructure_score": 49.0,
+      "near_signal_score": -0.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.541368+00:00"
+      "updated_at": "2026-08-13T00:02:05.316757+00:00"
     },
     {
       "symbol": "EXT",
@@ -10683,14 +10748,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.004999999888241291,
-      "adx14": 19.560338025193175,
-      "atr14": 0.0006362318443493814,
+      "adx14": 19.56033802519318,
+      "atr14": 0.0006362318443493812,
       "relative_volume": 0.09517669796783808,
-      "zscore20": -1.0947974973862924,
+      "zscore20": -1.0947974973863048,
       "microstructure_score": 27.9,
+      "near_signal_score": 35.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.558693+00:00"
+      "updated_at": "2026-08-13T00:02:05.333253+00:00"
     },
     {
       "symbol": "EYE",
@@ -10699,13 +10765,14 @@
       "regime": "UNCLEAR",
       "price": 0.1550000011920929,
       "adx14": 36.18838017300405,
-      "atr14": 0.007615146796009199,
+      "atr14": 0.007615146796009201,
       "relative_volume": 0.053457944444521614,
-      "zscore20": 1.5285803105346278,
+      "zscore20": 1.5285803105346458,
       "microstructure_score": 45.0,
+      "near_signal_score": -1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.575373+00:00"
+      "updated_at": "2026-08-13T00:02:05.349897+00:00"
     },
     {
       "symbol": "EZL",
@@ -10713,14 +10780,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 1.3200000524520874,
-      "adx14": 27.710669751125003,
+      "adx14": 27.710669751124996,
       "atr14": 0.026819452259619424,
       "relative_volume": 2.5514302119817986,
-      "zscore20": -0.6822862136338309,
+      "zscore20": -0.68228621363379,
       "microstructure_score": 73.4,
+      "near_signal_score": 79.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.592269+00:00"
+      "updated_at": "2026-08-13T00:02:05.366918+00:00"
     },
     {
       "symbol": "EZZ",
@@ -10728,14 +10796,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.4699999988079071,
-      "adx14": 10.791995646796432,
-      "atr14": 0.014598541407674075,
+      "adx14": 10.791995646796437,
+      "atr14": 0.014598541407674066,
       "relative_volume": 1.3566468397611506,
-      "zscore20": -1.02168974469051,
+      "zscore20": -1.0216897446863287,
       "microstructure_score": 52.3,
+      "near_signal_score": 35.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.609285+00:00"
+      "updated_at": "2026-08-13T00:02:05.384054+00:00"
     },
     {
       "symbol": "FAL",
@@ -10748,9 +10817,10 @@
       "relative_volume": 0.24291554597041856,
       "zscore20": 2.0242459009164935,
       "microstructure_score": 58.3,
+      "near_signal_score": 1.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.625845+00:00"
+      "updated_at": "2026-08-13T00:02:05.400566+00:00"
     },
     {
       "symbol": "FAR",
@@ -10763,24 +10833,26 @@
       "relative_volume": 0.1432000153219783,
       "zscore20": 2.217980977920282,
       "microstructure_score": 61.1,
+      "near_signal_score": 2.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.642547+00:00"
+      "updated_at": "2026-08-13T00:02:05.416972+00:00"
     },
     {
       "symbol": "FAU",
       "company": "FIRST AU LIMITED",
       "status": "ok",
-      "regime": "TREND",
-      "price": 0.006000000052154064,
-      "adx14": 32.63639514172642,
-      "atr14": 0.000413404626420169,
+      "regime": "SQUEEZE",
+      "price": 0.006500000134110451,
+      "adx14": 31.34147314929087,
+      "atr14": 0.00044911891798848235,
       "relative_volume": 0.33309886219806695,
-      "zscore20": -1.2578865135667385,
-      "microstructure_score": 44.2,
+      "zscore20": -0.3144854510166208,
+      "microstructure_score": 45.6,
+      "near_signal_score": 34.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.659629+00:00"
+      "updated_at": "2026-08-13T00:02:05.433935+00:00"
     },
     {
       "symbol": "FBR",
@@ -10788,14 +10860,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.13500000536441803,
-      "adx14": 27.432945054897502,
+      "adx14": 27.43294505489759,
       "atr14": 0.02221094249401751,
       "relative_volume": 0.6116839397404197,
-      "zscore20": -0.14998266245328873,
+      "zscore20": -0.14998266245334818,
       "microstructure_score": 39.6,
+      "near_signal_score": 17.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.676634+00:00"
+      "updated_at": "2026-08-13T00:02:05.450716+00:00"
     },
     {
       "symbol": "FBU",
@@ -10803,14 +10876,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 3.0899999141693115,
-      "adx14": 23.012288534957555,
+      "adx14": 23.012288534957552,
       "atr14": 0.09389874270766355,
       "relative_volume": 0.516392160701939,
-      "zscore20": -1.0456762996701472,
+      "zscore20": -1.0456762996701712,
       "microstructure_score": 26.2,
+      "near_signal_score": 30.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.693601+00:00"
+      "updated_at": "2026-08-13T00:02:05.467683+00:00"
     },
     {
       "symbol": "FCF",
@@ -10824,14 +10898,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.03700000047683716,
-      "adx14": 73.93105780540574,
-      "atr14": 5.1304882155788894e-17,
+      "adx14": 73.93105780540576,
+      "atr14": 4.7640247716089686e-17,
       "relative_volume": null,
       "zscore20": 0.0,
       "microstructure_score": 40.0,
+      "near_signal_score": 18.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.712557+00:00"
+      "updated_at": "2026-08-13T00:02:05.486121+00:00"
     },
     {
       "symbol": "FCL",
@@ -10839,14 +10914,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 2.0999999046325684,
-      "adx14": 10.419110137276672,
+      "adx14": 10.419110137276673,
       "atr14": 0.11052653847384394,
       "relative_volume": 0.8043607586253505,
-      "zscore20": 2.5183066557655343,
+      "zscore20": 2.5183066557655227,
       "microstructure_score": 63.9,
+      "near_signal_score": 52.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.730049+00:00"
+      "updated_at": "2026-08-13T00:02:05.503117+00:00"
     },
     {
       "symbol": "FCT",
@@ -10859,9 +10935,10 @@
       "relative_volume": 0.42462799933333406,
       "zscore20": -0.9907642943230638,
       "microstructure_score": 25.0,
+      "near_signal_score": 25.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.746825+00:00"
+      "updated_at": "2026-08-13T00:02:05.519677+00:00"
     },
     {
       "symbol": "FDC",
@@ -10875,14 +10952,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.36000001430511475,
-      "adx14": 21.447279605926138,
+      "adx14": 21.44727960592613,
       "atr14": 0.02286049079333917,
       "relative_volume": 0.4960548432538587,
       "zscore20": 0.9234040587347546,
       "microstructure_score": 44.1,
+      "near_signal_score": -1.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.765877+00:00"
+      "updated_at": "2026-08-13T00:02:05.537969+00:00"
     },
     {
       "symbol": "FDV",
@@ -10890,29 +10968,31 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.3199999928474426,
-      "adx14": 45.18169294491652,
+      "adx14": 45.18169294491655,
       "atr14": 0.010183398348185048,
       "relative_volume": 0.822949163013438,
       "zscore20": -0.8173071456046016,
       "microstructure_score": 48.0,
+      "near_signal_score": 49.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.783178+00:00"
+      "updated_at": "2026-08-13T00:02:05.554892+00:00"
     },
     {
       "symbol": "FEG",
       "company": "FAR EAST GOLD LTD",
       "status": "ok",
-      "regime": "UNCLEAR",
+      "regime": "TREND",
       "price": 0.125,
-      "adx14": 21.979822869843503,
-      "atr14": 0.007073518846413201,
-      "relative_volume": 0.10082313551763966,
-      "zscore20": -1.523881505991796,
-      "microstructure_score": 21.7,
+      "adx14": 23.255246262306237,
+      "atr14": 0.00656826750024083,
+      "relative_volume": 0.0,
+      "zscore20": -1.3913685071006716,
+      "microstructure_score": 25.0,
+      "near_signal_score": 15.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.800463+00:00"
+      "updated_at": "2026-08-13T00:02:05.571435+00:00"
     },
     {
       "symbol": "FEL",
@@ -10920,14 +11000,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.006000000052154064,
-      "adx14": 18.866428046556504,
-      "atr14": 0.0003899826963439005,
+      "adx14": 18.866428046556535,
+      "atr14": 0.00038998269634390065,
       "relative_volume": 4.336698439193342,
       "zscore20": 0.4200840252083919,
       "microstructure_score": 73.9,
+      "near_signal_score": 44.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.817082+00:00"
+      "updated_at": "2026-08-13T00:02:05.588165+00:00"
     },
     {
       "symbol": "FEX",
@@ -10935,14 +11016,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.27000001072883606,
-      "adx14": 14.079623819850239,
+      "adx14": 14.079623819850243,
       "atr14": 0.01133540082380229,
       "relative_volume": 0.8983334218111947,
-      "zscore20": -0.03132503527376661,
+      "zscore20": -0.03132503527376542,
       "microstructure_score": 47.3,
+      "near_signal_score": 34.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.833978+00:00"
+      "updated_at": "2026-08-13T00:02:05.605166+00:00"
     },
     {
       "symbol": "FFG",
@@ -10950,14 +11032,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.007000000216066837,
-      "adx14": 27.011991422835607,
-      "atr14": 0.00022957514892057496,
+      "adx14": 27.01184528318306,
+      "atr14": 0.00022957660506528116,
       "relative_volume": 0.0,
       "zscore20": -0.2294157338707447,
       "microstructure_score": 40.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.850809+00:00"
+      "updated_at": "2026-08-13T00:02:05.622141+00:00"
     },
     {
       "symbol": "FFI",
@@ -10965,14 +11048,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 4.28000020980835,
-      "adx14": 32.107047244339434,
-      "atr14": 0.03841282034386983,
+      "adx14": 32.63509564601729,
+      "atr14": 0.03566904746216484,
       "relative_volume": 0.0,
-      "zscore20": -0.5508434698931558,
+      "zscore20": -0.5740331449817773,
       "microstructure_score": 38.7,
+      "near_signal_score": 17.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.867704+00:00"
+      "updated_at": "2026-08-13T00:02:05.638713+00:00"
     },
     {
       "symbol": "FFM",
@@ -10982,12 +11066,13 @@
       "price": 1.9900000095367432,
       "adx14": 14.850865207398567,
       "atr14": 0.11593947004656688,
-      "relative_volume": 1.1190546294658898,
-      "zscore20": 1.9025566775909706,
-      "microstructure_score": 64.5,
+      "relative_volume": 1.1912225186600036,
+      "zscore20": 1.9025566775909688,
+      "microstructure_score": 65.7,
+      "near_signal_score": 43.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.884173+00:00"
+      "updated_at": "2026-08-13T00:02:05.655218+00:00"
     },
     {
       "symbol": "FG1",
@@ -10995,14 +11080,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.020999999716877937,
-      "adx14": 14.354703274874975,
+      "adx14": 14.354703274874995,
       "atr14": 0.0010998357295767388,
       "relative_volume": 0.692996423037217,
       "zscore20": 0.6749263711466217,
       "microstructure_score": 41.2,
+      "near_signal_score": 28.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.900673+00:00"
+      "updated_at": "2026-08-13T00:02:05.671892+00:00"
     },
     {
       "symbol": "FGG",
@@ -11010,14 +11096,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 1.6649999618530273,
-      "adx14": 7.931198870984971,
+      "adx14": 7.931198870984967,
       "atr14": 0.025270955520580264,
       "relative_volume": 1.196108535036408,
-      "zscore20": -1.6197141315263315,
+      "zscore20": -1.6197141315262449,
       "microstructure_score": 37.4,
+      "near_signal_score": 32.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.917464+00:00"
+      "updated_at": "2026-08-13T00:02:05.688956+00:00"
     },
     {
       "symbol": "FGH",
@@ -11025,14 +11112,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.008999999612569809,
-      "adx14": 31.244009090195146,
-      "atr14": 0.0006250069350210088,
+      "adx14": 30.60156756033432,
+      "atr14": 0.000660721226589322,
       "relative_volume": 1.7953078582694972,
       "zscore20": -0.8451542547287006,
-      "microstructure_score": 57.1,
+      "microstructure_score": 47.1,
+      "near_signal_score": 39.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.934081+00:00"
+      "updated_at": "2026-08-13T00:02:05.705687+00:00"
     },
     {
       "symbol": "FGR",
@@ -11040,14 +11128,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.0560000017285347,
-      "adx14": 17.321886315687077,
+      "adx14": 17.321886315687088,
       "atr14": 0.0035530120495217378,
       "relative_volume": 0.5464225124133733,
       "zscore20": -1.2048284142137602,
       "microstructure_score": 28.9,
+      "near_signal_score": 30.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.950852+00:00"
+      "updated_at": "2026-08-13T00:02:05.722821+00:00"
     },
     {
       "symbol": "FGX",
@@ -11055,14 +11144,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 1.3700000047683716,
-      "adx14": 28.751577143011797,
+      "adx14": 28.751577143011808,
       "atr14": 0.025861409120018226,
       "relative_volume": 0.44685682570696544,
-      "zscore20": 0.6314705335849302,
+      "zscore20": 0.6314705335849912,
       "microstructure_score": 34.3,
+      "near_signal_score": 31.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.967530+00:00"
+      "updated_at": "2026-08-13T00:02:05.739826+00:00"
     },
     {
       "symbol": "FHE",
@@ -11070,14 +11160,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.1899999976158142,
-      "adx14": 37.07977720199991,
+      "adx14": 37.07977720199994,
       "atr14": 0.010503463076728108,
       "relative_volume": 0.11510465328132824,
-      "zscore20": -0.6121462072818669,
+      "zscore20": -0.6121462072819225,
       "microstructure_score": 65.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:52.984173+00:00"
+      "updated_at": "2026-08-13T00:02:05.756491+00:00"
     },
     {
       "symbol": "FHS",
@@ -11085,14 +11176,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.001500000013038516,
-      "adx14": 17.39377253253638,
-      "atr14": 0.0001796340132837203,
-      "relative_volume": 0.0766126999087214,
-      "zscore20": -0.22941580883899476,
+      "adx14": 17.12406900321656,
+      "atr14": 0.00016680301233488315,
+      "relative_volume": 0.0,
+      "zscore20": -0.16012822550266054,
       "microstructure_score": 40.0,
+      "near_signal_score": 28.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.000858+00:00"
+      "updated_at": "2026-08-13T00:02:05.773040+00:00"
     },
     {
       "symbol": "FID",
@@ -11100,29 +11192,31 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 8.5,
-      "adx14": 16.731927201233706,
+      "adx14": 16.731927201233702,
       "atr14": 0.20654746116477352,
       "relative_volume": 2.2319945477679277,
       "zscore20": -0.17860021856355932,
       "microstructure_score": 57.4,
+      "near_signal_score": 61.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.017796+00:00"
+      "updated_at": "2026-08-13T00:02:05.790129+00:00"
     },
     {
       "symbol": "FIN",
       "company": "FIN RESOURCES LIMITED",
       "status": "ok",
       "regime": "TREND",
-      "price": 0.003000000026077032,
-      "adx14": 23.589276508905,
-      "atr14": 0.0005147591096396182,
+      "price": 0.0035000001080334187,
+      "adx14": 22.55432947260162,
+      "atr14": 0.0004790448180713049,
       "relative_volume": 0.5860951406720789,
-      "zscore20": -1.8744846041511372,
+      "zscore20": -1.3583770547563523,
       "microstructure_score": 16.7,
+      "near_signal_score": 13.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.034451+00:00"
+      "updated_at": "2026-08-13T00:02:05.806674+00:00"
     },
     {
       "symbol": "FL1",
@@ -11131,13 +11225,14 @@
       "regime": "SQUEEZE",
       "price": 0.14000000059604645,
       "adx14": 33.81873452670781,
-      "atr14": 0.0024589885377185356,
+      "atr14": 0.002458988537718138,
       "relative_volume": 0.0,
-      "zscore20": 0.22941573387105854,
+      "zscore20": 0.22941573387104178,
       "microstructure_score": 40.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.051453+00:00"
+      "updated_at": "2026-08-13T00:02:05.823718+00:00"
     },
     {
       "symbol": "FLC",
@@ -11145,14 +11240,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.07400000095367432,
-      "adx14": 23.98013677820908,
+      "adx14": 23.980136778209083,
       "atr14": 0.004286252585786655,
       "relative_volume": 0.3098718035963785,
-      "zscore20": -0.7001114237086251,
+      "zscore20": -0.700111423708684,
       "microstructure_score": 37.0,
+      "near_signal_score": 27.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.068142+00:00"
+      "updated_at": "2026-08-13T00:02:05.840456+00:00"
     },
     {
       "symbol": "FLG",
@@ -11165,9 +11261,10 @@
       "relative_volume": 0.5620392956562625,
       "zscore20": 2.483064210847027,
       "microstructure_score": 49.8,
+      "near_signal_score": -0.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.084722+00:00"
+      "updated_at": "2026-08-13T00:02:05.856970+00:00"
     },
     {
       "symbol": "FLN",
@@ -11175,14 +11272,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.15000000596046448,
-      "adx14": 22.724522967651275,
-      "atr14": 0.006883586947563335,
-      "relative_volume": 1.63058994826197,
-      "zscore20": 2.9229952341927055,
-      "microstructure_score": 87.6,
+      "adx14": 24.711320314124436,
+      "atr14": 0.006391902165594526,
+      "relative_volume": 0.0,
+      "zscore20": 2.3411154671834047,
+      "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.101347+00:00"
+      "updated_at": "2026-08-13T00:02:05.873357+00:00"
     },
     {
       "symbol": "FLT",
@@ -11195,9 +11293,10 @@
       "relative_volume": 0.7637385365153674,
       "zscore20": 0.5840929406431123,
       "microstructure_score": 44.6,
+      "near_signal_score": -1.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.118086+00:00"
+      "updated_at": "2026-08-13T00:02:05.889792+00:00"
     },
     {
       "symbol": "FLX",
@@ -11205,14 +11304,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.05000000074505806,
-      "adx14": 44.5852686895527,
-      "atr14": 0.0010488092722518156,
+      "adx14": 44.58526868955272,
+      "atr14": 0.001048809272251816,
       "relative_volume": 0.0,
-      "zscore20": -0.22941573387364025,
+      "zscore20": -0.22941573387363443,
       "microstructure_score": 40.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.134911+00:00"
+      "updated_at": "2026-08-13T00:02:05.906757+00:00"
     },
     {
       "symbol": "FME",
@@ -11223,11 +11323,12 @@
       "adx14": 29.97151540658752,
       "atr14": 0.0015150846552454968,
       "relative_volume": 1.0101244668860938,
-      "zscore20": 2.1656594294185894,
+      "zscore20": 2.16565942941861,
       "microstructure_score": 72.7,
+      "near_signal_score": 4.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.151422+00:00"
+      "updated_at": "2026-08-13T00:02:05.923125+00:00"
     },
     {
       "symbol": "FMG",
@@ -11237,12 +11338,13 @@
       "price": 17.959999084472656,
       "adx14": 20.595666976304116,
       "atr14": 0.4231993158946015,
-      "relative_volume": 0.9471097618842523,
-      "zscore20": -1.366711722962883,
-      "microstructure_score": 47.6,
+      "relative_volume": 0.9614088806377721,
+      "zscore20": -1.36671172296289,
+      "microstructure_score": 47.8,
+      "near_signal_score": 49.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.168474+00:00"
+      "updated_at": "2026-08-13T00:02:05.940150+00:00"
     },
     {
       "symbol": "FML",
@@ -11250,14 +11352,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 2.009999990463257,
-      "adx14": 20.115485140563393,
+      "adx14": 20.115485140563386,
       "atr14": 0.1296869301838434,
       "relative_volume": 0.8505441746913587,
-      "zscore20": 1.142801378343497,
+      "zscore20": 1.1428013783435016,
       "microstructure_score": 41.8,
+      "near_signal_score": -1.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.185172+00:00"
+      "updated_at": "2026-08-13T00:02:05.956545+00:00"
     },
     {
       "symbol": "FMN",
@@ -11270,9 +11373,10 @@
       "relative_volume": 0.31630718441655237,
       "zscore20": -0.11557964687738723,
       "microstructure_score": 28.6,
+      "near_signal_score": 25.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.202113+00:00"
+      "updated_at": "2026-08-13T00:02:05.973443+00:00"
     },
     {
       "symbol": "FMR",
@@ -11283,11 +11387,12 @@
       "adx14": 34.960611649563255,
       "atr14": 0.02462677083326604,
       "relative_volume": 0.3860510028235186,
-      "zscore20": 1.0687411703805376,
+      "zscore20": 1.068741170380539,
       "microstructure_score": 43.7,
+      "near_signal_score": 33.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.219611+00:00"
+      "updated_at": "2026-08-13T00:02:05.990586+00:00"
     },
     {
       "symbol": "FND",
@@ -11295,14 +11400,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.4050000011920929,
-      "adx14": 25.042848946555075,
-      "atr14": 0.003022175606102624,
+      "adx14": 25.0359983648499,
+      "atr14": 0.0028063059199524365,
       "relative_volume": null,
       "zscore20": 0.0,
       "microstructure_score": 40.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.236427+00:00"
+      "updated_at": "2026-08-13T00:02:06.007673+00:00"
     },
     {
       "symbol": "FNR",
@@ -11310,14 +11416,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.14499999582767487,
-      "adx14": 31.18708553607518,
-      "atr14": 0.002906092111090956,
+      "adx14": 33.081679280203545,
+      "atr14": 0.002698514103155888,
       "relative_volume": 0.0,
-      "zscore20": 2.3533937902559003,
+      "zscore20": 1.9922485748862082,
       "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.253126+00:00"
+      "updated_at": "2026-08-13T00:02:06.024301+00:00"
     },
     {
       "symbol": "FNX",
@@ -11325,14 +11432,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.18000000715255737,
-      "adx14": 64.68390199026928,
-      "atr14": 5.6631400810773804e-08,
+      "adx14": 64.68399060050479,
+      "atr14": 5.2586300752861394e-08,
       "relative_volume": null,
       "zscore20": 0.0,
       "microstructure_score": 40.0,
+      "near_signal_score": 18.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.270312+00:00"
+      "updated_at": "2026-08-13T00:02:06.040926+00:00"
     },
     {
       "symbol": "FOS",
@@ -11340,14 +11448,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.14000000059604645,
-      "adx14": 31.288562889606705,
-      "atr14": 0.0019406059196284407,
+      "adx14": 31.934541506420807,
+      "atr14": 0.001801991211083552,
       "relative_volume": 0.0,
-      "zscore20": 1.2247448713932816,
+      "zscore20": 1.1055415967866065,
       "microstructure_score": 55.0,
+      "near_signal_score": 36.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.288927+00:00"
+      "updated_at": "2026-08-13T00:02:06.059110+00:00"
     },
     {
       "symbol": "FPC",
@@ -11355,14 +11464,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 1.3200000524520874,
-      "adx14": 23.328926453914494,
-      "atr14": 0.01546457911824846,
+      "adx14": 21.833846081094965,
+      "atr14": 0.014359966324087857,
       "relative_volume": 0.0,
-      "zscore20": 1.174484019569132,
+      "zscore20": 1.1097448340073361,
       "microstructure_score": 39.6,
+      "near_signal_score": 32.9,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.305969+00:00"
+      "updated_at": "2026-08-13T00:02:06.076259+00:00"
     },
     {
       "symbol": "FPH",
@@ -11370,14 +11480,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 35.279998779296875,
-      "adx14": 38.586314889578105,
+      "adx14": 38.58631488957811,
       "atr14": 0.7252937609771131,
       "relative_volume": 0.7273911802093379,
-      "zscore20": 1.1836180887578893,
+      "zscore20": 1.1836180887578855,
       "microstructure_score": 52.9,
+      "near_signal_score": 40.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.322609+00:00"
+      "updated_at": "2026-08-13T00:02:06.092925+00:00"
     },
     {
       "symbol": "FRB",
@@ -11388,11 +11499,12 @@
       "adx14": 10.500075016377574,
       "atr14": 0.013467641962653945,
       "relative_volume": 1.6565420746281696,
-      "zscore20": -0.8759101298131498,
+      "zscore20": -0.8759101298130013,
       "microstructure_score": 65.0,
+      "near_signal_score": 63.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.356955+00:00"
+      "updated_at": "2026-08-13T00:02:06.126868+00:00"
     },
     {
       "symbol": "FRE",
@@ -11400,14 +11512,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.032999999821186066,
-      "adx14": 29.811094492461002,
+      "adx14": 29.811094492461006,
       "atr14": 0.0022621501960741826,
       "relative_volume": 1.5472175932608152,
-      "zscore20": 1.5539094392029749,
+      "zscore20": 1.5539094392029733,
       "microstructure_score": 65.9,
+      "near_signal_score": 3.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.374493+00:00"
+      "updated_at": "2026-08-13T00:02:06.143304+00:00"
     },
     {
       "symbol": "FRI",
@@ -11415,14 +11528,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.7099999785423279,
-      "adx14": 20.089043546190606,
+      "adx14": 20.089043546190613,
       "atr14": 0.011031464343130118,
       "relative_volume": 0.2638701548796261,
-      "zscore20": 0.9726282633676945,
+      "zscore20": 0.9726282633676853,
       "microstructure_score": 33.2,
+      "near_signal_score": -3.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.391054+00:00"
+      "updated_at": "2026-08-13T00:02:06.159967+00:00"
     },
     {
       "symbol": "FRM",
@@ -11433,11 +11547,12 @@
       "adx14": 34.97473890957526,
       "atr14": 0.007911955780278717,
       "relative_volume": 0.3186504978787097,
-      "zscore20": 0.3876014410485859,
+      "zscore20": 0.38760144104858646,
       "microstructure_score": 54.9,
+      "near_signal_score": 41.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.407593+00:00"
+      "updated_at": "2026-08-13T00:02:06.176636+00:00"
     },
     {
       "symbol": "FRS",
@@ -11445,14 +11560,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.39500001072883606,
-      "adx14": 20.441877661106354,
-      "atr14": 0.026737691282330386,
+      "adx14": 20.441877661106364,
+      "atr14": 0.026773405108237412,
       "relative_volume": 0.4970406160067587,
-      "zscore20": 0.9727813340236043,
-      "microstructure_score": 61.7,
+      "zscore20": 0.9727813340236062,
+      "microstructure_score": 61.0,
+      "near_signal_score": 2.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.424282+00:00"
+      "updated_at": "2026-08-13T00:02:06.193001+00:00"
     },
     {
       "symbol": "FRW",
@@ -11460,14 +11576,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 12.020000457763672,
-      "adx14": 35.59308622740853,
-      "atr14": 0.07166579568071971,
+      "adx14": 36.21912725622696,
+      "atr14": 0.06654681027495402,
       "relative_volume": 0.0,
-      "zscore20": 1.5661013480036172,
+      "zscore20": 1.4777997352621397,
       "microstructure_score": 55.0,
+      "near_signal_score": 41.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.441253+00:00"
+      "updated_at": "2026-08-13T00:02:06.209609+00:00"
     },
     {
       "symbol": "FRX",
@@ -11480,9 +11597,10 @@
       "relative_volume": 0.0620839014999599,
       "zscore20": 0.46229894724375276,
       "microstructure_score": 52.8,
+      "near_signal_score": 35.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.458156+00:00"
+      "updated_at": "2026-08-13T00:02:06.226564+00:00"
     },
     {
       "symbol": "FSA",
@@ -11493,26 +11611,28 @@
       "adx14": 22.444915496243084,
       "atr14": 0.02317846478696832,
       "relative_volume": 0.8952852435985349,
-      "zscore20": 0.042107596053297766,
+      "zscore20": 0.04210759605329761,
       "microstructure_score": 72.9,
+      "near_signal_score": 4.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.475108+00:00"
+      "updated_at": "2026-08-13T00:02:06.243134+00:00"
     },
     {
       "symbol": "FSI",
       "company": "FLAGSHIP INVESTMENTS LIMITED",
       "status": "ok",
       "regime": "UNCLEAR",
-      "price": 1.3799999952316284,
-      "adx14": 20.982479955107856,
-      "atr14": 0.020346155940740168,
-      "relative_volume": 1.7487464128825496,
-      "zscore20": 2.354226838761955,
-      "microstructure_score": 65.7,
+      "price": 1.399999976158142,
+      "adx14": 22.898136630689663,
+      "atr14": 0.0203214291540097,
+      "relative_volume": 0.0468384074941452,
+      "zscore20": 2.331574033110633,
+      "microstructure_score": 44.9,
+      "near_signal_score": -1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.492158+00:00"
+      "updated_at": "2026-08-13T00:02:06.259792+00:00"
     },
     {
       "symbol": "FTI",
@@ -11525,9 +11645,10 @@
       "relative_volume": 0.2757448641262203,
       "zscore20": 1.4514578907303586,
       "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.508869+00:00"
+      "updated_at": "2026-08-13T00:02:06.276274+00:00"
     },
     {
       "symbol": "FUL",
@@ -11535,14 +11656,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.09000000357627869,
-      "adx14": 30.610893700750143,
-      "atr14": 0.0016206207823375007,
+      "adx14": 31.745149894540816,
+      "atr14": 0.0015048621550276793,
       "relative_volume": 0.0,
-      "zscore20": 1.7069837022364387,
+      "zscore20": 1.5118579456761414,
       "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.525515+00:00"
+      "updated_at": "2026-08-13T00:02:06.292700+00:00"
     },
     {
       "symbol": "FUN",
@@ -11555,9 +11677,10 @@
       "relative_volume": 1.564320695905432,
       "zscore20": 0.004707211943319109,
       "microstructure_score": 56.4,
+      "near_signal_score": 76.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.542254+00:00"
+      "updated_at": "2026-08-13T00:02:06.309810+00:00"
     },
     {
       "symbol": "FWD",
@@ -11568,11 +11691,12 @@
       "adx14": 35.2121960597121,
       "atr14": 0.10515613908717644,
       "relative_volume": 0.4178135142226707,
-      "zscore20": 0.6982853241072764,
+      "zscore20": 0.6982853241072862,
       "microstructure_score": 48.0,
+      "near_signal_score": -0.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.558718+00:00"
+      "updated_at": "2026-08-13T00:02:06.326338+00:00"
     },
     {
       "symbol": "FXG",
@@ -11581,13 +11705,14 @@
       "regime": "RANGE",
       "price": 0.25,
       "adx14": 19.506037725120976,
-      "atr14": 0.020976603963565984,
+      "atr14": 0.02101231778947301,
       "relative_volume": 0.6903182925134503,
-      "zscore20": 0.45562868388977595,
-      "microstructure_score": 37.6,
+      "zscore20": 0.4556286838897819,
+      "microstructure_score": 36.6,
+      "near_signal_score": 37.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.575355+00:00"
+      "updated_at": "2026-08-13T00:02:06.343004+00:00"
     },
     {
       "symbol": "FZR",
@@ -11595,14 +11720,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.23000000417232513,
-      "adx14": 43.14677550343468,
-      "atr14": 0.006551966233955047,
-      "relative_volume": 2.2919199232978387,
-      "zscore20": -0.01870174688577718,
-      "microstructure_score": 67.2,
+      "adx14": 41.25258137004514,
+      "atr14": 0.0060839686458154015,
+      "relative_volume": 0.0,
+      "zscore20": -0.05699012098780184,
+      "microstructure_score": 47.9,
+      "near_signal_score": -0.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.592064+00:00"
+      "updated_at": "2026-08-13T00:02:06.359587+00:00"
     },
     {
       "symbol": "G11",
@@ -11610,14 +11736,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.1899999976158142,
-      "adx14": 32.644973694400896,
-      "atr14": 0.006042165588049992,
-      "relative_volume": 3.2529103297382784,
-      "zscore20": -1.9189492702733808,
-      "microstructure_score": 51.3,
+      "adx14": 33.954810303457236,
+      "atr14": 0.005610582331760707,
+      "relative_volume": 0.0,
+      "zscore20": -1.6769240643578656,
+      "microstructure_score": 30.3,
+      "near_signal_score": 16.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.608775+00:00"
+      "updated_at": "2026-08-13T00:02:06.376267+00:00"
     },
     {
       "symbol": "G1C",
@@ -11625,14 +11752,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.05999999865889549,
-      "adx14": 62.686728005286504,
-      "atr14": 0.0009152791733523049,
+      "adx14": 62.36007617347464,
+      "atr14": 0.0008499020895414261,
       "relative_volume": 0.0,
-      "zscore20": 2.61013043836313,
+      "zscore20": 2.1489838703540194,
       "microstructure_score": 47.5,
+      "near_signal_score": -0.5,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.625505+00:00"
+      "updated_at": "2026-08-13T00:02:06.392833+00:00"
     },
     {
       "symbol": "G50",
@@ -11640,14 +11768,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.5,
-      "adx14": 23.69693482714191,
-      "atr14": 0.050324993865291524,
+      "adx14": 23.6817294763363,
+      "atr14": 0.050360705562461236,
       "relative_volume": 0.9581410939469748,
       "zscore20": -0.6774359912652865,
-      "microstructure_score": 35.5,
+      "microstructure_score": 35.4,
+      "near_signal_score": 17.1,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.642182+00:00"
+      "updated_at": "2026-08-13T00:02:06.409370+00:00"
     },
     {
       "symbol": "G6M",
@@ -11655,14 +11784,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 3.309999942779541,
-      "adx14": 75.03078681230183,
+      "adx14": 75.03078682103704,
       "atr14": 0.36891728039725014,
       "relative_volume": 1.138886837110568,
       "zscore20": 1.6289048805039175,
       "microstructure_score": 58.6,
+      "near_signal_score": 41.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.664245+00:00"
+      "updated_at": "2026-08-13T00:02:06.426023+00:00"
     },
     {
       "symbol": "G88",
@@ -11673,11 +11803,12 @@
       "adx14": 16.22064974692704,
       "atr14": 0.0003018947512402274,
       "relative_volume": 3.953033471359165,
-      "zscore20": -0.420084025208818,
+      "zscore20": -0.420084025208827,
       "microstructure_score": 60.1,
+      "near_signal_score": 62.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.681234+00:00"
+      "updated_at": "2026-08-13T00:02:06.443209+00:00"
     },
     {
       "symbol": "GA8",
@@ -11685,14 +11816,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.06199999898672104,
-      "adx14": 19.835203422813844,
+      "adx14": 19.835203422813855,
       "atr14": 0.0028909472376449177,
       "relative_volume": 0.7321562850825452,
       "zscore20": 2.4407165648961824,
       "microstructure_score": 53.7,
+      "near_signal_score": 50.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.698561+00:00"
+      "updated_at": "2026-08-13T00:02:06.460256+00:00"
     },
     {
       "symbol": "GAL",
@@ -11700,14 +11832,15 @@
       "status": "ok",
       "regime": "SQUEEZE",
       "price": 0.125,
-      "adx14": 43.61004295720308,
+      "adx14": 43.610042957203085,
       "atr14": 0.005885966734662575,
       "relative_volume": 0.10221625824620999,
-      "zscore20": 1.13757342063986,
+      "zscore20": 1.1375734206398405,
       "microstructure_score": 33.8,
+      "near_signal_score": 31.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.715284+00:00"
+      "updated_at": "2026-08-13T00:02:06.477308+00:00"
     },
     {
       "symbol": "GAP",
@@ -11715,14 +11848,15 @@
       "status": "ok",
       "regime": "TREND",
       "price": 0.10999999940395355,
-      "adx14": 43.06580276265477,
-      "atr14": 0.003888667090672562,
-      "relative_volume": 0.44130899430998144,
-      "zscore20": 1.921718219220549,
-      "microstructure_score": 62.8,
+      "adx14": 43.752509949370044,
+      "atr14": 0.003610905155624522,
+      "relative_volume": 0.0,
+      "zscore20": 1.675059817425903,
+      "microstructure_score": 46.8,
+      "near_signal_score": 39.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.732387+00:00"
+      "updated_at": "2026-08-13T00:02:06.494052+00:00"
     },
     {
       "symbol": "GAS",
@@ -11733,11 +11867,12 @@
       "adx14": 16.769210075274213,
       "atr14": 0.0008722261980158467,
       "relative_volume": 0.022536978002652593,
-      "zscore20": -1.6135687241792058,
+      "zscore20": -1.6135687241790484,
       "microstructure_score": 46.4,
+      "near_signal_score": 54.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.749148+00:00"
+      "updated_at": "2026-08-13T00:02:06.510704+00:00"
     },
     {
       "symbol": "GBE",
@@ -11748,11 +11883,12 @@
       "adx14": 15.068902407261163,
       "atr14": 0.002029473434293252,
       "relative_volume": 2.693102703592106,
-      "zscore20": 0.19115424147517857,
+      "zscore20": 0.1911542414751798,
       "microstructure_score": 79.0,
+      "near_signal_score": 80.8,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.766265+00:00"
+      "updated_at": "2026-08-13T00:02:06.527793+00:00"
     },
     {
       "symbol": "GBL",
@@ -11765,9 +11901,10 @@
       "relative_volume": 1.0588102032889248,
       "zscore20": 0.2515779979010854,
       "microstructure_score": 51.4,
+      "near_signal_score": 50.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.783792+00:00"
+      "updated_at": "2026-08-13T00:02:06.544856+00:00"
     },
     {
       "symbol": "GBM",
@@ -11775,14 +11912,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.019999999552965164,
-      "adx14": 26.544663022520464,
+      "adx14": 26.54466302252047,
       "atr14": 0.0017776486284464335,
       "relative_volume": 0.9943688638126341,
       "zscore20": 1.2403473992073093,
       "microstructure_score": 42.2,
+      "near_signal_score": -1.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.801212+00:00"
+      "updated_at": "2026-08-13T00:02:06.561258+00:00"
     },
     {
       "symbol": "GBR",
@@ -11791,13 +11929,14 @@
       "regime": "UNCLEAR",
       "price": 0.07699999958276749,
       "adx14": 21.773632976892287,
-      "atr14": 0.004480262797996018,
+      "atr14": 0.004480262797996019,
       "relative_volume": 0.4329930115810166,
-      "zscore20": 2.431353189642996,
+      "zscore20": 2.43135318964299,
       "microstructure_score": 57.9,
+      "near_signal_score": 1.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T07:58:53.818362+00:00"
+      "updated_at": "2026-08-13T00:02:06.577824+00:00"
     },
     {
       "symbol": "GC1",
@@ -11805,14 +11944,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.41999998688697815,
-      "adx14": 18.142748693357095,
-      "atr14": 0.007680937777321066,
+      "adx14": 18.142748693357127,
+      "atr14": 0.007680937777321067,
       "relative_volume": 2.434387359071982,
-      "zscore20": 1.502610200873188,
+      "zscore20": 1.5026102008741873,
       "microstructure_score": 70.2,
+      "near_signal_score": 34.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.096076+00:00"
+      "updated_at": "2026-08-13T00:02:06.594531+00:00"
     },
     {
       "symbol": "GCI",
@@ -11823,11 +11963,12 @@
       "adx14": 18.078387007035253,
       "atr14": 0.016771748347620467,
       "relative_volume": 0.518446554351324,
-      "zscore20": -0.7337993857052132,
+      "zscore20": -0.7337993857059675,
       "microstructure_score": 26.6,
+      "near_signal_score": 25.3,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.113340+00:00"
+      "updated_at": "2026-08-13T00:02:06.611043+00:00"
     },
     {
       "symbol": "GCM",
@@ -11835,14 +11976,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.125,
-      "adx14": 17.073691240205275,
+      "adx14": 17.07369124020527,
       "atr14": 0.009792794772549998,
       "relative_volume": 0.3790114249644581,
       "zscore20": 0.8354675151871181,
       "microstructure_score": 45.0,
+      "near_signal_score": 29.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.130764+00:00"
+      "updated_at": "2026-08-13T00:02:06.627812+00:00"
     },
     {
       "symbol": "GCR",
@@ -11855,9 +11997,10 @@
       "relative_volume": 0.0,
       "zscore20": -0.22941573387056208,
       "microstructure_score": 40.0,
+      "near_signal_score": 33.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.148293+00:00"
+      "updated_at": "2026-08-13T00:02:06.644831+00:00"
     },
     {
       "symbol": "GD8",
@@ -11874,11 +12017,12 @@
       "adx14": 40.16900939390825,
       "atr14": 0.019424876029150558,
       "relative_volume": 0.5050957234022287,
-      "zscore20": 1.009444224211888,
+      "zscore20": 1.0094442242118702,
       "microstructure_score": 54.8,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.167119+00:00"
+      "updated_at": "2026-08-13T00:02:06.662986+00:00"
     },
     {
       "symbol": "GDG",
@@ -11888,12 +12032,13 @@
       "price": 3.9800000190734863,
       "adx14": 25.360574536798698,
       "atr14": 0.20708821547606582,
-      "relative_volume": 0.4074275389324931,
-      "zscore20": -0.0014905368853562384,
-      "microstructure_score": 27.3,
+      "relative_volume": 0.6661991508050784,
+      "zscore20": -0.0014905368853562354,
+      "microstructure_score": 29.9,
+      "near_signal_score": -4.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.184324+00:00"
+      "updated_at": "2026-08-13T00:02:06.679789+00:00"
     },
     {
       "symbol": "GDI",
@@ -11904,11 +12049,12 @@
       "adx14": 15.82340944127101,
       "atr14": 0.011538105159836155,
       "relative_volume": 0.7227104619801482,
-      "zscore20": 1.3130578250431335,
+      "zscore20": 1.3130578250431553,
       "microstructure_score": 53.4,
+      "near_signal_score": 40.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.201862+00:00"
+      "updated_at": "2026-08-13T00:02:06.696300+00:00"
     },
     {
       "symbol": "GDM",
@@ -11921,9 +12067,10 @@
       "relative_volume": 0.7751566523558832,
       "zscore20": -1.3573052517306798,
       "microstructure_score": 33.2,
+      "near_signal_score": 16.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.219013+00:00"
+      "updated_at": "2026-08-13T00:02:06.712988+00:00"
     },
     {
       "symbol": "GDR",
@@ -11937,14 +12084,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 110.75,
-      "adx14": 26.485264683771806,
+      "adx14": 26.4852646837718,
       "atr14": 3.350151317316195,
       "relative_volume": 0.7162739698846635,
       "zscore20": 1.9943225562659754,
       "microstructure_score": 58.4,
+      "near_signal_score": 1.7,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.238121+00:00"
+      "updated_at": "2026-08-13T00:02:06.731492+00:00"
     },
     {
       "symbol": "GED",
@@ -11955,11 +12103,12 @@
       "adx14": 16.47174112045947,
       "atr14": 0.0018980280834786293,
       "relative_volume": 0.03410158521218859,
-      "zscore20": -1.5428174555191878,
+      "zscore20": -1.5428174555191407,
       "microstructure_score": 55.0,
+      "near_signal_score": 36.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.255544+00:00"
+      "updated_at": "2026-08-13T00:02:06.748449+00:00"
     },
     {
       "symbol": "GEM",
@@ -11967,14 +12116,15 @@
       "status": "ok",
       "regime": "RANGE",
       "price": 0.13500000536441803,
-      "adx14": 19.269459285336684,
+      "adx14": 19.269459285336723,
       "atr14": 0.010471264379729428,
       "relative_volume": 1.7830737900200047,
       "zscore20": -0.9539976483193904,
       "microstructure_score": 52.2,
+      "near_signal_score": 55.4,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.272894+00:00"
+      "updated_at": "2026-08-13T00:02:06.765120+00:00"
     },
     {
       "symbol": "GEN",
@@ -11983,13 +12133,14 @@
       "regime": "SQUEEZE",
       "price": 0.008999999612569809,
       "adx14": 21.079367122240008,
-      "atr14": 0.0003537317555225097,
+      "atr14": 0.0003537317555225095,
       "relative_volume": 0.026838845014459763,
-      "zscore20": 1.4085902046519088,
+      "zscore20": 1.4085902046451406,
       "microstructure_score": 41.1,
+      "near_signal_score": 33.2,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.290394+00:00"
+      "updated_at": "2026-08-13T00:02:06.782091+00:00"
     },
     {
       "symbol": "GES",
@@ -11997,14 +12148,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 0.006000000052154064,
-      "adx14": 50.00937216897968,
-      "atr14": 0.00010678585117940078,
-      "relative_volume": 0.20252826141773428,
-      "zscore20": 1.2247448713916036,
+      "adx14": 50.44873466734184,
+      "atr14": 9.915829038087215e-05,
+      "relative_volume": 0.0,
+      "zscore20": 1.1055415967851447,
       "microstructure_score": 55.0,
+      "near_signal_score": 1.0,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.307911+00:00"
+      "updated_at": "2026-08-13T00:02:06.798547+00:00"
     },
     {
       "symbol": "GFL",
@@ -12012,14 +12164,15 @@
       "status": "ok",
       "regime": "UNCLEAR",
       "price": 2.950000047683716,
-      "adx14": 44.25550419496445,
-      "atr14": 0.014454479827523006,
-      "relative_volume": 4.723274060161764,
-      "zscore20": 2.4972139764156727,
-      "microstructure_score": 91.2,
+      "adx14": 44.38284912874789,
+      "atr14": 0.013422016982699934,
+      "relative_volume": 0.0,
+      "zscore20": 2.080001417361412,
+      "microstructure_score": 52.9,
+      "near_signal_score": 0.6,
       "active": false,
       "candidate": null,
-      "updated_at": "2026-08-12T08:00:27.325991+00:00"
+      "updated_at": "2026-08-13T00:02:06.814997+00:00"
     },
     {
       "symbol": "GG1",
