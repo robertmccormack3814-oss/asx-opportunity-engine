@@ -612,6 +612,86 @@
       "entry_date": "2026-08-14",
       "peak_price": 4.78000020980835,
       "trailing_stop": 4.6585228158820335
+    },
+    "CLW": {
+      "symbol": "CLW",
+      "company": "CHARTER HALL LONG WALE REIT",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 88.6,
+      "microstructure_score": 42.8,
+      "reasons": [
+        "z-score -2.39",
+        "RSI5 15.3",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 16.541470557542702
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 5606495.710595417,
+        "atr_pct": 2.2163874736910025,
+        "gap_pct": 0.0,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.5799999237060547,
+      "atr14": 0.07934666986716844,
+      "stop_loss": 3.476849252878736,
+      "profit_target": 3.745040997029765,
+      "risk_per_share": 0.10315067082731898,
+      "target_r": 1.6,
+      "units_per_100k": 4847.278219227803,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T22:01:58.089803+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 3.5799999237060547,
+      "trailing_stop": 3.476849252878736
+    },
+    "COF": {
+      "symbol": "COF",
+      "company": "CENTURIA OFFICE REIT",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 85.6,
+      "microstructure_score": 27.8,
+      "reasons": [
+        "z-score -2.06",
+        "RSI5 16.7",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 12.754733000658936
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1238312.875404209,
+        "atr_pct": 2.2346643381243982,
+        "gap_pct": 0.0,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 0.8600000143051147,
+      "atr14": 0.019218113627541125,
+      "stop_loss": 0.8350164665893113,
+      "profit_target": 0.8999736906504003,
+      "risk_per_share": 0.024983547715803463,
+      "target_r": 1.6,
+      "units_per_100k": 20013.170494746133,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T22:01:58.426188+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 0.8600000143051147,
+      "trailing_stop": 0.8350164665893113
     }
   },
   "closed_trades": [
@@ -752,5 +832,5 @@
       "pnl_pct": -3.4346293998305244
     }
   ],
-  "updated_at": "2026-08-14T21:56:59.603756+00:00"
+  "updated_at": "2026-08-14T22:01:59.573212+00:00"
 }
