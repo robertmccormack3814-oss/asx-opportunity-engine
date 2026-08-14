@@ -450,6 +450,168 @@
       "entry_date": "2026-08-14",
       "peak_price": 2.6700000762939453,
       "trailing_stop": 2.5723205641137814
+    },
+    "SCG": {
+      "symbol": "SCG",
+      "company": "SCENTRE GROUP",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 98.2,
+      "microstructure_score": 40.8,
+      "reasons": [
+        "z-score -2.66",
+        "RSI5 17.1",
+        "low ADX",
+        "not closing on low",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 12.703138869993724
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 34727263.17574213,
+        "atr_pct": 1.8879835605213502,
+        "gap_pct": 0.2638519937706696,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.7699999809265137,
+      "atr14": 0.07117697987155061,
+      "stop_loss": 3.677469907093498,
+      "profit_target": 3.918048099059339,
+      "risk_per_share": 0.0925300738330158,
+      "target_r": 1.6,
+      "units_per_100k": 5403.648557574092,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:25.433829+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 3.7699999809265137,
+      "trailing_stop": 3.677469907093498
+    },
+    "SPY": {
+      "symbol": "SPY",
+      "company": "STATE STREET SPDR S&P 500 ETF",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 93.1,
+      "microstructure_score": 65.4,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 29.8",
+        "relative volume 1.27x"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 29.843955639505293
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1126905.0832092285,
+        "atr_pct": 0.736270716726879,
+        "gap_pct": 0.27347310847767314,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 1100.760009765625,
+      "atr14": 8.10457361334423,
+      "stop_loss": 1086.1717772616055,
+      "profit_target": 1137.2305910256741,
+      "risk_per_share": 14.588232504019615,
+      "target_r": 2.5,
+      "units_per_100k": 34.27420010355819,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:26.974924+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 1100.760009765625,
+      "trailing_stop": 1086.1717772616055
+    },
+    "TCL": {
+      "symbol": "TCL",
+      "company": "TRANSURBAN GROUP",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 86.7,
+      "microstructure_score": 33.6,
+      "reasons": [
+        "z-score -3.37",
+        "RSI5 15.9",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 11.617673442885081
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 59653155.93938255,
+        "atr_pct": 1.9673949653144427,
+        "gap_pct": 1.0989065691980104,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 13.960000038146973,
+      "atr14": 0.2746483379083978,
+      "stop_loss": 13.602957198866056,
+      "profit_target": 14.53126858099644,
+      "risk_per_share": 0.3570428392809172,
+      "target_r": 1.6,
+      "units_per_100k": 1400.3921798487765,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:28.005698+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 13.960000038146973,
+      "trailing_stop": 13.602957198866056
+    },
+    "TLS": {
+      "symbol": "TLS",
+      "company": "TELSTRA GROUP LIMITED",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 88.0,
+      "microstructure_score": 40.2,
+      "reasons": [
+        "z-score -2.72",
+        "RSI5 15.9",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 15.289712416942894
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 146094545.23206532,
+        "atr_pct": 1.954898432480109,
+        "gap_pct": 0.2066162926976145,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 4.78000020980835,
+      "atr14": 0.09344414917408936,
+      "stop_loss": 4.6585228158820335,
+      "profit_target": 4.974364040090456,
+      "risk_per_share": 0.12147739392631617,
+      "target_r": 1.6,
+      "units_per_100k": 4115.99215162026,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:28.452248+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 4.78000020980835,
+      "trailing_stop": 4.6585228158820335
     }
   },
   "closed_trades": [
@@ -590,5 +752,5 @@
       "pnl_pct": -3.4346293998305244
     }
   ],
-  "updated_at": "2026-08-14T09:45:30.589549+00:00"
+  "updated_at": "2026-08-14T10:36:28.733590+00:00"
 }
