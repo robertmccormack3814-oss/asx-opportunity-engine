@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ASX Opportunity Engine Performance Ledger</title>
+  <style>
+    body{font-family:Arial;background:#f4f6f8;color:#18324f;margin:0;padding:24px}
+    .wrap{max-width:1320px;margin:auto}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:24px}
+    h1{margin:0;font-size:34px}.sub{color:#667085;margin-top:8px}.button{display:inline-block;padding:12px 16px;border-radius:10px;background:#173d67;color:white;text-decoration:none;font-weight:700}
+    .rule{height:3px;background:#173d67;margin:18px 0 28px}.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-bottom:28px}
+    .stat{background:white;border:1px solid #d9e1ea;border-radius:4px;padding:24px;text-align:center;box-shadow:0 2px 8px #00000008}.label{font-size:13px;font-weight:700;color:#718096;text-transform:uppercase;letter-spacing:.4px}.value{font-size:29px;font-weight:800;color:#1f4f80;margin-top:10px}
+    .filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}.filters select{padding:10px 12px;border:1px solid #d0d5dd;border-radius:8px;background:white}
+    .tablewrap{background:white;border:1px solid #d9e1ea;overflow:auto}table{width:100%;border-collapse:collapse;min-width:1250px}thead{background:#173d67;color:white}th,td{padding:13px 14px;text-align:left;border-bottom:1px solid #e4e9ef;white-space:nowrap}tbody tr:nth-child(even){background:#f7fafc}.ticker{font-weight:700}.positive{color:#087443;font-weight:700}.negative{color:#b42318;font-weight:700}.note{margin-top:16px;color:#667085;font-size:13px;line-height:1.45}.updated{margin-top:20px;text-align:center;color:#98a2b3;font-size:12px}
+    @media(max-width:900px){body{padding:14px}.stats{grid-template-columns:1fr 1fr}h1{font-size:28px}}@media(max-width:500px){.stats{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><div><h1>Opportunity Engine Performance Ledger</h1><div class="sub">Resolved signal performance by strategy</div></div><a class="button" href="index.html">Back to Opportunity Engine</a></div>
+  <div class="rule"></div>
+  <div class="stats">
+    <div class="stat"><div class="label">Completed Trades</div><div class="value" id="totalTrades">—</div></div>
+    <div class="stat"><div class="label">Success Rate</div><div class="value" id="successRate">—</div></div>
+    <div class="stat"><div class="label">Cumulative Return</div><div class="value" id="cumulativeReturn">—</div></div>
+    <div class="stat"><div class="label">Average Return</div><div class="value" id="averageReturn">—</div></div>
+    <div class="stat"><div class="label">Average Holding</div><div class="value" id="averageHolding">—</div></div>
+  </div>
+  <div class="filters"><select id="strategy"><option value="all">All Strategies</option><option value="TREND_BREAKOUT">Trend Breakout</option><option value="MEAN_REVERSION">Mean Reversion</option><option value="SQUEEZE_EXPANSION">Squeeze Expansion</option></select></div>
+  <div class="tablewrap"><table><thead><tr><th>Ticker</th><th>Strategy</th><th>Entry Date</th><th>Exit Date</th><th>Holding Trading Days</th><th>Entry Price</th><th>Exit Price</th><th>Return</th><th>Exit Reason</th><th>Setup Score</th></tr></thead><tbody id="tradeRows"></tbody></table></div>
+  <div class="note">Success Rate = profitable completed signals ÷ all completed signals. Active signals that have not exited yet are pending and are not counted as wins or losses. Cumulative Return is the arithmetic sum of individual signal returns; it is not a compounded portfolio return.</div>
+  <div class="updated" id="updated">—</div>
+</div>
+<script>
+let allTrades=[];
+function pct(n){if(n==null||!Number.isFinite(Number(n)))return "—";n=Number(n);return (n>=0?"+":"")+n.toFixed(2)+"%"}
+function price(n){return n==null?"—":"A$"+Number(n).toFixed(3)}
+function dateText(d){if(!d)return "—";const p=String(d).split("-");return p.length===3?`${p[2]}/${p[1]}/${p[0]}`:d}
+function tradingDays(a,b){if(!a||!b)return null;let s=new Date(a+"T00:00:00"),e=new Date(b+"T00:00:00"),n=0;for(let d=new Date(s);d<e;){d.setDate(d.getDate()+1);let w=d.getDay();if(w!==0&&w!==6)n++}return n}
+function tradeReturn(t){if(t.pnl_pct!=null&&Number.isFinite(Number(t.pnl_pct)))return Number(t.pnl_pct);let e=Number(t.entry_price),x=Number(t.exit_price);return e?((x-e)/e)*100:0}
+function render(){const f=strategy.value;const trades=f==="all"?allTrades:allTrades.filter(t=>t.strategy===f);const returns=trades.map(tradeReturn);const wins=returns.filter(x=>x>0).length;const total=trades.length;const success=total?wins/total*100:null;const cumulative=returns.reduce((a,b)=>a+b,0);const avg=total?cumulative/total:null;const holds=trades.map(t=>t.holding_trading_days!=null?Number(t.holding_trading_days):tradingDays(t.entry_date,t.exit_date)).filter(Number.isFinite);const avgHold=holds.length?holds.reduce((a,b)=>a+b,0)/holds.length:null;
+ totalTrades.textContent=total;successRate.textContent=success==null?"—":success.toFixed(1)+"%";cumulativeReturn.textContent=total?pct(cumulative):"—";averageReturn.textContent=avg==null?"—":pct(avg);averageHolding.textContent=avgHold==null?"—":avgHold.toFixed(1)+" days";
+ tradeRows.innerHTML=trades.slice().reverse().map(t=>{const r=tradeReturn(t);const held=t.holding_trading_days!=null?t.holding_trading_days:tradingDays(t.entry_date,t.exit_date);return `<tr><td class="ticker">${t.symbol||"—"}</td><td>${t.strategy||"—"}</td><td>${dateText(t.entry_date)}</td><td>${dateText(t.exit_date)}</td><td>${held==null?"—":held}</td><td>${price(t.entry_price)}</td><td>${price(t.exit_price)}</td><td class="${r>0?"positive":r<0?"negative":""}">${pct(r)}</td><td>${t.exit_reason||"—"}</td><td>${t.signal_score==null?"—":Number(t.signal_score).toFixed(1)+"/100"}</td></tr>`}).join("");}
+async function load(){const r=await fetch("data/scanner.json?t="+Date.now(),{cache:"no-store"});const D=await r.json();allTrades=Array.isArray(D.completed_trades)?D.completed_trades:[];updated.textContent=D.generated_at?"Last engine update: "+new Date(D.generated_at).toLocaleString():"";render()}
+strategy.onchange=render;load();
+</script>
+</body></html>
