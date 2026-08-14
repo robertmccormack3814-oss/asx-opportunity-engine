@@ -32,7 +32,12 @@
   },
   "exit": {
     "trend_trailing_atr": 2.2,
-    "max_holding_days": 30
+    "max_holding_days": 30,
+    "max_holding_days_by_strategy": {
+      "MEAN_REVERSION": 10,
+      "SQUEEZE_EXPANSION": 15,
+      "TREND_BREAKOUT": 30
+    }
   },
   "alerts": {
     "email_to": "cooperfarleymusic@gmail.com",
