@@ -368,6 +368,88 @@
       "entry_date": "2026-08-14",
       "peak_price": 1.149999976158142,
       "trailing_stop": 1.105718917407728
+    },
+    "ORI": {
+      "symbol": "ORI",
+      "company": "ORICA LIMITED",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 99.2,
+      "microstructure_score": 46.2,
+      "reasons": [
+        "z-score -2.93",
+        "RSI5 11.6",
+        "low ADX",
+        "not closing on low",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 14.345460575306243
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 28829448.323928356,
+        "atr_pct": 2.3991134823306814,
+        "gap_pct": 0.39543124640957217,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 22.200000762939453,
+      "atr14": 0.5326032113811945,
+      "stop_loss": 21.5076165881439,
+      "profit_target": 23.307815442612338,
+      "risk_per_share": 0.6923841747955528,
+      "target_r": 1.6,
+      "units_per_100k": 722.1424437490068,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T09:45:27.555673+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 22.200000762939453,
+      "trailing_stop": 21.5076165881439
+    },
+    "RG1": {
+      "symbol": "RG1",
+      "company": "REGAL PARTNERS GLOBAL INVESTMENTS LIMITED",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 82.5,
+      "microstructure_score": 62.4,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 44.3",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 44.272457174818825
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1190371.1358667612,
+        "atr_pct": 2.0324492174161346,
+        "gap_pct": 0.3802368230680364,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 2.6700000762939453,
+      "atr14": 0.0542663956556465,
+      "stop_loss": 2.5723205641137814,
+      "profit_target": 2.9141988567443544,
+      "risk_per_share": 0.0976795121801637,
+      "target_r": 2.5,
+      "units_per_100k": 5118.780682255881,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T09:45:30.368854+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 2.6700000762939453,
+      "trailing_stop": 2.5723205641137814
     }
   },
   "closed_trades": [
@@ -508,5 +590,5 @@
       "pnl_pct": -3.4346293998305244
     }
   ],
-  "updated_at": "2026-08-14T09:43:05.512823+00:00"
+  "updated_at": "2026-08-14T09:45:30.589549+00:00"
 }
