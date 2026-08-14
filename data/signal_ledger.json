@@ -1,6 +1,7 @@
 {
-  "active_trades": {
-    "AVH": {
+  "generated_at": "2026-08-14T21:56:59.604948+00:00",
+  "signals": [
+    {
       "symbol": "AVH",
       "company": "AVITA MEDICAL INC.",
       "direction": "LONG",
@@ -40,9 +41,13 @@
       "timestamp": "2026-08-12T07:40:50.183621+00:00",
       "entry_date": "2026-08-12",
       "peak_price": 2.299999952316284,
-      "trailing_stop": 2.067432109695637
+      "trailing_stop": 2.067432109695637,
+      "signal_id": "AVH|2026-08-12|TREND_BREAKOUT|2.280000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604564+00:00",
+      "outcome": "PENDING"
     },
-    "CBE": {
+    {
       "symbol": "CBE",
       "company": "COBRE LIMITED",
       "direction": "LONG",
@@ -82,9 +87,13 @@
       "timestamp": "2026-08-12T07:55:55.341160+00:00",
       "entry_date": "2026-08-12",
       "peak_price": 0.3449999988079071,
-      "trailing_stop": 0.3048769918535706
+      "trailing_stop": 0.3048769918535706,
+      "signal_id": "CBE|2026-08-12|TREND_BREAKOUT|0.345000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604576+00:00",
+      "outcome": "PENDING"
     },
-    "DXI": {
+    {
       "symbol": "DXI",
       "company": "DEXUS INDUSTRIA REIT.",
       "direction": "LONG",
@@ -122,9 +131,13 @@
       "timestamp": "2026-08-12T07:58:51.102906+00:00",
       "entry_date": "2026-08-12",
       "peak_price": 2.3499999046325684,
-      "trailing_stop": 2.280502414020477
+      "trailing_stop": 2.280502414020477,
+      "signal_id": "DXI|2026-08-12|MEAN_REVERSION|2.350000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604582+00:00",
+      "outcome": "PENDING"
     },
-    "FPR": {
+    {
       "symbol": "FPR",
       "company": "FLEETPARTNERS GROUP LIMITED",
       "direction": "LONG",
@@ -164,9 +177,13 @@
       "timestamp": "2026-08-12T07:58:53.339513+00:00",
       "entry_date": "2026-08-12",
       "peak_price": 4.210000038146973,
-      "trailing_stop": 3.929640546791431
+      "trailing_stop": 3.929640546791431,
+      "signal_id": "FPR|2026-08-12|TREND_BREAKOUT|4.100000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604586+00:00",
+      "outcome": "PENDING"
     },
-    "JHX": {
+    {
       "symbol": "JHX",
       "company": "JAMES HARDIE INDUSTRIES PLC",
       "direction": "LONG",
@@ -205,9 +222,13 @@
       "timestamp": "2026-08-12T08:00:30.795711+00:00",
       "entry_date": "2026-08-12",
       "peak_price": 44.119998931884766,
-      "trailing_stop": 41.76959526629582
+      "trailing_stop": 41.76959526629582,
+      "signal_id": "JHX|2026-08-12|TREND_BREAKOUT|43.849998",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604590+00:00",
+      "outcome": "PENDING"
     },
-    "NWH": {
+    {
       "symbol": "NWH",
       "company": "NRW HOLDINGS LIMITED",
       "direction": "LONG",
@@ -244,9 +265,13 @@
       "timestamp": "2026-08-12T08:04:48.737669+00:00",
       "entry_date": "2026-08-12",
       "peak_price": 7.400000095367432,
-      "trailing_stop": 6.992739541350244
+      "trailing_stop": 6.992739541350244,
+      "signal_id": "NWH|2026-08-12|SQUEEZE_EXPANSION|7.400000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604594+00:00",
+      "outcome": "PENDING"
     },
-    "PYC": {
+    {
       "symbol": "PYC",
       "company": "PYC THERAPEUTICS LIMITED",
       "direction": "LONG",
@@ -285,336 +310,12 @@
       "timestamp": "2026-08-12T08:04:51.381585+00:00",
       "entry_date": "2026-08-12",
       "peak_price": 2.2300000190734863,
-      "trailing_stop": 1.998991221195962
+      "trailing_stop": 1.998991221195962,
+      "signal_id": "PYC|2026-08-12|TREND_BREAKOUT|2.190000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604598+00:00",
+      "outcome": "PENDING"
     },
-    "BVS": {
-      "symbol": "BVS",
-      "company": "BRAVURA SOLUTIONS LIMITED.",
-      "direction": "LONG",
-      "strategy": "TREND_BREAKOUT",
-      "regime": "TREND",
-      "signal_score": 100,
-      "microstructure_score": 94.2,
-      "reasons": [
-        "20-day upside breakout",
-        "EMA alignment",
-        "ADX 42.2",
-        "relative volume 4.44x",
-        "strong close"
-      ],
-      "regime_details": {
-        "direction": "UP",
-        "adx": 42.227697538973445
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 4921588.708873081,
-        "atr_pct": 4.171803911726651,
-        "gap_pct": 1.2738840928875783,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 3.5199999809265137,
-      "atr14": 0.1468474968970697,
-      "stop_loss": 3.255674486511788,
-      "profit_target": 4.1808137169633275,
-      "risk_per_share": 0.26432549441472547,
-      "target_r": 2.5,
-      "units_per_100k": 1891.607168302511,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-13",
-      "timestamp": "2026-08-13T09:48:06.070619+00:00",
-      "entry_date": "2026-08-13",
-      "peak_price": 3.630000114440918,
-      "trailing_stop": 3.3127259212274978
-    },
-    "HDN": {
-      "symbol": "HDN",
-      "company": "HOMECO DAILY NEEDS REIT",
-      "direction": "LONG",
-      "strategy": "MEAN_REVERSION",
-      "regime": "RANGE",
-      "signal_score": 89.8,
-      "microstructure_score": 49.1,
-      "reasons": [
-        "z-score -3.47",
-        "RSI5 4.7",
-        "low ADX",
-        "selling pressure moderating"
-      ],
-      "regime_details": {
-        "adx": 16.24720854820215
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 4602951.066986388,
-        "atr_pct": 2.961943790531856,
-        "gap_pct": 2.0746966371011144,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 1.149999976158142,
-      "atr14": 0.034062352884933915,
-      "stop_loss": 1.105718917407728,
-      "profit_target": 1.2208496701588047,
-      "risk_per_share": 0.04428105875041409,
-      "target_r": 1.6,
-      "units_per_100k": 11291.509600486332,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-14",
-      "timestamp": "2026-08-14T05:45:10.453093+00:00",
-      "entry_date": "2026-08-14",
-      "peak_price": 1.149999976158142,
-      "trailing_stop": 1.105718917407728
-    },
-    "ORI": {
-      "symbol": "ORI",
-      "company": "ORICA LIMITED",
-      "direction": "LONG",
-      "strategy": "MEAN_REVERSION",
-      "regime": "RANGE",
-      "signal_score": 99.2,
-      "microstructure_score": 46.2,
-      "reasons": [
-        "z-score -2.93",
-        "RSI5 11.6",
-        "low ADX",
-        "not closing on low",
-        "selling pressure moderating"
-      ],
-      "regime_details": {
-        "adx": 14.345460575306243
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 28829448.323928356,
-        "atr_pct": 2.3991134823306814,
-        "gap_pct": 0.39543124640957217,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 22.200000762939453,
-      "atr14": 0.5326032113811945,
-      "stop_loss": 21.5076165881439,
-      "profit_target": 23.307815442612338,
-      "risk_per_share": 0.6923841747955528,
-      "target_r": 1.6,
-      "units_per_100k": 722.1424437490068,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-14",
-      "timestamp": "2026-08-14T09:45:27.555673+00:00",
-      "entry_date": "2026-08-14",
-      "peak_price": 22.200000762939453,
-      "trailing_stop": 21.5076165881439
-    },
-    "RG1": {
-      "symbol": "RG1",
-      "company": "REGAL PARTNERS GLOBAL INVESTMENTS LIMITED",
-      "direction": "LONG",
-      "strategy": "TREND_BREAKOUT",
-      "regime": "TREND",
-      "signal_score": 82.5,
-      "microstructure_score": 62.4,
-      "reasons": [
-        "20-day upside breakout",
-        "EMA alignment",
-        "ADX 44.3",
-        "strong close"
-      ],
-      "regime_details": {
-        "direction": "UP",
-        "adx": 44.272457174818825
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 1190371.1358667612,
-        "atr_pct": 2.0324492174161346,
-        "gap_pct": 0.3802368230680364,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 2.6700000762939453,
-      "atr14": 0.0542663956556465,
-      "stop_loss": 2.5723205641137814,
-      "profit_target": 2.9141988567443544,
-      "risk_per_share": 0.0976795121801637,
-      "target_r": 2.5,
-      "units_per_100k": 5118.780682255881,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-14",
-      "timestamp": "2026-08-14T09:45:30.368854+00:00",
-      "entry_date": "2026-08-14",
-      "peak_price": 2.6700000762939453,
-      "trailing_stop": 2.5723205641137814
-    },
-    "SCG": {
-      "symbol": "SCG",
-      "company": "SCENTRE GROUP",
-      "direction": "LONG",
-      "strategy": "MEAN_REVERSION",
-      "regime": "RANGE",
-      "signal_score": 98.2,
-      "microstructure_score": 40.8,
-      "reasons": [
-        "z-score -2.66",
-        "RSI5 17.1",
-        "low ADX",
-        "not closing on low",
-        "selling pressure moderating"
-      ],
-      "regime_details": {
-        "adx": 12.703138869993724
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 34727263.17574213,
-        "atr_pct": 1.8879835605213502,
-        "gap_pct": 0.2638519937706696,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 3.7699999809265137,
-      "atr14": 0.07117697987155061,
-      "stop_loss": 3.677469907093498,
-      "profit_target": 3.918048099059339,
-      "risk_per_share": 0.0925300738330158,
-      "target_r": 1.6,
-      "units_per_100k": 5403.648557574092,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-14",
-      "timestamp": "2026-08-14T10:36:25.433829+00:00",
-      "entry_date": "2026-08-14",
-      "peak_price": 3.7699999809265137,
-      "trailing_stop": 3.677469907093498
-    },
-    "SPY": {
-      "symbol": "SPY",
-      "company": "STATE STREET SPDR S&P 500 ETF",
-      "direction": "LONG",
-      "strategy": "TREND_BREAKOUT",
-      "regime": "TREND",
-      "signal_score": 93.1,
-      "microstructure_score": 65.4,
-      "reasons": [
-        "20-day upside breakout",
-        "EMA alignment",
-        "ADX 29.8",
-        "relative volume 1.27x"
-      ],
-      "regime_details": {
-        "direction": "UP",
-        "adx": 29.843955639505293
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 1126905.0832092285,
-        "atr_pct": 0.736270716726879,
-        "gap_pct": 0.27347310847767314,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 1100.760009765625,
-      "atr14": 8.10457361334423,
-      "stop_loss": 1086.1717772616055,
-      "profit_target": 1137.2305910256741,
-      "risk_per_share": 14.588232504019615,
-      "target_r": 2.5,
-      "units_per_100k": 34.27420010355819,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-14",
-      "timestamp": "2026-08-14T10:36:26.974924+00:00",
-      "entry_date": "2026-08-14",
-      "peak_price": 1100.760009765625,
-      "trailing_stop": 1086.1717772616055
-    },
-    "TCL": {
-      "symbol": "TCL",
-      "company": "TRANSURBAN GROUP",
-      "direction": "LONG",
-      "strategy": "MEAN_REVERSION",
-      "regime": "RANGE",
-      "signal_score": 86.7,
-      "microstructure_score": 33.6,
-      "reasons": [
-        "z-score -3.37",
-        "RSI5 15.9",
-        "low ADX",
-        "selling pressure moderating"
-      ],
-      "regime_details": {
-        "adx": 11.617673442885081
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 59653155.93938255,
-        "atr_pct": 1.9673949653144427,
-        "gap_pct": 1.0989065691980104,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 13.960000038146973,
-      "atr14": 0.2746483379083978,
-      "stop_loss": 13.602957198866056,
-      "profit_target": 14.53126858099644,
-      "risk_per_share": 0.3570428392809172,
-      "target_r": 1.6,
-      "units_per_100k": 1400.3921798487765,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-14",
-      "timestamp": "2026-08-14T10:36:28.005698+00:00",
-      "entry_date": "2026-08-14",
-      "peak_price": 13.960000038146973,
-      "trailing_stop": 13.602957198866056
-    },
-    "TLS": {
-      "symbol": "TLS",
-      "company": "TELSTRA GROUP LIMITED",
-      "direction": "LONG",
-      "strategy": "MEAN_REVERSION",
-      "regime": "RANGE",
-      "signal_score": 88.0,
-      "microstructure_score": 40.2,
-      "reasons": [
-        "z-score -2.72",
-        "RSI5 15.9",
-        "low ADX",
-        "selling pressure moderating"
-      ],
-      "regime_details": {
-        "adx": 15.289712416942894
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 146094545.23206532,
-        "atr_pct": 1.954898432480109,
-        "gap_pct": 0.2066162926976145,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 4.78000020980835,
-      "atr14": 0.09344414917408936,
-      "stop_loss": 4.6585228158820335,
-      "profit_target": 4.974364040090456,
-      "risk_per_share": 0.12147739392631617,
-      "target_r": 1.6,
-      "units_per_100k": 4115.99215162026,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-14",
-      "timestamp": "2026-08-14T10:36:28.452248+00:00",
-      "entry_date": "2026-08-14",
-      "peak_price": 4.78000020980835,
-      "trailing_stop": 4.6585228158820335
-    }
-  },
-  "closed_trades": [
     {
       "symbol": "BVS",
       "company": "BRAVURA SOLUTIONS LIMITED.",
@@ -658,7 +359,12 @@
       "exit_date": "2026-08-13",
       "exit_price": 3.2119355926571354,
       "exit_reason": "ATR_TRAILING_STOP",
-      "pnl_pct": -3.5454754881051764
+      "pnl_pct": -3.5454754881051764,
+      "signal_id": "BVS|2026-08-13|TREND_BREAKOUT|3.330000",
+      "status": "COMPLETED",
+      "last_ledger_update": "2026-08-14T21:56:59.604630+00:00",
+      "outcome": "LOSS",
+      "holding_trading_days": 0
     },
     {
       "symbol": "BVS",
@@ -704,7 +410,58 @@
       "exit_date": "2026-08-13",
       "exit_price": 3.2256745151220176,
       "exit_reason": "STOP_LOSS",
-      "pnl_pct": -7.573796380871977
+      "pnl_pct": -7.573796380871977,
+      "signal_id": "BVS|2026-08-13|TREND_BREAKOUT|3.490000",
+      "status": "COMPLETED",
+      "last_ledger_update": "2026-08-14T21:56:59.604902+00:00",
+      "outcome": "LOSS",
+      "holding_trading_days": 0
+    },
+    {
+      "symbol": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 100,
+      "microstructure_score": 94.2,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 42.2",
+        "relative volume 4.44x",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 42.227697538973445
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 4921588.708873081,
+        "atr_pct": 4.171803911726651,
+        "gap_pct": 1.2738840928875783,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.5199999809265137,
+      "atr14": 0.1468474968970697,
+      "stop_loss": 3.255674486511788,
+      "profit_target": 4.1808137169633275,
+      "risk_per_share": 0.26432549441472547,
+      "target_r": 2.5,
+      "units_per_100k": 1891.607168302511,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-13",
+      "timestamp": "2026-08-13T09:48:06.070619+00:00",
+      "entry_date": "2026-08-13",
+      "peak_price": 3.630000114440918,
+      "trailing_stop": 3.3127259212274978,
+      "signal_id": "BVS|2026-08-13|TREND_BREAKOUT|3.520000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604601+00:00",
+      "outcome": "PENDING"
     },
     {
       "symbol": "HDN",
@@ -749,8 +506,324 @@
       "exit_date": "2026-08-14",
       "exit_price": 1.1636127571734034,
       "exit_reason": "STOP_LOSS",
-      "pnl_pct": -3.4346293998305244
+      "pnl_pct": -3.4346293998305244,
+      "signal_id": "HDN|2026-08-13|MEAN_REVERSION|1.205000",
+      "status": "COMPLETED",
+      "last_ledger_update": "2026-08-14T21:56:59.604923+00:00",
+      "outcome": "LOSS",
+      "holding_trading_days": 1
+    },
+    {
+      "symbol": "HDN",
+      "company": "HOMECO DAILY NEEDS REIT",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 89.8,
+      "microstructure_score": 49.1,
+      "reasons": [
+        "z-score -3.47",
+        "RSI5 4.7",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 16.24720854820215
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 4602951.066986388,
+        "atr_pct": 2.961943790531856,
+        "gap_pct": 2.0746966371011144,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 1.149999976158142,
+      "atr14": 0.034062352884933915,
+      "stop_loss": 1.105718917407728,
+      "profit_target": 1.2208496701588047,
+      "risk_per_share": 0.04428105875041409,
+      "target_r": 1.6,
+      "units_per_100k": 11291.509600486332,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T05:45:10.453093+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 1.149999976158142,
+      "trailing_stop": 1.105718917407728,
+      "signal_id": "HDN|2026-08-14|MEAN_REVERSION|1.150000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604605+00:00",
+      "outcome": "PENDING"
+    },
+    {
+      "symbol": "ORI",
+      "company": "ORICA LIMITED",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 99.2,
+      "microstructure_score": 46.2,
+      "reasons": [
+        "z-score -2.93",
+        "RSI5 11.6",
+        "low ADX",
+        "not closing on low",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 14.345460575306243
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 28829448.323928356,
+        "atr_pct": 2.3991134823306814,
+        "gap_pct": 0.39543124640957217,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 22.200000762939453,
+      "atr14": 0.5326032113811945,
+      "stop_loss": 21.5076165881439,
+      "profit_target": 23.307815442612338,
+      "risk_per_share": 0.6923841747955528,
+      "target_r": 1.6,
+      "units_per_100k": 722.1424437490068,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T09:45:27.555673+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 22.200000762939453,
+      "trailing_stop": 21.5076165881439,
+      "signal_id": "ORI|2026-08-14|MEAN_REVERSION|22.200001",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604608+00:00",
+      "outcome": "PENDING"
+    },
+    {
+      "symbol": "RG1",
+      "company": "REGAL PARTNERS GLOBAL INVESTMENTS LIMITED",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 82.5,
+      "microstructure_score": 62.4,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 44.3",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 44.272457174818825
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1190371.1358667612,
+        "atr_pct": 2.0324492174161346,
+        "gap_pct": 0.3802368230680364,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 2.6700000762939453,
+      "atr14": 0.0542663956556465,
+      "stop_loss": 2.5723205641137814,
+      "profit_target": 2.9141988567443544,
+      "risk_per_share": 0.0976795121801637,
+      "target_r": 2.5,
+      "units_per_100k": 5118.780682255881,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T09:45:30.368854+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 2.6700000762939453,
+      "trailing_stop": 2.5723205641137814,
+      "signal_id": "RG1|2026-08-14|TREND_BREAKOUT|2.670000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604612+00:00",
+      "outcome": "PENDING"
+    },
+    {
+      "symbol": "SCG",
+      "company": "SCENTRE GROUP",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 98.2,
+      "microstructure_score": 40.8,
+      "reasons": [
+        "z-score -2.66",
+        "RSI5 17.1",
+        "low ADX",
+        "not closing on low",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 12.703138869993724
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 34727263.17574213,
+        "atr_pct": 1.8879835605213502,
+        "gap_pct": 0.2638519937706696,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.7699999809265137,
+      "atr14": 0.07117697987155061,
+      "stop_loss": 3.677469907093498,
+      "profit_target": 3.918048099059339,
+      "risk_per_share": 0.0925300738330158,
+      "target_r": 1.6,
+      "units_per_100k": 5403.648557574092,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:25.433829+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 3.7699999809265137,
+      "trailing_stop": 3.677469907093498,
+      "signal_id": "SCG|2026-08-14|MEAN_REVERSION|3.770000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604616+00:00",
+      "outcome": "PENDING"
+    },
+    {
+      "symbol": "SPY",
+      "company": "STATE STREET SPDR S&P 500 ETF",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 93.1,
+      "microstructure_score": 65.4,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 29.8",
+        "relative volume 1.27x"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 29.843955639505293
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 1126905.0832092285,
+        "atr_pct": 0.736270716726879,
+        "gap_pct": 0.27347310847767314,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 1100.760009765625,
+      "atr14": 8.10457361334423,
+      "stop_loss": 1086.1717772616055,
+      "profit_target": 1137.2305910256741,
+      "risk_per_share": 14.588232504019615,
+      "target_r": 2.5,
+      "units_per_100k": 34.27420010355819,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:26.974924+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 1100.760009765625,
+      "trailing_stop": 1086.1717772616055,
+      "signal_id": "SPY|2026-08-14|TREND_BREAKOUT|1100.760010",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604620+00:00",
+      "outcome": "PENDING"
+    },
+    {
+      "symbol": "TCL",
+      "company": "TRANSURBAN GROUP",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 86.7,
+      "microstructure_score": 33.6,
+      "reasons": [
+        "z-score -3.37",
+        "RSI5 15.9",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 11.617673442885081
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 59653155.93938255,
+        "atr_pct": 1.9673949653144427,
+        "gap_pct": 1.0989065691980104,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 13.960000038146973,
+      "atr14": 0.2746483379083978,
+      "stop_loss": 13.602957198866056,
+      "profit_target": 14.53126858099644,
+      "risk_per_share": 0.3570428392809172,
+      "target_r": 1.6,
+      "units_per_100k": 1400.3921798487765,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:28.005698+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 13.960000038146973,
+      "trailing_stop": 13.602957198866056,
+      "signal_id": "TCL|2026-08-14|MEAN_REVERSION|13.960000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604623+00:00",
+      "outcome": "PENDING"
+    },
+    {
+      "symbol": "TLS",
+      "company": "TELSTRA GROUP LIMITED",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 88.0,
+      "microstructure_score": 40.2,
+      "reasons": [
+        "z-score -2.72",
+        "RSI5 15.9",
+        "low ADX",
+        "selling pressure moderating"
+      ],
+      "regime_details": {
+        "adx": 15.289712416942894
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 146094545.23206532,
+        "atr_pct": 1.954898432480109,
+        "gap_pct": 0.2066162926976145,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 4.78000020980835,
+      "atr14": 0.09344414917408936,
+      "stop_loss": 4.6585228158820335,
+      "profit_target": 4.974364040090456,
+      "risk_per_share": 0.12147739392631617,
+      "target_r": 1.6,
+      "units_per_100k": 4115.99215162026,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-14",
+      "timestamp": "2026-08-14T10:36:28.452248+00:00",
+      "entry_date": "2026-08-14",
+      "peak_price": 4.78000020980835,
+      "trailing_stop": 4.6585228158820335,
+      "signal_id": "TLS|2026-08-14|MEAN_REVERSION|4.780000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-14T21:56:59.604627+00:00",
+      "outcome": "PENDING"
     }
-  ],
-  "updated_at": "2026-08-14T21:56:59.603756+00:00"
+  ]
 }
