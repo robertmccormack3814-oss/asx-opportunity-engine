@@ -100,7 +100,6 @@ def main():
             row={"symbol":sym,"company":item["company"],"regime":rg,"price":float(r.Close),"near_signal_score":round(adjusted,1),"active":sym in active,"updated_at":stamp}
             rows.append(row)
 
-            # Active positions keep their original trade plan visible while live market fields refresh.
             if sym in active:
                 cand=active[sym]
 
@@ -108,13 +107,14 @@ def main():
             scanner_assets[sym]={**old,"symbol":sym,"company":item["company"],"status":"ok","regime":rg,"price":float(r.Close),"adx14":float(r.ADX14),"atr14":float(r.ATR14),"relative_volume":float(r.RELVOL20) if pd.notna(r.RELVOL20) else None,"zscore20":float(r.ZS20),"microstructure_score":round(ms,1),"near_signal_score":round(adjusted,1),"active":sym in active,"candidate":cand,"updated_at":stamp}
         except Exception as e:print(f"Monitor {sym}: {type(e).__name__}: {e}")
 
-    state["active_trades"]=active;state["closed_trades"]=closed[-500:];state["updated_at"]=now_iso();save_json(DATA/"state.json",state)
+    closed=closed[-500:];state["active_trades"]=active;state["closed_trades"]=closed;state["updated_at"]=now_iso();save_json(DATA/"state.json",state)
     save_json(DATA/"monitor.json",{"generated_at":now_iso(),"watched":len(rows),"signals":signals,"exits":exits,"assets":rows})
 
-    stats=dict(scanner.get("stats",{}));stats["active_trades"]=len(active);stats["signals_this_batch"]=len(signals);stats["exits_this_batch"]=len(exits);stats["fast_monitor_watched"]=len(rows);stats["near_signals"]=sum(1 for a in scanner_assets.values() if a.get("near_signal_score",0)>=NEAR_SIGNAL_FLOOR and not a.get("active"))
-    scanner["generated_at"]=now_iso();scanner["stats"]=stats;scanner["signals"]=signals;scanner["exits"]=exits;scanner["active_trades"]=sorted(active.values(),key=lambda x:x["symbol"]);scanner["assets"]=sorted(scanner_assets.values(),key=lambda x:(0 if x.get("active") else 1,x.get("symbol","")))
+    completed=len(closed);wins=sum(1 for t in closed if float(t.get("pnl_pct") or 0)>0);success=(wins/completed*100) if completed else None
+    stats=dict(scanner.get("stats",{}));stats["active_trades"]=len(active);stats["signals_this_batch"]=len(signals);stats["exits_this_batch"]=len(exits);stats["fast_monitor_watched"]=len(rows);stats["near_signals"]=sum(1 for a in scanner_assets.values() if a.get("near_signal_score",0)>=NEAR_SIGNAL_FLOOR and not a.get("active"));stats["completed_trades"]=completed;stats["successful_trades"]=wins;stats["signal_success_rate_pct"]=success
+    scanner["generated_at"]=now_iso();scanner["stats"]=stats;scanner["signals"]=signals;scanner["exits"]=exits;scanner["active_trades"]=sorted(active.values(),key=lambda x:x["symbol"]);scanner["completed_trades"]=closed;scanner["assets"]=sorted(scanner_assets.values(),key=lambda x:(0 if x.get("active") else 1,x.get("symbol","")))
     save_json(DATA/"scanner.json",scanner)
-    print({"watched":len(rows),"signals":len(signals),"exits":len(exits),"active":len(active)})
+    print({"watched":len(rows),"signals":len(signals),"exits":len(exits),"active":len(active),"completed":completed,"success_rate_pct":success})
 
 
 if __name__=="__main__":main()
