@@ -81,8 +81,8 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T07:55:55.341160+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 0.3449999988079071,
-      "trailing_stop": 0.3048769918535706
+      "peak_price": 0.375,
+      "trailing_stop": 0.32207303647886365
     },
     "DXI": {
       "symbol": "DXI",
@@ -286,48 +286,6 @@
       "entry_date": "2026-08-12",
       "peak_price": 2.2300000190734863,
       "trailing_stop": 1.999708020018845
-    },
-    "BVS": {
-      "symbol": "BVS",
-      "company": "BRAVURA SOLUTIONS LIMITED.",
-      "direction": "LONG",
-      "strategy": "TREND_BREAKOUT",
-      "regime": "TREND",
-      "signal_score": 100,
-      "microstructure_score": 94.2,
-      "reasons": [
-        "20-day upside breakout",
-        "EMA alignment",
-        "ADX 42.2",
-        "relative volume 4.44x",
-        "strong close"
-      ],
-      "regime_details": {
-        "direction": "UP",
-        "adx": 42.227697538973445
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 4921588.708873081,
-        "atr_pct": 4.171803911726651,
-        "gap_pct": 1.2738840928875783,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 3.5199999809265137,
-      "atr14": 0.1468474968970697,
-      "stop_loss": 3.255674486511788,
-      "profit_target": 4.1808137169633275,
-      "risk_per_share": 0.26432549441472547,
-      "target_r": 2.5,
-      "units_per_100k": 1891.607168302511,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-13",
-      "timestamp": "2026-08-13T09:48:06.070619+00:00",
-      "entry_date": "2026-08-13",
-      "peak_price": 3.630000114440918,
-      "trailing_stop": 3.3127259212274978
     },
     "HDN": {
       "symbol": "HDN",
@@ -813,6 +771,45 @@
       "entry_date": "2026-08-18",
       "peak_price": 84.22000122070312,
       "trailing_stop": 82.0887751653866
+    },
+    "CHC": {
+      "symbol": "CHC",
+      "company": "CHARTER HALL GROUP",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 78.5,
+      "microstructure_score": 42.5,
+      "reasons": [
+        "z-score -2.23",
+        "RSI5 10.8",
+        "low ADX"
+      ],
+      "regime_details": {
+        "adx": 19.770530997462707
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 21661421.910165884,
+        "atr_pct": 2.832049364298305,
+        "gap_pct": 0.04492465758765274,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 21.899999618530273,
+      "atr14": 0.6202187999779178,
+      "stop_loss": 21.09371517855898,
+      "profit_target": 23.19005472248434,
+      "risk_per_share": 0.8062844399712932,
+      "target_r": 1.6,
+      "units_per_100k": 620.1285491976032,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-19",
+      "timestamp": "2026-08-19T08:19:09.737709+00:00",
+      "entry_date": "2026-08-19",
+      "peak_price": 21.899999618530273,
+      "trailing_stop": 21.09371517855898
     }
   },
   "closed_trades": [
@@ -1041,7 +1038,53 @@
       "exit_price": 1086.1717772616055,
       "exit_reason": "STOP_LOSS",
       "pnl_pct": -1.3252872901083679
+    },
+    {
+      "symbol": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 100,
+      "microstructure_score": 94.2,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 42.2",
+        "relative volume 4.44x",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 42.227697538973445
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 4921588.708873081,
+        "atr_pct": 4.171803911726651,
+        "gap_pct": 1.2738840928875783,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.5199999809265137,
+      "atr14": 0.1468474968970697,
+      "stop_loss": 3.255674486511788,
+      "profit_target": 4.1808137169633275,
+      "risk_per_share": 0.26432549441472547,
+      "target_r": 2.5,
+      "units_per_100k": 1891.607168302511,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-13",
+      "timestamp": "2026-08-13T09:48:06.070619+00:00",
+      "entry_date": "2026-08-13",
+      "peak_price": 3.630000114440918,
+      "trailing_stop": 3.3127259212274978,
+      "exit_date": "2026-08-19",
+      "exit_price": 3.255674486511788,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -7.50924704110798
     }
   ],
-  "updated_at": "2026-08-19T08:06:39.841934+00:00"
+  "updated_at": "2026-08-19T08:19:11.801929+00:00"
 }

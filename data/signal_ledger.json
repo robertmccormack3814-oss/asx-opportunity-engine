@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:06:39.843839+00:00",
+  "generated_at": "2026-08-19T08:19:11.804344+00:00",
   "signals": [
     {
       "symbol": "AVH",
@@ -44,7 +44,7 @@
       "trailing_stop": 2.478106586802288,
       "signal_id": "AVH|2026-08-12|TREND_BREAKOUT|2.280000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843323+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803718+00:00",
       "outcome": "PENDING"
     },
     {
@@ -86,11 +86,11 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T07:55:55.341160+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 0.3449999988079071,
-      "trailing_stop": 0.3048769918535706,
+      "peak_price": 0.375,
+      "trailing_stop": 0.32207303647886365,
       "signal_id": "CBE|2026-08-12|TREND_BREAKOUT|0.345000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843336+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803733+00:00",
       "outcome": "PENDING"
     },
     {
@@ -134,7 +134,7 @@
       "trailing_stop": 2.280502414020477,
       "signal_id": "DXI|2026-08-12|MEAN_REVERSION|2.350000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843344+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803741+00:00",
       "outcome": "PENDING"
     },
     {
@@ -180,7 +180,7 @@
       "trailing_stop": 3.929640546791431,
       "signal_id": "FPR|2026-08-12|TREND_BREAKOUT|4.100000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843349+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803747+00:00",
       "outcome": "PENDING"
     },
     {
@@ -225,7 +225,7 @@
       "trailing_stop": 41.76959526629582,
       "signal_id": "JHX|2026-08-12|TREND_BREAKOUT|43.849998",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843354+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803753+00:00",
       "outcome": "PENDING"
     },
     {
@@ -268,7 +268,7 @@
       "trailing_stop": 6.992739541350244,
       "signal_id": "NWH|2026-08-12|SQUEEZE_EXPANSION|7.400000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843359+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803758+00:00",
       "outcome": "PENDING"
     },
     {
@@ -313,7 +313,7 @@
       "trailing_stop": 1.999708020018845,
       "signal_id": "PYC|2026-08-12|TREND_BREAKOUT|2.190000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843363+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803763+00:00",
       "outcome": "PENDING"
     },
     {
@@ -362,7 +362,7 @@
       "pnl_pct": -3.5454754881051764,
       "signal_id": "BVS|2026-08-13|TREND_BREAKOUT|3.330000",
       "status": "COMPLETED",
-      "last_ledger_update": "2026-08-19T08:06:39.843420+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803831+00:00",
       "outcome": "LOSS",
       "holding_trading_days": 0
     },
@@ -413,7 +413,7 @@
       "pnl_pct": -7.573796380871977,
       "signal_id": "BVS|2026-08-13|TREND_BREAKOUT|3.490000",
       "status": "COMPLETED",
-      "last_ledger_update": "2026-08-19T08:06:39.843745+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.804194+00:00",
       "outcome": "LOSS",
       "holding_trading_days": 0
     },
@@ -459,9 +459,14 @@
       "peak_price": 3.630000114440918,
       "trailing_stop": 3.3127259212274978,
       "signal_id": "BVS|2026-08-13|TREND_BREAKOUT|3.520000",
-      "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843368+00:00",
-      "outcome": "PENDING"
+      "status": "COMPLETED",
+      "last_ledger_update": "2026-08-19T08:19:11.804308+00:00",
+      "outcome": "LOSS",
+      "exit_date": "2026-08-19",
+      "exit_price": 3.255674486511788,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -7.50924704110798,
+      "holding_trading_days": 4
     },
     {
       "symbol": "HDN",
@@ -509,7 +514,7 @@
       "pnl_pct": -3.4346293998305244,
       "signal_id": "HDN|2026-08-13|MEAN_REVERSION|1.205000",
       "status": "COMPLETED",
-      "last_ledger_update": "2026-08-19T08:06:39.843772+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.804228+00:00",
       "outcome": "LOSS",
       "holding_trading_days": 1
     },
@@ -554,7 +559,7 @@
       "trailing_stop": 1.105718917407728,
       "signal_id": "HDN|2026-08-14|MEAN_REVERSION|1.150000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843372+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803768+00:00",
       "outcome": "PENDING"
     },
     {
@@ -599,7 +604,7 @@
       "trailing_stop": 21.5076165881439,
       "signal_id": "ORI|2026-08-14|MEAN_REVERSION|22.200001",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843376+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803773+00:00",
       "outcome": "PENDING"
     },
     {
@@ -644,7 +649,7 @@
       "trailing_stop": 2.6334272257530325,
       "signal_id": "RG1|2026-08-14|TREND_BREAKOUT|2.670000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843380+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803778+00:00",
       "outcome": "PENDING"
     },
     {
@@ -689,7 +694,7 @@
       "trailing_stop": 3.677469907093498,
       "signal_id": "SCG|2026-08-14|MEAN_REVERSION|3.770000",
       "status": "COMPLETED",
-      "last_ledger_update": "2026-08-19T08:06:39.843793+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.804257+00:00",
       "outcome": "LOSS",
       "exit_date": "2026-08-18",
       "exit_price": 3.677469907093498,
@@ -739,7 +744,7 @@
       "trailing_stop": 1086.1717772616055,
       "signal_id": "SPY|2026-08-14|TREND_BREAKOUT|1100.760010",
       "status": "COMPLETED",
-      "last_ledger_update": "2026-08-19T08:06:39.843811+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.804285+00:00",
       "outcome": "LOSS",
       "exit_date": "2026-08-18",
       "exit_price": 1086.1717772616055,
@@ -788,7 +793,7 @@
       "trailing_stop": 13.602957198866056,
       "signal_id": "TCL|2026-08-14|MEAN_REVERSION|13.960000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843384+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803783+00:00",
       "outcome": "PENDING"
     },
     {
@@ -832,7 +837,7 @@
       "trailing_stop": 4.6585228158820335,
       "signal_id": "TLS|2026-08-14|MEAN_REVERSION|4.780000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843388+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803788+00:00",
       "outcome": "PENDING"
     },
     {
@@ -876,7 +881,7 @@
       "trailing_stop": 3.476849252878736,
       "signal_id": "CLW|2026-08-14|MEAN_REVERSION|3.580000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843392+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803792+00:00",
       "outcome": "PENDING"
     },
     {
@@ -920,7 +925,7 @@
       "trailing_stop": 0.8350164665893113,
       "signal_id": "COF|2026-08-14|MEAN_REVERSION|0.860000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843396+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803797+00:00",
       "outcome": "PENDING"
     },
     {
@@ -965,7 +970,7 @@
       "trailing_stop": 0.5032665170304832,
       "signal_id": "RXL|2026-08-18|TREND_BREAKOUT|0.550000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843400+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803801+00:00",
       "outcome": "PENDING"
     },
     {
@@ -1008,7 +1013,7 @@
       "trailing_stop": 3.574099160655565,
       "signal_id": "SCG|2026-08-18|MEAN_REVERSION|3.670000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843404+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803806+00:00",
       "outcome": "PENDING"
     },
     {
@@ -1054,7 +1059,7 @@
       "trailing_stop": 5.453707424613234,
       "signal_id": "SDF|2026-08-18|TREND_BREAKOUT|5.650000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843408+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803810+00:00",
       "outcome": "PENDING"
     },
     {
@@ -1098,7 +1103,7 @@
       "trailing_stop": 2.5092975525837233,
       "signal_id": "VCX|2026-08-18|MEAN_REVERSION|2.580000",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843412+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803815+00:00",
       "outcome": "PENDING"
     },
     {
@@ -1143,7 +1148,50 @@
       "trailing_stop": 82.0887751653866,
       "signal_id": "WES|2026-08-18|MEAN_REVERSION|84.220001",
       "status": "ACTIVE",
-      "last_ledger_update": "2026-08-19T08:06:39.843416+00:00",
+      "last_ledger_update": "2026-08-19T08:19:11.803820+00:00",
+      "outcome": "PENDING"
+    },
+    {
+      "symbol": "CHC",
+      "company": "CHARTER HALL GROUP",
+      "direction": "LONG",
+      "strategy": "MEAN_REVERSION",
+      "regime": "RANGE",
+      "signal_score": 78.5,
+      "microstructure_score": 42.5,
+      "reasons": [
+        "z-score -2.23",
+        "RSI5 10.8",
+        "low ADX"
+      ],
+      "regime_details": {
+        "adx": 19.770530997462707
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 21661421.910165884,
+        "atr_pct": 2.832049364298305,
+        "gap_pct": 0.04492465758765274,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 21.899999618530273,
+      "atr14": 0.6202187999779178,
+      "stop_loss": 21.09371517855898,
+      "profit_target": 23.19005472248434,
+      "risk_per_share": 0.8062844399712932,
+      "target_r": 1.6,
+      "units_per_100k": 620.1285491976032,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-19",
+      "timestamp": "2026-08-19T08:19:09.737709+00:00",
+      "entry_date": "2026-08-19",
+      "peak_price": 21.899999618530273,
+      "trailing_stop": 21.09371517855898,
+      "signal_id": "CHC|2026-08-19|MEAN_REVERSION|21.900000",
+      "status": "ACTIVE",
+      "last_ledger_update": "2026-08-19T08:19:11.803825+00:00",
       "outcome": "PENDING"
     }
   ]
