@@ -163,8 +163,8 @@
       "signal_date": "2026-08-12",
       "timestamp": "2026-08-12T07:58:53.339513+00:00",
       "entry_date": "2026-08-12",
-      "peak_price": 4.210000038146973,
-      "trailing_stop": 3.929640546791431
+      "peak_price": 4.25,
+      "trailing_stop": 3.996405931506841
     },
     "JHX": {
       "symbol": "JHX",
@@ -810,6 +810,48 @@
       "entry_date": "2026-08-19",
       "peak_price": 21.899999618530273,
       "trailing_stop": 21.09371517855898
+    },
+    "FBU": {
+      "symbol": "FBU",
+      "company": "FLETCHER BUILDING LIMITED",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 100,
+      "microstructure_score": 87.2,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 22.5",
+        "relative volume 2.40x",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 22.51089934674414
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 3059283.25648849,
+        "atr_pct": 2.9686117974959023,
+        "gap_pct": 0.8955286764893211,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 3.4000000953674316,
+      "atr14": 0.10093280394594951,
+      "stop_loss": 3.2183210482647224,
+      "profit_target": 3.8541977131242042,
+      "risk_per_share": 0.18167904710270913,
+      "target_r": 2.5,
+      "units_per_100k": 2752.106024187443,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-20",
+      "timestamp": "2026-08-20T08:08:45.448845+00:00",
+      "entry_date": "2026-08-20",
+      "peak_price": 3.4000000953674316,
+      "trailing_stop": 3.2183210482647224
     }
   },
   "closed_trades": [
@@ -1086,5 +1128,5 @@
       "pnl_pct": -7.50924704110798
     }
   ],
-  "updated_at": "2026-08-19T08:19:11.801929+00:00"
+  "updated_at": "2026-08-20T08:08:47.346617+00:00"
 }
