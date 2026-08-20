@@ -166,47 +166,6 @@
       "peak_price": 4.25,
       "trailing_stop": 3.996405931506841
     },
-    "JHX": {
-      "symbol": "JHX",
-      "company": "JAMES HARDIE INDUSTRIES PLC",
-      "direction": "LONG",
-      "strategy": "TREND_BREAKOUT",
-      "regime": "TREND",
-      "signal_score": 83.1,
-      "microstructure_score": 65.4,
-      "reasons": [
-        "20-day upside breakout",
-        "EMA alignment",
-        "ADX 27.6",
-        "strong close"
-      ],
-      "regime_details": {
-        "direction": "UP",
-        "adx": 27.623997599391437
-      },
-      "execution_risk": {
-        "pass": true,
-        "reasons": [],
-        "average_dollar_volume_20d": 70032979.69371776,
-        "atr_pct": 2.6527989680685145,
-        "gap_pct": 1.4130197735110706,
-        "estimated_spread_pct": null
-      },
-      "entry_price": 43.849998474121094,
-      "atr14": 1.1632523070195437,
-      "stop_loss": 41.75614432148591,
-      "profit_target": 49.08463385570904,
-      "risk_per_share": 2.0938541526351786,
-      "target_r": 2.5,
-      "units_per_100k": 238.79409144650066,
-      "actual_units": null,
-      "risk_per_trade_pct": 0.5,
-      "signal_date": "2026-08-12",
-      "timestamp": "2026-08-12T08:00:30.795711+00:00",
-      "entry_date": "2026-08-12",
-      "peak_price": 44.119998931884766,
-      "trailing_stop": 41.76959526629582
-    },
     "NWH": {
       "symbol": "NWH",
       "company": "NRW HOLDINGS LIMITED",
@@ -1126,7 +1085,52 @@
       "exit_price": 3.255674486511788,
       "exit_reason": "STOP_LOSS",
       "pnl_pct": -7.50924704110798
+    },
+    {
+      "symbol": "JHX",
+      "company": "JAMES HARDIE INDUSTRIES PLC",
+      "direction": "LONG",
+      "strategy": "TREND_BREAKOUT",
+      "regime": "TREND",
+      "signal_score": 83.1,
+      "microstructure_score": 65.4,
+      "reasons": [
+        "20-day upside breakout",
+        "EMA alignment",
+        "ADX 27.6",
+        "strong close"
+      ],
+      "regime_details": {
+        "direction": "UP",
+        "adx": 27.623997599391437
+      },
+      "execution_risk": {
+        "pass": true,
+        "reasons": [],
+        "average_dollar_volume_20d": 70032979.69371776,
+        "atr_pct": 2.6527989680685145,
+        "gap_pct": 1.4130197735110706,
+        "estimated_spread_pct": null
+      },
+      "entry_price": 43.849998474121094,
+      "atr14": 1.1632523070195437,
+      "stop_loss": 41.75614432148591,
+      "profit_target": 49.08463385570904,
+      "risk_per_share": 2.0938541526351786,
+      "target_r": 2.5,
+      "units_per_100k": 238.79409144650066,
+      "actual_units": null,
+      "risk_per_trade_pct": 0.5,
+      "signal_date": "2026-08-12",
+      "timestamp": "2026-08-12T08:00:30.795711+00:00",
+      "entry_date": "2026-08-12",
+      "peak_price": 44.119998931884766,
+      "trailing_stop": 41.76959526629582,
+      "exit_date": "2026-08-20",
+      "exit_price": 41.75614432148591,
+      "exit_reason": "STOP_LOSS",
+      "pnl_pct": -4.775038142523336
     }
   ],
-  "updated_at": "2026-08-20T08:08:47.346617+00:00"
+  "updated_at": "2026-08-20T08:20:53.832357+00:00"
 }
